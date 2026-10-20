@@ -314,10 +314,3 @@ follows.
   url    = {https://agentvfs.org/blogs/agentvfs-1}
 }
 ```
-
-## Contributors
-
-Thanks to everyone who has contributed to VFS-Bench.
-
-<a href="https://github.com/zechengz"><img src="https://avatars.githubusercontent.com/u/21955420?s=64&v=4" width="64" height="64" alt="zechengz" /></a>
-<a href="https://github.com/bytecii"><img src="https://avatars.githubusercontent.com/u/14152747?s=64&v=4" width="64" height="64" alt="bytecii" /></a>
