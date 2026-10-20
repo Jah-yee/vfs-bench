@@ -269,7 +269,8 @@ CATALOG_VIEWS = {
 # Snowflake runs one statement a call unless MULTI_STATEMENT_COUNT says
 # otherwise, and neither the fork nor Snowpark says so; Postgres runs them
 # all and hands back the last result, so two counts in one call would
-# answer only the second. The connector's text, less the query ids around it (see MISSING_OBJECT).
+# answer only the second. The connector's text, less the query ids around
+# it (see MISSING_OBJECT).
 MULTIPLE_STATEMENTS = ("000008 (0A000): Actual statement count {} did not "
                        "match the desired statement count 1.")
 # The session's database and schema, which Postgres cannot answer for: its

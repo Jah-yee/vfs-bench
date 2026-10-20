@@ -116,7 +116,8 @@ def pinned(submodule: str) -> str:
         str: the full sha.
     """
     return subprocess.run(
-        ["git", "-C", str(REPO), "rev-parse", f"HEAD:./{submodule}"],
+        ["git", "-C",
+         str(REPO), "rev-parse", f"HEAD:./{submodule}"],
         capture_output=True,
         text=True,
         check=True).stdout.strip()

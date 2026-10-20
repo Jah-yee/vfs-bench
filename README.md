@@ -319,6 +319,5 @@ follows.
 
 Thanks to everyone who has contributed to VFS-Bench.
 
-<a href="https://github.com/agentvfs/vfs-bench/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=agentvfs/vfs-bench" alt="VFS-Bench contributors" />
-</a>
+<a href="https://github.com/zechengz"><img src="https://avatars.githubusercontent.com/u/21955420?s=64&v=4" width="64" height="64" alt="zechengz" /></a>
+<a href="https://github.com/bytecii"><img src="https://avatars.githubusercontent.com/u/14152747?s=64&v=4" width="64" height="64" alt="bytecii" /></a>

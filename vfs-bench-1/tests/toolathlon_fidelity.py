@@ -267,8 +267,9 @@ class Fidelity(unittest.IsolatedAsyncioTestCase):
         """Mirage's curl and wget follow the MCP arm's own model tools.
 
         nvidia-market's `curl` to sec.gov must not be refused where the
-        MCP arm's terminal in upstream's image downloads the same files. A task with no terminal or `python_execute`, a
-        Kubernetes task and an E2B one keep the loopback-only hook.
+        MCP arm's terminal in upstream's image downloads the same files.
+        A task with no terminal or `python_execute`, a Kubernetes task and
+        an E2B one keep the loopback-only hook.
         """
         import workspace
         tasks = REPO / "task" / "toolathlon"

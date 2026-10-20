@@ -95,9 +95,10 @@ class Patient(httpx.BaseTransport, httpx.AsyncBaseTransport):
     handler runs, so nothing has happened yet. Every tool call is two
     requests, and a model can send over a thousand calls in one reply,
     so hundreds of them would get the daemon's 429 back as their result,
-    which the MCP arm has no way to see. So a refused request waits as asked and
-    goes again, for as long as its client's read timeout: a daemon that
-    keeps refusing past that hands the caller its 429, as before.
+    which the MCP arm has no way to see. So a refused request waits as
+    asked and goes again, for as long as its client's read timeout: a
+    daemon that keeps refusing past that hands the caller its 429, as
+    before.
 
     Attributes:
         inner: the transport that sends each attempt.
