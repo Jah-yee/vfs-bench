@@ -1,0 +1,24 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfcd9",
+  "enabled_tools": [
+    "weather-data_weather_history",
+    "calculator_calculate",
+    "exa_web_search_exa",
+    "met-museum_search-museum-objects",
+    "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+    "slack_conversations_replies",
+    "notion_API-post-database-query",
+    "notion_API-post-search",
+    "arxiv_search_papers",
+    "national-parks_findParks",
+    "oxylabs_universal_scraper",
+    "memory_search_nodes",
+    "weather_find_weather_stations"
+  ],
+  "claims": [
+    "The film \"Miley Cyrus: Something Beautiful\" premiered on June 6, 2025.",
+    "The average temperature in Tokyo on June 6, 2025, was 22.8 \u00b0C.",
+    "The square root of 22.8 is 4.774934554525329."
+  ]
+}

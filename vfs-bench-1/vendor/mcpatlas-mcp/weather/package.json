@@ -1,0 +1,8 @@
+{
+  "name": "vfs-bench-mcpatlas-mcp-weather",
+  "private": true,
+  "description": "Pinned MCP-Atlas servers, vendored by server/mcp/setup_mcpatlas.py",
+  "dependencies": {
+    "@smithery/weather": "github:geobio/smitheryai-mcp-servers-weather#3474c7841d00f5f40c087c5d2188a5c0f41bd134"
+  }
+}

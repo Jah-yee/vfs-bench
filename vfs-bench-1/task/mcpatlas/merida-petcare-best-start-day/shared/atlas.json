@@ -1,0 +1,28 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689a373e148a49f91233e02b",
+  "enabled_tools": [
+    "weather-data_weather_history",
+    "weather-data_weather_astronomy",
+    "google-workspace_list_events",
+    "filesystem_read_multiple_files",
+    "filesystem_list_directory_with_sizes",
+    "filesystem_read_text_file",
+    "fetch_fetch",
+    "e2b-server_run_code",
+    "context7_resolve-library-id",
+    "context7_get-library-docs",
+    "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+    "weather_find_weather_stations",
+    "weather-data_weather_search",
+    "desktop-commander_get_config",
+    "desktop-commander_read_file",
+    "desktop-commander_list_directory",
+    "desktop-commander_search_files"
+  ],
+  "claims": [
+    "The highest weekly profit recorded in the file Pet Care 2023 Weekly Financials was the week 46 with a weekly profit of 7110.",
+    "The week 46 in the file Pet Care 2023 Weekly Financials had an start day of 13th of November, 2023.",
+    "The moon phase on the 13th of November, 2023 was a new moon."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "6890e7fd2516f66b0a628e35",
+  "enabled_tools": [
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-indexes",
+    "mongodb_collection-schema",
+    "mongodb_find",
+    "mongodb_aggregate",
+    "airtable_list_bases",
+    "airtable_list_records",
+    "airtable_list_tables",
+    "airtable_search_records",
+    "wikipedia_summarize_article_for_query",
+    "wikipedia_get_summary",
+    "github_search_repositories",
+    "github_search_users",
+    "git_git_diff_unstaged",
+    "git_git_status",
+    "exa_web_search_exa"
+  ],
+  "claims": [
+    "According to the cloud NoSQL data from the video game store, Role-Playing games had the highest remaining stock in December 2023.",
+    "According to an open online encyclopedia, the term \u201cRole-playing\u201d generally refers to the act of assuming a role.",
+    "According to an open online encyclopedia, role-playing can involve taking on a role to fulfill a social function.",
+    "According to an open online encyclopedia, role-playing can involve acting out a character.",
+    "According to an open online encyclopedia, role-playing includes activities in theater.",
+    "According to an open online encyclopedia, role-playing can occur in educational contexts.",
+    "According to an open online encyclopedia, role-playing includes various types of games, such as role-playing video games."
+  ]
+}

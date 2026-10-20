@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "workspaceName": "empty",
+    "workspaceId": "workspace-empty",
+    "botId": "bot-empty",
+    "botName": "empty",
+    "maxUploadSize": 5242880,
+    "urlBase": "https://www.notion.so/",
+    "createdTime": "2025-01-01T00:00:00.000Z",
+    "lastEditedTime": "2025-01-01T00:00:00.000Z",
+    "createdBy": "user-1",
+    "lastEditedBy": "user-1"
+  },
+  "databases": [
+    {
+      "id": "28dd10a4-8436-80fc-90eb-dbd2bf1065da",
+      "createdTime": "2025-10-15T19:11:17.371000Z",
+      "lastEditedTime": "2025-10-15T19:13:39.970000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "url": "https://www.notion.so/28dd10a4843680fc90ebdbd2bf1065da",
+      "parentType": "page_id",
+      "parentId": "27ad10a4-8436-8033-aff3-fda661048897",
+      "titleText": "mcp_experiments_recordings",
+      "titleJson": [
+        {
+          "type": "text",
+          "plain_text": "mcp_experiments_recordings",
+          "text": {
+            "content": "mcp_experiments_recordings"
+          }
+        }
+      ],
+      "propertiesJson": {
+        "CodeIO": {
+          "id": ":O~C",
+          "name": "CodeIO",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "HiTab": {
+          "id": ":yx{",
+          "name": "HiTab",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "SuperGPQA": {
+          "id": "=LSn",
+          "name": "SuperGPQA",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Best Step (Average)": {
+          "id": "=nNX",
+          "name": "Best Step (Average)",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "LiveCodeBench": {
+          "id": "D|fq",
+          "name": "LiveCodeBench",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "AIME (8x)": {
+          "id": "HCN^",
+          "name": "AIME (8x)",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Ordering Puzzle": {
+          "id": "H[Iz",
+          "name": "Ordering Puzzle",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "HumanEval": {
+          "id": "IGJH",
+          "name": "HumanEval",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Graph Logical": {
+          "id": "Jlrw",
+          "name": "Graph Logical",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "MultiHiertt": {
+          "id": "Ps;i",
+          "name": "MultiHiertt",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "ArcAgI1": {
+          "id": "\\>\\z",
+          "name": "ArcAgI1",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "MBPP": {
+          "id": "bYjL",
+          "name": "MBPP",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Zebra Puzzle": {
+          "id": "j>um",
+          "name": "Zebra Puzzle",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "MATH": {
+          "id": "l[P;",
+          "name": "MATH",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "GPQA": {
+          "id": "rOPZ",
+          "name": "GPQA",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "AMC (4x)": {
+          "id": "{eIZ",
+          "name": "AMC (4x)",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Run Name": {
+          "id": "title",
+          "name": "Run Name",
+          "type": "title",
+          "title": {}
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "27ad10a4-8436-8033-aff3-fda661048897",
+      "createdTime": "2025-09-26T09:00:48.458000Z",
+      "lastEditedTime": "2025-10-15T19:11:16.323000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "url": "https://www.notion.so/27ad10a484368033aff3fda661048897",
+      "parentType": "workspace",
+      "parentId": null,
+      "titleText": "mcp_experiments_recordings",
+      "propertiesJson": {
+        "title": {
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "mcp_experiments_recordings",
+              "text": {
+                "content": "mcp_experiments_recordings"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "28dd10a4-8436-8195-a2cb-fdf79e9d537c",
+      "createdTime": "2025-10-15T19:11:17.371000Z",
+      "lastEditedTime": "2025-10-15T19:11:17.371000Z",
+      "createdBy": "e9ff694d-5a54-4676-b24d-4cd035df3262",
+      "lastEditedBy": "e9ff694d-5a54-4676-b24d-4cd035df3262",
+      "url": "https://www.notion.so/28dd10a484368195a2cbfdf79e9d537c",
+      "parentType": "database_id",
+      "parentId": "28dd10a4-8436-80fc-90eb-dbd2bf1065da",
+      "titleText": "",
+      "propertiesJson": {
+        "CodeIO": {
+          "id": ":O~C",
+          "type": "number",
+          "number": null
+        },
+        "HiTab": {
+          "id": ":yx{",
+          "type": "number",
+          "number": null
+        },
+        "SuperGPQA": {
+          "id": "=LSn",
+          "type": "number",
+          "number": null
+        },
+        "Best Step (Average)": {
+          "id": "=nNX",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "LiveCodeBench": {
+          "id": "D|fq",
+          "type": "number",
+          "number": null
+        },
+        "AIME (8x)": {
+          "id": "HCN^",
+          "type": "number",
+          "number": null
+        },
+        "Ordering Puzzle": {
+          "id": "H[Iz",
+          "type": "number",
+          "number": null
+        },
+        "HumanEval": {
+          "id": "IGJH",
+          "type": "number",
+          "number": null
+        },
+        "Graph Logical": {
+          "id": "Jlrw",
+          "type": "number",
+          "number": null
+        },
+        "MultiHiertt": {
+          "id": "Ps;i",
+          "type": "number",
+          "number": null
+        },
+        "ArcAgI1": {
+          "id": "\\>\\z",
+          "type": "number",
+          "number": null
+        },
+        "MBPP": {
+          "id": "bYjL",
+          "type": "number",
+          "number": null
+        },
+        "Zebra Puzzle": {
+          "id": "j>um",
+          "type": "number",
+          "number": null
+        },
+        "MATH": {
+          "id": "l[P;",
+          "type": "number",
+          "number": null
+        },
+        "GPQA": {
+          "id": "rOPZ",
+          "type": "number",
+          "number": null
+        },
+        "AMC (4x)": {
+          "id": "{eIZ",
+          "type": "number",
+          "number": null
+        },
+        "Run Name": {
+          "id": "title",
+          "type": "title",
+          "title": []
+        }
+      },
+      "position": 0
+    },
+    {
+      "id": "28dd10a4-8436-81b6-916b-e118fa0cd92f",
+      "createdTime": "2025-10-15T19:11:17.371000Z",
+      "lastEditedTime": "2025-10-15T19:11:17.371000Z",
+      "createdBy": "e9ff694d-5a54-4676-b24d-4cd035df3262",
+      "lastEditedBy": "e9ff694d-5a54-4676-b24d-4cd035df3262",
+      "url": "https://www.notion.so/28dd10a4843681b6916be118fa0cd92f",
+      "parentType": "database_id",
+      "parentId": "28dd10a4-8436-80fc-90eb-dbd2bf1065da",
+      "titleText": "",
+      "propertiesJson": {
+        "CodeIO": {
+          "id": ":O~C",
+          "type": "number",
+          "number": null
+        },
+        "HiTab": {
+          "id": ":yx{",
+          "type": "number",
+          "number": null
+        },
+        "SuperGPQA": {
+          "id": "=LSn",
+          "type": "number",
+          "number": null
+        },
+        "Best Step (Average)": {
+          "id": "=nNX",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "LiveCodeBench": {
+          "id": "D|fq",
+          "type": "number",
+          "number": null
+        },
+        "AIME (8x)": {
+          "id": "HCN^",
+          "type": "number",
+          "number": null
+        },
+        "Ordering Puzzle": {
+          "id": "H[Iz",
+          "type": "number",
+          "number": null
+        },
+        "HumanEval": {
+          "id": "IGJH",
+          "type": "number",
+          "number": null
+        },
+        "Graph Logical": {
+          "id": "Jlrw",
+          "type": "number",
+          "number": null
+        },
+        "MultiHiertt": {
+          "id": "Ps;i",
+          "type": "number",
+          "number": null
+        },
+        "ArcAgI1": {
+          "id": "\\>\\z",
+          "type": "number",
+          "number": null
+        },
+        "MBPP": {
+          "id": "bYjL",
+          "type": "number",
+          "number": null
+        },
+        "Zebra Puzzle": {
+          "id": "j>um",
+          "type": "number",
+          "number": null
+        },
+        "MATH": {
+          "id": "l[P;",
+          "type": "number",
+          "number": null
+        },
+        "GPQA": {
+          "id": "rOPZ",
+          "type": "number",
+          "number": null
+        },
+        "AMC (4x)": {
+          "id": "{eIZ",
+          "type": "number",
+          "number": null
+        },
+        "Run Name": {
+          "id": "title",
+          "type": "title",
+          "title": []
+        }
+      },
+      "position": 1
+    }
+  ],
+  "blocks": [
+    {
+      "id": "28dd10a4-8436-80fc-90eb-dbd2bf1065da",
+      "createdTime": "2025-10-15T19:11:17.371000Z",
+      "lastEditedTime": "2025-10-15T19:13:39.970000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8033-aff3-fda661048897",
+      "position": 0,
+      "type": "child_database",
+      "payloadJson": {
+        "title": "mcp_experiments_recordings"
+      },
+      "hasChildren": false
+    }
+  ],
+  "comments": []
+}

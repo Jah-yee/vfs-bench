@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfcb5",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "airtable_get_record",
+    "calculator_calculate",
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes",
+    "weather-data_weather_history",
+    "weather-data_weather_astronomy",
+    "weather-data_weather_search",
+    "slack_channels_list",
+    "e2b-server_run_code",
+    "pubmed_search_pubmed_key_words",
+    "pubmed_search_pubmed_advanced",
+    "pubmed_get_pubmed_article_metadata"
+  ],
+  "claims": [
+    "The department with the best performance in innovation in the first quarter of 2020 was the Sales Department with a score of 4.61.",
+    "Between Washington and New York, New York was the state with the earliest sunrise on April 1st, 2020."
+  ]
+}

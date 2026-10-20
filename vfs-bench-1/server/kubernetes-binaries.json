@@ -1,0 +1,64 @@
+{
+  "kubectl-darwin-arm64": {
+    "url": "https://dl.k8s.io/release/v1.27.3/bin/darwin/arm64/kubectl",
+    "sha256": "795af693fc168351132e127d75b03ace039e4bb40d67001790db77f7b7a37a7e"
+  },
+  "kubectl-darwin-amd64": {
+    "url": "https://dl.k8s.io/release/v1.27.3/bin/darwin/amd64/kubectl",
+    "sha256": "10662b3859fe302903e5d4f665d74c243bdb3a709b120c5c49434659a81942c5"
+  },
+  "kubectl-linux-arm64": {
+    "url": "https://dl.k8s.io/release/v1.27.3/bin/linux/arm64/kubectl",
+    "sha256": "7bb7fec4e28e0b50b603d64e47629e812408751bd1e0ce059b2fee83b0e3ff6f"
+  },
+  "kubectl-linux-amd64": {
+    "url": "https://dl.k8s.io/release/v1.27.3/bin/linux/amd64/kubectl",
+    "sha256": "fba6c062e754a120bc8105cde1344de200452fe014a8759e06e4eec7ed258a09"
+  },
+  "websocat": {
+    "url": "https://github.com/vi/websocat/releases/download/v1.14.0/websocat.x86_64-unknown-linux-musl",
+    "sha256": "33a80fcbf2313e3c6e816ddafec333c1a04cc34464d4ba4970d938275775a12f"
+  },
+  "docker": {
+    "url": "https://download.docker.com/linux/static/stable/x86_64/docker-24.0.7.tgz",
+    "sha256": "984d59a77fa6acab97ea725a966facd33725e0e09c2fee975397fe1c6379bd3d",
+    "installed_sha256": {
+      "docker": "841930c5b1daadd1da2bb4cc33ec0d4d377abdee59ad9174c58c47657faf3317",
+      "docker-init": "37de1440d3fee1eedb2e8cd4c4764f6ec19b712597e220657c9e570ef8b3adcb",
+      "dockerd": "036dd26ba082b9ef5ead0d246ea672c5fb974bd11650a4ce0e0d2e1dfe2f529a",
+      "runc": "a4901b28c34b6e07be63cb7a5e9916df1f4ba01775db8a8129d6ea5d472b2b67",
+      "ctr": "325c6d0ca68cccbbc292c7131d2554074371a48b0648ed2e401353a2d17baf66",
+      "containerd-shim-runc-v2": "0f6cbc6468a4c7e553e84a494dd13b8109c4c341fe92bb4d1631ea0b5c5bf809",
+      "containerd": "0854fc6bf4d5a752b06fae4a2a0f6effbefa6a60e3d7b88dd441d55822697b92",
+      "docker-proxy": "f305aba56d376b681683e84055b3dedb1b54a853954f8e35654f681bbe76ab01"
+    }
+  },
+  "kind": {
+    "url": "https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64",
+    "sha256": "513a7213d6d3332dd9ef27c24dab35e5ef10a04fa27274fe1c14d8a246493ded"
+  },
+  "helm-linux-amd64": {
+    "url": "https://get.helm.sh/helm-v3.14.0-linux-amd64.tar.gz",
+    "sha256": "f43e1c3387de24547506ab05d24e5309c0ce0b228c23bd8aa64e9ec4b8206651"
+  },
+  "helm-linux-arm64": {
+    "url": "https://get.helm.sh/helm-v3.14.0-linux-arm64.tar.gz",
+    "sha256": "b29e61674731b15f6ad3d1a3118a99d3cc2ab25a911aad1b8ac8c72d5a9d2952"
+  },
+  "helm-darwin-amd64": {
+    "url": "https://get.helm.sh/helm-v3.14.0-darwin-amd64.tar.gz",
+    "sha256": "804586896496f7b3da97f56089ea00f220e075e969b6fdf6c0b7b9cdc22de120"
+  },
+  "helm-darwin-arm64": {
+    "url": "https://get.helm.sh/helm-v3.14.0-darwin-arm64.tar.gz",
+    "sha256": "c2f36f3289a01c7c93ca11f84d740a170e0af1d2d0280bd523a409a62b8dfa1d"
+  },
+  "mysql-community-client-plugins": {
+    "url": "https://repo.mysql.com/apt/debian/pool/mysql-8.4-lts/m/mysql-community/mysql-community-client-plugins_8.4.11-1debian12_amd64.deb",
+    "sha256": "95b66f6ba68e2b064e175fa7368ae6d6d52919b92b7d69e6b48d949af642eb07"
+  },
+  "mysql-community-client-core": {
+    "url": "https://repo.mysql.com/apt/debian/pool/mysql-8.4-lts/m/mysql-community/mysql-community-client-core_8.4.11-1debian12_amd64.deb",
+    "sha256": "19c6e1d38f95fa77ebb675c01c0b3c50554026adc5ed0c114cee2a72520c2fea"
+  }
+}

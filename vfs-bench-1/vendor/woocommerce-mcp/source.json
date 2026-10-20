@@ -1,0 +1,21 @@
+{
+  "upstream_config": "configs/mcp_servers/woocommerce.yaml",
+  "upstream_config_sha256": "e5c1ba2c904144386beabb04b05c11f6265120eba7d6da779b787762b1cf63e6",
+  "sha256": {
+    "package.json": "931149ef1a24ad3897df17fd5141f15d9e11be7c8c838878f998f0dcce32ab1e",
+    "package-lock.json": "c3c4eed249827b393eb46e66feb0a512763fda3413b259b6c46b02f280ddae36",
+    "tools.json": "37db94a6aec3e25e9b5bf1a8cb142dac8edae4d6bf1526955ba306567751d695",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/index.js": "bdf1f52b2832b823678b26ca266f0ddd49d7b771e12c9dafd91ac18857936bbd",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/server.js": "9c460b9b74c4f1df921d0d1809811cc672698b1cef0db02d0115a769a806cad7",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/base.js": "458eb1c3ed86197161400c1050a39d4c6ca8a0565c17f6163c8ac7a4f34a8333",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/coupons.js": "a81a1ef7b4ad2efaa8fe0159938eeef43bc8c0d55b4d2fd39229867b7b060f8f",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/customers.js": "c56bf26a3cb4b554d71961880a3e7c42ec15422d292819d3171cfcdf893b4d92",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/orders.js": "3b3cb32c2c776c13ef999b24a41241f199356974879d4e8981fa6881456733fe",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/products.js": "c09b9320368b9becb59cb993d1f4621215978f44e4476190d86ebda2c19114f7",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/reports.js": "0d6193d435cded2095df0a1b3446176f6c107f64e48b11853573160700a3dbe8",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/shipping.js": "0a6e0832d5a9ce62226cbe5b4918430911dffccaa90626a4bdcb9758503bec34",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/system.js": "f39ef17a267d32b4258681834828f0333e3a96a816bcb3b12dc9ae382dca9c97",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/services/tax.js": "151d6b26c8e3a725df8d940c3c86b67cf4c17e2a4f38fb3b0fd49491ee21bbeb",
+    "node_modules/@lockon0927/woocommerce-mcp/dist/types.js": "01ae2a5b120382f9a648ced7ee8507493a134f216d100fc61600c6c9738235d2"
+  }
+}

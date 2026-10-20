@@ -1,0 +1,8 @@
+{
+  "name": "vfs-bench-mcp-remote",
+  "private": true,
+  "description": "Pinned mcp-remote, vendored by server/mcp/setup_huggingface.py",
+  "dependencies": {
+    "mcp-remote": "0.8.2"
+  }
+}

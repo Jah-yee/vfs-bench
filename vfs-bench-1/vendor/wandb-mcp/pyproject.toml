@@ -1,0 +1,8 @@
+[project]
+name = "vfs-bench-wandb-mcp"
+version = "0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["wandb-mcp-server"]
+
+[tool.uv.sources]
+wandb-mcp-server = { git = "https://github.com/lockon-n/wandb-mcp-server", rev = "83f6d7fe2ad2e6b6278aef4a792f35dd765fd315" }

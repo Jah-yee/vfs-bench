@@ -1,0 +1,24 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfcaf",
+  "enabled_tools": [
+    "exa_web_search_exa",
+    "filesystem_read_file",
+    "filesystem_read_text_file",
+    "filesystem_read_media_file",
+    "filesystem_read_multiple_files",
+    "filesystem_list_directory",
+    "filesystem_list_directory_with_sizes",
+    "filesystem_directory_tree",
+    "filesystem_search_files",
+    "filesystem_get_file_info",
+    "filesystem_list_allowed_directories",
+    "google-workspace_list_events",
+    "mcp-code-executor_execute_code",
+    "mcp-code-executor_read_code_file"
+  ],
+  "claims": [
+    "From the local movie data, the highest-rated movie not yet watched by the user is The Shawshank Redemption.",
+    "The family movie night is scheduled for July 29, 2025, from 8:00 PM ET to 10:00 PM ET."
+  ]
+}

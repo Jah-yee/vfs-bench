@@ -1,0 +1,9 @@
+{
+  "upstream_config": "configs/mcp_servers/google_map.yaml",
+  "upstream_config_sha256": "a18754e7f39ab80c7c477436b5d486183e9810f471dc2db00e17f83f3afc4800",
+  "files_sha256": {
+    "package.json": "707786fef14017150c4b770473c0a0d563582416430dc35940aaa3c23e9507cb",
+    "package-lock.json": "011042ac9720e8dd1e9b5a7fc8673d9486f91bec21d10686ae8e711bb244a796"
+  },
+  "upstream_package_lock_sha256": "55e3505b5ebad978fdd51e73c89ca8b21d10f2babfe6ce5d18b29e6c186d9347"
+}

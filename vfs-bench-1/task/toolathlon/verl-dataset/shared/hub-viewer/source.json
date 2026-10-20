@@ -1,0 +1,27 @@
+{
+  "source": "https://huggingface.co/mcp",
+  "tool": "hub_repo_details",
+  "server": {
+    "name": "huggingface.co/mcp",
+    "version": "0.4.20",
+    "title": "Hugging Face",
+    "websiteUrl": "https://huggingface.co/mcp",
+    "icons": [
+      {
+        "src": "https://huggingface.co/favicon.ico"
+      }
+    ]
+  },
+  "captured_at": "2026-09-19T13:39:33.429874+00:00",
+  "revisions": {
+    "agentica-org/DeepScaleR-Preview-Dataset": {
+      "pinned": null,
+      "live": "b6ae8c60f5c1f2b594e2140b91c49c9ad0949e29",
+      "lastModified": "2025-02-10T09:51:18.000Z"
+    }
+  },
+  "responses": 24,
+  "sha256": {
+    "responses.json.gz": "1e534f11b18fbb3e45e53d6f42ab0538f4288d5bd3c74b074f7766ff1db8e456"
+  }
+}

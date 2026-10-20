@@ -1,0 +1,8 @@
+{
+  "name": "vfs-bench-fetch-mcp",
+  "private": true,
+  "description": "Pinned @tokenizin/mcp-npx-fetch, vendored by server/mcp/setup_fetch.py",
+  "dependencies": {
+    "@tokenizin/mcp-npx-fetch": "1.0.0"
+  }
+}

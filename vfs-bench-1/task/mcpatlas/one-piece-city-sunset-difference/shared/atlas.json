@@ -1,0 +1,31 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689e0b1d9c8e2ac413c1f245",
+  "enabled_tools": [
+    "oxylabs_google_search_scraper",
+    "mcp-code-executor_execute_code",
+    "weather-data_weather_astronomy",
+    "weather-data_weather_search",
+    "weather-data_weather_history",
+    "weather_find_weather_stations",
+    "git_git_status",
+    "git_git_diff_unstaged",
+    "git_git_diff_staged",
+    "git_git_diff",
+    "git_git_log",
+    "git_git_show",
+    "github_search_repositories",
+    "github_search_code",
+    "github_search_users"
+  ],
+  "claims": [
+    "The creator of One Piece is Eiichiro Oda.",
+    "Eiichiro Oda was born in Kumamoto, Japan.",
+    "The first episode of the One Piece anime aired on October 20, 1999.",
+    "On October 20, 1999, the sunset in Kumamoto was at 5:40 PM.",
+    "The first episode of the Dragon Ball anime aired on February 26, 1986.",
+    "On February 26, 1986, the sunset in Kumamoto was at 6:11 PM.",
+    "Between October 20, 1999, and February 26, 1986, the day with the earlier sunset was October 20, 1999.",
+    "The difference in sunset times between October 20, 1999, and February 26, 1986, was 31 minutes."
+  ]
+}

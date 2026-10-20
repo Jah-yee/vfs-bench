@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/lockon-n/mcp-scholarly",
+  "commit": "82a6ca268ae0d2e10664be396e1a0ea7aba23229",
+  "upstream_dockerfile_sha256": "9b0b460479eed8855c9d9663de9e15d9b59e846513707add68f9dccacecf0552",
+  "files_sha256": {
+    "pyproject.toml": "b3ba2a4f9515db0ac026b56a3ca39b745e7633061fd45635dae90b97be1f3dd6",
+    "uv.lock": "8473611db0a5802fa3b060a6c269124885912f4b9203a0bcfc97d46f40c81d02"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "verification": "Every non-placeholder Git blob and file path matches the committed fixture. Placeholder bytes follow the existing builder rules.",
+  "repositories": [
+    {
+      "url": "https://github.com/academicpages/academicpages.github.io.git",
+      "revisions": {
+        "master": "053bb4c1840158caf9e304cdbaa3750f4b2edc35"
+      },
+      "folders": {
+        "master": "academicpages"
+      }
+    }
+  ]
+}

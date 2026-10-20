@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/1Edaz5Aie3HnxrKEaMdjyuFm04O_P8pEx_pp9nm8GCrA/export?format=xlsx",
+  "captured_at": "2026-09-09T09:31:23.249320+00:00",
+  "sha256": "6487e3382f8e16d77d063da4bbda505aa3da7a03a7a3e87e82018e73d1ea265f",
+  "upstream_revision": "9be8d8fe07a497b18ee61e3f2ae694e9797f39eb",
+  "preprocess_path": "tasks/finalpool/k8s-safety-audit/preprocess/main.py",
+  "preprocess_sha256": "8810bada7fdd2b265ac9fd19165c949e23b8c9e308791fc4568abcedb2869034"
+}

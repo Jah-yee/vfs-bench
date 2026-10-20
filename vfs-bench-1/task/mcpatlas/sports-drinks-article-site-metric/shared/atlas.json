@@ -1,0 +1,24 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfcf4",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "airtable_get_record",
+    "fetch_fetch",
+    "git_git_status",
+    "git_git_log",
+    "github_search_repositories",
+    "github_list_commits",
+    "calculator_calculate",
+    "filesystem_read_file",
+    "filesystem_list_directory",
+    "filesystem_list_allowed_directories"
+  ],
+  "claims": [
+    "The article https://www.newscientist.com/article/mg23731601-200-no-sweat-are-sports-drinks-worth-the-money was published on January 10, 2018.",
+    "According to the car dealership database, the sum of the Average Time on Page (Minutes) of the sites in January 2018 is 18.99."
+  ]
+}

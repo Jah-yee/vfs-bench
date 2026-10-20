@@ -1,0 +1,26 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "688fb11183792b921381bd21",
+  "enabled_tools": [
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-indexes",
+    "mongodb_collection-schema",
+    "mongodb_find",
+    "mongodb_collection-storage-size",
+    "mongodb_count",
+    "mongodb_db-stats",
+    "mongodb_aggregate",
+    "mongodb_explain",
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article",
+    "airtable_get_record",
+    "exa_web_search_exa"
+  ],
+  "claims": [
+    "Tomas Villa passed away on April 3, 2018.",
+    "According to the video game store database, the game name the user bought on April 3, 2018, was \"Game Title 140\"",
+    "According to the video game store database, the genre of the game the user bought on April 3, 2018, was strategy.",
+    "According to the video game store database, the client who bought \"Game Title 140\" was a member of the program on April 3, 2018."
+  ]
+}

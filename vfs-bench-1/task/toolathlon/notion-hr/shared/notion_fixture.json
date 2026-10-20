@@ -1,0 +1,1357 @@
+{
+  "defaults": {
+    "created_time": "2025-09-01T00:00:00.000Z",
+    "last_edited_time": "2025-09-02T00:00:00.000Z",
+    "created_by": "user-hr",
+    "last_edited_by": "user-hr",
+    "url_base": "https://www.notion.so/"
+  },
+  "databases": [
+    {
+      "id": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "title": "Job Positions",
+      "parent": {
+        "type": "page_id",
+        "id": "27ad10a4-8436-8035-b3bc-e9de9db3dd82"
+      },
+      "is_inline": true,
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "name": "Head Counts",
+          "type": "number",
+          "number": {}
+        },
+        "Position": {
+          "id": "title",
+          "name": "Position",
+          "type": "title",
+          "title": {}
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-814c-91c4-000bc6c90adb",
+      "title": "Job Application Timeline",
+      "parent": {
+        "type": "page_id",
+        "id": "27ad10a4-8436-8035-b3bc-e9de9db3dd82"
+      },
+      "is_inline": true,
+      "properties": {
+        "Assign": {
+          "id": "Av%3D%5D",
+          "name": "Assign",
+          "type": "person",
+          "person": {}
+        },
+        "Date": {
+          "id": "Btd%60",
+          "name": "Date",
+          "type": "date",
+          "date": {}
+        },
+        "Status": {
+          "id": "Tp%3El",
+          "name": "Status",
+          "type": "status",
+          "status": {
+            "options": [
+              {
+                "id": "ece21684-d782-472a-9071-f9e7a521d8d8",
+                "name": "Not started",
+                "color": "default"
+              },
+              {
+                "id": "4e347b73-69f8-46c0-9a38-3e859b4a051f",
+                "name": "In progress",
+                "color": "blue"
+              },
+              {
+                "id": "41ee4e43-128d-4e0e-bf30-5e396e055942",
+                "name": "Done",
+                "color": "green"
+              }
+            ]
+          }
+        },
+        "Name": {
+          "id": "title",
+          "name": "Name",
+          "type": "title",
+          "title": {}
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8103-a98d-000b3fafe863",
+      "title": "Candidates",
+      "parent": {
+        "type": "page_id",
+        "id": "27ad10a4-8436-8035-b3bc-e9de9db3dd82"
+      },
+      "is_inline": true,
+      "properties": {
+        "School": {
+          "id": "%3Cs_i",
+          "name": "School",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Highest Degree": {
+          "id": "GvWY",
+          "name": "Highest Degree",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "LqP^",
+                "name": "phd",
+                "color": "pink"
+              },
+              {
+                "id": "KevI",
+                "name": "bachelor",
+                "color": "default"
+              },
+              {
+                "id": "2c65c62f-6b2c-4d24-a147-bbb8281f771a",
+                "name": "master",
+                "color": "brown"
+              }
+            ]
+          }
+        },
+        "Applied Position": {
+          "id": "f%3CrJ",
+          "name": "Applied Position",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Email": {
+          "id": "r%60u%3F",
+          "name": "Email",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Name": {
+          "id": "title",
+          "name": "Name",
+          "type": "title",
+          "title": {}
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "title": "HR Record",
+      "parent": {
+        "type": "workspace"
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8102-a612-f49a21a5b495",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Wealth Management Advisor",
+              "text": {
+                "content": "Wealth Management Advisor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8102-b5fb-ce084ebb7b78",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Private Equity Associate",
+              "text": {
+                "content": "Private Equity Associate"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-816c-bd59-cee5a1a656fc",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Derivatives Trader",
+              "text": {
+                "content": "Derivatives Trader"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-816e-be1f-c1e9aedc7720",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 4.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Market Risk Specialist",
+              "text": {
+                "content": "Market Risk Specialist"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8193-b87c-debb4b5178f4",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 3.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Advanced Investment Banking Analyst ",
+              "text": {
+                "content": "Advanced Investment Banking Analyst "
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81ae-9d14-e693af943100",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Equity Research Analyst",
+              "text": {
+                "content": "Equity Research Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81b4-bedc-cb1279b75e76",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Foreign Exchange Dealer",
+              "text": {
+                "content": "Foreign Exchange Dealer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8105-b85b-cd3a27db38d0",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Trading Operations Analyst",
+              "text": {
+                "content": "Trading Operations Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-811a-bddb-d4fa27060ef6",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Fund Manager",
+              "text": {
+                "content": "Fund Manager"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8131-8d75-e2f078a4d374",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Corporate Finance Analyst",
+              "text": {
+                "content": "Corporate Finance Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-814e-b416-e330728e8017",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Credit Analyst",
+              "text": {
+                "content": "Credit Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8158-a53e-cd9d425df87f",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Hedge Fund Analyst",
+              "text": {
+                "content": "Hedge Fund Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8160-8233-ec74ffcf7287",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Financial Consultant",
+              "text": {
+                "content": "Financial Consultant"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8182-8693-e5304459a50c",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Asset Management Analyst",
+              "text": {
+                "content": "Asset Management Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8188-b446-c4d4f69f18fb",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Quantitative Risk Analyst",
+              "text": {
+                "content": "Quantitative Risk Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81bf-91a7-cbccb35d61fb",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Valuation Analyst",
+              "text": {
+                "content": "Valuation Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81ca-b4a9-e51d83386163",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Compliance Officer",
+              "text": {
+                "content": "Compliance Officer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81f5-bfb7-dd8a32f6a83f",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Fixed Income Trader",
+              "text": {
+                "content": "Fixed Income Trader"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81f7-8747-f3696ae4520f",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Credit Risk Manager",
+              "text": {
+                "content": "Credit Risk Manager"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8122-a1b9-de09b80c834f",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 3.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Research Associate",
+              "text": {
+                "content": "Research Associate"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8134-85ed-e9e7c5438774",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Portfolio Manager",
+              "text": {
+                "content": "Portfolio Manager"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-815c-91d9-ec0c141eff19",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Securities Trader",
+              "text": {
+                "content": "Securities Trader"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-816e-be6a-e7d423dc7cce",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Financial Risk Analyst ",
+              "text": {
+                "content": "Financial Risk Analyst "
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81ed-9186-e2915760d51b",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Investment Analyst",
+              "text": {
+                "content": "Investment Analyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81f0-baf0-cb7695c66cfb",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-811e-b9f1-000b78346645"
+      },
+      "properties": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Mergers & Acquisitions Associate",
+              "text": {
+                "content": "Mergers & Acquisitions Associate"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8161-a1eb-fc40d9ec8ed7",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-814c-91c4-000bc6c90adb"
+      },
+      "properties": {
+        "Assign": {
+          "id": "Av%3D%5D",
+          "type": "people",
+          "people": []
+        },
+        "Date": {
+          "id": "Btd%60",
+          "type": "date",
+          "date": {
+            "start": "2025-09-05",
+            "end": "2025-09-09",
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "Tp%3El",
+          "type": "status",
+          "status": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Stage 2",
+              "text": {
+                "content": "Stage 2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8103-b286-ea41f8cf8175",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-814c-91c4-000bc6c90adb"
+      },
+      "properties": {
+        "Assign": {
+          "id": "Av%3D%5D",
+          "type": "people",
+          "people": []
+        },
+        "Date": {
+          "id": "Btd%60",
+          "type": "date",
+          "date": {
+            "start": "2025-09-03",
+            "end": "2025-09-07",
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "Tp%3El",
+          "type": "status",
+          "status": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Stage 1",
+              "text": {
+                "content": "Stage 1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8121-b39c-ef1350769898",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-814c-91c4-000bc6c90adb"
+      },
+      "properties": {
+        "Assign": {
+          "id": "Av%3D%5D",
+          "type": "people",
+          "people": []
+        },
+        "Date": {
+          "id": "Btd%60",
+          "type": "date",
+          "date": {
+            "start": "2025-09-07",
+            "end": "2025-09-11",
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "Tp%3El",
+          "type": "status",
+          "status": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Stage 3",
+              "text": {
+                "content": "Stage 3"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-812c-a37e-f53d161bffa8",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-8103-a98d-000b3fafe863"
+      },
+      "properties": {
+        "School": {
+          "id": "%3Cs_i",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Highest Degree": {
+          "id": "GvWY",
+          "type": "select",
+          "select": {
+            "id": "LqP^",
+            "name": "phd",
+            "color": "pink"
+          }
+        },
+        "Applied Position": {
+          "id": "f%3CrJ",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Email": {
+          "id": "r%60u%3F",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Example 2",
+              "text": {
+                "content": "Example 2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8142-9505-c9d3f482da72",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-8103-a98d-000b3fafe863"
+      },
+      "properties": {
+        "School": {
+          "id": "%3Cs_i",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "plain_text": "Columbia Business School",
+              "text": {
+                "content": "Columbia Business School"
+              }
+            }
+          ]
+        },
+        "Highest Degree": {
+          "id": "GvWY",
+          "type": "select",
+          "select": {
+            "id": "KevI",
+            "name": "bachelor",
+            "color": "default"
+          }
+        },
+        "Applied Position": {
+          "id": "f%3CrJ",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "plain_text": "Financial Risk Analyst",
+              "text": {
+                "content": "Financial Risk Analyst"
+              }
+            }
+          ]
+        },
+        "Email": {
+          "id": "r%60u%3F",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "plain_text": "alice_jackson38@mcp.com",
+              "text": {
+                "content": "alice_jackson38@mcp.com"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Alice Jackson",
+              "text": {
+                "content": "Alice Jackson"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27ad10a4-8436-818d-ae1b-ce9e50adf670",
+      "title": "",
+      "parent": {
+        "type": "database_id",
+        "id": "27ad10a4-8436-8103-a98d-000b3fafe863"
+      },
+      "properties": {
+        "School": {
+          "id": "%3Cs_i",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Highest Degree": {
+          "id": "GvWY",
+          "type": "select",
+          "select": {
+            "id": "LqP^",
+            "name": "phd",
+            "color": "pink"
+          }
+        },
+        "Applied Position": {
+          "id": "f%3CrJ",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Email": {
+          "id": "r%60u%3F",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "plain_text": "xxx@mcp.com",
+              "text": {
+                "content": "xxx@mcp.com"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Example 1",
+              "text": {
+                "content": "Example 1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "id": "27ad10a4-8436-816c-857b-fdf33e1663da",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "paragraph",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "This is the page to record the job positions and the candidates for our 2025 Fall Application.",
+            "text": {
+              "content": "This is the page to record the job positions and the candidates for our 2025 Fall Application."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "child_database",
+      "payload": {
+        "title": "Job Positions"
+      }
+    },
+    {
+      "id": "27ad10a4-8436-814c-91c4-000bc6c90adb",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "child_database",
+      "payload": {
+        "title": "Job Application Timeline"
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8103-a98d-000b3fafe863",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "child_database",
+      "payload": {
+        "title": "Candidates"
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81c9-bfa4-c65ffd7d46b7",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "heading_3",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "HR Record 2025 Fall Application Summary",
+            "text": {
+              "content": "HR Record 2025 Fall Application Summary"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8139-9414-e8ef873dd48c",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "paragraph",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "This comprehensive HR record serves as our central repository for managing all aspects of the 2025 Fall Application process. The page has been specifically designed to streamline our hiring workflow and provide transparent access to critical recruitment information for all stakeholders involved.",
+            "text": {
+              "content": "This comprehensive HR record serves as our central repository for managing all aspects of the 2025 Fall Application process. The page has been specifically designed to streamline our hiring workflow and provide transparent access to critical recruitment information for all stakeholders involved."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81fc-8051-db025c046e3d",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "heading_3",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Future Outlook",
+            "text": {
+              "content": "Future Outlook"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81ab-9367-ccae9e10b218",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "paragraph",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "As we continue to refine our recruitment strategies, we anticipate implementing several enhancements to this system:",
+            "text": {
+              "content": "As we continue to refine our recruitment strategies, we anticipate implementing several enhancements to this system:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81c2-b9d8-db75190ea66f",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "bulleted_list_item",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Development of a more sophisticated candidate evaluation framework with standardized assessment criteria to reduce hiring bias and improve selection accuracy",
+            "text": {
+              "content": "Development of a more sophisticated candidate evaluation framework with standardized assessment criteria to reduce hiring bias and improve selection accuracy"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-811e-bb7e-d5e1636e01ef",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "bulleted_list_item",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Implementation of an advanced interview feedback system with structured evaluation templates to capture more meaningful insights about candidate suitability",
+            "text": {
+              "content": "Implementation of an advanced interview feedback system with structured evaluation templates to capture more meaningful insights about candidate suitability"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8108-aa1a-ef7d54934de1",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "bulleted_list_item",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Integration of automated communication workflows to enhance candidate experience and reduce administrative overhead",
+            "text": {
+              "content": "Integration of automated communication workflows to enhance candidate experience and reduce administrative overhead"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8115-9021-c626fb3d10b8",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "bulleted_list_item",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Exploration of talent development tracking features that will extend beyond initial hiring to support long-term career progression and retention initiatives",
+            "text": {
+              "content": "Exploration of talent development tracking features that will extend beyond initial hiring to support long-term career progression and retention initiatives"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81e2-bd1c-f1c45a09b055",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "bulleted_list_item",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Analysis of hiring metrics and outcomes to continuously refine our recruitment approach based on data-driven insights",
+            "text": {
+              "content": "Analysis of hiring metrics and outcomes to continuously refine our recruitment approach based on data-driven insights"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81b3-b777-f215a62f4417",
+      "parent": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "type": "paragraph",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "These planned improvements will help us build a more robust talent acquisition system that not only meets our immediate hiring needs but also supports our long-term organizational growth objectives.",
+            "text": {
+              "content": "These planned improvements will help us build a more robust talent acquisition system that not only meets our immediate hiring needs but also supports our long-term organizational growth objectives."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "comments": []
+}

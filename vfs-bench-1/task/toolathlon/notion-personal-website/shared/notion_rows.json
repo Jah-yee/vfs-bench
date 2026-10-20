@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "workspaceName": "notion-personal-website",
+    "workspaceId": "workspace-notion-personal-website",
+    "botId": "bot-notion-personal-website",
+    "botName": "notion-personal-website",
+    "maxUploadSize": 5242880,
+    "urlBase": "https://www.notion.so/",
+    "createdTime": "2025-09-01T00:00:00.000Z",
+    "lastEditedTime": "2025-09-02T00:00:00.000Z",
+    "createdBy": "user-web",
+    "lastEditedBy": "user-web"
+  },
+  "databases": [],
+  "pages": [
+    {
+      "id": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "parentType": "workspace",
+      "parentId": null,
+      "titleText": "Colley Whisson",
+      "propertiesJson": {
+        "title": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Colley Whisson",
+              "text": {
+                "content": "Colley Whisson"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web",
+      "url": "https://www.notion.so/27ad10a4843680cba4d9d9e160cb05ea",
+      "position": 0
+    }
+  ],
+  "blocks": [
+    {
+      "id": "27ad10a4-8436-818a-b2d8-f07601202dd6",
+      "parentId": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "position": 0,
+      "type": "heading_1",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "📌 Introduction",
+            "text": {
+              "content": "📌 Introduction"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web"
+    },
+    {
+      "id": "27ad10a4-8436-8167-997b-c3a29a2bcb38",
+      "parentId": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Hi, I'm Colley Whisson, a passionate and creative professional dedicated to painting. Let me take you through my journey and expertise.",
+            "text": {
+              "content": "Hi, I'm Colley Whisson, a passionate and creative professional dedicated to painting. Let me take you through my journey and expertise."
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web"
+    },
+    {
+      "id": "27ad10a4-8436-813d-9151-d681e07f6525",
+      "parentId": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "position": 2,
+      "type": "heading_1",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "🏷 About Me",
+            "text": {
+              "content": "🏷 About Me"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web"
+    },
+    {
+      "id": "27ad10a4-8436-81e5-a68a-dca0f93e2473",
+      "parentId": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "position": 3,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "🎓 Background: [Birth, Your education, experience, or expertise]",
+            "text": {
+              "content": "🎓 Background: [Birth, Your education, experience, or expertise]"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web"
+    },
+    {
+      "id": "27ad10a4-8436-8186-9c81-dac786ec207e",
+      "parentId": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "position": 4,
+      "type": "heading_1",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "📁 Paintings",
+            "text": {
+              "content": "📁 Paintings"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web"
+    },
+    {
+      "id": "27ad10a4-8436-8126-8efe-ddb20e69fee5",
+      "parentId": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "position": 5,
+      "type": "heading_1",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "📰 WorkShop",
+            "text": {
+              "content": "📰 WorkShop"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web"
+    },
+    {
+      "id": "27ad10a4-8436-81f3-8f4a-f71f0794b80c",
+      "parentId": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "position": 6,
+      "type": "heading_1",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "📜 Prizes",
+            "text": {
+              "content": "📜 Prizes"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web"
+    },
+    {
+      "id": "27ad10a4-8436-81e2-bee0-d6d4d1430af6",
+      "parentId": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "position": 7,
+      "type": "heading_1",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "🎨 Exhibitions",
+            "text": {
+              "content": "🎨 Exhibitions"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-web",
+      "lastEditedBy": "user-web"
+    }
+  ],
+  "comments": []
+}

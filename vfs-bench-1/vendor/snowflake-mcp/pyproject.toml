@@ -1,0 +1,52 @@
+# The snowflake MCP server, vendored.
+#
+# Its own project rather than an extra of the repo's: the server needs a
+# resolve this one deliberately breaks -- see `exclude-dependencies` below --
+# and an interpreter capped below 3.13, neither of which the benchmark wants.
+# `uv sync` here builds `.venv` beside this file, and `uv.lock` is the pin.
+#
+# This replaced a hand-rolled `git init` / `remote add` / `fetch --depth 1` /
+# `checkout FETCH_HEAD` and a `pinned.json` receipt nothing read, which had
+# gone stale twice. Everything it recorded is a field below, and this one is
+# enforced: a rev that disappears fails the sync.
+
+[project]
+name = "vfs-bench-snowflake-mcp"
+version = "0"
+# The fork caps itself below 3.13.
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "mcp_snowflake_server",
+    # The fork asks for `mcp>=1.0.0`, and 2.0 removed `Server.list_resources`,
+    # which it registers at startup, so an unbounded resolve gets a server
+    # that cannot boot. Capped below 2, which is also where Toolathlon's own
+    # client sits.
+    "mcp>=1.0.0,<2",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "sqlparse>=0.5.3",
+    "tomli>=2.0.1",
+    # Not in the fork's own pyproject even though `serialization.py` imports
+    # it -- the cloud client happened to pull it in, and excluding that client
+    # takes this with it.
+    "PyYAML>=6.0",
+    # Here rather than with the shim because the shim has no install of its
+    # own: it is a directory on PYTHONPATH, so it borrows whichever
+    # interpreter imports it, and for the MCP arm that is this virtualenv.
+    "psycopg2-binary",
+]
+
+[tool.uv.sources]
+# The fork Toolathlon's own config names ("Toolathlon Version:" in
+# configs/mcp_servers/snowflake.yaml), not the isaacwasserman original.
+mcp_snowflake_server = { git = "https://github.com/lockon-n/mcp-snowflake-server", rev = "bca38f3ef5305ac53b9935bd09edbfac442b6a36" }
+
+[tool.uv]
+# The real Snowflake cloud clients. `redirect/snowflake` shadows both and
+# answers out of Postgres, so installing them would only shadow the shim
+# back -- and they are most of the install. This is the one divergence in
+# this file: same server, same tools, different bytes underneath.
+exclude-dependencies = [
+    "snowflake-connector-python",
+    "snowflake-snowpark-python",
+]

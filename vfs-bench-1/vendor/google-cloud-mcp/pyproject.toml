@@ -1,0 +1,26 @@
+# The google-cloud MCP server, vendored.
+#
+# Its own project rather than an extra of the repo's, so its resolve cannot
+# move the benchmark's. `uv sync` here builds `.venv` beside this file, and
+# `uv.lock` is the pin.
+#
+# This replaced a hand-rolled `git init` / `remote add` / `fetch --depth 1` /
+# `checkout FETCH_HEAD` and a `pinned.json` receipt nothing read, which had
+# gone stale twice. Everything it recorded is a field below, and this one is
+# enforced: a rev that disappears fails the sync.
+
+[project]
+name = "vfs-bench-google-cloud-mcp"
+version = "0"
+requires-python = ">=3.10"
+dependencies = ["google-cloud-mcp"]
+
+[tool.uv.sources]
+# Not `uvx google-cloud-mcp`, which is PyPI 1.0.0: that release gates
+# resources by exact set membership, and `ab-testing` needs the '*' suffix
+# this commit adds. The fork is the one Toolathlon's own config names.
+#
+# Nothing here points it at the emulator -- that is BIGQUERY_EMULATOR_HOST,
+# set by `server/mcp/mcp_servers.py` against the fake `bin/start.sh gcp
+# <task>` runs. The package is unmodified.
+google-cloud-mcp = { git = "https://github.com/lockon-n/google-cloud-mcp", rev = "7df9ca22115002e0cea75deec595492c520df3e1" }

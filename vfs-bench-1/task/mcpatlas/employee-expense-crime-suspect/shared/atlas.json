@@ -1,0 +1,32 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfd05",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "airtable_get_record",
+    "calculator_calculate",
+    "exa_web_search_exa",
+    "filesystem_read_file",
+    "filesystem_read_text_file",
+    "filesystem_read_media_file",
+    "filesystem_read_multiple_files",
+    "filesystem_list_directory",
+    "filesystem_list_directory_with_sizes",
+    "filesystem_directory_tree",
+    "filesystem_search_files",
+    "filesystem_get_file_info",
+    "filesystem_list_allowed_directories",
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes"
+  ],
+  "claims": [
+    "In February of 2015, the average expense per employee in the Car Dealership was 4259.72.",
+    "In 2015, a cybercrime was reported.",
+    "The suspect of the crime reported in 2015 was 28 years old.",
+    "The suspect of the crime reported in 2015 was a female."
+  ]
+}

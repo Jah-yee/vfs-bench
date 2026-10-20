@@ -1,0 +1,194 @@
+# Secrets
+.env
+.env.development
+.env.local
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib60/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtualenvs / tooling
+.venv/
+venv/
+ENV/
+.uv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# A leftover CPython WASI download. Nothing fetches it any more -- the wasi
+# runtime retired with the Python arm -- but an existing checkout still has
+# one, and it is 277k lines of interpreter.
+/vendor/cpython-wasi/
+
+# Run artifacts.
+# Every run writes its dump here, named after the run so it pairs with
+# `state/workspaces/<run_id>/`. Keep traces outside agent workspaces and
+# mounts: the MCP arm's `python_execute` is an unsandboxed host subprocess,
+# so a trace beside a task directory is one `ls ..` from the agent.
+/dumps/
+
+# Everything a seed builds and a run consumes: the fixture record and keys
+# the fake stack publishes, each run's agent workspace, the answer sheets
+# our seeders generate. `stack/` and `groundtruth/` are overwritten by
+# every seed; `workspaces/` keeps one directory per run, named after it, so
+# it pairs with `dumps/<run_id>.json`. Separate from `dumps/` all the same,
+# because `rm -rf state/` is the start-clean move and must not take the
+# transcripts with it.
+# This was `var/` until it turned out nothing had chosen that name: `var/`
+# is line 22 above, inherited from GitHub's Python template where it means
+# setuptools output. The whole tree was ignored by coincidence, and tidying
+# that block would have started tracking it.
+/state/
+# run_doc_batch.sh writes $OUT, which defaults to this but is often
+# overridden per batch; the graded verdicts it records end up in the
+# task READMEs, which are the tracked record.
+batch_results.txt
+rerun_*.txt
+# The agent's scratch directory, which moved to `state/workspaces/<task>/`
+# for the same reason. Kept for the checkouts that still have 46 of them in
+# the task tree.
+agent_workspace/
+# A snowflake task's fixture is placed relative to the clock it was seeded
+# against -- `created_at = now - 40 hours` -- so its ground truth is written
+# by the same pass that fills the warehouse and is only true of that pass.
+# Committing it would invite grading today's run against last month's.
+task/toolathlon/*/groundtruth_workspace/
+terminal_logs/
+# Scratch from a pin-replay audit whose script has since been deleted.
+# Nothing writes here any more, but an existing checkout still has 15MB of
+# it, and untracked is where it should stay.
+.replay/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.swp
+*.sw?
+
+# Logs
+logs
+*.log
+
+# Each vendored npm server commits both package.json and package-lock.json.
+# package.json pins the server itself exactly; the lock is what pins the tree
+# under it -- including @modelcontextprotocol/sdk, which serialises the tool
+# schemas the MCP arm is measured on. Only node_modules/ is ignored.
+
+# server/mcp/setup_notion.py installs Toolathlon's pinned notion MCP server here
+# and overlays its spec; 45MB of npm output, reproducible from package.json
+# and package-lock.json, both committed. One install for every notion task,
+# so the path is not task-scoped.
+vendor/notion-mcp/node_modules/
+# server/mcp/setup_howtocook.py installs the pinned HowToCook MCP server here;
+# its 1.6MB recipe corpus is the fixture both arms read, reproducible from
+# package.json and package-lock.json. One install for both cooking tasks.
+vendor/howtocook-mcp/node_modules/
+
+# server/mcp/setup_fetch.py installs the pinned fetch MCP server here. Its
+# bytes come from npm and are reproducible from package.json and
+# package-lock.json; the responses it serves are committed, in each task's
+# shared/web_fixture.json.
+vendor/fetch-mcp/node_modules/
+
+# server/mcp/setup_memory.py installs the pinned knowledge-graph memory MCP
+# server here. It stores nothing of its own: the graph it serves is the
+# task's memory/memory.json, copied into the agent workspace per run.
+vendor/memory-mcp/node_modules/
+# server/mcp/setup_filesystem.py extracts Toolathlon's exact filesystem
+# server dependency closure into this vendor project.
+vendor/filesystem-mcp/node_modules/
+vendor/browser-mcp/node_modules/
+vendor/kubernetes-mcp/node_modules/
+vendor/canvas-mcp/node_modules/
+vendor/woocommerce-mcp/node_modules/
+vendor/kubernetes-bin/
+
+# server/mcp/setup_calendar.py installs the pinned Google Calendar MCP server
+# here, unmodified. Where it points is not in the package:
+# redirect/gws_calendar/calendar_hook.mjs gives its googleapis calls a
+# rootUrl on the mock GWS.
+vendor/calendar-mcp/node_modules/
+
+# server/mcp/setup_huggingface.py installs the pinned mcp-remote bridge here.
+# It carries no tools of its own -- it relays whichever endpoint it is aimed
+# at, which for this repo is the local Hub fake's MCP port -- so what the
+# lock pins is the relay, not a tool surface.
+vendor/mcp-remote/node_modules/
+
+# `uv sync` builds this server's virtualenv here. Reproducible from
+# vendor/snowflake-mcp/pyproject.toml and uv.lock, both committed -- the
+# lock is the pin, so nothing about the checkout needs keeping. The rows the
+# server serves live in Postgres, seeded per task.
+vendor/snowflake-mcp/.venv/
+
+# `uv sync` builds this server's virtualenv here. Reproducible from
+# vendor/google-cloud-mcp/pyproject.toml and uv.lock, both committed. The
+# rows the server serves come from goccy/bigquery-emulator, seeded per task
+# by server/seed/seed_bigquery.py out of upstream's own CSVs.
+vendor/google-cloud-mcp/.venv/
+vendor/emails-mcp/.venv/
+vendor/pdf-tools-mcp/.venv/
+
+# server/mcp/setup_github.py clones Toolathlon's pinned fork here, patches its
+# GHES URL construction to keep the port and builds it for this machine.
+# Upstream ships a Linux x86-64 binary and says so itself; the commit is
+# pinned in the setup script, so both the checkout and the binary are
+# reproducible from it.
+vendor/github-mcp-server/
+
+# task/toolathlon/script/setup_wheels.py fetches these from PyPI and checks
+# each against a sha256. Pure-Python wheels the sandbox mounts at
+# /opt/wheels so 29 of the tasks can open xlsx, docx, pptx and pdf; the
+# runs are not reproducible without them, which is what the digests are
+# for. 1.5 MB.
+vendor/wheels/
+
+# task/toolathlon/script/setup_pyodide_packages.py fetches these from the
+# pinned pyodide CDN.
+# The npm pyodide package ships the lock file and almost no wheels, so the
+# mirage arm points `packageBaseUrl` here to keep package loading off the
+# network at run time. 17 MB of wasm, reproducible from the setup script.
+vendor/pyodide-packages/
+
+# Generated by setup_upstream_python.py.
+vendor/toolathlon-python/
+
+# Original paper/Forms source checkouts and environments, rebuilt from pins.
+vendor/arxiv-latex-mcp/src/
+vendor/arxiv-latex-mcp/.venv/
+vendor/scholarly-mcp/src/
+vendor/scholarly-mcp/.venv/
+vendor/arxiv-local-mcp/.venv/
+vendor/forms-mcp/src/
+
+# Original travel/video server sources and installed dependencies.
+vendor/maps-mcp/node_modules/
+vendor/rail-mcp/node_modules/
+vendor/youtube-mcp/src/
+vendor/youtube-transcript-mcp/src/
+
+# Checksum-pinned Linux sandbox installed by server/linux_sandbox.py.
+vendor/sandlock/

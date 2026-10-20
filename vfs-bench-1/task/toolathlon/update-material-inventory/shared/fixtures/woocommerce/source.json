@@ -1,0 +1,345 @@
+{
+  "task": "update-material-inventory",
+  "service": {
+    "sandbox_id": "icofydk90yb4tk69c3jqs",
+    "task": "update-material-inventory",
+    "service": "woocommerce",
+    "template": {
+      "template_id": "cdzx5etlp6mahnu3ubrg",
+      "build_id": "91783fd6-caa7-4a77-a492-b80a128137b3",
+      "name": "vfs-bench-kubernetes",
+      "alias": "vfs-bench-kubernetes",
+      "tags": [
+        "default"
+      ],
+      "recipe_sha256": "de0ee493f085a587702933ce1cb17e6805b3ccb08a40ff0714f1aeb598f0f56b",
+      "cpu_count": 2,
+      "memory_mb": 4096
+    },
+    "inputs_sha256": {
+      "deployment/utils/build_proxy.mjs": "aee64c441ec88ae17eff1736f440798eb992c3e2c42d137ff7581482e6228ad7",
+      "deployment/woocommerce/scripts/fix_permissions.sh": "632e8c0bf2cdf21a6240d525db42ba01041bdb99f8a9a757ab7a5736a3333eda",
+      "deployment/woocommerce/scripts/setup.sh": "dcac75a653a9a55dc4082aab5ef9d217393f28c0c0468d8ffe3f00e1148351b1",
+      "tasks/finalpool/update-material-inventory/docs/agent_system_prompt.md": "dd10d7cac47b0c35a7f43e894c0c014d059970202d54f7c8578e367f76b0ebad",
+      "tasks/finalpool/update-material-inventory/docs/task.md": "b992e77b30485c72b006c319f33876258336ef8a4850372aa5e9ad79683574ff",
+      "tasks/finalpool/update-material-inventory/evaluation/check_sheets.py": "45c207203b26356ec0b6bab132b22670e228297c8f90f6cd7cc82b127dcd88f4",
+      "tasks/finalpool/update-material-inventory/evaluation/check_woocommerce.py": "fc006a3ea58baf89ca9b27dee62bd30e477ec0ebc61aee1a67ccd0474e0c9aa3",
+      "tasks/finalpool/update-material-inventory/evaluation/main.py": "30ebdd6d44cb73ebcedf3d39f374c7a04c42770f50b54c04f01a3f689fe39469",
+      "tasks/finalpool/update-material-inventory/files/folder_id.txt": "4576a3e6001f9711e4a3d49125ba366c2eb9558bec1ccc3794e430d38e55eee0",
+      "tasks/finalpool/update-material-inventory/groundtruth_workspace/expected_results.json": "b143e727864c998c5e92126583682e230aa5c61542726e29382da4311738fd17",
+      "tasks/finalpool/update-material-inventory/initial_workspace/config.json": "70f864583a840bcc686a2db5af55eb3c1980e13d100deea5c8c231365e4504e5",
+      "tasks/finalpool/update-material-inventory/preprocess/calculate_expected_results.py": "28adb054b4e0b1a52c1d2b0cd31508f8d0fb3a79153c856b6d427eba57ee325f",
+      "tasks/finalpool/update-material-inventory/preprocess/main.py": "692d31acfa1fc99cba758a96cc1c6748fc02c5943d647e7efac8df08c0decffa",
+      "tasks/finalpool/update-material-inventory/preprocess/order_simulator.py": "f44d60ea0efa77f87410918c9374a69c7b8a3f035ce696177e18649e28bf04ba",
+      "tasks/finalpool/update-material-inventory/preprocess/sheets_setup.py": "d079897ad09dd3bb31ee40354a2106d65fdf62082eeb7a1843cb51265c85c387",
+      "tasks/finalpool/update-material-inventory/preprocess/test_orders.json": "187eeb7fc64f8a4bed26d2028c52396bf2ef1e1f69c258503c0a167eb2ff5e82",
+      "tasks/finalpool/update-material-inventory/preprocess/woocommerce_client.py": "4d1212f76cbf2fb8b9b83698a46e6982dfcdca6226dd5e2e1719796391e82d7a",
+      "tasks/finalpool/update-material-inventory/task_config.json": "d58665fafe992bc35b9f479e8508a6c5002b9dd970c3d05138f569264dfb9346",
+      "tasks/finalpool/update-material-inventory/token_key_session.py": "26a1a59c87bb29bd25e70af769535acdf2c34829d545b56444129d47f52a3ee5",
+      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/api_model/api_utils.py": "bc16f1f5740d532244f287996c18517e1e059d610f978770a04e9af5072cea87",
+      "utils/api_model/concurrency_manager.py": "b3205dcb9dda56c77911868be6121f442de92292963008a15690912596151517",
+      "utils/api_model/model_provider.py": "bc9a054d9a1c70712b8eb3a57d0695ca6cd69470813c4a253560045add5109a3",
+      "utils/api_model/openai_client.py": "e527384217412e6d261a26fa9094ef1504002480a7e105a2751fc0b442c8f9a5",
+      "utils/api_model/semaphore.py": "6b214a86c04acfd1f232f562d445f3223496203a6beb561d24806dee2c67ae88",
+      "utils/api_model/usage_stats.py": "3d70fe31e078f77ac960d5491716b773fc10e84c4a3f5a079208bb2d0ffd60c4",
+      "utils/app_specific/canvas/__init__.py": "076ff9b276443efce387f794f77310dbf40a010b5dc3fb873f8487a06e1434d2",
+      "utils/app_specific/canvas/announcement_manager.py": "9e42e23783cd02b9fd726cbcc1137575775ec717949208cf38736e3455fdd1ad",
+      "utils/app_specific/canvas/api_client.py": "66f69ef5fb900d5d2b6c51f3493608c43a95f977c29a67f20a4e85bda25338a5",
+      "utils/app_specific/canvas/evaluator.py": "710ee6977fd733445225318eea592fd4d75f7dbbca2856c6a2b96781fac9de79",
+      "utils/app_specific/canvas/preprocess_pipeline.py": "6b33ca77cf988d745eb8cfd90051eae350b1e58c462e2ab72b3a5df629b1777a",
+      "utils/app_specific/canvas/quiz_manager.py": "40c6f6ed07907c90513f98ab37c8c2b787615b0327ae0249ebdbe7484a9304b4",
+      "utils/app_specific/canvas/tools/README.md": "63008dcada300917e5206e38763b268fd002b0a8c9c0fbb0f19e584d5ed4c423",
+      "utils/app_specific/canvas/tools/__init__.py": "aa1a495d4f7c4323326a9f7774a27b1d8355f5665859f554bb47643bcd230713",
+      "utils/app_specific/canvas/tools/assignment_manager.py": "ce805c019a73e079ab89cdc5c486ce193505b27f64e5efc26559afbc198936ff",
+      "utils/app_specific/canvas/tools/course_manager.py": "260779ff371e186c0d4b1130eef8b6eb7bebef066c3fc0498a49934bf84d7227",
+      "utils/app_specific/canvas/tools/delete_all_courses_auto.py": "112a3cb73ea91ac28693f1aaa2d3a2d4263f4730d6a2b2308479b3d1e6d86b87",
+      "utils/app_specific/canvas/tools/initialize_course.py": "b59c303f3594b0dab0597f8237e6af59ce40057151497f04cfe068933e5a7b26",
+      "utils/app_specific/github/api.py": "0a2a7526b4d2e087faa64aceeb21d6f9ff4d870aa5632ff9cf1b8a75f1a197ab",
+      "utils/app_specific/github/git_ops.py": "f3fcfceaf027b644bb4e4b279bbb652097ba60eef3830463a4df1204abc6026b",
+      "utils/app_specific/github/github_delete_and_refork.py": "dacc0bfe210091890efb9e87df1bfb8645897d5b8016e716d74406a35bf74558",
+      "utils/app_specific/github/github_fork_to_independent.py": "b88bc1acbb8497ba88e09e735e34c4c5d76c84a7a18534c154af9a5c1db342e1",
+      "utils/app_specific/github/helper_funcs.py": "c710619bfa136ae8d8f82c068372265bc4790f54ffe6044c9ee712da45c26381",
+      "utils/app_specific/github/repo_ops.py": "1a8dce249a820d21d6e7303939d399f56996af4a403dbcca95dd7cdb3598ebbc",
+      "utils/app_specific/google_api_retry.py": "05e0f086aa4439b6547476190cb29f9511bd1bdeaa93edbcbac3fc83b82c409b",
+      "utils/app_specific/google_form/ops.py": "e2f114be9754517b15d960efcfad530e92354aab43e5bb35ae636a643b98086d",
+      "utils/app_specific/google_maps/__init__.py": "bdee77999ff6aff6a763805be7dd850a5e6270b8c59929c9447c8a8549908507",
+      "utils/app_specific/google_maps/google_maps_mcp_client.py": "1de77feaefb6093b2a1d77c411334afe82a156d35617c654be72793a0f3f4b1e",
+      "utils/app_specific/google_oauth/ops.py": "e0edc4269ba59562bd363578ccd1fb121d1a6ccc6e475b3db36fc6f4236d28ed",
+      "utils/app_specific/googlesheet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/app_specific/googlesheet/drive_helper.py": "ee58cd5f0c3c1c274a832c3c26d3c8eb04808216a5080d077cfeca503efda781",
+      "utils/app_specific/huggingface/datasets.py": "546aa05802af3308e9e29f90bd5ae7943b7777e1f01c84020745879f02017b1a",
+      "utils/app_specific/notion/notion_login_helper.py": "3a288114c8e31af6980c5a085cb677518b52154a16a34f1eea422accc9134aa8",
+      "utils/app_specific/notion/notion_page_duplicator.py": "0d239ac297debb2039f03a190367d39026728b1e8bd803e57e3d09f684050c9a",
+      "utils/app_specific/notion/notion_page_protector.py": "961de4351b6ea90714af86780de31264c7b9465a4a47fd747e67cf3fa89be8d8",
+      "utils/app_specific/notion/notion_remove_and_duplicate.py": "51d968595de1f92ca6e3946fd900e56442560b4a54a7ed573d772c9929c9fb96",
+      "utils/app_specific/notion/notion_remove_page.py": "1c5deb17b97b864b7fedbaef7acb549f29b20a8fe82724e8d50be6e6b36e38df",
+      "utils/app_specific/notion/ops.py": "19b43050265b283432d760ac3657aea93e5c8c262a0ef99cddbc25810d66d516",
+      "utils/app_specific/poste/checks.py": "bb5c01e7f126a282bcc65e3d80e6067b720ed72ab0a5075380fba73707fe9ebe",
+      "utils/app_specific/poste/email_import_utils.py": "f467004d7f4572a49f1a92208874074c4a2d85017bf645cbcc5f7f52b456527f",
+      "utils/app_specific/poste/expense_checker.py": "1b844bc3ec2043e5907a228a1a9ca80239dd2d315139ac2925ad42581e4429f2",
+      "utils/app_specific/poste/local_email_manager.py": "a8037b600ff6a498614c710d15fb75a5064054f8af4c8c476427975957a2b55e",
+      "utils/app_specific/poste/ops.py": "4d782d28208a04ec4b8640cfd44550a5e2121c462400ca051d0e16bd94fbdae6",
+      "utils/app_specific/snowflake/__init__.py": "e54d27bf77ea00cc1c6d6769d7a6057d1392fb4a2dbe6487d1675239f3cdef13",
+      "utils/app_specific/snowflake/client.py": "02ab6b0bb056688b137b290ea811a86fd1dfdf10d930ec06a0a1dab54a26b28a",
+      "utils/app_specific/snowflake/helpers.py": "fa4951d715a36afa24e39012152efb4f7471e1609d8000549f757bb7cfe5d142",
+      "utils/app_specific/woocommerce/__init__.py": "1cab3d814364df7bb506047f9091b77f354f7234adc2eb1c81b84d7931dbec1d",
+      "utils/app_specific/woocommerce/client.py": "056008ce9f7c87fa393d9cc317bd7a5c83d4b78a932d6d241cdd224f1c7d6b7d",
+      "utils/app_specific/woocommerce/order_generator.py": "bde2047f9436a7f55781085e36a886f7e004cdd2443e2a2baebcae76a3bf8efe",
+      "utils/app_specific/woocommerce/order_manager.py": "e16c8372d7f657e92de26604a4e22b411eff61335986d4a073f6bde06442f680",
+      "utils/app_specific/woocommerce/usage_example.py": "b631e2d0f49de3c65d2a63f2db483328cf31b1865964f3f721dac69f30794fa7",
+      "utils/aux_tools/ai_webpage_summary.py": "2ce0ea87918abb97971063d29623161ae39b342e2308752bbf5509d22487c50a",
+      "utils/aux_tools/basic.py": "971429c163eb11fe9fdd39a22f3b7a5cc8439fcf7745901f553f5238ddf1671c",
+      "utils/aux_tools/context_management_tools.py": "c8393da34990d9e049db8fe092bc45137259a810d27b9099b9e1fc5aad04c5b9",
+      "utils/aux_tools/history_manager.py": "6a86314e00e8e48e4c221fbf09be00c3ed57fde4bf567204d1013bb8407546fd",
+      "utils/aux_tools/history_tools.py": "491dcea01570f48d24c0e0f1fc52760869bfb4085c4187798fdb48ab6c36a4d7",
+      "utils/aux_tools/overlong_tool_manager.py": "8c39cf8939b67f96787d49b2395097ecc0eda1a5c48e03a0f52e8913aa6c3c4f",
+      "utils/aux_tools/python_interpretor.py": "b05311bf353cb06b7a512e63f07410b80da33107a625234f67c93507782aa2d2",
+      "utils/aux_tools/web_search.py": "15e89c72ff66ec159bf44f3c7cd0397b3acbed8bd83a4100c79ff7223982ae21",
+      "utils/conversation/conversation_manager.py": "5f504b791174d6f98039f23d75fb8cae0b2abb80e857cd9961d8dad58c370a99",
+      "utils/data_processing/process_ops.py": "61fb7a1164ec50af369f856f2a60c1413f7379bd1c471aba55593d193992e200",
+      "utils/data_structures/agent_config.py": "7729f5e5e68492ec28e419dc9acae23bfe60ea3151c9ebf2c111034de6ae9ba6",
+      "utils/data_structures/common.py": "91f67fb3d05140190fad71844ebe697be07b0e2a622a7db34d9f9b14639ed148",
+      "utils/data_structures/mcp_config.py": "da2a7098b1062343583da44365951d393715e0c1a94e7d1b385c2d3078d2eedf",
+      "utils/data_structures/task_config.py": "da9f87c487dedddfb049a4d2b7d4b048f143511f2306beedf535dfebcfac7a2e",
+      "utils/data_structures/user_config.py": "ca99b52844057bb965fe2222879aaed33321c9302d2ae30303b8d2ff8deb0cbc",
+      "utils/evaluation/evaluator.py": "7fd166e18d9ea114ddf9dadfc93acf2d55cb4b4f09c64e7ed01702d6a0e66ee7",
+      "utils/evaluation/retry.py": "db11e66ec241e1c5d00327b0bf7209c20323c4582c827e62b7a261235c17f69e",
+      "utils/general/base_models.py": "9b843ce6c40f1b2893a5ca21aea3d522746c38c931c1c0544124e2b453045365",
+      "utils/general/helper.py": "6a2a34e57c66df1021e95f2a3a4ae6faca394f1d1114cd448afd137d44dde0a7",
+      "utils/general/port_monitor.py": "f87ffd2ec69faa7642baa755a42f6ec97da224799045c4f7d24f18101f65690b",
+      "utils/local_servers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/local_servers/arxiv_local_wrapper.py": "36ee676ded2846fef0656ac12ee47b33516176b9df4c6415c2203c6191d0122e",
+      "utils/local_servers/pdf_tools_local_wrapper.py": "3d86502cda09fa6739460c9ea123de885245c4fd26fa95366da2a157f86c0382",
+      "utils/logging/logging_utils.py": "156918dd4b1b9e55c8f51dd1232632dd47c0fbd8407ca72c50dbe5f4609ff523",
+      "utils/mcp/stdio2sse_server.py": "6936007fd03886c8c15bca1c3a23e29ca15683d414c05c1e2e2becc8b6d98782",
+      "utils/mcp/tool_servers.py": "7a3472ad73d7721b426ad450115a673e5d3af13ca5ff71cdd07b10ad5fde43c2",
+      "utils/misc/tool_manager.py": "585b2e10979487fb2ad5f6132d7625c5ee4d1f8b0f5b25a1f13fb03eb35c6018",
+      "utils/openai_agents_monkey_patch/custom_mcp_util.py": "851174c3a2a7cd8658d58fe38972ec5a4ad87e8fa62f7f81996f61fbd4005a79",
+      "utils/openai_agents_monkey_patch/custom_run_impl.py": "4b47665705916adf680ceb6d4cbb96a46646106e2d216b27b1bc6f0f2ef0f878",
+      "utils/openai_agents_monkey_patch/test_tool_adapters.py": "9f8d6fe59225ed5ef6c98efba0f088909913c9ea8e13f85c4a39d743bc0fc23f",
+      "utils/openai_agents_monkey_patch/tool_name_aliases.py": "73d2652caf764e48e5a8832a6cdbc629e6d6d95ada8e33fe4b52a2ea76c0f517",
+      "utils/roles/context_managed_runner.py": "f8ae98e9b9d2cff4ff0ba307cce1cb220db9116f8625014d68de21f454505abd",
+      "utils/roles/task_agent.py": "990e59987caae118c09241f6f5a3efdb6aa22a756467406b2486ea2ccb4cb52f",
+      "utils/roles/user.py": "73a3c07ce1817b91f01ce0609d357cb547ea1c346c6638f382ff5382280873a4",
+      "utils/status_manager.py": "0d6a608c682488b3ee6c61bad279fa206013e5c7ac35ffc6172dac44960ed9df",
+      "utils/system_prompts/ccexample.txt": "6837d2c851870e873ef1de52a99d2ef9a714f321c60fa75a6ccb8299c729b006",
+      "utils/system_prompts/general_v0.txt": "e23def3bda4b02b95c4ae244bd632446d79706e47c1f3c8799b102454f5e67f1",
+      "utils/task_runner/hooks.py": "4a7d40775111c202a6bfbc3fc4d450b7c78795e89131776ca8e6d9398b3b8d9c",
+      "utils/task_runner/runner.py": "6a24fde32ad0085d0feadc6178b48423b7b0546b7cab38335660ff3fb79a26eb",
+      "utils/task_runner/termination_checkers.py": "247783bacc648a3333259ee3681c043243202f83d9d6a2774a93d97671364cc1",
+      "configs/users_data.json": "4b7cca96fbaea1c9a8c5e94bd784b4b3f191a134b5bd39660c57cb181c322295",
+      "uv.lock": "9896d725eada7cfcab8b4426c47994b46bffb20718bba029aa0bdd34a938f068",
+      "configs/global_configs_example.py": "fd01827515de380177195c69010bf6c03b68e2a8843dcb2dcac68a4dc62dd932",
+      "configs/token_key_session_example.py": "36ba8a9f86e6bc99c0f174c2a935bc3ff28d7348d4b751dbeddecf57fab0194a"
+    },
+    "images": [
+      {
+        "Id": "sha256:6cd09145362dfe6831b14545de3d5fd6cc75c37cfd6ef8561429c1fc73518b39",
+        "RepoTags": [
+          "mysql:8.0"
+        ],
+        "RepoDigests": [
+          "mysql@sha256:7dcddc01f13bab2f15cde676d44d01f61fc9f99fe7785e86196dfc07d358ae2b"
+        ]
+      },
+      {
+        "Id": "sha256:23b4634bd0716eb39373f5671480dc1bb58e4552bd9c0f428899e58d0c801dd8",
+        "RepoTags": [
+          "wordpress:6.8.2-php8.2-apache"
+        ],
+        "RepoDigests": [
+          "wordpress@sha256:9973c15252ea54260c711e1074c96864acabebda379c664e812fa9bfe6fef268"
+        ]
+      }
+    ],
+    "dependency_sources": {
+      "images": {
+        "canvas": [
+          {
+            "source": "lbjay/canvas-docker",
+            "pinned": "lbjay/canvas-docker@sha256:8d6b9efe3c2228008aa85d404a6a3e9acaf0ca7d70aea7374482bf7133a875d8"
+          }
+        ],
+        "woocommerce": [
+          {
+            "source": "mysql:8.0",
+            "pinned": "library/mysql@sha256:7dcddc01f13bab2f15cde676d44d01f61fc9f99fe7785e86196dfc07d358ae2b"
+          },
+          {
+            "source": "wordpress:6.8.2-php8.2-apache",
+            "pinned": "library/wordpress@sha256:9973c15252ea54260c711e1074c96864acabebda379c664e812fa9bfe6fef268"
+          }
+        ]
+      },
+      "setup_sha256": {
+        "canvas": "f499a5ebea33212507562260ddabe0b4f9f78fb1ca1f40d6224e8114987fa2d4",
+        "woocommerce": "dcac75a653a9a55dc4082aab5ef9d217393f28c0c0468d8ffe3f00e1148351b1"
+      },
+      "wp_cli": {
+        "source": "https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar",
+        "url": "https://raw.githubusercontent.com/wp-cli/builds/05989a431e982caf17cd94508ff9b4c5fb12ae44/phar/wp-cli.phar",
+        "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c"
+      },
+      "woocommerce_version": "10.7.0"
+    },
+    "sheets": {
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1S9BFFHU262CjU87DnGFfP_LMChhAT4lx7uNvwY-7HoI/export?format=xlsx",
+        "sheet_id": "1S9BFFHU262CjU87DnGFfP_LMChhAT4lx7uNvwY-7HoI",
+        "title": "RawMaterialInventoryManagementTest",
+        "tabs": [
+          "BOM",
+          "Material_Inventory"
+        ],
+        "captured_at": "2026-09-09T13:15:22.162898+00:00",
+        "source": "tasks/finalpool/update-material-inventory/preprocess/main.py",
+        "source_sha256": "692d31acfa1fc99cba758a96cc1c6748fc02c5943d647e7efac8df08c0decffa",
+        "sha256": "f374461ce5e34fc9bfb26578c75b883e541c0a596ecb0931f368f9f773491ad6"
+      },
+      "inputs_sha256": {
+        "submodule/mirage/integ/fixtures/gws/v1.json": "88fb4a1bbf7e50172a8150363e3dda62c9cae0b20e97925b80873bf8c860341a",
+        "submodule/mirage/integ/prisma/gws.prisma": "169193a2d9a78f1094a2dd071f61a08943ccb9a4ec2267e96ce5b8d62bf8eb8c",
+        "submodule/mirage/integ/server/gws/calendar/event.ts": "a7d0f5f4541bf76cad4b415a092253af41bb531658baf378b4406fc19e8a8211",
+        "submodule/mirage/integ/server/gws/calendar/routes.ts": "5250e35a5b2988472d8dd7957ea0915189157c29a7e22707953edfecd526d8e2",
+        "submodule/mirage/integ/server/gws/calendar/zone.ts": "89e47cd753ca4e7021afdd1d28fe85a88bf592657bf8fec56423cfebaed01ff7",
+        "submodule/mirage/integ/server/gws/docs/batch.ts": "1d1ef577886eb5db977247c79ad29d5ca112cc1b35155db770f2638d1c893ed0",
+        "submodule/mirage/integ/server/gws/docs/body.ts": "d0012444ecdae0cf16257c8e8f389501a9f06a0eb0b3d91bd693f01fe872a5ed",
+        "submodule/mirage/integ/server/gws/docs/routes.ts": "9aed9717ac0c1b26dc012d72c5c8f09e76be01a03d77937f9d570213f10d988d",
+        "submodule/mirage/integ/server/gws/drive/item.ts": "7738ec58fa23fdf454ad783a35a39a11893ba47ee9f60e3e44e31d7fa1e9564b",
+        "submodule/mirage/integ/server/gws/drive/list.ts": "9c81494655733e062136a4925dce389961b7b0f734b3c7d1f61e8fd67746511e",
+        "submodule/mirage/integ/server/gws/drive/query.ts": "71f90d2ffdc159c9823dd9d68bf0de793013fb554925c4670058196b68ecee46",
+        "submodule/mirage/integ/server/gws/drive/routes.ts": "81e5699cb4ceb2f53b1c2ec4fc56ce165b83e45e4c4f8913e5647b8d0c8a08b7",
+        "submodule/mirage/integ/server/gws/fake.ts": "102b201af913024196632bc0132c7414f431a5998dd409d5440e152324d19ec6",
+        "submodule/mirage/integ/server/gws/forms/form.ts": "248fe647872d66a711f2ee5eeb1c97adc4d82cd21c134160d54c84ce4c205917",
+        "submodule/mirage/integ/server/gws/forms/routes.ts": "4a97579c7ff0cefa7d57ff895d293f805ae9923ac456540f0caa6319d90677cc",
+        "submodule/mirage/integ/server/gws/gmail/list.ts": "07b5e0b27ce1dae97e8da3123f836f2f658b2e9b965518faf425b1582e0e3356",
+        "submodule/mirage/integ/server/gws/gmail/message.ts": "dd5a3ba1fb4eb79852ee1d28fa20d6681eba59379ce8d25d78912a9c73507235",
+        "submodule/mirage/integ/server/gws/gmail/mime.ts": "ff4ab26486bd192cf96b8390beafda355bac7e3f686c4a5c612805b046fa6e69",
+        "submodule/mirage/integ/server/gws/gmail/query.ts": "1668c69eb8f7c1cc22bdc29a2186313e02caa38db09cdda2e5e5ea64081fd72c",
+        "submodule/mirage/integ/server/gws/gmail/routes.ts": "f52bbc052a0527f93f84b3d17c98209aa1d43b774fbbc5ca9a981ebb4c426ff8",
+        "submodule/mirage/integ/server/gws/main.ts": "685a46fa5dddd69fd0e4d7fd8035ddc07929bdd71a3b69118af2dcc0042fae13",
+        "submodule/mirage/integ/server/gws/seed.ts": "cf12f9eef0450f5df89162ebe96f4d3b610a1808576fe6894be4a041e5c79086",
+        "submodule/mirage/integ/server/gws/selftest.ts": "d1441d906d6dd199f50aea52dcc1fcfb84fce8a59cfa9a18d4bd9ecb62209e93",
+        "submodule/mirage/integ/server/gws/sheets/a1.ts": "c017f4aef461a6f00fe75f627e910e441f1426b5e5d776c619d6bcb3b8c83249",
+        "submodule/mirage/integ/server/gws/sheets/batch.ts": "728eb131aa95de49818db03a9867d622ace94ad4900d505f63c7886ebd482bfd",
+        "submodule/mirage/integ/server/gws/sheets/dimension.ts": "4323cc98304b09f0e6930c982e8666331ad504e5c87807c512fabf598a386727",
+        "submodule/mirage/integ/server/gws/sheets/grid.ts": "14778eb131850834c54a3e0d943e392797c2b3cceffd88cf301360ddf6ee0167",
+        "submodule/mirage/integ/server/gws/sheets/routes.ts": "28ec39560ca9af228932b46d98b0f26c6795a7ac28eb55a7db35b1a2b19cc1f5",
+        "submodule/mirage/integ/server/gws/sheets/values.ts": "3782294e55d930d7b446470d818dbddf77c1fbaf813011d583ab0608d9f5f0dd",
+        "submodule/mirage/integ/server/gws/slides/batch.ts": "dabc6aedff016d850875003007ea7c8ec640c521d52419ab429608fac6f9cda9",
+        "submodule/mirage/integ/server/gws/slides/page.ts": "c002fa0da7d1943c4e48556f37c0749ea85e6193f139f1c3f0e57c1994b1a61b",
+        "submodule/mirage/integ/server/gws/slides/routes.ts": "675fd9fedc31e67e03e2e7e541e88c09540fd4d06f2d7c70b5ff5733623fad2b",
+        "submodule/mirage/integ/server/gws/store/cache.ts": "f27e82bfa2a54a68ddcec28fc1abd9ddc95f91833c900c156f1bc3c0f1e955cd",
+        "submodule/mirage/integ/server/gws/store/client.ts": "5346b5c85771b30f5904e4d090efa53c7e9df63f18deb8db9352443666f051dc",
+        "submodule/mirage/integ/server/gws/store/load.ts": "42c8631099683aa12efcf2362d3f650457bc99c4f6c68500bdf737f2b0858393",
+        "submodule/mirage/integ/server/gws/store/save.ts": "ab92d586b7a74577bd804e39ad89c94ae9014335de42d09570f1cac4da8218e2",
+        "submodule/mirage/integ/server/gws/store/state.ts": "0ca6896bdfeb9121c4c3f4f931e5a078ece58ed63d26a12b4d0a4cb04c8cf030",
+        "submodule/mirage/integ/server/gws/store/types.ts": "88ea2377ab48757c5a55fb0be0e4791df29d18657b2f9d836609ee49fe0fbf1f",
+        "submodule/mirage/integ/server/gws/wire/json.ts": "18d04c7bc469410fdc7e81262ca1301dcfc456c4d1fc39386b6cfccf1f6a23e0",
+        "submodule/mirage/integ/server/gws/wire/mime.ts": "a2039090600c85b69535b329b57cd354d87a1bae7fd245f6f87733cf941afc01",
+        "submodule/mirage/integ/server/gws/wire/reply.ts": "7ca65ca2ea9a99fb25e2cf0ac061c859de3f34c055c0694f9e5ecc97a954c991",
+        "submodule/mirage/integ/server/gws/wire/route.ts": "9a9d6b8ae1db1a9d3acadb7e44390c537e0b0c48dd2fbccc7b3cf0d013515216",
+        "submodule/mirage/integ/server/kit/selftest/fake.ts": "80df9dcd80f47355541a8bee49c13081df24fa25e438505f83b60c76257ccf38",
+        "submodule/mirage/integ/server/kit/selftest/main.ts": "2145abad0bb4a4fa85f5e9ad0c09667d1fcae0e42e0246908f53b06202633e46",
+        "submodule/mirage/integ/server/kit/selftest/run.ts": "f2664fb4ff7f312e220fb66592a4fed9c87d20dcd45d253b1409114011fb7a38",
+        "submodule/mirage/integ/server/kit/typescript/announce.ts": "54e486607b930bf53c5c26d8e9cc62b30da8cfbb75f8527efa54db488d4be23f",
+        "submodule/mirage/integ/server/kit/typescript/base.ts": "a4115f0b7a278cb071228efb971d55feeaa4b627b2c4a6f3ce7ebd4fa234f521",
+        "submodule/mirage/integ/server/kit/typescript/bind.ts": "f528077bcfc3f368c05a7c1aa8ba7d97a4a022abeed2ce5d5f0ef097d150a547",
+        "submodule/mirage/integ/server/kit/typescript/clear.ts": "5c7a5f0cf61ab7e5de86f6a87e6807ff731c0837f319dac631f1bfff19342085",
+        "submodule/mirage/integ/server/kit/typescript/clock.ts": "6e17bad4d67093a4d1f95837bc7784ae501fd6b055c61ffb41386d7d320b1145",
+        "submodule/mirage/integ/server/kit/typescript/config.ts": "d061a1dab1682e69c5f6e82b1a35c5d7328d797e222acf9ea24188e3ad72d749",
+        "submodule/mirage/integ/server/kit/typescript/db.ts": "aa548529a11ce4cf78277aec5e8d7a6d233eab6c72472cb4a561312eacb6b2b6",
+        "submodule/mirage/integ/server/kit/typescript/errors.ts": "bb535bbd33924c02c4ecf3d820c8e615c9315a5800909a46870cec867543ba62",
+        "submodule/mirage/integ/server/kit/typescript/fixture.ts": "1bd1d90c6d0116e65d3298aca755dad5abd82c4c6f7a395faccef08ff7260a0b",
+        "submodule/mirage/integ/server/kit/typescript/http.ts": "52669c15017f168632abaf37b3fc751dbc33543d3ea6dad281a4c3494ddea1a7",
+        "submodule/mirage/integ/server/kit/typescript/index.ts": "88760753f13b10f9965ca47142cf8fedb04c62778fcdc2d90129d67a052c7c46",
+        "submodule/mirage/integ/server/kit/typescript/mint.ts": "fbbb8423fd46efe5957235efe203b7c591d886acc8dd17956af5a4cd031b0fa0",
+        "submodule/mirage/integ/server/kit/typescript/port.ts": "4d3fc739abf43a78be003032024aa6c0914dd633b56cb73278e3241e980868f1",
+        "submodule/mirage/integ/server/kit/typescript/range.ts": "8de8e175790d1b4e5213c4fdb2b28bfa7642485aa1b908426b9e6056792f70e9",
+        "submodule/mirage/integ/server/kit/typescript/reset.ts": "7291700ef77127ca422a5a6335d19d2dd9289bb74fadbd592298fdaef1bd3c0f",
+        "submodule/mirage/integ/server/kit/typescript/route.ts": "bb696a04f8309b521689df1af881080a2573e6e17b2faeb5671fbbb5958b73cb",
+        "submodule/mirage/integ/server/kit/typescript/seed.ts": "a4b798cb9a308f0837824e33240bad8cdbda60491d5bb8f1407345cbbeb9cf74",
+        "submodule/mirage/integ/server/kit/typescript/serve.ts": "9d5c543f3b3d8767f70e1afdc0df047857c91594ef5b57129157ec7f2f10aaaa",
+        "submodule/mirage/integ/server/kit/typescript/tenant.ts": "4cbdb2a5222759b421bbebb693b619983fe9e5a36e8cd0b96c4486e008eeec83",
+        "submodule/mirage/integ/server/kit/typescript/types.ts": "5deebf98de7e2d85e5d2a56d38c776f6592765f89677427ca5375d3269f0d835",
+        "submodule/mirage/integ/server/kit/typescript/unrouted.ts": "799827876e786bce5e14011613de079e9e9a2df38b270a07c597e01b97115249",
+        "submodule/mirage/integ/package.json": "b568b7f37d889eb1aabf4cf2d066ba6fe92e1cca978e941860a1c92d982f3b22",
+        "submodule/mirage/integ/package-lock.json": "03fe7772625f30821b531f54b6651edfd83c128de92d45cca5bf7b499feb0927",
+        "server/fakes/sheet_formats.py": "e97f3c430193a7eeef101a7cab972aa4cc996b26cfb6fd65b5cdfbb02126e65c",
+        "server/execution.py": "b213e3b0d8b937549b83b3e6ecd25aab1c301ca1dffefd4f505ea3330626f0ca",
+        "server/fakes/gws_api.mjs": "1787204a47bbb9b9688b184a4275117363f6796323becfd5bfa0d9f389efccfd"
+      },
+      "redirect_sha256": "32bce93bff37c855f0e6a877f1b6b1d327a866042ab8c0cea2bb62ec0e4933c1",
+      "revalidations": [
+        {
+          "path": "server/execution.py",
+          "captured_sha256": "49ebbd85023436852b9605649b24a25ac7c423685dbeba296565ad8cd841bc01",
+          "validated_sha256": "08817d6d6fcb1eb96b3377ed61e32dc9a81497f26e366d564942154c5f1c46ba",
+          "captured_revision": "21a8dc340941b96fd5d958798d0317cdd0d9b66c",
+          "reason": "The only imported function, background, has an identical Python AST. Fixture payload checksums and restored Sheets API equality remain enforced."
+        },
+        {
+          "path": "submodule/mirage/integ/package.json",
+          "captured_sha256": "4003ba6a3e0945043eac39fefd63246d6845c92a9d3569a3deebbd3d433b5494",
+          "validated_sha256": "b568b7f37d889eb1aabf4cf2d066ba6fe92e1cca978e941860a1c92d982f3b22",
+          "captured_revision": "21a8dc340941b96fd5d958798d0317cdd0d9b66c",
+          "reason": "Only the graphql 16.11.0 package was added, for the GitHub fake's POST /graphql; the gws fake and its kit import nothing from it. Fixture payload checksums and restored Sheets API equality remain enforced."
+        },
+        {
+          "path": "submodule/mirage/integ/package-lock.json",
+          "captured_sha256": "f75e5384fdc5359b09aacfa7238968b51de9b0c41bf0d00f9e2a8f46da320eb6",
+          "validated_sha256": "03fe7772625f30821b531f54b6651edfd83c128de92d45cca5bf7b499feb0927",
+          "captured_revision": "21a8dc340941b96fd5d958798d0317cdd0d9b66c",
+          "reason": "Only the graphql 16.11.0 package was added, for the GitHub fake's POST /graphql; the gws fake and its kit import nothing from it. Fixture payload checksums and restored Sheets API equality remain enforced."
+        },
+        {
+          "path": "server/execution.py",
+          "captured_sha256": "08817d6d6fcb1eb96b3377ed61e32dc9a81497f26e366d564942154c5f1c46ba",
+          "validated_sha256": "ba097c2547ca6a27c8ee1bdb5df504b6f5ccdda687aae3ed4a512f835b67884e",
+          "captured_revision": "21a8dc340941b96fd5d958798d0317cdd0d9b66c",
+          "reason": "Only MODEL_ENV_KEYS, model_environment, the local Python tool and the upstream task container it runs in changed; background, the one function the gws fake imports, has an identical Python AST. Fixture payload checksums and restored Sheets API equality remain enforced."
+        },
+        {
+          "path": "server/execution.py",
+          "captured_sha256": "ba097c2547ca6a27c8ee1bdb5df504b6f5ccdda687aae3ed4a512f835b67884e",
+          "validated_sha256": "1081a32bc893fd79ef169bc16fde7905849383f058fd6a87fef2ffa6014872ae",
+          "captured_revision": "21a8dc340941b96fd5d958798d0317cdd0d9b66c",
+          "reason": "Only the upstream task container changed: it pulls a missing image, hands the workspace back before grading, and kills a Python call's process group when the call ends; background, the one function the gws fake imports, has an identical Python AST. Fixture payload checksums and restored Sheets API equality remain enforced."
+        },
+        {
+          "path": "server/fakes/sheet_formats.py",
+          "captured_sha256": "343495bd9afb3467909772c6e8ddf0f7f66a71244dce223b28bd601e9dd07e81",
+          "validated_sha256": "e97f3c430193a7eeef101a7cab972aa4cc996b26cfb6fd65b5cdfbb02126e65c",
+          "captured_revision": "21a8dc340941b96fd5d958798d0317cdd0d9b66c",
+          "reason": "Two kinds of read changed. A read that carries a fields mask is now trimmed to the mask, as the live API trims one, and a mask that selects cell data without the sheet IDs is forwarded without it, so the stored formats are placed before the trim. A read of ranges now places the stored formats from each block's start row and column, on the cells the block holds, and a number under a pattern the proxy does not render shows the fake's rendering of it, from the same stored format, rather than the bare number. No format this capture holds has a pattern the proxy leaves to the fake, so stored formats, writes and unmasked reads, the restore equality check among them, are unchanged. Fixture payload checksums and restored Sheets API equality remain enforced."
+        },
+        {
+          "path": "server/execution.py",
+          "captured_sha256": "1081a32bc893fd79ef169bc16fde7905849383f058fd6a87fef2ffa6014872ae",
+          "validated_sha256": "b213e3b0d8b937549b83b3e6ecd25aab1c301ca1dffefd4f505ea3330626f0ca",
+          "captured_revision": "21a8dc340941b96fd5d958798d0317cdd0d9b66c",
+          "reason": "Only the Hub redirect for the model's Python was added: hub_python_path, and the read-only mounts of redirect/hub and redirect/eval_shim into the upstream task container when the task has the Hub; background, the one function the gws fake imports, has an identical Python AST. Fixture payload checksums and restored Sheets API equality remain enforced."
+        }
+      ]
+    }
+  },
+  "api_sha256": {
+    "products": "818a19528d775cd0c2b8de93c3e0cf3a7aad789002320ae784328bae89366451",
+    "orders": "4ed52702b0f58b2cc0fc2ad023b892b1c8398cb45fcbef3d7375b94fc3362788",
+    "customers": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "products/categories": "7bcc1718847b92b30d716c68e38480c58bb8ddc7f3dd445c3c8462c60b861d95"
+  },
+  "sampled_related_ids": true,
+  "api_comparison": "All fields except related_ids, which WooCommerce randomly samples on every read. Responses are unchanged. Categories and tags determining the candidates are checked.",
+  "sha256": {
+    "api.json.gz": "04c3c06a1fcbbaaffc6274bed4f5f11a09852c737579ae42cd49c328816e9ca3",
+    "database.sql.gz": "f8f8390e8fac8e4f81b4dfd895f7577ac430e6d7c882450b86a329622080fdb3",
+    "uploads.tar.gz": "b03d9dfa58122562d1e4d4c876d56ca53d5fc93a0f206e6b0925c2c3ac685e5b",
+    "groundtruth.tar.gz": "57558a3dfe59391388c43d74eabac017b5087644edb30e38e41899ae964ea0bb",
+    "workspace.tar.gz": "857c0b68f7b16658eaa45ddc02a21433fc76e4d05dacf88f0cbfa300016da7a1",
+    "sheets.db.gz": "0ad1878505acfa13774caf61fda9400d13819d453bbee10a48e3e9cbc3778855",
+    "sheet-formats.json": "21215779c83855d3c6bf5ec7eae437a55b10fd90b4ee7f1f71f43d8ff6a9805c",
+    "sheets-api.json.gz": "a0777721a4080342533fedcb25a6ca8714e6124c797757d4cb1b43cf9194515f"
+  }
+}

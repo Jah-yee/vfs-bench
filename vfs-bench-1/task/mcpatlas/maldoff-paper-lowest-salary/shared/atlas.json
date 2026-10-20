@@ -1,0 +1,26 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689f4d693e212e8ef3390736",
+  "enabled_tools": [
+    "arxiv_search_papers",
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes",
+    "pubmed_search_pubmed_key_words",
+    "pubmed_search_pubmed_advanced",
+    "pubmed_get_pubmed_article_metadata",
+    "pubmed_download_pubmed_pdf",
+    "weather_find_weather_stations",
+    "filesystem_read_file",
+    "filesystem_list_directory",
+    "filesystem_list_allowed_directories",
+    "context7_resolve-library-id",
+    "context7_get-library-docs",
+    "github_search_repositories",
+    "e2b-server_run_code"
+  ],
+  "claims": [
+    "The paper on web scraping ethics by Gabe Maldoff was published in October 2024.",
+    "The lowest salary among players whose contracts expired in October 2024 was $6M."
+  ]
+}

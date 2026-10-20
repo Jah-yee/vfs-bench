@@ -1,0 +1,30 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68834223448b8fe04df2a595",
+  "enabled_tools": [
+    "notion_API-get-user",
+    "notion_API-get-users",
+    "notion_API-get-self",
+    "notion_API-post-database-query",
+    "notion_API-post-search",
+    "notion_API-get-block-children",
+    "notion_API-retrieve-a-block",
+    "notion_API-retrieve-a-page",
+    "notion_API-retrieve-a-database",
+    "notion_API-retrieve-a-page-property",
+    "notion_API-retrieve-a-comment",
+    "google-workspace_list_events",
+    "oxylabs_universal_scraper",
+    "oxylabs_google_search_scraper",
+    "calculator_calculate"
+  ],
+  "claims": [
+    "The apartments with numbers Apt140, Apt196, and Apt743 each have two bedrooms.",
+    "The apartments with numbers Apt140, Apt196, and Apt743 each have premium amenities.",
+    "The apartments with numbers Apt140, Apt196, and Apt743 were built before 2005.",
+    "The apartments with numbers Apt140, Apt196, and Apt743 each offer a 12-month lease.",
+    "The apartments with numbers Apt140, Apt196, and Apt743 each have a monthly rent of less than $2,500.",
+    "The apartments with numbers Apt140, Apt196, and Apt743 each require a deposit of less than $1,000.",
+    "Hurricane Katrina happened in the year 2005."
+  ]
+}

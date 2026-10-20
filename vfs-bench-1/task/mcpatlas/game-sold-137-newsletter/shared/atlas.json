@@ -1,0 +1,23 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "688ba1b3e95696e72dd93ed9",
+  "enabled_tools": [
+    "airtable_get_record",
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-indexes",
+    "mongodb_collection-schema",
+    "mongodb_find",
+    "mongodb_collection-storage-size",
+    "mongodb_count",
+    "mongodb_db-stats",
+    "mongodb_aggregate",
+    "mongodb_explain",
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article"
+  ],
+  "claims": [
+    "The game sold for $137.53 was Game Title 31",
+    "The customer who bought the game did subscribe to the newsletter."
+  ]
+}

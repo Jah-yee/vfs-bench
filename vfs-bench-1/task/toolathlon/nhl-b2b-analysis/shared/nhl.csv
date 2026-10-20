@@ -1,0 +1,1313 @@
+Date,Start Time (Sask),Start Time (ET),Visitor,Score,Home,Score.1,Status
+2024-10-04,11:00:00,13:00:00,New Jersey Devils,4,Buffalo Sabres,1,Regulation
+2024-10-05,8:00:00,10:00:00,Buffalo Sabres,1,New Jersey Devils,3,Regulation
+2024-10-08,14:30:00,16:30:00,St. Louis Blues,3,Seattle Kraken,2,Regulation
+2024-10-08,17:00:00,19:00:00,Boston Bruins,4,Florida Panthers,6,Regulation
+2024-10-08,20:00:00,22:00:00,Chicago Blackhawks,2,Utah Hockey Club,5,Regulation
+2024-10-09,17:00:00,19:00:00,Toronto Maple Leafs,0,Montreal Canadiens,1,Regulation
+2024-10-09,17:30:00,19:30:00,New York Rangers,6,Pittsburgh Penguins,0,Regulation
+2024-10-09,20:00:00,22:00:00,Winnipeg Jets,6,Edmonton Oilers,0,Regulation
+2024-10-09,20:00:00,22:00:00,Calgary Flames,6,Vancouver Canucks,5,OT
+2024-10-09,20:00:00,22:00:00,Colorado Avalanche,4,Vegas Golden Knights,8,Regulation
+2024-10-10,17:00:00,19:00:00,Montreal Canadiens,4,Boston Bruins,6,Regulation
+2024-10-10,17:00:00,19:00:00,Los Angeles Kings,3,Buffalo Sabres,1,Regulation
+2024-10-10,17:00:00,19:00:00,Florida Panthers,1,Ottawa Senators,3,Regulation
+2024-10-10,17:00:00,19:00:00,Toronto Maple Leafs,4,New Jersey Devils,2,Regulation
+2024-10-10,17:30:00,19:30:00,Utah Hockey Club,5,New York Islanders,4,OT
+2024-10-10,18:00:00,20:00:00,Pittsburgh Penguins,6,Detroit Red Wings,3,Regulation
+2024-10-10,18:00:00,20:00:00,Dallas Stars,4,Nashville Predators,3,Regulation
+2024-10-10,18:00:00,20:00:00,Columbus Blue Jackets,2,Minnesota Wild,3,Regulation
+2024-10-10,20:30:00,22:30:00,St. Louis Blues,5,San Jose Sharks,4,OT
+2024-10-11,17:00:00,19:00:00,Tampa Bay Lightning,4,Carolina Hurricanes,1,Regulation
+2024-10-11,18:00:00,20:00:00,Chicago Blackhawks,1,Winnipeg Jets,2,OT
+2024-10-11,20:00:00,22:00:00,Philadelphia Flyers,3,Vancouver Canucks,2,SO
+2024-10-11,20:00:00,22:00:00,St. Louis Blues,3,Vegas Golden Knights,4,Regulation
+2024-10-12,11:00:00,13:00:00,Los Angeles Kings,1,Boston Bruins,2,OT
+2024-10-12,17:00:00,19:00:00,Florida Panthers,2,Buffalo Sabres,5,Regulation
+2024-10-12,17:00:00,19:00:00,Pittsburgh Penguins,2,Toronto Maple Leafs,4,Regulation
+2024-10-12,17:00:00,19:00:00,Ottawa Senators,1,Montreal Canadiens,4,Regulation
+2024-10-12,17:00:00,19:00:00,Nashville Predators,0,Detroit Red Wings,3,Regulation
+2024-10-12,17:00:00,19:00:00,Utah Hockey Club,6,New York Rangers,5,OT
+2024-10-12,17:00:00,19:00:00,New Jersey Devils,5,Washington Capitals,3,Regulation
+2024-10-12,18:00:00,20:00:00,New York Islanders,0,Dallas Stars,3,Regulation
+2024-10-12,18:00:00,20:00:00,Seattle Kraken,5,Minnesota Wild,4,SO
+2024-10-12,19:00:00,21:00:00,Columbus Blue Jackets,6,Colorado Avalanche,4,Regulation
+2024-10-12,20:00:00,22:00:00,Philadelphia Flyers,3,Calgary Flames,6,Regulation
+2024-10-12,20:00:00,22:00:00,Chicago Blackhawks,5,Edmonton Oilers,2,Regulation
+2024-10-12,20:00:00,22:00:00,Anaheim Ducks,2,San Jose Sharks,0,Regulation
+2024-10-13,16:00:00,18:00:00,Minnesota Wild,1,Winnipeg Jets,2,OT
+2024-10-13,18:00:00,20:00:00,Seattle Kraken,0,Dallas Stars,2,Regulation
+2024-10-13,18:00:00,20:00:00,Calgary Flames,4,Edmonton Oilers,1,Regulation
+2024-10-13,20:00:00,22:00:00,Anaheim Ducks,1,Vegas Golden Knights,3,Regulation
+2024-10-14,11:00:00,13:00:00,Florida Panthers,4,Boston Bruins,3,Regulation
+2024-10-14,11:00:00,13:00:00,Los Angeles Kings,7,Ottawa Senators,8,OT
+2024-10-14,11:00:00,13:00:00,Utah Hockey Club,0,New Jersey Devils,3,Regulation
+2024-10-14,17:00:00,19:00:00,Detroit Red Wings,1,New York Rangers,4,Regulation
+2024-10-14,17:30:00,19:30:00,Pittsburgh Penguins,6,Montreal Canadiens,3,Regulation
+2024-10-14,19:00:00,21:00:00,New York Islanders,6,Colorado Avalanche,2,Regulation
+2024-10-15,17:00:00,19:00:00,Vancouver Canucks,1,Tampa Bay Lightning,4,Regulation
+2024-10-15,17:00:00,19:00:00,Vegas Golden Knights,2,Washington Capitals,4,Regulation
+2024-10-15,17:00:00,19:00:00,New Jersey Devils,2,Carolina Hurricanes,4,Regulation
+2024-10-15,17:00:00,19:00:00,Florida Panthers,4,Columbus Blue Jackets,3,Regulation
+2024-10-15,17:30:00,19:30:00,Minnesota Wild,4,St. Louis Blues,1,Regulation
+2024-10-15,18:00:00,20:00:00,Seattle Kraken,7,Nashville Predators,3,Regulation
+2024-10-15,18:00:00,20:00:00,San Jose Sharks,2,Dallas Stars,3,SO
+2024-10-15,19:00:00,21:00:00,Chicago Blackhawks,1,Calgary Flames,3,Regulation
+2024-10-15,20:00:00,22:00:00,Philadelphia Flyers,3,Edmonton Oilers,4,OT
+2024-10-16,17:00:00,19:00:00,Buffalo Sabres,5,Pittsburgh Penguins,6,OT
+2024-10-16,17:30:00,19:30:00,Los Angeles Kings,2,Toronto Maple Leafs,6,Regulation
+2024-10-16,19:30:00,21:30:00,Boston Bruins,5,Colorado Avalanche,3,Regulation
+2024-10-16,20:00:00,22:00:00,Utah Hockey Club,4,Anaheim Ducks,5,OT
+2024-10-17,17:00:00,19:00:00,Los Angeles Kings,4,Montreal Canadiens,1,Regulation
+2024-10-17,17:00:00,19:00:00,New Jersey Devils,3,Ottawa Senators,1,Regulation
+2024-10-17,17:00:00,19:00:00,Vegas Golden Knights,3,Tampa Bay Lightning,4,Regulation
+2024-10-17,17:00:00,19:00:00,Vancouver Canucks,3,Florida Panthers,2,OT
+2024-10-17,17:00:00,19:00:00,Dallas Stars,2,Washington Capitals,3,Regulation
+2024-10-17,17:00:00,19:00:00,Buffalo Sabres,4,Columbus Blue Jackets,6,Regulation
+2024-10-17,17:30:00,19:30:00,New York Rangers,5,Detroit Red Wings,2,Regulation
+2024-10-17,18:00:00,20:00:00,New York Islanders,0,St. Louis Blues,1,OT
+2024-10-17,18:00:00,20:00:00,Edmonton Oilers,4,Nashville Predators,2,Regulation
+2024-10-17,18:30:00,20:30:00,San Jose Sharks,2,Chicago Blackhawks,4,Regulation
+2024-10-17,20:00:00,22:00:00,Philadelphia Flyers,4,Seattle Kraken,6,Regulation
+2024-10-18,17:00:00,19:00:00,Carolina Hurricanes,4,Pittsburgh Penguins,1,Regulation
+2024-10-18,18:00:00,20:00:00,San Jose Sharks,3,Winnipeg Jets,8,Regulation
+2024-10-18,19:00:00,21:00:00,Anaheim Ducks,3,Colorado Avalanche,4,OT
+2024-10-19,11:00:00,13:00:00,Tampa Bay Lightning,4,Ottawa Senators,5,Regulation
+2024-10-19,12:00:00,14:00:00,Detroit Red Wings,5,Nashville Predators,2,Regulation
+2024-10-19,14:00:00,16:00:00,Edmonton Oilers,1,Dallas Stars,4,Regulation
+2024-10-19,16:00:00,18:00:00,Vegas Golden Knights,3,Florida Panthers,4,OT
+2024-10-19,17:00:00,19:00:00,New York Rangers,4,Toronto Maple Leafs,1,Regulation
+2024-10-19,17:00:00,19:00:00,Washington Capitals,6,New Jersey Devils,5,OT
+2024-10-19,17:00:00,19:00:00,Montreal Canadiens,3,New York Islanders,4,SO
+2024-10-19,17:00:00,19:00:00,Vancouver Canucks,3,Philadelphia Flyers,0,Regulation
+2024-10-19,17:00:00,19:00:00,Minnesota Wild,3,Columbus Blue Jackets,1,Regulation
+2024-10-19,17:00:00,19:00:00,Carolina Hurricanes,3,St. Louis Blues,4,Regulation
+2024-10-19,18:00:00,20:00:00,Buffalo Sabres,4,Chicago Blackhawks,2,Regulation
+2024-10-19,19:00:00,21:00:00,Boston Bruins,1,Utah Hockey Club,2,OT
+2024-10-19,20:00:00,22:00:00,Calgary Flames,1,Seattle Kraken,2,OT
+2024-10-20,13:00:00,15:00:00,Pittsburgh Penguins,3,Winnipeg Jets,6,Regulation
+2024-10-20,18:00:00,20:00:00,Colorado Avalanche,4,San Jose Sharks,1,Regulation
+2024-10-20,18:00:00,20:00:00,Los Angeles Kings,4,Anaheim Ducks,1,Regulation
+2024-10-21,17:30:00,19:30:00,Tampa Bay Lightning,2,Toronto Maple Leafs,5,Regulation
+2024-10-22,16:00:00,18:00:00,Washington Capitals,4,Philadelphia Flyers,1,Regulation
+2024-10-22,16:30:00,18:30:00,Minnesota Wild,5,Florida Panthers,1,Regulation
+2024-10-22,16:45:00,18:45:00,Tampa Bay Lightning,8,New Jersey Devils,5,Regulation
+2024-10-22,17:00:00,19:00:00,Dallas Stars,2,Buffalo Sabres,4,Regulation
+2024-10-22,17:15:00,19:15:00,New York Rangers,7,Montreal Canadiens,2,Regulation
+2024-10-22,17:30:00,19:30:00,Toronto Maple Leafs,2,Columbus Blue Jackets,6,Regulation
+2024-10-22,17:45:00,19:45:00,Detroit Red Wings,1,New York Islanders,0,Regulation
+2024-10-22,18:00:00,20:00:00,Winnipeg Jets,3,St. Louis Blues,2,Regulation
+2024-10-22,18:15:00,20:15:00,Vancouver Canucks,6,Chicago Blackhawks,3,Regulation
+2024-10-22,18:30:00,20:30:00,Colorado Avalanche,3,Seattle Kraken,2,Regulation
+2024-10-22,18:45:00,20:45:00,Boston Bruins,0,Nashville Predators,4,Regulation
+2024-10-22,19:00:00,21:00:00,Carolina Hurricanes,3,Edmonton Oilers,2,OT
+2024-10-22,19:15:00,21:15:00,Ottawa Senators,4,Utah Hockey Club,0,Regulation
+2024-10-22,19:30:00,21:30:00,Pittsburgh Penguins,3,Calgary Flames,4,SO
+2024-10-22,20:15:00,22:15:00,San Jose Sharks,1,Anaheim Ducks,3,Regulation
+2024-10-22,21:00:00,23:00:00,Los Angeles Kings,1,Vegas Golden Knights,6,Regulation
+2024-10-23,17:30:00,19:30:00,Philadelphia Flyers,3,Washington Capitals,6,Regulation
+2024-10-24,17:00:00,19:00:00,Dallas Stars,5,Boston Bruins,2,Regulation
+2024-10-24,17:00:00,19:00:00,St. Louis Blues,5,Toronto Maple Leafs,1,Regulation
+2024-10-24,17:00:00,19:00:00,New Jersey Devils,3,Detroit Red Wings,5,Regulation
+2024-10-24,17:00:00,19:00:00,Minnesota Wild,4,Tampa Bay Lightning,2,Regulation
+2024-10-24,17:00:00,19:00:00,Florida Panthers,3,New York Rangers,1,Regulation
+2024-10-24,19:00:00,21:00:00,Carolina Hurricanes,4,Calgary Flames,2,Regulation
+2024-10-24,19:00:00,21:00:00,Colorado Avalanche,5,Utah Hockey Club,1,Regulation
+2024-10-24,20:00:00,22:00:00,Winnipeg Jets,4,Seattle Kraken,3,OT
+2024-10-24,20:30:00,22:30:00,San Jose Sharks,2,Los Angeles Kings,3,Regulation
+2024-10-25,16:00:00,18:00:00,Ottawa Senators,4,Vegas Golden Knights,6,Regulation
+2024-10-25,17:00:00,19:00:00,New York Islanders,4,New Jersey Devils,3,OT
+2024-10-25,18:30:00,20:30:00,Nashville Predators,3,Chicago Blackhawks,2,Regulation
+2024-10-25,19:00:00,21:00:00,Pittsburgh Penguins,0,Edmonton Oilers,4,Regulation
+2024-10-26,11:00:00,13:00:00,Detroit Red Wings,3,Buffalo Sabres,5,Regulation
+2024-10-26,11:00:00,13:00:00,Minnesota Wild,5,Philadelphia Flyers,7,Regulation
+2024-10-26,14:00:00,16:00:00,Utah Hockey Club,2,Los Angeles Kings,3,Regulation
+2024-10-26,17:00:00,19:00:00,Toronto Maple Leafs,3,Boston Bruins,4,OT
+2024-10-26,17:00:00,19:00:00,St. Louis Blues,2,Montreal Canadiens,5,Regulation
+2024-10-26,17:00:00,19:00:00,Washington Capitals,0,Tampa Bay Lightning,3,Regulation
+2024-10-26,17:00:00,19:00:00,Anaheim Ducks,1,New York Rangers,2,Regulation
+2024-10-26,17:00:00,19:00:00,Winnipeg Jets,5,Calgary Flames,3,Regulation
+2024-10-26,17:30:00,19:30:00,Florida Panthers,6,New York Islanders,3,Regulation
+2024-10-26,18:00:00,20:00:00,Columbus Blue Jackets,3,Nashville Predators,4,OT
+2024-10-26,18:00:00,20:00:00,Chicago Blackhawks,2,Dallas Stars,4,Regulation
+2024-10-26,20:00:00,22:00:00,Pittsburgh Penguins,3,Vancouver Canucks,4,Regulation
+2024-10-26,20:00:00,22:00:00,San Jose Sharks,3,Vegas Golden Knights,7,Regulation
+2024-10-26,20:00:00,22:00:00,Carolina Hurricanes,4,Seattle Kraken,1,Regulation
+2024-10-27,16:00:00,18:00:00,Edmonton Oilers,3,Detroit Red Wings,2,OT
+2024-10-27,17:00:00,19:00:00,Anaheim Ducks,2,New Jersey Devils,6,Regulation
+2024-10-27,17:00:00,19:00:00,Montreal Canadiens,4,Philadelphia Flyers,3,Regulation
+2024-10-27,19:00:00,21:00:00,Ottawa Senators,4,Colorado Avalanche,5,Regulation
+2024-10-28,17:00:00,19:00:00,Florida Panthers,5,Buffalo Sabres,2,Regulation
+2024-10-28,17:00:00,19:00:00,Edmonton Oilers,1,Columbus Blue Jackets,6,Regulation
+2024-10-28,17:30:00,19:30:00,Nashville Predators,2,Tampa Bay Lightning,3,OT
+2024-10-28,17:30:00,19:30:00,Toronto Maple Leafs,6,Winnipeg Jets,4,Regulation
+2024-10-28,19:00:00,21:00:00,Chicago Blackhawks,5,Colorado Avalanche,2,Regulation
+2024-10-28,19:00:00,21:00:00,San Jose Sharks,5,Utah Hockey Club,4,OT
+2024-10-28,20:00:00,22:00:00,Carolina Hurricanes,4,Vancouver Canucks,3,OT
+2024-10-28,20:00:00,22:00:00,Calgary Flames,0,Vegas Golden Knights,5,Regulation
+2024-10-29,17:00:00,19:00:00,Philadelphia Flyers,2,Boston Bruins,0,Regulation
+2024-10-29,17:00:00,19:00:00,Seattle Kraken,8,Montreal Canadiens,2,Regulation
+2024-10-29,17:00:00,19:00:00,St. Louis Blues,1,Ottawa Senators,8,Regulation
+2024-10-29,17:00:00,19:00:00,Anaheim Ducks,3,New York Islanders,1,Regulation
+2024-10-29,17:00:00,19:00:00,Minnesota Wild,5,Pittsburgh Penguins,3,Regulation
+2024-10-29,17:30:00,19:30:00,New York Rangers,3,Washington Capitals,5,Regulation
+2024-10-29,20:00:00,22:00:00,Los Angeles Kings,2,San Jose Sharks,4,Regulation
+2024-10-30,17:00:00,19:00:00,New York Islanders,0,Columbus Blue Jackets,2,Regulation
+2024-10-30,17:30:00,19:30:00,Winnipeg Jets,6,Detroit Red Wings,2,Regulation
+2024-10-30,19:00:00,21:00:00,Tampa Bay Lightning,5,Colorado Avalanche,2,Regulation
+2024-10-30,19:30:00,21:30:00,Calgary Flames,1,Utah Hockey Club,5,Regulation
+2024-10-30,20:00:00,22:00:00,Vegas Golden Knights,3,Los Angeles Kings,6,Regulation
+2024-10-30,20:30:00,22:30:00,New Jersey Devils,6,Vancouver Canucks,0,Regulation
+2024-10-31,17:00:00,19:00:00,Seattle Kraken,1,Toronto Maple Leafs,4,Regulation
+2024-10-31,17:00:00,19:00:00,St. Louis Blues,1,Philadelphia Flyers,2,Regulation
+2024-10-31,17:00:00,19:00:00,Anaheim Ducks,1,Pittsburgh Penguins,2,OT
+2024-10-31,17:00:00,19:00:00,Montreal Canadiens,3,Washington Capitals,6,Regulation
+2024-10-31,17:00:00,19:00:00,Boston Bruins,2,Carolina Hurricanes,8,Regulation
+2024-10-31,18:00:00,20:00:00,Edmonton Oilers,5,Nashville Predators,1,Regulation
+2024-10-31,20:30:00,22:30:00,Chicago Blackhawks,2,San Jose Sharks,3,Regulation
+2024-11-01,12:00:00,14:00:00,Florida Panthers,6,Dallas Stars,4,Regulation
+2024-11-01,17:00:00,19:00:00,New York Islanders,4,Buffalo Sabres,3,Regulation
+2024-11-01,17:00:00,19:00:00,Ottawa Senators,1,New York Rangers,2,Regulation
+2024-11-01,17:00:00,19:00:00,Winnipeg Jets,6,Columbus Blue Jackets,2,Regulation
+2024-11-01,18:00:00,20:00:00,Tampa Bay Lightning,3,Minnesota Wild,5,Regulation
+2024-11-01,19:00:00,21:00:00,New Jersey Devils,0,Calgary Flames,3,Regulation
+2024-11-02,10:00:00,12:00:00,Dallas Stars,2,Florida Panthers,4,Regulation
+2024-11-02,11:00:00,13:00:00,Boston Bruins,3,Philadelphia Flyers,0,Regulation
+2024-11-02,14:00:00,16:00:00,Chicago Blackhawks,4,Los Angeles Kings,3,SO
+2024-11-02,15:00:00,17:00:00,Columbus Blue Jackets,2,Washington Capitals,7,Regulation
+2024-11-02,17:00:00,19:00:00,Seattle Kraken,0,Ottawa Senators,3,Regulation
+2024-11-02,17:00:00,19:00:00,Buffalo Sabres,1,Detroit Red Wings,2,Regulation
+2024-11-02,17:00:00,19:00:00,Montreal Canadiens,1,Pittsburgh Penguins,3,Regulation
+2024-11-02,17:00:00,19:00:00,Toronto Maple Leafs,2,St. Louis Blues,4,Regulation
+2024-11-02,18:00:00,20:00:00,Colorado Avalanche,2,Nashville Predators,5,Regulation
+2024-11-02,20:00:00,22:00:00,Utah Hockey Club,3,Vegas Golden Knights,4,OT
+2024-11-02,20:00:00,22:00:00,Vancouver Canucks,3,San Jose Sharks,2,Regulation
+2024-11-03,12:00:00,13:00:00,New York Islanders,2,New York Rangers,5,Regulation
+2024-11-03,14:00:00,15:00:00,Tampa Bay Lightning,4,Winnipeg Jets,7,Regulation
+2024-11-03,16:00:00,17:00:00,Seattle Kraken,0,Boston Bruins,2,Regulation
+2024-11-03,16:00:00,17:00:00,Washington Capitals,2,Carolina Hurricanes,4,Regulation
+2024-11-03,17:00:00,18:00:00,Toronto Maple Leafs,1,Minnesota Wild,2,OT
+2024-11-03,19:00:00,20:00:00,Edmonton Oilers,4,Calgary Flames,2,Regulation
+2024-11-03,19:00:00,20:00:00,Chicago Blackhawks,4,Anaheim Ducks,2,Regulation
+2024-11-04,19:00:00,20:00:00,Los Angeles Kings,3,Nashville Predators,0,Regulation
+2024-11-04,19:30:00,20:30:00,New Jersey Devils,3,Edmonton Oilers,0,Regulation
+2024-11-05,18:00:00,19:00:00,Ottawa Senators,1,Buffalo Sabres,5,Regulation
+2024-11-05,18:00:00,19:00:00,Boston Bruins,0,Toronto Maple Leafs,4,Regulation
+2024-11-05,18:00:00,19:00:00,Calgary Flames,3,Montreal Canadiens,2,OT
+2024-11-05,18:00:00,19:00:00,Philadelphia Flyers,4,Carolina Hurricanes,6,Regulation
+2024-11-05,18:30:00,19:30:00,Pittsburgh Penguins,3,New York Islanders,4,SO
+2024-11-05,19:00:00,20:00:00,Tampa Bay Lightning,2,St. Louis Blues,3,Regulation
+2024-11-05,19:00:00,20:00:00,Los Angeles Kings,5,Minnesota Wild,1,Regulation
+2024-11-05,19:00:00,20:00:00,Utah Hockey Club,0,Winnipeg Jets,3,Regulation
+2024-11-05,20:00:00,21:00:00,Seattle Kraken,3,Colorado Avalanche,6,Regulation
+2024-11-05,21:00:00,22:00:00,Vancouver Canucks,5,Anaheim Ducks,1,Regulation
+2024-11-05,21:30:00,22:30:00,Columbus Blue Jackets,1,San Jose Sharks,2,OT
+2024-11-06,18:00:00,19:00:00,Nashville Predators,2,Washington Capitals,3,Regulation
+2024-11-06,19:00:00,20:00:00,Detroit Red Wings,4,Chicago Blackhawks,1,Regulation
+2024-11-06,19:30:00,20:30:00,Vegas Golden Knights,4,Edmonton Oilers,2,Regulation
+2024-11-07,18:00:00,19:00:00,Calgary Flames,3,Boston Bruins,4,OT
+2024-11-07,18:00:00,19:00:00,New York Islanders,4,Ottawa Senators,2,Regulation
+2024-11-07,18:00:00,19:00:00,Nashville Predators,2,Florida Panthers,6,Regulation
+2024-11-07,18:00:00,19:00:00,Montreal Canadiens,3,New Jersey Devils,5,Regulation
+2024-11-07,18:00:00,19:00:00,Buffalo Sabres,6,New York Rangers,1,Regulation
+2024-11-07,18:00:00,19:00:00,Pittsburgh Penguins,1,Carolina Hurricanes,5,Regulation
+2024-11-07,18:30:00,19:30:00,Philadelphia Flyers,2,Tampa Bay Lightning,1,SO
+2024-11-07,19:00:00,20:00:00,Utah Hockey Club,4,St. Louis Blues,2,Regulation
+2024-11-07,19:00:00,20:00:00,Chicago Blackhawks,1,Dallas Stars,3,Regulation
+2024-11-07,19:00:00,20:00:00,Colorado Avalanche,0,Winnipeg Jets,1,Regulation
+2024-11-07,21:30:00,22:30:00,Vancouver Canucks,4,Los Angeles Kings,2,Regulation
+2024-11-07,21:30:00,22:30:00,Minnesota Wild,5,San Jose Sharks,2,Regulation
+2024-11-08,18:00:00,19:00:00,Detroit Red Wings,1,Toronto Maple Leafs,3,Regulation
+2024-11-08,18:30:00,19:30:00,Pittsburgh Penguins,4,Washington Capitals,2,Regulation
+2024-11-08,21:00:00,22:00:00,Minnesota Wild,5,Anaheim Ducks,2,Regulation
+2024-11-08,21:00:00,22:00:00,Vegas Golden Knights,3,Seattle Kraken,4,OT
+2024-11-09,12:00:00,13:00:00,Calgary Flames,2,Buffalo Sabres,3,SO
+2024-11-09,14:00:00,15:00:00,Dallas Stars,1,Winnipeg Jets,4,Regulation
+2024-11-09,17:00:00,18:00:00,Philadelphia Flyers,3,Florida Panthers,4,SO
+2024-11-09,18:00:00,19:00:00,Ottawa Senators,3,Boston Bruins,2,OT
+2024-11-09,18:00:00,19:00:00,Montreal Canadiens,1,Toronto Maple Leafs,4,Regulation
+2024-11-09,18:00:00,19:00:00,New York Rangers,4,Detroit Red Wings,0,Regulation
+2024-11-09,18:00:00,19:00:00,Washington Capitals,8,St. Louis Blues,1,Regulation
+2024-11-09,18:30:00,19:30:00,New Jersey Devils,4,New York Islanders,3,OT
+2024-11-09,19:00:00,20:00:00,Utah Hockey Club,0,Nashville Predators,4,Regulation
+2024-11-09,20:00:00,21:00:00,Carolina Hurricanes,4,Colorado Avalanche,6,Regulation
+2024-11-09,20:00:00,21:00:00,Columbus Blue Jackets,2,Los Angeles Kings,5,Regulation
+2024-11-09,21:00:00,22:00:00,Edmonton Oilers,7,Vancouver Canucks,3,Regulation
+2024-11-10,18:00:00,19:00:00,San Jose Sharks,1,New Jersey Devils,0,Regulation
+2024-11-10,18:00:00,19:00:00,Minnesota Wild,1,Chicago Blackhawks,2,OT
+2024-11-10,19:00:00,20:00:00,Columbus Blue Jackets,2,Anaheim Ducks,4,Regulation
+2024-11-11,11:30:00,12:30:00,Montreal Canadiens,7,Buffalo Sabres,5,Regulation
+2024-11-11,18:00:00,19:00:00,San Jose Sharks,3,Philadelphia Flyers,4,SO
+2024-11-11,18:00:00,19:00:00,Dallas Stars,7,Pittsburgh Penguins,1,Regulation
+2024-11-11,19:30:00,20:30:00,Los Angeles Kings,1,Calgary Flames,3,Regulation
+2024-11-11,20:00:00,21:00:00,Nashville Predators,2,Colorado Avalanche,3,OT
+2024-11-11,21:00:00,22:00:00,Carolina Hurricanes,5,Vegas Golden Knights,2,Regulation
+2024-11-12,18:00:00,19:00:00,Ottawa Senators,3,Toronto Maple Leafs,0,Regulation
+2024-11-12,18:00:00,19:00:00,Winnipeg Jets,6,New York Rangers,3,Regulation
+2024-11-12,18:30:00,19:30:00,New Jersey Devils,4,Florida Panthers,1,Regulation
+2024-11-12,19:00:00,20:00:00,Boston Bruins,3,St. Louis Blues,2,Regulation
+2024-11-12,20:00:00,21:00:00,New York Islanders,3,Edmonton Oilers,4,OT
+2024-11-12,21:00:00,22:00:00,Calgary Flames,1,Vancouver Canucks,3,Regulation
+2024-11-12,21:00:00,22:00:00,Columbus Blue Jackets,2,Seattle Kraken,5,Regulation
+2024-11-13,18:30:00,19:30:00,Detroit Red Wings,3,Pittsburgh Penguins,2,OT
+2024-11-13,18:30:00,19:30:00,Toronto Maple Leafs,4,Washington Capitals,3,OT
+2024-11-13,20:00:00,21:00:00,Carolina Hurricanes,1,Utah Hockey Club,4,Regulation
+2024-11-13,21:00:00,22:00:00,Los Angeles Kings,2,Colorado Avalanche,4,Regulation
+2024-11-13,21:00:00,22:00:00,Vegas Golden Knights,3,Anaheim Ducks,2,Regulation
+2024-11-14,18:00:00,19:00:00,Philadelphia Flyers,5,Ottawa Senators,4,OT
+2024-11-14,18:00:00,19:00:00,Winnipeg Jets,1,Tampa Bay Lightning,4,Regulation
+2024-11-14,18:00:00,19:00:00,New Jersey Devils,6,Florida Panthers,2,Regulation
+2024-11-14,18:00:00,19:00:00,San Jose Sharks,2,New York Rangers,3,Regulation
+2024-11-14,18:30:00,19:30:00,St. Louis Blues,3,Buffalo Sabres,4,OT
+2024-11-14,19:00:00,20:00:00,Boston Bruins,2,Dallas Stars,7,Regulation
+2024-11-14,19:00:00,20:00:00,Montreal Canadiens,0,Minnesota Wild,3,Regulation
+2024-11-14,20:00:00,21:00:00,Nashville Predators,2,Edmonton Oilers,3,OT
+2024-11-14,21:00:00,22:00:00,New York Islanders,5,Vancouver Canucks,2,Regulation
+2024-11-14,21:00:00,22:00:00,Chicago Blackhawks,1,Seattle Kraken,3,Regulation
+2024-11-15,18:00:00,19:00:00,Pittsburgh Penguins,2,Columbus Blue Jackets,6,Regulation
+2024-11-15,20:00:00,21:00:00,Washington Capitals,5,Colorado Avalanche,2,Regulation
+2024-11-15,20:00:00,21:00:00,Nashville Predators,0,Calgary Flames,2,Regulation
+2024-11-15,20:00:00,21:00:00,Vegas Golden Knights,4,Utah Hockey Club,2,Regulation
+2024-11-15,21:00:00,22:00:00,Detroit Red Wings,4,Anaheim Ducks,6,Regulation
+2024-11-16,12:00:00,13:00:00,St. Louis Blues,3,Boston Bruins,2,OT
+2024-11-16,15:00:00,16:00:00,New York Islanders,2,Seattle Kraken,3,Regulation
+2024-11-16,18:00:00,19:00:00,Edmonton Oilers,3,Toronto Maple Leafs,4,OT
+2024-11-16,18:00:00,19:00:00,Columbus Blue Jackets,1,Montreal Canadiens,5,Regulation
+2024-11-16,18:00:00,19:00:00,New Jersey Devils,0,Tampa Bay Lightning,4,Regulation
+2024-11-16,18:00:00,19:00:00,Winnipeg Jets,0,Florida Panthers,5,Regulation
+2024-11-16,18:00:00,19:00:00,Buffalo Sabres,2,Philadelphia Flyers,5,Regulation
+2024-11-16,18:00:00,19:00:00,San Jose Sharks,3,Pittsburgh Penguins,4,SO
+2024-11-16,18:00:00,19:00:00,Ottawa Senators,0,Carolina Hurricanes,4,Regulation
+2024-11-16,19:00:00,20:00:00,Dallas Stars,2,Minnesota Wild,1,Regulation
+2024-11-16,19:00:00,20:00:00,Detroit Red Wings,1,Los Angeles Kings,4,Regulation
+2024-11-16,21:00:00,22:00:00,Chicago Blackhawks,1,Vancouver Canucks,4,Regulation
+2024-11-17,16:00:00,17:00:00,St. Louis Blues,1,Carolina Hurricanes,4,Regulation
+2024-11-17,19:00:00,20:00:00,Washington Capitals,5,Vegas Golden Knights,2,Regulation
+2024-11-17,20:00:00,21:00:00,New York Rangers,2,Seattle Kraken,0,Regulation
+2024-11-17,21:00:00,22:00:00,Nashville Predators,5,Vancouver Canucks,3,Regulation
+2024-11-18,18:00:00,19:00:00,Columbus Blue Jackets,5,Boston Bruins,1,Regulation
+2024-11-18,18:00:00,19:00:00,Colorado Avalanche,3,Philadelphia Flyers,2,Regulation
+2024-11-18,18:30:00,19:30:00,Edmonton Oilers,0,Montreal Canadiens,3,Regulation
+2024-11-18,19:00:00,20:00:00,Anaheim Ducks,4,Dallas Stars,2,Regulation
+2024-11-18,20:00:00,21:00:00,Washington Capitals,6,Utah Hockey Club,2,Regulation
+2024-11-18,21:30:00,22:30:00,Detroit Red Wings,4,San Jose Sharks,5,OT
+2024-11-19,18:00:00,19:00:00,Edmonton Oilers,5,Ottawa Senators,2,Regulation
+2024-11-19,18:00:00,19:00:00,Tampa Bay Lightning,3,Pittsburgh Penguins,2,OT
+2024-11-19,19:00:00,20:00:00,Minnesota Wild,4,St. Louis Blues,2,Regulation
+2024-11-19,19:00:00,20:00:00,Florida Panthers,3,Winnipeg Jets,6,Regulation
+2024-11-19,19:30:00,20:30:00,Anaheim Ducks,3,Chicago Blackhawks,2,Regulation
+2024-11-19,20:00:00,21:00:00,New York Islanders,1,Calgary Flames,2,SO
+2024-11-19,21:00:00,22:00:00,New York Rangers,4,Vancouver Canucks,3,Regulation
+2024-11-20,18:30:00,19:30:00,Vegas Golden Knights,0,Toronto Maple Leafs,3,Regulation
+2024-11-20,18:30:00,19:30:00,Carolina Hurricanes,4,Philadelphia Flyers,1,Regulation
+2024-11-20,19:00:00,20:00:00,San Jose Sharks,2,Dallas Stars,5,Regulation
+2024-11-20,21:00:00,22:00:00,Nashville Predators,0,Seattle Kraken,3,Regulation
+2024-11-20,21:30:00,22:30:00,Buffalo Sabres,1,Los Angeles Kings,0,Regulation
+2024-11-21,18:00:00,19:00:00,Utah Hockey Club,0,Boston Bruins,1,Regulation
+2024-11-21,18:00:00,19:00:00,Vegas Golden Knights,3,Ottawa Senators,2,Regulation
+2024-11-21,18:00:00,19:00:00,New York Islanders,1,Detroit Red Wings,2,Regulation
+2024-11-21,18:00:00,19:00:00,Carolina Hurricanes,2,New Jersey Devils,4,Regulation
+2024-11-21,18:00:00,19:00:00,Colorado Avalanche,2,Washington Capitals,1,Regulation
+2024-11-21,18:00:00,19:00:00,Tampa Bay Lightning,6,Columbus Blue Jackets,7,OT
+2024-11-21,19:00:00,20:00:00,San Jose Sharks,2,St. Louis Blues,3,SO
+2024-11-21,19:30:00,20:30:00,Florida Panthers,1,Chicago Blackhawks,3,Regulation
+2024-11-21,20:00:00,21:00:00,New York Rangers,2,Calgary Flames,3,Regulation
+2024-11-21,20:00:00,21:00:00,Minnesota Wild,5,Edmonton Oilers,3,Regulation
+2024-11-22,18:00:00,19:00:00,Winnipeg Jets,4,Pittsburgh Penguins,1,Regulation
+2024-11-22,21:00:00,22:00:00,Buffalo Sabres,3,Anaheim Ducks,2,OT
+2024-11-23,12:00:00,13:00:00,Chicago Blackhawks,2,Philadelphia Flyers,3,OT
+2024-11-23,15:00:00,16:00:00,Minnesota Wild,3,Calgary Flames,4,SO
+2024-11-23,15:00:00,16:00:00,Seattle Kraken,1,Los Angeles Kings,2,Regulation
+2024-11-23,17:00:00,18:00:00,Colorado Avalanche,7,Florida Panthers,4,Regulation
+2024-11-23,18:00:00,19:00:00,Vegas Golden Knights,6,Montreal Canadiens,2,Regulation
+2024-11-23,18:00:00,19:00:00,Vancouver Canucks,4,Ottawa Senators,3,Regulation
+2024-11-23,18:00:00,19:00:00,Boston Bruins,2,Detroit Red Wings,1,Regulation
+2024-11-23,18:00:00,19:00:00,Dallas Stars,4,Tampa Bay Lightning,2,Regulation
+2024-11-23,18:00:00,19:00:00,Utah Hockey Club,6,Pittsburgh Penguins,1,Regulation
+2024-11-23,18:00:00,19:00:00,New Jersey Devils,3,Washington Capitals,2,Regulation
+2024-11-23,18:00:00,19:00:00,Carolina Hurricanes,4,Columbus Blue Jackets,5,SO
+2024-11-23,18:00:00,19:00:00,Winnipeg Jets,1,Nashville Predators,4,Regulation
+2024-11-23,18:30:00,19:30:00,St. Louis Blues,1,New York Islanders,3,Regulation
+2024-11-23,19:00:00,20:00:00,Buffalo Sabres,4,San Jose Sharks,2,Regulation
+2024-11-23,21:00:00,22:00:00,New York Rangers,2,Edmonton Oilers,6,Regulation
+2024-11-24,18:00:00,19:00:00,Utah Hockey Club,2,Toronto Maple Leafs,3,Regulation
+2024-11-25,18:00:00,19:00:00,Colorado Avalanche,2,Tampa Bay Lightning,8,Regulation
+2024-11-25,18:00:00,19:00:00,Washington Capitals,4,Florida Panthers,1,Regulation
+2024-11-25,18:00:00,19:00:00,Nashville Predators,2,New Jersey Devils,5,Regulation
+2024-11-25,18:00:00,19:00:00,St. Louis Blues,5,New York Rangers,2,Regulation
+2024-11-25,18:00:00,19:00:00,Vegas Golden Knights,5,Philadelphia Flyers,4,SO
+2024-11-25,18:00:00,19:00:00,Dallas Stars,4,Carolina Hurricanes,6,Regulation
+2024-11-25,18:30:00,19:30:00,Calgary Flames,3,Ottawa Senators,4,Regulation
+2024-11-25,18:30:00,19:30:00,Detroit Red Wings,4,New York Islanders,2,Regulation
+2024-11-25,19:00:00,20:00:00,Winnipeg Jets,4,Minnesota Wild,1,Regulation
+2024-11-25,21:00:00,22:00:00,Seattle Kraken,3,Anaheim Ducks,2,Regulation
+2024-11-25,21:30:00,22:30:00,Los Angeles Kings,2,San Jose Sharks,7,Regulation
+2024-11-26,18:00:00,19:00:00,Vancouver Canucks,2,Boston Bruins,0,Regulation
+2024-11-26,18:00:00,19:00:00,Utah Hockey Club,3,Montreal Canadiens,2,OT
+2024-11-27,18:00:00,19:00:00,Minnesota Wild,1,Buffalo Sabres,0,Regulation
+2024-11-27,18:00:00,19:00:00,St. Louis Blues,3,New Jersey Devils,0,Regulation
+2024-11-27,18:00:00,19:00:00,New York Rangers,3,Carolina Hurricanes,4,Regulation
+2024-11-27,18:30:00,19:30:00,Calgary Flames,1,Detroit Red Wings,2,OT
+2024-11-27,18:30:00,19:30:00,Washington Capitals,5,Tampa Bay Lightning,4,Regulation
+2024-11-27,18:30:00,19:30:00,Toronto Maple Leafs,1,Florida Panthers,5,Regulation
+2024-11-27,18:30:00,19:30:00,Boston Bruins,6,New York Islanders,3,Regulation
+2024-11-27,18:30:00,19:30:00,Vancouver Canucks,4,Pittsburgh Penguins,5,Regulation
+2024-11-27,18:30:00,19:30:00,Montreal Canadiens,4,Columbus Blue Jackets,3,OT
+2024-11-27,19:00:00,20:00:00,Philadelphia Flyers,3,Nashville Predators,2,OT
+2024-11-27,19:30:00,20:30:00,Dallas Stars,2,Chicago Blackhawks,6,Regulation
+2024-11-27,21:00:00,22:00:00,Vegas Golden Knights,1,Colorado Avalanche,2,SO
+2024-11-27,21:00:00,22:00:00,Winnipeg Jets,1,Los Angeles Kings,4,Regulation
+2024-11-27,21:00:00,22:00:00,Anaheim Ducks,5,Seattle Kraken,2,Regulation
+2024-11-27,21:30:00,22:30:00,Ottawa Senators,4,San Jose Sharks,3,Regulation
+2024-11-29,12:00:00,13:00:00,New York Rangers,1,Philadelphia Flyers,3,Regulation
+2024-11-29,13:00:00,14:00:00,Chicago Blackhawks,2,Minnesota Wild,3,Regulation
+2024-11-29,14:00:00,15:00:00,Vancouver Canucks,4,Buffalo Sabres,3,OT
+2024-11-29,14:00:00,15:00:00,New Jersey Devils,5,Detroit Red Wings,4,Regulation
+2024-11-29,14:00:00,15:00:00,New York Islanders,4,Washington Capitals,5,OT
+2024-11-29,14:00:00,15:00:00,Florida Panthers,6,Carolina Hurricanes,3,Regulation
+2024-11-29,14:00:00,15:00:00,Calgary Flames,2,Columbus Blue Jackets,5,Regulation
+2024-11-29,14:00:00,15:00:00,Tampa Bay Lightning,3,Nashville Predators,2,OT
+2024-11-29,14:30:00,15:30:00,Los Angeles Kings,2,Anaheim Ducks,1,Regulation
+2024-11-29,14:30:00,15:30:00,Seattle Kraken,5,San Jose Sharks,8,Regulation
+2024-11-29,17:30:00,18:30:00,Pittsburgh Penguins,2,Boston Bruins,1,Regulation
+2024-11-29,19:30:00,20:30:00,Winnipeg Jets,3,Vegas Golden Knights,4,Regulation
+2024-11-29,20:00:00,21:00:00,Colorado Avalanche,3,Dallas Stars,5,Regulation
+2024-11-29,20:00:00,21:00:00,Edmonton Oilers,4,Utah Hockey Club,3,OT
+2024-11-30,12:00:00,13:00:00,Montreal Canadiens,3,New York Rangers,4,Regulation
+2024-11-30,15:00:00,16:00:00,Carolina Hurricanes,0,Florida Panthers,6,Regulation
+2024-11-30,18:00:00,19:00:00,Toronto Maple Leafs,5,Tampa Bay Lightning,3,Regulation
+2024-11-30,18:00:00,19:00:00,Washington Capitals,6,New Jersey Devils,5,Regulation
+2024-11-30,18:00:00,19:00:00,Calgary Flames,2,Pittsburgh Penguins,6,Regulation
+2024-11-30,18:00:00,19:00:00,Philadelphia Flyers,3,St. Louis Blues,2,OT
+2024-11-30,18:00:00,19:00:00,Ottawa Senators,2,Los Angeles Kings,5,Regulation
+2024-11-30,18:30:00,19:30:00,Buffalo Sabres,0,New York Islanders,3,Regulation
+2024-11-30,19:00:00,20:00:00,Nashville Predators,2,Minnesota Wild,3,OT
+2024-11-30,21:00:00,22:00:00,Edmonton Oilers,4,Colorado Avalanche,1,Regulation
+2024-11-30,21:00:00,22:00:00,Utah Hockey Club,6,Vegas Golden Knights,0,Regulation
+2024-11-30,21:00:00,22:00:00,San Jose Sharks,4,Seattle Kraken,2,Regulation
+2024-12-01,11:30:00,12:30:00,Vancouver Canucks,5,Detroit Red Wings,4,OT
+2024-12-01,14:00:00,15:00:00,Montreal Canadiens,3,Boston Bruins,6,Regulation
+2024-12-01,14:00:00,15:00:00,Columbus Blue Jackets,6,Chicago Blackhawks,3,Regulation
+2024-12-01,15:30:00,16:30:00,Winnipeg Jets,1,Dallas Stars,3,Regulation
+2024-12-01,19:00:00,20:00:00,Ottawa Senators,3,Anaheim Ducks,4,SO
+2024-12-02,18:00:00,19:00:00,New Jersey Devils,5,New York Rangers,1,Regulation
+2024-12-02,18:30:00,19:30:00,Chicago Blackhawks,1,Toronto Maple Leafs,4,Regulation
+2024-12-02,20:00:00,21:00:00,Dallas Stars,2,Utah Hockey Club,1,Regulation
+2024-12-03,18:00:00,19:00:00,Detroit Red Wings,2,Boston Bruins,3,OT
+2024-12-03,18:00:00,19:00:00,Colorado Avalanche,5,Buffalo Sabres,4,Regulation
+2024-12-03,18:00:00,19:00:00,New York Islanders,1,Montreal Canadiens,2,OT
+2024-12-03,18:00:00,19:00:00,Florida Panthers,4,Pittsburgh Penguins,5,OT
+2024-12-03,18:00:00,19:00:00,San Jose Sharks,2,Washington Capitals,1,OT
+2024-12-03,18:00:00,19:00:00,Seattle Kraken,4,Carolina Hurricanes,2,Regulation
+2024-12-03,19:00:00,20:00:00,Vancouver Canucks,2,Minnesota Wild,3,OT
+2024-12-03,19:00:00,20:00:00,St. Louis Blues,4,Winnipeg Jets,1,Regulation
+2024-12-03,20:00:00,21:00:00,Columbus Blue Jackets,0,Calgary Flames,3,Regulation
+2024-12-03,21:00:00,22:00:00,Edmonton Oilers,0,Vegas Golden Knights,1,Regulation
+2024-12-04,18:30:00,19:30:00,Nashville Predators,2,Toronto Maple Leafs,3,Regulation
+2024-12-04,18:30:00,19:30:00,Boston Bruins,4,Chicago Blackhawks,2,Regulation
+2024-12-04,21:00:00,22:00:00,Vegas Golden Knights,4,Anaheim Ducks,1,Regulation
+2024-12-04,21:00:00,22:00:00,Dallas Stars,2,Los Angeles Kings,3,Regulation
+2024-12-05,18:00:00,19:00:00,Winnipeg Jets,3,Buffalo Sabres,2,OT
+2024-12-05,18:00:00,19:00:00,Nashville Predators,0,Montreal Canadiens,3,Regulation
+2024-12-05,18:00:00,19:00:00,Detroit Red Wings,1,Ottawa Senators,2,Regulation
+2024-12-05,18:00:00,19:00:00,San Jose Sharks,1,Tampa Bay Lightning,8,Regulation
+2024-12-05,18:00:00,19:00:00,Florida Panthers,7,Philadelphia Flyers,5,Regulation
+2024-12-05,18:00:00,19:00:00,Colorado Avalanche,3,Carolina Hurricanes,5,Regulation
+2024-12-05,18:30:00,19:30:00,Seattle Kraken,5,New York Islanders,2,Regulation
+2024-12-05,20:00:00,21:00:00,St. Louis Blues,4,Calgary Flames,3,OT
+2024-12-05,20:00:00,21:00:00,Columbus Blue Jackets,3,Edmonton Oilers,6,Regulation
+2024-12-06,18:00:00,19:00:00,Washington Capitals,3,Toronto Maple Leafs,1,Regulation
+2024-12-06,18:00:00,19:00:00,Seattle Kraken,2,New Jersey Devils,3,Regulation
+2024-12-06,18:30:00,19:30:00,Pittsburgh Penguins,2,New York Rangers,4,Regulation
+2024-12-06,21:00:00,22:00:00,Columbus Blue Jackets,2,Vancouver Canucks,5,Regulation
+2024-12-06,21:00:00,22:00:00,Dallas Stars,2,Vegas Golden Knights,3,Regulation
+2024-12-06,21:00:00,22:00:00,Minnesota Wild,5,Anaheim Ducks,1,Regulation
+2024-12-07,12:00:00,13:00:00,Philadelphia Flyers,3,Boston Bruins,4,OT
+2024-12-07,12:00:00,13:00:00,Utah Hockey Club,5,Buffalo Sabres,2,Regulation
+2024-12-07,15:00:00,16:00:00,Winnipeg Jets,4,Chicago Blackhawks,2,Regulation
+2024-12-07,16:00:00,17:00:00,Carolina Hurricanes,3,New York Islanders,4,Regulation
+2024-12-07,17:00:00,18:00:00,San Jose Sharks,1,Florida Panthers,3,Regulation
+2024-12-07,18:00:00,19:00:00,Washington Capitals,4,Montreal Canadiens,2,Regulation
+2024-12-07,18:00:00,19:00:00,Nashville Predators,1,Ottawa Senators,3,Regulation
+2024-12-07,18:00:00,19:00:00,Colorado Avalanche,2,Detroit Red Wings,1,Regulation
+2024-12-07,18:00:00,19:00:00,Toronto Maple Leafs,2,Pittsburgh Penguins,5,Regulation
+2024-12-07,19:00:00,20:00:00,Minnesota Wild,1,Los Angeles Kings,4,Regulation
+2024-12-07,21:00:00,22:00:00,St. Louis Blues,2,Edmonton Oilers,4,Regulation
+2024-12-08,12:00:00,13:00:00,Seattle Kraken,7,New York Rangers,5,Regulation
+2024-12-08,15:00:00,16:00:00,Tampa Bay Lightning,4,Vancouver Canucks,2,Regulation
+2024-12-08,16:00:00,17:00:00,New York Islanders,4,Ottawa Senators,2,Regulation
+2024-12-08,17:00:00,18:00:00,Columbus Blue Jackets,4,Winnipeg Jets,1,Regulation
+2024-12-08,18:00:00,19:00:00,Colorado Avalanche,4,New Jersey Devils,0,Regulation
+2024-12-08,18:30:00,19:30:00,Utah Hockey Club,4,Philadelphia Flyers,2,Regulation
+2024-12-08,19:00:00,20:00:00,Calgary Flames,2,Dallas Stars,6,Regulation
+2024-12-09,18:00:00,19:00:00,Detroit Red Wings,6,Buffalo Sabres,5,SO
+2024-12-09,18:00:00,19:00:00,Chicago Blackhawks,2,New York Rangers,1,Regulation
+2024-12-09,18:30:00,19:30:00,Anaheim Ducks,2,Montreal Canadiens,3,SO
+2024-12-10,18:00:00,19:00:00,Toronto Maple Leafs,2,New Jersey Devils,1,OT
+2024-12-10,18:00:00,19:00:00,Colorado Avalanche,6,Pittsburgh Penguins,2,Regulation
+2024-12-10,18:00:00,19:00:00,San Jose Sharks,2,Carolina Hurricanes,3,Regulation
+2024-12-10,18:00:00,19:00:00,Philadelphia Flyers,5,Columbus Blue Jackets,3,Regulation
+2024-12-10,18:30:00,19:30:00,Los Angeles Kings,3,New York Islanders,1,Regulation
+2024-12-10,19:00:00,20:00:00,Calgary Flames,4,Nashville Predators,3,Regulation
+2024-12-10,19:00:00,20:00:00,Boston Bruins,1,Winnipeg Jets,8,Regulation
+2024-12-10,20:00:00,21:00:00,Tampa Bay Lightning,1,Edmonton Oilers,2,Regulation
+2024-12-10,20:30:00,21:30:00,Minnesota Wild,5,Utah Hockey Club,4,SO
+2024-12-10,21:00:00,22:00:00,St. Louis Blues,4,Vancouver Canucks,3,OT
+2024-12-10,21:00:00,22:00:00,Florida Panthers,2,Seattle Kraken,1,SO
+2024-12-11,18:00:00,19:00:00,New York Rangers,3,Buffalo Sabres,2,Regulation
+2024-12-11,18:30:00,19:30:00,Anaheim Ducks,1,Ottawa Senators,5,Regulation
+2024-12-12,18:00:00,19:00:00,Anaheim Ducks,2,Toronto Maple Leafs,3,Regulation
+2024-12-12,18:00:00,19:00:00,Pittsburgh Penguins,9,Montreal Canadiens,2,Regulation
+2024-12-12,18:00:00,19:00:00,Los Angeles Kings,1,New Jersey Devils,3,Regulation
+2024-12-12,18:00:00,19:00:00,Detroit Red Wings,1,Philadelphia Flyers,4,Regulation
+2024-12-12,18:00:00,19:00:00,Washington Capitals,2,Columbus Blue Jackets,1,OT
+2024-12-12,18:30:00,19:30:00,Chicago Blackhawks,4,New York Islanders,5,Regulation
+2024-12-12,19:00:00,20:00:00,San Jose Sharks,4,St. Louis Blues,3,Regulation
+2024-12-12,19:00:00,20:00:00,Nashville Predators,4,Dallas Stars,1,Regulation
+2024-12-12,19:00:00,20:00:00,Vegas Golden Knights,3,Winnipeg Jets,2,OT
+2024-12-12,19:30:00,20:30:00,Edmonton Oilers,7,Minnesota Wild,1,Regulation
+2024-12-12,20:00:00,21:00:00,Utah Hockey Club,4,Colorado Avalanche,1,Regulation
+2024-12-12,20:00:00,21:00:00,Tampa Bay Lightning,8,Calgary Flames,3,Regulation
+2024-12-12,21:00:00,22:00:00,Florida Panthers,0,Vancouver Canucks,4,Regulation
+2024-12-12,21:00:00,22:00:00,Boston Bruins,1,Seattle Kraken,5,Regulation
+2024-12-13,18:00:00,19:00:00,Ottawa Senators,3,Carolina Hurricanes,0,Regulation
+2024-12-14,12:00:00,13:00:00,Chicago Blackhawks,1,New Jersey Devils,4,Regulation
+2024-12-14,12:00:00,13:00:00,Los Angeles Kings,5,New York Rangers,1,Regulation
+2024-12-14,13:00:00,14:00:00,Philadelphia Flyers,1,Minnesota Wild,4,Regulation
+2024-12-14,15:00:00,16:00:00,Vegas Golden Knights,3,Edmonton Oilers,6,Regulation
+2024-12-14,18:00:00,19:00:00,Pittsburgh Penguins,2,Ottawa Senators,3,OT
+2024-12-14,18:00:00,19:00:00,Toronto Maple Leafs,2,Detroit Red Wings,4,Regulation
+2024-12-14,18:00:00,19:00:00,Buffalo Sabres,2,Washington Capitals,4,Regulation
+2024-12-14,18:00:00,19:00:00,Anaheim Ducks,4,Columbus Blue Jackets,3,OT
+2024-12-14,18:00:00,19:00:00,Montreal Canadiens,2,Winnipeg Jets,4,Regulation
+2024-12-14,19:00:00,20:00:00,St. Louis Blues,1,Dallas Stars,2,OT
+2024-12-14,20:00:00,21:00:00,Nashville Predators,2,Colorado Avalanche,5,Regulation
+2024-12-14,21:00:00,22:00:00,Florida Panthers,0,Calgary Flames,3,Regulation
+2024-12-14,21:00:00,22:00:00,Boston Bruins,5,Vancouver Canucks,1,Regulation
+2024-12-14,21:00:00,22:00:00,Utah Hockey Club,4,San Jose Sharks,3,Regulation
+2024-12-14,21:00:00,22:00:00,Tampa Bay Lightning,5,Seattle Kraken,1,Regulation
+2024-12-15,14:00:00,15:00:00,New York Islanders,3,Chicago Blackhawks,5,Regulation
+2024-12-15,16:00:00,17:00:00,Buffalo Sabres,3,Toronto Maple Leafs,5,Regulation
+2024-12-15,16:00:00,17:00:00,Columbus Blue Jackets,1,Carolina Hurricanes,4,Regulation
+2024-12-15,17:00:00,18:00:00,New York Rangers,2,St. Louis Blues,3,Regulation
+2024-12-15,17:00:00,18:00:00,Vegas Golden Knights,3,Minnesota Wild,2,Regulation
+2024-12-16,19:00:00,20:00:00,Washington Capitals,1,Dallas Stars,3,Regulation
+2024-12-16,19:30:00,20:30:00,Florida Panthers,6,Edmonton Oilers,5,Regulation
+2024-12-16,21:30:00,22:30:00,Colorado Avalanche,1,Vancouver Canucks,3,Regulation
+2024-12-17,18:00:00,19:00:00,Buffalo Sabres,1,Montreal Canadiens,6,Regulation
+2024-12-17,18:00:00,19:00:00,Columbus Blue Jackets,3,Tampa Bay Lightning,5,Regulation
+2024-12-17,18:00:00,19:00:00,Los Angeles Kings,2,Pittsburgh Penguins,3,OT
+2024-12-17,18:30:00,19:30:00,New York Islanders,0,Carolina Hurricanes,4,Regulation
+2024-12-17,19:00:00,20:00:00,New Jersey Devils,4,St. Louis Blues,1,Regulation
+2024-12-17,19:00:00,20:00:00,New York Rangers,0,Nashville Predators,2,Regulation
+2024-12-17,19:30:00,20:30:00,Washington Capitals,2,Chicago Blackhawks,3,Regulation
+2024-12-17,20:00:00,21:00:00,Boston Bruins,4,Calgary Flames,3,OT
+2024-12-17,21:00:00,22:00:00,Ottawa Senators,3,Seattle Kraken,0,Regulation
+2024-12-17,21:30:00,22:30:00,Winnipeg Jets,4,San Jose Sharks,3,Regulation
+2024-12-18,18:00:00,19:00:00,Philadelphia Flyers,4,Detroit Red Wings,6,Regulation
+2024-12-18,18:30:00,19:30:00,Toronto Maple Leafs,5,Dallas Stars,3,Regulation
+2024-12-18,20:30:00,21:30:00,Florida Panthers,6,Minnesota Wild,1,Regulation
+2024-12-18,21:00:00,22:00:00,Vancouver Canucks,2,Utah Hockey Club,3,OT
+2024-12-18,21:00:00,22:00:00,Winnipeg Jets,2,Anaheim Ducks,3,Regulation
+2024-12-19,18:00:00,19:00:00,St. Louis Blues,1,Tampa Bay Lightning,3,Regulation
+2024-12-19,18:00:00,19:00:00,New Jersey Devils,2,Columbus Blue Jackets,4,Regulation
+2024-12-19,18:30:00,19:30:00,Los Angeles Kings,7,Philadelphia Flyers,3,Regulation
+2024-12-19,19:00:00,20:00:00,Pittsburgh Penguins,5,Nashville Predators,4,OT
+2024-12-19,19:30:00,20:30:00,Seattle Kraken,1,Chicago Blackhawks,3,Regulation
+2024-12-19,20:00:00,21:00:00,Ottawa Senators,3,Calgary Flames,2,OT
+2024-12-19,20:00:00,21:00:00,Boston Bruins,2,Edmonton Oilers,3,OT
+2024-12-19,21:00:00,22:00:00,Vancouver Canucks,1,Vegas Golden Knights,3,Regulation
+2024-12-19,21:30:00,22:30:00,Colorado Avalanche,4,San Jose Sharks,2,Regulation
+2024-12-20,18:00:00,19:00:00,Toronto Maple Leafs,6,Buffalo Sabres,3,Regulation
+2024-12-20,18:00:00,19:00:00,Montreal Canadiens,4,Detroit Red Wings,3,Regulation
+2024-12-20,18:00:00,19:00:00,St. Louis Blues,1,Florida Panthers,2,OT
+2024-12-20,18:00:00,19:00:00,Carolina Hurricanes,1,Washington Capitals,3,Regulation
+2024-12-20,19:00:00,20:00:00,New York Rangers,3,Dallas Stars,1,Regulation
+2024-12-20,19:00:00,20:00:00,Utah Hockey Club,2,Minnesota Wild,1,Regulation
+2024-12-20,21:00:00,22:00:00,Colorado Avalanche,4,Anaheim Ducks,2,Regulation
+2024-12-21,12:30:00,13:30:00,Los Angeles Kings,2,Nashville Predators,3,OT
+2024-12-21,15:00:00,16:00:00,Chicago Blackhawks,4,Calgary Flames,6,Regulation
+2024-12-21,15:00:00,16:00:00,San Jose Sharks,2,Edmonton Oilers,3,OT
+2024-12-21,18:00:00,19:00:00,Buffalo Sabres,1,Boston Bruins,3,Regulation
+2024-12-21,18:00:00,19:00:00,New York Islanders,6,Toronto Maple Leafs,3,Regulation
+2024-12-21,18:00:00,19:00:00,Detroit Red Wings,1,Montreal Canadiens,5,Regulation
+2024-12-21,18:00:00,19:00:00,Pittsburgh Penguins,0,New Jersey Devils,3,Regulation
+2024-12-21,18:00:00,19:00:00,Columbus Blue Jackets,4,Philadelphia Flyers,5,OT
+2024-12-21,18:00:00,19:00:00,Minnesota Wild,0,Winnipeg Jets,5,Regulation
+2024-12-21,21:00:00,22:00:00,Ottawa Senators,5,Vancouver Canucks,4,OT
+2024-12-21,21:00:00,22:00:00,Seattle Kraken,2,Vegas Golden Knights,6,Regulation
+2024-12-22,11:30:00,12:30:00,Carolina Hurricanes,3,New York Rangers,1,Regulation
+2024-12-22,16:00:00,17:00:00,Florida Panthers,4,Tampa Bay Lightning,2,Regulation
+2024-12-22,16:00:00,17:00:00,Los Angeles Kings,1,Washington Capitals,3,Regulation
+2024-12-22,16:00:00,17:00:00,Anaheim Ducks,5,Utah Hockey Club,4,SO
+2024-12-22,19:00:00,20:00:00,Seattle Kraken,2,Colorado Avalanche,5,Regulation
+2024-12-22,19:00:00,20:00:00,Ottawa Senators,1,Edmonton Oilers,3,Regulation
+2024-12-23,12:00:00,13:00:00,New York Rangers,0,New Jersey Devils,5,Regulation
+2024-12-23,13:00:00,14:00:00,Winnipeg Jets,5,Toronto Maple Leafs,2,Regulation
+2024-12-23,18:00:00,19:00:00,Washington Capitals,1,Boston Bruins,4,Regulation
+2024-12-23,18:00:00,19:00:00,St. Louis Blues,4,Detroit Red Wings,0,Regulation
+2024-12-23,18:00:00,19:00:00,Tampa Bay Lightning,4,Florida Panthers,0,Regulation
+2024-12-23,18:00:00,19:00:00,Philadelphia Flyers,3,Pittsburgh Penguins,7,Regulation
+2024-12-23,18:00:00,19:00:00,Montreal Canadiens,4,Columbus Blue Jackets,5,Regulation
+2024-12-23,18:30:00,19:30:00,Buffalo Sabres,7,New York Islanders,1,Regulation
+2024-12-23,19:00:00,20:00:00,Carolina Hurricanes,2,Nashville Predators,5,Regulation
+2024-12-23,19:00:00,20:00:00,Chicago Blackhawks,3,Minnesota Wild,4,Regulation
+2024-12-23,20:00:00,21:00:00,San Jose Sharks,3,Vancouver Canucks,4,Regulation
+2024-12-23,20:00:00,21:00:00,Dallas Stars,3,Utah Hockey Club,2,Regulation
+2024-12-23,21:00:00,22:00:00,Anaheim Ducks,1,Vegas Golden Knights,3,Regulation
+2024-12-27,18:00:00,19:00:00,Chicago Blackhawks,2,Buffalo Sabres,6,Regulation
+2024-12-27,18:00:00,19:00:00,Toronto Maple Leafs,5,Detroit Red Wings,2,Regulation
+2024-12-27,18:00:00,19:00:00,Carolina Hurricanes,2,New Jersey Devils,4,Regulation
+2024-12-27,18:00:00,19:00:00,Boston Bruins,2,Columbus Blue Jackets,6,Regulation
+2024-12-27,19:00:00,20:00:00,Nashville Predators,4,St. Louis Blues,7,Regulation
+2024-12-27,19:00:00,20:00:00,Minnesota Wild,3,Dallas Stars,2,OT
+2024-12-27,20:30:00,21:30:00,Colorado Avalanche,4,Utah Hockey Club,1,Regulation
+2024-12-27,21:30:00,22:30:00,Vegas Golden Knights,6,San Jose Sharks,3,Regulation
+2024-12-28,12:00:00,13:00:00,Montreal Canadiens,4,Florida Panthers,0,Regulation
+2024-12-28,15:00:00,16:00:00,Seattle Kraken,5,Vancouver Canucks,4,OT
+2024-12-28,15:00:00,16:00:00,Philadelphia Flyers,3,Anaheim Ducks,1,Regulation
+2024-12-28,15:00:00,16:00:00,Edmonton Oilers,3,Los Angeles Kings,4,OT
+2024-12-28,18:00:00,19:00:00,Columbus Blue Jackets,0,Boston Bruins,4,Regulation
+2024-12-28,18:00:00,19:00:00,Washington Capitals,5,Toronto Maple Leafs,2,Regulation
+2024-12-28,18:00:00,19:00:00,New York Rangers,2,Tampa Bay Lightning,6,Regulation
+2024-12-28,18:00:00,19:00:00,New Jersey Devils,2,Carolina Hurricanes,5,Regulation
+2024-12-28,18:00:00,19:00:00,Ottawa Senators,2,Winnipeg Jets,4,Regulation
+2024-12-28,18:30:00,19:30:00,Pittsburgh Penguins,3,New York Islanders,6,Regulation
+2024-12-28,21:00:00,22:00:00,Calgary Flames,3,San Jose Sharks,1,Regulation
+2024-12-29,14:00:00,15:00:00,Buffalo Sabres,4,St. Louis Blues,2,Regulation
+2024-12-29,15:00:00,16:00:00,Edmonton Oilers,3,Anaheim Ducks,5,Regulation
+2024-12-29,16:00:00,17:00:00,Washington Capitals,2,Detroit Red Wings,4,Regulation
+2024-12-29,16:00:00,17:00:00,Montreal Canadiens,5,Tampa Bay Lightning,2,Regulation
+2024-12-29,16:30:00,17:30:00,New York Islanders,2,Pittsburgh Penguins,3,Regulation
+2024-12-29,19:00:00,20:00:00,Ottawa Senators,3,Minnesota Wild,1,Regulation
+2024-12-29,19:00:00,20:00:00,Calgary Flames,0,Vegas Golden Knights,3,Regulation
+2024-12-29,19:30:00,20:30:00,Dallas Stars,5,Chicago Blackhawks,1,Regulation
+2024-12-29,20:00:00,21:00:00,Philadelphia Flyers,4,Los Angeles Kings,5,Regulation
+2024-12-30,18:00:00,19:00:00,New York Rangers,3,Florida Panthers,5,Regulation
+2024-12-30,18:30:00,19:30:00,Nashville Predators,0,Winnipeg Jets,3,Regulation
+2024-12-30,19:00:00,20:00:00,Utah Hockey Club,2,Seattle Kraken,5,Regulation
+2024-12-31,11:30:00,12:30:00,Boston Bruins,1,Washington Capitals,3,Regulation
+2024-12-31,12:00:00,13:00:00,New York Islanders,1,Toronto Maple Leafs,3,Regulation
+2024-12-31,14:00:00,15:00:00,Montreal Canadiens,3,Vegas Golden Knights,2,Regulation
+2024-12-31,16:00:00,17:00:00,St. Louis Blues,6,Chicago Blackhawks,2,Regulation
+2024-12-31,19:00:00,20:00:00,Pittsburgh Penguins,2,Detroit Red Wings,4,Regulation
+2024-12-31,19:00:00,20:00:00,Carolina Hurricanes,3,Columbus Blue Jackets,4,SO
+2024-12-31,19:00:00,20:00:00,Buffalo Sabres,2,Dallas Stars,4,Regulation
+2024-12-31,19:00:00,20:00:00,Nashville Predators,3,Minnesota Wild,5,Regulation
+2024-12-31,19:00:00,20:00:00,Winnipeg Jets,2,Colorado Avalanche,5,Regulation
+2024-12-31,19:00:00,20:00:00,New Jersey Devils,2,Anaheim Ducks,3,Regulation
+2024-12-31,19:00:00,20:00:00,Philadelphia Flyers,4,San Jose Sharks,0,Regulation
+2024-12-31,20:00:00,21:00:00,Vancouver Canucks,1,Calgary Flames,3,Regulation
+2024-12-31,20:00:00,21:00:00,Utah Hockey Club,1,Edmonton Oilers,4,Regulation
+2025-01-01,17:00:00,18:00:00,New Jersey Devils,0,Los Angeles Kings,3,Regulation
+2025-01-02,18:00:00,19:00:00,Carolina Hurricanes,3,Florida Panthers,1,Regulation
+2025-01-02,18:00:00,19:00:00,Boston Bruins,1,New York Rangers,2,Regulation
+2025-01-02,18:00:00,19:00:00,Minnesota Wild,4,Washington Capitals,3,SO
+2025-01-02,18:00:00,19:00:00,Detroit Red Wings,5,Columbus Blue Jackets,4,Regulation
+2025-01-02,18:30:00,19:30:00,Toronto Maple Leafs,2,New York Islanders,1,Regulation
+2025-01-02,19:00:00,20:00:00,Ottawa Senators,2,Dallas Stars,4,Regulation
+2025-01-02,19:00:00,20:00:00,Anaheim Ducks,4,Winnipeg Jets,3,OT
+2025-01-02,20:00:00,21:00:00,Buffalo Sabres,5,Colorado Avalanche,6,OT
+2025-01-02,20:00:00,21:00:00,Utah Hockey Club,5,Calgary Flames,3,Regulation
+2025-01-02,21:00:00,22:00:00,Philadelphia Flyers,2,Vegas Golden Knights,5,Regulation
+2025-01-02,21:00:00,22:00:00,Vancouver Canucks,4,Seattle Kraken,3,SO
+2025-01-02,21:30:00,22:30:00,Tampa Bay Lightning,1,San Jose Sharks,2,Regulation
+2025-01-03,18:00:00,19:00:00,Pittsburgh Penguins,2,Florida Panthers,3,SO
+2025-01-03,19:00:00,20:00:00,Montreal Canadiens,2,Chicago Blackhawks,4,Regulation
+2025-01-03,19:00:00,20:00:00,Ottawa Senators,0,St. Louis Blues,4,Regulation
+2025-01-03,20:00:00,21:00:00,Anaheim Ducks,2,Edmonton Oilers,3,Regulation
+2025-01-03,21:00:00,22:00:00,Nashville Predators,3,Vancouver Canucks,0,Regulation
+2025-01-04,11:00:00,12:00:00,New York Rangers,4,Washington Capitals,7,Regulation
+2025-01-04,15:00:00,16:00:00,New Jersey Devils,2,San Jose Sharks,3,Regulation
+2025-01-04,18:00:00,19:00:00,Detroit Red Wings,4,Winnipeg Jets,2,Regulation
+2025-01-04,18:00:00,19:00:00,Boston Bruins,4,Toronto Maple Leafs,6,Regulation
+2025-01-04,18:00:00,19:00:00,Minnesota Wild,4,Carolina Hurricanes,0,Regulation
+2025-01-04,18:00:00,19:00:00,St. Louis Blues,4,Columbus Blue Jackets,6,Regulation
+2025-01-04,18:00:00,19:00:00,Montreal Canadiens,2,Colorado Avalanche,1,SO
+2025-01-04,19:00:00,20:00:00,Utah Hockey Club,2,Dallas Stars,3,OT
+2025-01-04,20:00:00,21:00:00,Tampa Bay Lightning,1,Los Angeles Kings,2,Regulation
+2025-01-04,21:00:00,22:00:00,Nashville Predators,4,Calgary Flames,1,Regulation
+2025-01-04,21:00:00,22:00:00,Buffalo Sabres,1,Vegas Golden Knights,3,Regulation
+2025-01-04,21:00:00,22:00:00,Edmonton Oilers,4,Seattle Kraken,2,Regulation
+2025-01-05,14:00:00,15:00:00,New York Rangers,6,Chicago Blackhawks,2,Regulation
+2025-01-05,17:00:00,18:00:00,New York Islanders,5,Boston Bruins,4,OT
+2025-01-05,17:00:00,18:00:00,Pittsburgh Penguins,3,Carolina Hurricanes,4,OT
+2025-01-05,18:00:00,19:00:00,Philadelphia Flyers,2,Toronto Maple Leafs,3,OT
+2025-01-05,19:00:00,20:00:00,Tampa Bay Lightning,1,Anaheim Ducks,4,Regulation
+2025-01-06,18:00:00,19:00:00,Washington Capitals,3,Buffalo Sabres,4,SO
+2025-01-06,18:30:00,19:30:00,Vancouver Canucks,4,Montreal Canadiens,5,OT
+2025-01-06,20:00:00,21:00:00,Florida Panthers,1,Colorado Avalanche,3,Regulation
+2025-01-06,21:00:00,22:00:00,New Jersey Devils,3,Seattle Kraken,2,Regulation
+2025-01-07,18:00:00,19:00:00,Carolina Hurricanes,2,Tampa Bay Lightning,3,Regulation
+2025-01-07,18:00:00,19:00:00,Edmonton Oilers,4,Boston Bruins,0,Regulation
+2025-01-07,18:00:00,19:00:00,Ottawa Senators,2,Detroit Red Wings,3,OT
+2025-01-07,18:00:00,19:00:00,Dallas Stars,5,New York Rangers,4,OT
+2025-01-07,18:00:00,19:00:00,Columbus Blue Jackets,4,Pittsburgh Penguins,3,SO
+2025-01-07,18:30:00,19:30:00,Toronto Maple Leafs,3,Philadelphia Flyers,2,Regulation
+2025-01-07,19:00:00,20:00:00,St. Louis Blues,4,Minnesota Wild,6,Regulation
+2025-01-07,19:00:00,20:00:00,Nashville Predators,2,Winnipeg Jets,5,Regulation
+2025-01-07,21:00:00,22:00:00,Calgary Flames,3,Anaheim Ducks,2,OT
+2025-01-07,21:30:00,22:30:00,Vegas Golden Knights,4,San Jose Sharks,2,Regulation
+2025-01-08,18:30:00,19:30:00,Vancouver Canucks,1,Washington Capitals,2,OT
+2025-01-08,18:30:00,19:30:00,Colorado Avalanche,1,Chicago Blackhawks,3,Regulation
+2025-01-08,21:00:00,22:00:00,Florida Panthers,4,Utah Hockey Club,1,Regulation
+2025-01-09,18:00:00,19:00:00,Buffalo Sabres,4,Ottawa Senators,0,Regulation
+2025-01-09,18:00:00,19:00:00,Boston Bruins,1,Tampa Bay Lightning,4,Regulation
+2025-01-09,18:00:00,19:00:00,New Jersey Devils,2,New York Rangers,3,OT
+2025-01-09,18:00:00,19:00:00,Dallas Stars,4,Philadelphia Flyers,1,Regulation
+2025-01-09,18:00:00,19:00:00,Edmonton Oilers,3,Pittsburgh Penguins,5,Regulation
+2025-01-09,18:00:00,19:00:00,Seattle Kraken,2,Columbus Blue Jackets,6,Regulation
+2025-01-09,18:30:00,19:30:00,Toronto Maple Leafs,3,Carolina Hurricanes,6,Regulation
+2025-01-09,19:00:00,20:00:00,Anaheim Ducks,2,St. Louis Blues,6,Regulation
+2025-01-09,19:00:00,20:00:00,Colorado Avalanche,6,Minnesota Wild,1,Regulation
+2025-01-09,21:00:00,22:00:00,New York Islanders,4,Vegas Golden Knights,0,Regulation
+2025-01-10,18:00:00,19:00:00,Chicago Blackhawks,3,Detroit Red Wings,5,Regulation
+2025-01-10,18:00:00,19:00:00,Montreal Canadiens,3,Washington Capitals,2,OT
+2025-01-10,18:00:00,19:00:00,Vancouver Canucks,0,Carolina Hurricanes,2,Regulation
+2025-01-10,19:00:00,20:00:00,Los Angeles Kings,2,Winnipeg Jets,1,OT
+2025-01-10,20:00:00,21:00:00,San Jose Sharks,1,Utah Hockey Club,2,Regulation
+2025-01-11,12:00:00,13:00:00,Boston Bruins,4,Florida Panthers,3,OT
+2025-01-11,15:00:00,16:00:00,Seattle Kraken,6,Buffalo Sabres,2,Regulation
+2025-01-11,15:00:00,16:00:00,Ottawa Senators,5,Pittsburgh Penguins,0,Regulation
+2025-01-11,18:00:00,19:00:00,Vancouver Canucks,3,Toronto Maple Leafs,0,Regulation
+2025-01-11,18:00:00,19:00:00,Dallas Stars,2,Montreal Canadiens,1,SO
+2025-01-11,18:00:00,19:00:00,Tampa Bay Lightning,2,New Jersey Devils,3,OT
+2025-01-11,18:00:00,19:00:00,Anaheim Ducks,0,Philadelphia Flyers,6,Regulation
+2025-01-11,18:00:00,19:00:00,Edmonton Oilers,4,Chicago Blackhawks,3,Regulation
+2025-01-11,18:00:00,19:00:00,Columbus Blue Jackets,2,St. Louis Blues,1,Regulation
+2025-01-11,18:00:00,19:00:00,Colorado Avalanche,0,Winnipeg Jets,3,Regulation
+2025-01-11,19:00:00,20:00:00,Washington Capitals,4,Nashville Predators,1,Regulation
+2025-01-11,20:00:00,21:00:00,New York Islanders,2,Utah Hockey Club,1,Regulation
+2025-01-11,21:00:00,22:00:00,Los Angeles Kings,1,Calgary Flames,2,Regulation
+2025-01-11,21:00:00,22:00:00,New York Rangers,2,Vegas Golden Knights,1,Regulation
+2025-01-11,21:00:00,22:00:00,Minnesota Wild,3,San Jose Sharks,1,Regulation
+2025-01-12,14:00:00,15:00:00,Seattle Kraken,2,Detroit Red Wings,6,Regulation
+2025-01-12,16:00:00,17:00:00,Dallas Stars,2,Ottawa Senators,3,Regulation
+2025-01-12,16:00:00,17:00:00,Tampa Bay Lightning,5,Pittsburgh Penguins,2,Regulation
+2025-01-12,16:00:00,17:00:00,Anaheim Ducks,3,Carolina Hurricanes,2,OT
+2025-01-12,19:00:00,20:00:00,Minnesota Wild,1,Vegas Golden Knights,4,Regulation
+2025-01-13,18:00:00,19:00:00,Florida Panthers,3,Philadelphia Flyers,4,Regulation
+2025-01-13,18:30:00,19:30:00,Calgary Flames,5,Chicago Blackhawks,2,Regulation
+2025-01-13,20:30:00,21:30:00,Los Angeles Kings,0,Edmonton Oilers,1,Regulation
+2025-01-14,18:00:00,19:00:00,Tampa Bay Lightning,2,Boston Bruins,6,Regulation
+2025-01-14,18:00:00,19:00:00,Dallas Stars,4,Toronto Maple Leafs,1,Regulation
+2025-01-14,18:00:00,19:00:00,San Jose Sharks,6,Detroit Red Wings,3,Regulation
+2025-01-14,18:00:00,19:00:00,Seattle Kraken,4,Pittsburgh Penguins,2,Regulation
+2025-01-14,18:00:00,19:00:00,Anaheim Ducks,0,Washington Capitals,3,Regulation
+2025-01-14,18:00:00,19:00:00,Philadelphia Flyers,2,Columbus Blue Jackets,3,SO
+2025-01-14,18:30:00,19:30:00,Florida Panthers,2,New Jersey Devils,1,SO
+2025-01-14,18:30:00,19:30:00,Ottawa Senators,2,New York Islanders,0,Regulation
+2025-01-14,19:00:00,20:00:00,Calgary Flames,1,St. Louis Blues,2,Regulation
+2025-01-14,19:00:00,20:00:00,Vegas Golden Knights,3,Nashville Predators,5,Regulation
+2025-01-14,19:00:00,20:00:00,Vancouver Canucks,1,Winnipeg Jets,6,Regulation
+2025-01-14,20:00:00,21:00:00,New York Rangers,2,Colorado Avalanche,3,OT
+2025-01-14,20:00:00,21:00:00,Montreal Canadiens,5,Utah Hockey Club,3,Regulation
+2025-01-15,17:00:00,18:00:00,Carolina Hurricanes,2,Buffalo Sabres,4,Regulation
+2025-01-15,19:30:00,20:30:00,Edmonton Oilers,5,Minnesota Wild,3,Regulation
+2025-01-16,18:00:00,19:00:00,New Jersey Devils,3,Toronto Maple Leafs,4,OT
+2025-01-16,18:00:00,19:00:00,Washington Capitals,1,Ottawa Senators,0,OT
+2025-01-16,18:00:00,19:00:00,Anaheim Ducks,3,Tampa Bay Lightning,4,SO
+2025-01-16,18:00:00,19:00:00,Detroit Red Wings,5,Florida Panthers,2,Regulation
+2025-01-16,18:00:00,19:00:00,San Jose Sharks,1,Columbus Blue Jackets,4,Regulation
+2025-01-16,18:30:00,19:30:00,Philadelphia Flyers,5,New York Islanders,3,Regulation
+2025-01-16,19:00:00,20:00:00,Calgary Flames,1,St. Louis Blues,4,Regulation
+2025-01-16,19:00:00,20:00:00,Chicago Blackhawks,2,Nashville Predators,3,SO
+2025-01-16,19:00:00,20:00:00,Montreal Canadiens,3,Dallas Stars,1,Regulation
+2025-01-16,19:00:00,20:00:00,Seattle Kraken,1,Winnipeg Jets,2,Regulation
+2025-01-16,20:00:00,21:00:00,New York Rangers,5,Utah Hockey Club,3,Regulation
+2025-01-16,20:30:00,21:30:00,Edmonton Oilers,4,Colorado Avalanche,3,Regulation
+2025-01-16,21:00:00,22:00:00,Los Angeles Kings,5,Vancouver Canucks,1,Regulation
+2025-01-17,18:00:00,19:00:00,Pittsburgh Penguins,5,Buffalo Sabres,2,Regulation
+2025-01-17,18:00:00,19:00:00,Vegas Golden Knights,2,Carolina Hurricanes,3,Regulation
+2025-01-18,11:30:00,12:30:00,Philadelphia Flyers,3,New Jersey Devils,1,Regulation
+2025-01-18,14:00:00,15:00:00,Boston Bruins,5,Ottawa Senators,6,SO
+2025-01-18,15:00:00,16:00:00,Dallas Stars,3,Colorado Avalanche,6,Regulation
+2025-01-18,17:00:00,18:00:00,Anaheim Ducks,0,Florida Panthers,3,Regulation
+2025-01-18,18:00:00,19:00:00,Toronto Maple Leafs,7,Montreal Canadiens,3,Regulation
+2025-01-18,18:00:00,19:00:00,Detroit Red Wings,1,Tampa Bay Lightning,5,Regulation
+2025-01-18,18:00:00,19:00:00,Columbus Blue Jackets,0,New York Rangers,1,SO
+2025-01-18,18:00:00,19:00:00,Pittsburgh Penguins,1,Washington Capitals,4,Regulation
+2025-01-18,18:00:00,19:00:00,Calgary Flames,3,Winnipeg Jets,1,Regulation
+2025-01-18,18:30:00,19:30:00,San Jose Sharks,1,New York Islanders,4,Regulation
+2025-01-18,19:00:00,20:00:00,Vegas Golden Knights,3,Chicago Blackhawks,5,Regulation
+2025-01-18,19:00:00,20:00:00,Minnesota Wild,2,Nashville Predators,6,Regulation
+2025-01-18,20:00:00,21:00:00,St. Louis Blues,2,Utah Hockey Club,4,Regulation
+2025-01-18,21:00:00,22:00:00,Edmonton Oilers,2,Vancouver Canucks,3,Regulation
+2025-01-18,21:00:00,22:00:00,Los Angeles Kings,2,Seattle Kraken,4,Regulation
+2025-01-19,12:00:00,13:00:00,Ottawa Senators,2,New Jersey Devils,1,Regulation
+2025-01-19,18:00:00,19:00:00,New York Rangers,4,Montreal Canadiens,5,OT
+2025-01-19,19:00:00,20:00:00,Detroit Red Wings,1,Dallas Stars,4,Regulation
+2025-01-20,12:00:00,13:00:00,San Jose Sharks,3,Boston Bruins,6,Regulation
+2025-01-20,14:00:00,15:00:00,Minnesota Wild,3,Colorado Avalanche,1,Regulation
+2025-01-20,15:00:00,16:00:00,Buffalo Sabres,4,Seattle Kraken,6,Regulation
+2025-01-20,17:00:00,18:00:00,St. Louis Blues,5,Vegas Golden Knights,4,SO
+2025-01-20,18:30:00,19:30:00,Tampa Bay Lightning,3,Toronto Maple Leafs,5,Regulation
+2025-01-20,18:30:00,19:30:00,Columbus Blue Jackets,1,New York Islanders,3,Regulation
+2025-01-20,19:30:00,20:30:00,Carolina Hurricanes,4,Chicago Blackhawks,3,OT
+2025-01-20,20:30:00,21:30:00,Winnipeg Jets,2,Utah Hockey Club,5,Regulation
+2025-01-20,21:30:00,22:30:00,Pittsburgh Penguins,5,Los Angeles Kings,1,Regulation
+2025-01-21,18:00:00,19:00:00,Tampa Bay Lightning,2,Montreal Canadiens,3,Regulation
+2025-01-21,18:00:00,19:00:00,Ottawa Senators,0,New York Rangers,5,Regulation
+2025-01-21,18:00:00,19:00:00,Detroit Red Wings,1,Philadelphia Flyers,2,OT
+2025-01-21,19:00:00,20:00:00,San Jose Sharks,5,Nashville Predators,7,Regulation
+2025-01-21,19:00:00,20:00:00,Carolina Hurricanes,2,Dallas Stars,1,Regulation
+2025-01-21,20:00:00,21:00:00,Washington Capitals,3,Edmonton Oilers,2,Regulation
+2025-01-21,21:00:00,22:00:00,Buffalo Sabres,3,Vancouver Canucks,2,Regulation
+2025-01-21,21:00:00,22:00:00,Florida Panthers,5,Anaheim Ducks,2,Regulation
+2025-01-22,18:00:00,19:00:00,Boston Bruins,1,New Jersey Devils,5,Regulation
+2025-01-22,18:30:00,19:30:00,Columbus Blue Jackets,5,Toronto Maple Leafs,1,Regulation
+2025-01-22,20:30:00,21:30:00,Winnipeg Jets,3,Colorado Avalanche,2,OT
+2025-01-22,21:00:00,22:00:00,Florida Panthers,1,Los Angeles Kings,2,Regulation
+2025-01-23,18:00:00,19:00:00,Ottawa Senators,0,Boston Bruins,2,Regulation
+2025-01-23,18:00:00,19:00:00,Montreal Canadiens,2,Detroit Red Wings,4,Regulation
+2025-01-23,18:00:00,19:00:00,Philadelphia Flyers,1,New York Rangers,6,Regulation
+2025-01-23,18:00:00,19:00:00,Columbus Blue Jackets,4,Carolina Hurricanes,7,Regulation
+2025-01-23,19:00:00,20:00:00,Vegas Golden Knights,4,St. Louis Blues,2,Regulation
+2025-01-23,19:00:00,20:00:00,Utah Hockey Club,4,Minnesota Wild,0,Regulation
+2025-01-23,20:00:00,21:00:00,Buffalo Sabres,2,Calgary Flames,5,Regulation
+2025-01-23,20:00:00,21:00:00,Vancouver Canucks,2,Edmonton Oilers,6,Regulation
+2025-01-23,21:00:00,22:00:00,Pittsburgh Penguins,1,Anaheim Ducks,5,Regulation
+2025-01-23,21:00:00,22:00:00,Washington Capitals,3,Seattle Kraken,0,Regulation
+2025-01-23,21:30:00,22:30:00,Nashville Predators,6,San Jose Sharks,5,Regulation
+2025-01-24,18:30:00,19:30:00,Philadelphia Flyers,1,New York Islanders,3,Regulation
+2025-01-24,18:30:00,19:30:00,Vegas Golden Knights,3,Dallas Stars,4,Regulation
+2025-01-24,19:00:00,20:00:00,Tampa Bay Lightning,4,Chicago Blackhawks,3,OT
+2025-01-24,19:00:00,20:00:00,Utah Hockey Club,2,Winnipeg Jets,5,Regulation
+2025-01-25,12:00:00,13:00:00,Colorado Avalanche,1,Boston Bruins,3,Regulation
+2025-01-25,15:00:00,16:00:00,Buffalo Sabres,2,Edmonton Oilers,3,Regulation
+2025-01-25,15:00:00,16:00:00,Pittsburgh Penguins,1,Seattle Kraken,4,Regulation
+2025-01-25,18:00:00,19:00:00,New Jersey Devils,4,Montreal Canadiens,3,OT
+2025-01-25,18:00:00,19:00:00,Toronto Maple Leafs,1,Ottawa Senators,2,Regulation
+2025-01-25,18:00:00,19:00:00,Tampa Bay Lightning,0,Detroit Red Wings,2,Regulation
+2025-01-25,18:00:00,19:00:00,Los Angeles Kings,2,Columbus Blue Jackets,3,OT
+2025-01-25,18:00:00,19:00:00,Dallas Stars,2,St. Louis Blues,0,Regulation
+2025-01-25,18:00:00,19:00:00,Calgary Flames,5,Minnesota Wild,4,Regulation
+2025-01-25,18:30:00,19:30:00,Carolina Hurricanes,2,New York Islanders,3,OT
+2025-01-25,21:00:00,22:00:00,Washington Capitals,1,Vancouver Canucks,2,Regulation
+2025-01-25,21:00:00,22:00:00,Nashville Predators,2,Anaheim Ducks,5,Regulation
+2025-01-25,21:00:00,22:00:00,Florida Panthers,7,San Jose Sharks,2,Regulation
+2025-01-26,12:00:00,13:00:00,Colorado Avalanche,5,New York Rangers,4,Regulation
+2025-01-26,16:00:00,17:00:00,Utah Hockey Club,1,Ottawa Senators,3,Regulation
+2025-01-26,17:00:00,18:00:00,Calgary Flames,2,Winnipeg Jets,5,Regulation
+2025-01-26,18:00:00,19:00:00,Minnesota Wild,4,Chicago Blackhawks,2,Regulation
+2025-01-26,19:00:00,20:00:00,Florida Panthers,1,Vegas Golden Knights,4,Regulation
+2025-01-27,18:00:00,19:00:00,Los Angeles Kings,2,Detroit Red Wings,5,Regulation
+2025-01-27,18:00:00,19:00:00,New Jersey Devils,2,Philadelphia Flyers,4,Regulation
+2025-01-27,18:30:00,19:30:00,Vancouver Canucks,5,St. Louis Blues,2,Regulation
+2025-01-27,20:30:00,21:30:00,Seattle Kraken,2,Edmonton Oilers,4,Regulation
+2025-01-27,21:30:00,22:30:00,Pittsburgh Penguins,1,San Jose Sharks,2,Regulation
+2025-01-28,18:00:00,19:00:00,Boston Bruins,2,Buffalo Sabres,7,Regulation
+2025-01-28,18:00:00,19:00:00,Winnipeg Jets,4,Montreal Canadiens,1,Regulation
+2025-01-28,18:00:00,19:00:00,Chicago Blackhawks,4,Tampa Bay Lightning,1,Regulation
+2025-01-28,18:00:00,19:00:00,Carolina Hurricanes,4,New York Rangers,0,Regulation
+2025-01-28,18:30:00,19:30:00,Colorado Avalanche,2,New York Islanders,5,Regulation
+2025-01-28,20:00:00,21:00:00,Washington Capitals,3,Calgary Flames,1,Regulation
+2025-01-28,21:00:00,22:00:00,Dallas Stars,4,Vegas Golden Knights,3,OT
+2025-01-28,21:00:00,22:00:00,Anaheim Ducks,6,Seattle Kraken,4,Regulation
+2025-01-29,18:00:00,19:00:00,Minnesota Wild,3,Toronto Maple Leafs,1,Regulation
+2025-01-29,18:00:00,19:00:00,Los Angeles Kings,0,Florida Panthers,3,Regulation
+2025-01-29,18:00:00,19:00:00,Philadelphia Flyers,0,New Jersey Devils,5,Regulation
+2025-01-29,20:00:00,21:00:00,Vancouver Canucks,3,Nashville Predators,1,Regulation
+2025-01-29,20:30:00,21:30:00,Pittsburgh Penguins,3,Utah Hockey Club,2,OT
+2025-01-30,18:00:00,19:00:00,Winnipeg Jets,6,Boston Bruins,2,Regulation
+2025-01-30,18:00:00,19:00:00,Minnesota Wild,4,Montreal Canadiens,0,Regulation
+2025-01-30,18:00:00,19:00:00,Washington Capitals,4,Ottawa Senators,5,OT
+2025-01-30,18:00:00,19:00:00,Los Angeles Kings,0,Tampa Bay Lightning,3,Regulation
+2025-01-30,18:00:00,19:00:00,Chicago Blackhawks,2,Carolina Hurricanes,3,Regulation
+2025-01-30,18:30:00,19:30:00,New York Islanders,3,Philadelphia Flyers,0,Regulation
+2025-01-30,20:00:00,21:00:00,Anaheim Ducks,1,Calgary Flames,4,Regulation
+2025-01-30,20:00:00,21:00:00,Detroit Red Wings,3,Edmonton Oilers,2,SO
+2025-01-30,21:00:00,22:00:00,Columbus Blue Jackets,2,Vegas Golden Knights,1,OT
+2025-01-30,21:30:00,22:30:00,San Jose Sharks,2,Seattle Kraken,6,Regulation
+2025-01-31,18:00:00,19:00:00,Nashville Predators,3,Buffalo Sabres,4,Regulation
+2025-01-31,19:00:00,20:00:00,Vancouver Canucks,3,Dallas Stars,5,Regulation
+2025-01-31,20:00:00,21:00:00,St. Louis Blues,0,Colorado Avalanche,5,Regulation
+2025-01-31,20:00:00,21:00:00,Columbus Blue Jackets,3,Utah Hockey Club,2,OT
+2025-02-01,12:00:00,13:00:00,Chicago Blackhawks,1,Florida Panthers,5,Regulation
+2025-02-01,14:30:00,15:30:00,New York Rangers,3,Boston Bruins,6,Regulation
+2025-02-01,18:00:00,19:00:00,Minnesota Wild,0,Ottawa Senators,6,Regulation
+2025-02-01,18:00:00,19:00:00,New York Islanders,3,Tampa Bay Lightning,2,OT
+2025-02-01,18:00:00,19:00:00,Nashville Predators,0,Pittsburgh Penguins,3,Regulation
+2025-02-01,18:00:00,19:00:00,Winnipeg Jets,5,Washington Capitals,4,OT
+2025-02-01,18:00:00,19:00:00,Los Angeles Kings,4,Carolina Hurricanes,2,Regulation
+2025-02-01,18:00:00,19:00:00,Toronto Maple Leafs,4,Edmonton Oilers,3,Regulation
+2025-02-01,21:00:00,22:00:00,Detroit Red Wings,3,Calgary Flames,1,Regulation
+2025-02-02,12:00:00,13:00:00,New Jersey Devils,3,Buffalo Sabres,4,Regulation
+2025-02-02,14:00:00,15:00:00,Philadelphia Flyers,0,Colorado Avalanche,2,Regulation
+2025-02-02,15:00:00,16:00:00,Montreal Canadiens,2,Anaheim Ducks,3,Regulation
+2025-02-02,17:00:00,18:00:00,New York Islanders,3,Florida Panthers,6,Regulation
+2025-02-02,17:00:00,18:00:00,Vegas Golden Knights,2,New York Rangers,4,Regulation
+2025-02-02,17:00:00,18:00:00,Columbus Blue Jackets,3,Dallas Stars,5,Regulation
+2025-02-02,18:00:00,19:00:00,St. Louis Blues,2,Utah Hockey Club,1,Regulation
+2025-02-02,19:00:00,20:00:00,Detroit Red Wings,3,Vancouver Canucks,2,OT
+2025-02-02,20:00:00,21:00:00,Calgary Flames,3,Seattle Kraken,2,Regulation
+2025-02-03,18:30:00,19:30:00,Ottawa Senators,5,Nashville Predators,2,Regulation
+2025-02-04,18:00:00,19:00:00,Minnesota Wild,0,Boston Bruins,3,Regulation
+2025-02-04,18:00:00,19:00:00,Columbus Blue Jackets,2,Buffalo Sabres,3,Regulation
+2025-02-04,18:00:00,19:00:00,Ottawa Senators,3,Tampa Bay Lightning,4,Regulation
+2025-02-04,18:00:00,19:00:00,New Jersey Devils,3,Pittsburgh Penguins,2,SO
+2025-02-04,18:00:00,19:00:00,Florida Panthers,3,Washington Capitals,6,Regulation
+2025-02-04,18:30:00,19:30:00,Vegas Golden Knights,1,New York Islanders,2,Regulation
+2025-02-04,19:00:00,20:00:00,Edmonton Oilers,3,St. Louis Blues,2,OT
+2025-02-04,19:00:00,20:00:00,Carolina Hurricanes,0,Winnipeg Jets,3,Regulation
+2025-02-04,20:00:00,21:00:00,Toronto Maple Leafs,6,Calgary Flames,3,Regulation
+2025-02-04,20:00:00,21:00:00,Philadelphia Flyers,2,Utah Hockey Club,3,OT
+2025-02-04,21:00:00,22:00:00,Colorado Avalanche,0,Vancouver Canucks,3,Regulation
+2025-02-04,21:00:00,22:00:00,Detroit Red Wings,5,Seattle Kraken,4,SO
+2025-02-04,21:30:00,22:30:00,Dallas Stars,1,Anaheim Ducks,2,Regulation
+2025-02-04,21:30:00,22:30:00,Montreal Canadiens,4,San Jose Sharks,3,Regulation
+2025-02-05,18:00:00,19:00:00,Boston Bruins,2,New York Rangers,3,Regulation
+2025-02-05,20:30:00,21:30:00,Edmonton Oilers,4,Chicago Blackhawks,3,OT
+2025-02-05,21:30:00,22:30:00,Montreal Canadiens,3,Los Angeles Kings,6,Regulation
+2025-02-06,18:00:00,19:00:00,Ottawa Senators,1,Tampa Bay Lightning,5,Regulation
+2025-02-06,18:00:00,19:00:00,Vegas Golden Knights,3,New Jersey Devils,1,Regulation
+2025-02-06,18:00:00,19:00:00,Washington Capitals,4,Philadelphia Flyers,3,Regulation
+2025-02-06,18:00:00,19:00:00,Utah Hockey Club,3,Columbus Blue Jackets,2,OT
+2025-02-06,18:30:00,19:30:00,Carolina Hurricanes,1,Minnesota Wild,2,Regulation
+2025-02-06,19:00:00,20:00:00,Florida Panthers,3,St. Louis Blues,2,Regulation
+2025-02-06,20:00:00,21:00:00,Colorado Avalanche,4,Calgary Flames,2,Regulation
+2025-02-06,21:00:00,22:00:00,Toronto Maple Leafs,3,Seattle Kraken,1,Regulation
+2025-02-06,21:30:00,22:30:00,Vancouver Canucks,2,San Jose Sharks,1,OT
+2025-02-07,18:00:00,19:00:00,Pittsburgh Penguins,3,New York Rangers,2,Regulation
+2025-02-07,19:00:00,20:00:00,New York Islanders,3,Winnipeg Jets,4,Regulation
+2025-02-07,19:30:00,20:30:00,Nashville Predators,2,Chicago Blackhawks,6,Regulation
+2025-02-07,20:00:00,21:00:00,Colorado Avalanche,5,Edmonton Oilers,4,Regulation
+2025-02-07,21:30:00,22:30:00,Dallas Stars,4,Los Angeles Kings,5,SO
+2025-02-08,12:00:00,13:00:00,New Jersey Devils,4,Montreal Canadiens,0,Regulation
+2025-02-08,12:00:00,13:00:00,Tampa Bay Lightning,6,Detroit Red Wings,3,Regulation
+2025-02-08,12:00:00,13:00:00,Utah Hockey Club,3,Carolina Hurricanes,7,Regulation
+2025-02-08,14:30:00,15:30:00,Vegas Golden Knights,4,Boston Bruins,3,Regulation
+2025-02-08,18:00:00,19:00:00,Ottawa Senators,1,Florida Panthers,5,Regulation
+2025-02-08,18:00:00,19:00:00,Pittsburgh Penguins,2,Philadelphia Flyers,3,Regulation
+2025-02-08,18:00:00,19:00:00,New York Rangers,4,Columbus Blue Jackets,3,Regulation
+2025-02-08,18:00:00,19:00:00,Chicago Blackhawks,5,St. Louis Blues,6,SO
+2025-02-08,18:00:00,19:00:00,Toronto Maple Leafs,1,Vancouver Canucks,2,Regulation
+2025-02-08,19:00:00,20:00:00,Buffalo Sabres,4,Nashville Predators,6,Regulation
+2025-02-08,19:00:00,20:00:00,New York Islanders,3,Minnesota Wild,6,Regulation
+2025-02-08,21:00:00,22:00:00,Seattle Kraken,3,Calgary Flames,2,OT
+2025-02-08,21:00:00,22:00:00,Dallas Stars,8,San Jose Sharks,3,Regulation
+2025-02-08,21:30:00,22:30:00,Anaheim Ducks,2,Los Angeles Kings,1,SO
+2025-02-09,11:30:00,12:30:00,Utah Hockey Club,5,Washington Capitals,4,SO
+2025-02-09,12:00:00,13:00:00,Tampa Bay Lightning,5,Montreal Canadiens,3,Regulation
+2025-02-22,11:30:00,12:30:00,Minnesota Wild,4,Detroit Red Wings,3,OT
+2025-02-22,12:00:00,13:00:00,Edmonton Oilers,3,Philadelphia Flyers,6,Regulation
+2025-02-22,14:00:00,15:00:00,Washington Capitals,8,Pittsburgh Penguins,3,Regulation
+2025-02-22,16:30:00,17:30:00,New York Rangers,2,Buffalo Sabres,8,Regulation
+2025-02-22,17:00:00,18:00:00,Seattle Kraken,2,Florida Panthers,1,Regulation
+2025-02-22,17:00:00,18:00:00,Dallas Stars,4,New Jersey Devils,2,Regulation
+2025-02-22,17:00:00,18:00:00,Colorado Avalanche,1,Nashville Predators,2,Regulation
+2025-02-22,18:00:00,19:00:00,Anaheim Ducks,3,Boston Bruins,2,OT
+2025-02-22,18:00:00,19:00:00,Carolina Hurricanes,3,Toronto Maple Leafs,6,Regulation
+2025-02-22,18:00:00,19:00:00,Montreal Canadiens,5,Ottawa Senators,2,Regulation
+2025-02-22,18:00:00,19:00:00,Chicago Blackhawks,1,Columbus Blue Jackets,5,Regulation
+2025-02-22,18:00:00,19:00:00,Winnipeg Jets,4,St. Louis Blues,3,SO
+2025-02-22,20:00:00,21:00:00,Utah Hockey Club,3,Los Angeles Kings,5,Regulation
+2025-02-22,21:00:00,22:00:00,Vancouver Canucks,1,Vegas Golden Knights,3,Regulation
+2025-02-23,12:00:00,13:00:00,Edmonton Oilers,3,Washington Capitals,7,Regulation
+2025-02-23,14:30:00,15:30:00,New York Rangers,5,Pittsburgh Penguins,3,Regulation
+2025-02-23,17:00:00,18:00:00,Anaheim Ducks,4,Detroit Red Wings,5,OT
+2025-02-23,17:00:00,18:00:00,Seattle Kraken,1,Tampa Bay Lightning,4,Regulation
+2025-02-23,17:00:00,18:00:00,Colorado Avalanche,1,St. Louis Blues,3,Regulation
+2025-02-23,17:00:00,18:00:00,New Jersey Devils,5,Nashville Predators,0,Regulation
+2025-02-23,18:00:00,19:00:00,Toronto Maple Leafs,5,Chicago Blackhawks,2,Regulation
+2025-02-23,18:30:00,19:30:00,Dallas Stars,4,New York Islanders,3,Regulation
+2025-02-23,19:00:00,20:00:00,San Jose Sharks,2,Calgary Flames,3,Regulation
+2025-02-23,19:00:00,20:00:00,Vancouver Canucks,1,Utah Hockey Club,2,Regulation
+2025-02-24,18:30:00,19:30:00,San Jose Sharks,1,Winnipeg Jets,2,OT
+2025-02-24,21:30:00,22:30:00,Vegas Golden Knights,2,Los Angeles Kings,5,Regulation
+2025-02-25,18:00:00,19:00:00,Toronto Maple Leafs,5,Boston Bruins,4,OT
+2025-02-25,18:00:00,19:00:00,Anaheim Ducks,2,Buffalo Sabres,3,Regulation
+2025-02-25,18:00:00,19:00:00,Carolina Hurricanes,0,Montreal Canadiens,4,Regulation
+2025-02-25,18:00:00,19:00:00,Pittsburgh Penguins,1,Philadelphia Flyers,6,Regulation
+2025-02-25,18:00:00,19:00:00,Calgary Flames,3,Washington Capitals,1,Regulation
+2025-02-25,18:00:00,19:00:00,Dallas Stars,4,Columbus Blue Jackets,6,Regulation
+2025-02-25,18:30:00,19:30:00,Edmonton Oilers,1,Tampa Bay Lightning,4,Regulation
+2025-02-25,18:30:00,19:30:00,New York Rangers,5,New York Islanders,1,Regulation
+2025-02-25,19:00:00,20:00:00,Seattle Kraken,2,St. Louis Blues,7,Regulation
+2025-02-25,19:00:00,20:00:00,Florida Panthers,4,Nashville Predators,1,Regulation
+2025-02-25,19:00:00,20:00:00,Detroit Red Wings,3,Minnesota Wild,2,Regulation
+2025-02-25,20:00:00,21:00:00,Chicago Blackhawks,1,Utah Hockey Club,2,Regulation
+2025-02-26,18:00:00,19:00:00,Winnipeg Jets,4,Ottawa Senators,1,Regulation
+2025-02-26,20:30:00,21:30:00,New Jersey Devils,1,Colorado Avalanche,5,Regulation
+2025-02-26,21:00:00,22:00:00,Vancouver Canucks,3,Los Angeles Kings,2,OT
+2025-02-27,18:00:00,19:00:00,New York Islanders,2,Boston Bruins,1,Regulation
+2025-02-27,18:00:00,19:00:00,San Jose Sharks,3,Montreal Canadiens,4,OT
+2025-02-27,18:00:00,19:00:00,Columbus Blue Jackets,5,Detroit Red Wings,2,Regulation
+2025-02-27,18:00:00,19:00:00,Calgary Flames,0,Tampa Bay Lightning,3,Regulation
+2025-02-27,18:00:00,19:00:00,Edmonton Oilers,3,Florida Panthers,4,Regulation
+2025-02-27,18:00:00,19:00:00,St. Louis Blues,5,Washington Capitals,2,Regulation
+2025-02-27,18:00:00,19:00:00,Buffalo Sabres,2,Carolina Hurricanes,5,Regulation
+2025-02-27,18:30:00,19:30:00,Philadelphia Flyers,4,Pittsburgh Penguins,5,OT
+2025-02-27,19:00:00,20:00:00,Winnipeg Jets,1,Nashville Predators,2,Regulation
+2025-02-27,20:00:00,21:00:00,Minnesota Wild,1,Utah Hockey Club,6,Regulation
+2025-02-27,21:00:00,22:00:00,Chicago Blackhawks,5,Vegas Golden Knights,7,Regulation
+2025-02-27,21:00:00,22:00:00,Vancouver Canucks,2,Anaheim Ducks,5,Regulation
+2025-02-28,18:00:00,19:00:00,Toronto Maple Leafs,3,New York Rangers,2,Regulation
+2025-02-28,19:00:00,20:00:00,Los Angeles Kings,2,Dallas Stars,6,Regulation
+2025-02-28,20:00:00,21:00:00,Minnesota Wild,2,Colorado Avalanche,5,Regulation
+2025-03-01,11:30:00,12:30:00,Nashville Predators,4,New York Islanders,7,Regulation
+2025-03-01,11:30:00,12:30:00,Tampa Bay Lightning,3,Washington Capitals,1,Regulation
+2025-03-01,14:00:00,15:00:00,Calgary Flames,0,Florida Panthers,3,Regulation
+2025-03-01,14:00:00,15:00:00,Boston Bruins,3,Pittsburgh Penguins,2,Regulation
+2025-03-01,17:00:00,18:00:00,Detroit Red Wings,3,Columbus Blue Jackets,5,Regulation
+2025-03-01,18:00:00,19:00:00,Montreal Canadiens,4,Buffalo Sabres,2,Regulation
+2025-03-01,18:00:00,19:00:00,San Jose Sharks,3,Ottawa Senators,5,Regulation
+2025-03-01,18:00:00,19:00:00,Edmonton Oilers,3,Carolina Hurricanes,1,Regulation
+2025-03-01,18:00:00,19:00:00,Philadelphia Flyers,2,Winnipeg Jets,1,SO
+2025-03-01,19:00:00,20:00:00,Los Angeles Kings,1,St. Louis Blues,4,Regulation
+2025-03-01,20:00:00,21:00:00,New Jersey Devils,3,Utah Hockey Club,1,Regulation
+2025-03-01,21:00:00,22:00:00,Chicago Blackhawks,6,Anaheim Ducks,3,Regulation
+2025-03-01,21:00:00,22:00:00,Vancouver Canucks,3,Seattle Kraken,6,Regulation
+2025-03-02,12:00:00,13:00:00,Toronto Maple Leafs,6,Pittsburgh Penguins,5,OT
+2025-03-02,14:30:00,15:30:00,Boston Bruins,0,Minnesota Wild,1,Regulation
+2025-03-02,16:00:00,17:00:00,Calgary Flames,1,Carolina Hurricanes,2,OT
+2025-03-02,17:00:00,18:00:00,St. Louis Blues,3,Dallas Stars,6,Regulation
+2025-03-02,18:00:00,19:00:00,Nashville Predators,0,New York Rangers,4,Regulation
+2025-03-02,19:00:00,20:00:00,New Jersey Devils,0,Vegas Golden Knights,2,Regulation
+2025-03-03,17:30:00,18:30:00,Ottawa Senators,4,Washington Capitals,5,SO
+2025-03-03,18:00:00,19:00:00,Buffalo Sabres,3,Montreal Canadiens,4,OT
+2025-03-03,18:00:00,19:00:00,Tampa Bay Lightning,1,Florida Panthers,2,Regulation
+2025-03-03,18:00:00,19:00:00,New York Islanders,0,New York Rangers,4,Regulation
+2025-03-03,18:30:00,19:30:00,San Jose Sharks,3,Toronto Maple Leafs,2,SO
+2025-03-03,19:30:00,20:30:00,Los Angeles Kings,1,Chicago Blackhawks,5,Regulation
+2025-03-04,18:00:00,19:00:00,Nashville Predators,6,Boston Bruins,3,Regulation
+2025-03-04,18:00:00,19:00:00,San Jose Sharks,6,Buffalo Sabres,2,Regulation
+2025-03-04,18:00:00,19:00:00,Carolina Hurricanes,2,Detroit Red Wings,1,Regulation
+2025-03-04,18:00:00,19:00:00,Columbus Blue Jackets,2,Tampa Bay Lightning,6,Regulation
+2025-03-04,18:00:00,19:00:00,Calgary Flames,6,Philadelphia Flyers,3,Regulation
+2025-03-04,18:30:00,19:30:00,Winnipeg Jets,2,New York Islanders,3,Regulation
+2025-03-04,19:00:00,20:00:00,New Jersey Devils,3,Dallas Stars,4,Regulation
+2025-03-04,20:00:00,21:00:00,Pittsburgh Penguins,1,Colorado Avalanche,4,Regulation
+2025-03-04,20:00:00,21:00:00,Anaheim Ducks,6,Edmonton Oilers,2,Regulation
+2025-03-04,21:00:00,22:00:00,Minnesota Wild,4,Seattle Kraken,3,Regulation
+2025-03-05,18:30:00,19:30:00,Washington Capitals,3,New York Rangers,2,OT
+2025-03-05,18:30:00,19:30:00,Ottawa Senators,4,Chicago Blackhawks,3,OT
+2025-03-05,21:00:00,22:00:00,Toronto Maple Leafs,2,Vegas Golden Knights,5,Regulation
+2025-03-05,21:30:00,22:30:00,Anaheim Ducks,2,Vancouver Canucks,3,Regulation
+2025-03-05,21:30:00,22:30:00,St. Louis Blues,3,Los Angeles Kings,2,SO
+2025-03-06,18:00:00,19:00:00,Utah Hockey Club,4,Detroit Red Wings,2,Regulation
+2025-03-06,18:00:00,19:00:00,Buffalo Sabres,5,Tampa Bay Lightning,6,Regulation
+2025-03-06,18:00:00,19:00:00,Columbus Blue Jackets,0,Florida Panthers,3,Regulation
+2025-03-06,18:00:00,19:00:00,Winnipeg Jets,4,Philadelphia Flyers,1,Regulation
+2025-03-06,18:00:00,19:00:00,Boston Bruins,2,Carolina Hurricanes,3,Regulation
+2025-03-06,19:00:00,20:00:00,Seattle Kraken,3,Nashville Predators,5,Regulation
+2025-03-06,19:00:00,20:00:00,Calgary Flames,2,Dallas Stars,3,OT
+2025-03-06,20:00:00,21:00:00,Montreal Canadiens,2,Edmonton Oilers,3,OT
+2025-03-06,20:30:00,21:30:00,San Jose Sharks,3,Colorado Avalanche,7,Regulation
+2025-03-07,18:00:00,19:00:00,Winnipeg Jets,6,New Jersey Devils,1,Regulation
+2025-03-07,18:00:00,19:00:00,Detroit Red Wings,2,Washington Capitals,5,Regulation
+2025-03-07,19:30:00,20:30:00,Utah Hockey Club,3,Chicago Blackhawks,4,OT
+2025-03-07,21:00:00,22:00:00,Minnesota Wild,1,Vancouver Canucks,3,Regulation
+2025-03-07,21:00:00,22:00:00,Pittsburgh Penguins,0,Vegas Golden Knights,4,Regulation
+2025-03-07,21:00:00,22:00:00,St. Louis Blues,4,Anaheim Ducks,3,Regulation
+2025-03-08,11:30:00,12:30:00,New York Rangers,3,Ottawa Senators,4,OT
+2025-03-08,11:30:00,12:30:00,Seattle Kraken,4,Philadelphia Flyers,1,Regulation
+2025-03-08,14:00:00,15:00:00,Boston Bruins,4,Tampa Bay Lightning,0,Regulation
+2025-03-08,17:00:00,18:00:00,Buffalo Sabres,0,Florida Panthers,4,Regulation
+2025-03-08,18:00:00,19:00:00,Toronto Maple Leafs,4,Colorado Avalanche,7,Regulation
+2025-03-08,18:00:00,19:00:00,Montreal Canadiens,0,Calgary Flames,1,Regulation
+2025-03-08,19:00:00,20:00:00,Chicago Blackhawks,2,Nashville Predators,3,OT
+2025-03-08,19:00:00,20:00:00,St. Louis Blues,1,Los Angeles Kings,2,OT
+2025-03-08,21:00:00,22:00:00,Dallas Stars,4,Edmonton Oilers,5,Regulation
+2025-03-08,21:00:00,22:00:00,New York Islanders,4,San Jose Sharks,2,Regulation
+2025-03-09,11:00:00,13:00:00,New Jersey Devils,3,Philadelphia Flyers,1,Regulation
+2025-03-09,13:30:00,15:30:00,Seattle Kraken,2,Washington Capitals,4,Regulation
+2025-03-09,13:30:00,15:30:00,Pittsburgh Penguins,3,Minnesota Wild,1,Regulation
+2025-03-09,15:00:00,17:00:00,Winnipeg Jets,2,Carolina Hurricanes,4,Regulation
+2025-03-09,16:00:00,18:00:00,Columbus Blue Jackets,7,New York Rangers,3,Regulation
+2025-03-09,18:00:00,20:00:00,Los Angeles Kings,6,Vegas Golden Knights,5,Regulation
+2025-03-09,19:00:00,21:00:00,Dallas Stars,4,Vancouver Canucks,1,Regulation
+2025-03-09,19:00:00,21:00:00,New York Islanders,1,Anaheim Ducks,4,Regulation
+2025-03-10,17:00:00,19:00:00,Edmonton Oilers,2,Buffalo Sabres,3,Regulation
+2025-03-10,17:30:00,19:30:00,Detroit Red Wings,1,Ottawa Senators,2,Regulation
+2025-03-10,19:00:00,21:00:00,Chicago Blackhawks,0,Colorado Avalanche,3,Regulation
+2025-03-10,20:00:00,22:00:00,Toronto Maple Leafs,4,Utah Hockey Club,3,SO
+2025-03-11,17:00:00,19:00:00,Florida Panthers,2,Boston Bruins,3,Regulation
+2025-03-11,17:00:00,19:00:00,Columbus Blue Jackets,3,New Jersey Devils,5,Regulation
+2025-03-11,17:00:00,19:00:00,Ottawa Senators,5,Philadelphia Flyers,2,Regulation
+2025-03-11,17:00:00,19:00:00,Vegas Golden Knights,2,Pittsburgh Penguins,3,OT
+2025-03-11,17:30:00,19:30:00,Tampa Bay Lightning,1,Carolina Hurricanes,4,Regulation
+2025-03-11,18:00:00,20:00:00,Colorado Avalanche,1,Minnesota Wild,2,SO
+2025-03-11,18:00:00,20:00:00,New York Rangers,1,Winnipeg Jets,2,Regulation
+2025-03-11,20:00:00,22:00:00,Montreal Canadiens,4,Vancouver Canucks,2,Regulation
+2025-03-11,20:00:00,22:00:00,Washington Capitals,7,Anaheim Ducks,4,Regulation
+2025-03-11,20:30:00,22:30:00,New York Islanders,1,Los Angeles Kings,4,Regulation
+2025-03-11,20:30:00,22:30:00,Nashville Predators,3,San Jose Sharks,2,Regulation
+2025-03-12,17:30:00,19:30:00,Buffalo Sabres,3,Detroit Red Wings,7,Regulation
+2025-03-12,19:00:00,21:00:00,Vancouver Canucks,4,Calgary Flames,3,SO
+2025-03-12,20:00:00,22:00:00,Anaheim Ducks,2,Utah Hockey Club,3,Regulation
+2025-03-12,20:30:00,22:30:00,Montreal Canadiens,4,Seattle Kraken,5,OT
+2025-03-13,17:00:00,19:00:00,Florida Panthers,3,Toronto Maple Leafs,2,Regulation
+2025-03-13,17:00:00,19:00:00,Boston Bruins,3,Ottawa Senators,6,Regulation
+2025-03-13,17:00:00,19:00:00,Tampa Bay Lightning,3,Philadelphia Flyers,4,SO
+2025-03-13,17:00:00,19:00:00,St. Louis Blues,3,Pittsburgh Penguins,5,Regulation
+2025-03-13,17:00:00,19:00:00,Vegas Golden Knights,4,Columbus Blue Jackets,0,Regulation
+2025-03-13,17:30:00,19:30:00,Edmonton Oilers,2,New Jersey Devils,3,Regulation
+2025-03-13,18:00:00,20:00:00,New York Rangers,3,Minnesota Wild,2,OT
+2025-03-13,20:30:00,22:30:00,Washington Capitals,0,Los Angeles Kings,3,Regulation
+2025-03-13,20:30:00,22:30:00,Chicago Blackhawks,2,San Jose Sharks,4,Regulation
+2025-03-14,17:00:00,19:00:00,Detroit Red Wings,2,Carolina Hurricanes,4,Regulation
+2025-03-14,17:30:00,19:30:00,Edmonton Oilers,2,New York Islanders,1,OT
+2025-03-14,18:00:00,20:00:00,Dallas Stars,1,Winnipeg Jets,4,Regulation
+2025-03-14,19:00:00,21:00:00,Colorado Avalanche,4,Calgary Flames,2,Regulation
+2025-03-14,20:00:00,22:00:00,Nashville Predators,1,Anaheim Ducks,2,Regulation
+2025-03-14,20:00:00,22:00:00,Utah Hockey Club,2,Seattle Kraken,4,Regulation
+2025-03-15,10:30:00,12:30:00,Vegas Golden Knights,3,Buffalo Sabres,4,SO
+2025-03-15,13:00:00,15:00:00,New Jersey Devils,3,Pittsburgh Penguins,7,Regulation
+2025-03-15,15:00:00,17:00:00,Washington Capitals,5,San Jose Sharks,1,Regulation
+2025-03-15,17:00:00,19:00:00,Tampa Bay Lightning,6,Boston Bruins,2,Regulation
+2025-03-15,17:00:00,19:00:00,Ottawa Senators,4,Toronto Maple Leafs,2,Regulation
+2025-03-15,17:00:00,19:00:00,Florida Panthers,1,Montreal Canadiens,3,Regulation
+2025-03-15,17:00:00,19:00:00,Carolina Hurricanes,5,Philadelphia Flyers,0,Regulation
+2025-03-15,17:00:00,19:00:00,New York Rangers,4,Columbus Blue Jackets,0,Regulation
+2025-03-15,18:00:00,20:00:00,St. Louis Blues,5,Minnesota Wild,1,Regulation
+2025-03-15,18:00:00,20:00:00,Nashville Predators,0,Los Angeles Kings,1,OT
+2025-03-15,20:00:00,22:00:00,Chicago Blackhawks,2,Vancouver Canucks,6,Regulation
+2025-03-16,11:00:00,13:00:00,Vegas Golden Knights,0,Detroit Red Wings,3,Regulation
+2025-03-16,13:30:00,15:30:00,Dallas Stars,3,Colorado Avalanche,4,OT
+2025-03-16,17:00:00,19:00:00,Edmonton Oilers,3,New York Rangers,1,Regulation
+2025-03-16,17:30:00,19:30:00,Florida Panthers,2,New York Islanders,4,Regulation
+2025-03-16,18:00:00,20:00:00,Anaheim Ducks,2,St. Louis Blues,7,Regulation
+2025-03-16,18:00:00,20:00:00,Utah Hockey Club,3,Vancouver Canucks,1,Regulation
+2025-03-16,19:00:00,21:00:00,Winnipeg Jets,3,Seattle Kraken,2,OT
+2025-03-17,17:00:00,19:00:00,Buffalo Sabres,3,Boston Bruins,2,OT
+2025-03-17,17:00:00,19:00:00,Philadelphia Flyers,0,Tampa Bay Lightning,2,Regulation
+2025-03-17,17:00:00,19:00:00,New Jersey Devils,2,Columbus Blue Jackets,1,Regulation
+2025-03-17,17:30:00,19:30:00,Calgary Flames,2,Toronto Maple Leafs,6,Regulation
+2025-03-17,18:00:00,20:00:00,Los Angeles Kings,1,Minnesota Wild,3,Regulation
+2025-03-18,17:00:00,19:00:00,Ottawa Senators,3,Montreal Canadiens,6,Regulation
+2025-03-18,17:00:00,19:00:00,Calgary Flames,2,New York Rangers,1,Regulation
+2025-03-18,17:00:00,19:00:00,New York Islanders,4,Pittsburgh Penguins,2,Regulation
+2025-03-18,17:00:00,19:00:00,Detroit Red Wings,1,Washington Capitals,4,Regulation
+2025-03-18,18:00:00,20:00:00,St. Louis Blues,4,Nashville Predators,1,Regulation
+2025-03-18,18:00:00,20:00:00,Anaheim Ducks,3,Dallas Stars,4,OT
+2025-03-18,18:30:00,20:30:00,Seattle Kraken,6,Chicago Blackhawks,2,Regulation
+2025-03-18,19:00:00,21:00:00,Utah Hockey Club,1,Edmonton Oilers,7,Regulation
+2025-03-18,20:00:00,22:00:00,Winnipeg Jets,2,Vancouver Canucks,6,Regulation
+2025-03-19,17:00:00,19:00:00,Colorado Avalanche,1,Toronto Maple Leafs,2,Regulation
+2025-03-19,19:30:00,21:30:00,Seattle Kraken,0,Minnesota Wild,4,Regulation
+2025-03-20,17:00:00,19:00:00,Colorado Avalanche,5,Ottawa Senators,1,Regulation
+2025-03-20,17:00:00,19:00:00,Calgary Flames,5,New Jersey Devils,3,Regulation
+2025-03-20,17:00:00,19:00:00,Toronto Maple Leafs,4,New York Rangers,3,Regulation
+2025-03-20,17:00:00,19:00:00,Philadelphia Flyers,2,Washington Capitals,3,Regulation
+2025-03-20,17:00:00,19:00:00,Florida Panthers,1,Columbus Blue Jackets,0,OT
+2025-03-20,17:30:00,19:30:00,Montreal Canadiens,3,New York Islanders,4,OT
+2025-03-20,17:30:00,19:30:00,Vancouver Canucks,3,St. Louis Blues,4,OT
+2025-03-20,18:00:00,20:00:00,Anaheim Ducks,4,Nashville Predators,1,Regulation
+2025-03-20,18:00:00,20:00:00,Tampa Bay Lightning,3,Dallas Stars,2,SO
+2025-03-20,18:30:00,20:30:00,Los Angeles Kings,3,Chicago Blackhawks,1,Regulation
+2025-03-20,19:00:00,21:00:00,Winnipeg Jets,4,Edmonton Oilers,3,OT
+2025-03-20,19:00:00,21:00:00,Buffalo Sabres,2,Utah Hockey Club,5,Regulation
+2025-03-20,20:00:00,22:00:00,Boston Bruins,1,Vegas Golden Knights,5,Regulation
+2025-03-20,20:30:00,22:30:00,Carolina Hurricanes,3,San Jose Sharks,1,Regulation
+2025-03-21,17:00:00,19:00:00,Columbus Blue Jackets,3,Pittsburgh Penguins,6,Regulation
+2025-03-22,11:00:00,13:00:00,Vancouver Canucks,3,New York Rangers,5,Regulation
+2025-03-22,12:00:00,14:00:00,Philadelphia Flyers,2,Dallas Stars,3,OT
+2025-03-22,12:00:00,14:00:00,Buffalo Sabres,1,Minnesota Wild,4,Regulation
+2025-03-22,13:00:00,15:00:00,Chicago Blackhawks,1,St. Louis Blues,4,Regulation
+2025-03-22,14:00:00,16:00:00,Calgary Flames,4,New York Islanders,3,OT
+2025-03-22,14:00:00,16:00:00,Carolina Hurricanes,2,Los Angeles Kings,7,Regulation
+2025-03-22,15:00:00,17:00:00,Florida Panthers,3,Washington Capitals,6,Regulation
+2025-03-22,15:00:00,17:00:00,Tampa Bay Lightning,4,Utah Hockey Club,6,Regulation
+2025-03-22,17:00:00,19:00:00,Colorado Avalanche,5,Montreal Canadiens,4,SO
+2025-03-22,17:00:00,19:00:00,Ottawa Senators,3,New Jersey Devils,2,Regulation
+2025-03-22,17:00:00,19:00:00,Toronto Maple Leafs,2,Nashville Predators,5,Regulation
+2025-03-22,18:00:00,20:00:00,Detroit Red Wings,3,Vegas Golden Knights,6,Regulation
+2025-03-22,20:00:00,22:00:00,Seattle Kraken,4,Edmonton Oilers,5,Regulation
+2025-03-22,20:30:00,22:30:00,Boston Bruins,1,San Jose Sharks,3,Regulation
+2025-03-23,13:00:00,15:00:00,Philadelphia Flyers,4,Chicago Blackhawks,7,Regulation
+2025-03-23,13:00:00,15:00:00,Buffalo Sabres,5,Winnipeg Jets,3,Regulation
+2025-03-23,16:00:00,18:00:00,Pittsburgh Penguins,3,Florida Panthers,4,SO
+2025-03-23,16:00:00,18:00:00,Nashville Predators,1,St. Louis Blues,4,Regulation
+2025-03-23,18:00:00,20:00:00,Tampa Bay Lightning,2,Vegas Golden Knights,4,Regulation
+2025-03-23,18:00:00,20:00:00,Carolina Hurricanes,5,Anaheim Ducks,2,Regulation
+2025-03-23,19:00:00,21:00:00,Boston Bruins,2,Los Angeles Kings,7,Regulation
+2025-03-24,17:30:00,19:30:00,Vancouver Canucks,4,New Jersey Devils,3,SO
+2025-03-24,17:30:00,19:30:00,Columbus Blue Jackets,4,New York Islanders,3,SO
+2025-03-24,18:00:00,20:00:00,Minnesota Wild,0,Dallas Stars,3,Regulation
+2025-03-24,19:00:00,21:00:00,Detroit Red Wings,5,Utah Hockey Club,1,Regulation
+2025-03-25,17:00:00,19:00:00,Ottawa Senators,2,Buffalo Sabres,3,Regulation
+2025-03-25,17:00:00,19:00:00,Philadelphia Flyers,2,Toronto Maple Leafs,7,Regulation
+2025-03-25,17:00:00,19:00:00,Pittsburgh Penguins,1,Tampa Bay Lightning,6,Regulation
+2025-03-25,17:00:00,19:00:00,Nashville Predators,3,Carolina Hurricanes,1,Regulation
+2025-03-25,18:00:00,20:00:00,Montreal Canadiens,1,St. Louis Blues,6,Regulation
+2025-03-25,18:00:00,20:00:00,Vegas Golden Knights,5,Minnesota Wild,1,Regulation
+2025-03-25,18:00:00,20:00:00,Washington Capitals,2,Winnipeg Jets,3,OT
+2025-03-25,19:00:00,21:00:00,Detroit Red Wings,2,Colorado Avalanche,5,Regulation
+2025-03-25,19:00:00,21:00:00,Seattle Kraken,3,Calgary Flames,4,OT
+2025-03-25,20:30:00,22:30:00,New York Rangers,1,Los Angeles Kings,3,Regulation
+2025-03-26,17:30:00,19:30:00,Vancouver Canucks,5,New York Islanders,2,Regulation
+2025-03-26,17:30:00,19:30:00,New Jersey Devils,5,Chicago Blackhawks,3,Regulation
+2025-03-26,20:00:00,22:00:00,Dallas Stars,4,Edmonton Oilers,3,Regulation
+2025-03-26,20:00:00,22:00:00,Boston Bruins,2,Anaheim Ducks,6,Regulation
+2025-03-27,17:00:00,19:00:00,Pittsburgh Penguins,3,Buffalo Sabres,7,Regulation
+2025-03-27,17:00:00,19:00:00,Ottawa Senators,4,Detroit Red Wings,3,Regulation
+2025-03-27,17:00:00,19:00:00,Utah Hockey Club,0,Tampa Bay Lightning,8,Regulation
+2025-03-27,17:00:00,19:00:00,Montreal Canadiens,4,Philadelphia Flyers,6,Regulation
+2025-03-27,17:30:00,19:30:00,Washington Capitals,2,Minnesota Wild,4,Regulation
+2025-03-27,18:00:00,20:00:00,St. Louis Blues,3,Nashville Predators,2,Regulation
+2025-03-27,19:00:00,21:00:00,Dallas Stars,5,Calgary Flames,2,Regulation
+2025-03-27,20:00:00,22:00:00,Los Angeles Kings,0,Colorado Avalanche,4,Regulation
+2025-03-27,20:00:00,22:00:00,Edmonton Oilers,1,Seattle Kraken,6,Regulation
+2025-03-27,20:30:00,22:30:00,Toronto Maple Leafs,5,San Jose Sharks,6,SO
+2025-03-28,17:00:00,19:00:00,Utah Hockey Club,1,Florida Panthers,2,OT
+2025-03-28,17:00:00,19:00:00,Montreal Canadiens,1,Carolina Hurricanes,4,Regulation
+2025-03-28,17:00:00,19:00:00,Vancouver Canucks,6,Columbus Blue Jackets,7,SO
+2025-03-28,18:00:00,20:00:00,New Jersey Devils,0,Winnipeg Jets,4,Regulation
+2025-03-28,18:30:00,20:30:00,Vegas Golden Knights,5,Chicago Blackhawks,3,Regulation
+2025-03-28,20:00:00,22:00:00,New York Rangers,4,Anaheim Ducks,5,OT
+2025-03-29,11:00:00,13:00:00,Buffalo Sabres,4,Philadelphia Flyers,7,Regulation
+2025-03-29,12:00:00,14:00:00,New York Islanders,3,Tampa Bay Lightning,5,Regulation
+2025-03-29,14:30:00,16:30:00,St. Louis Blues,2,Colorado Avalanche,1,Regulation
+2025-03-29,16:00:00,18:00:00,New Jersey Devils,5,Minnesota Wild,2,Regulation
+2025-03-29,16:30:00,18:30:00,Vegas Golden Knights,3,Nashville Predators,1,Regulation
+2025-03-29,17:00:00,19:00:00,Columbus Blue Jackets,2,Ottawa Senators,3,Regulation
+2025-03-29,17:00:00,19:00:00,Toronto Maple Leafs,3,Los Angeles Kings,1,Regulation
+2025-03-29,18:00:00,20:00:00,Boston Bruins,1,Detroit Red Wings,2,Regulation
+2025-03-29,20:00:00,22:00:00,Calgary Flames,2,Edmonton Oilers,3,OT
+2025-03-29,20:30:00,22:30:00,New York Rangers,6,San Jose Sharks,1,Regulation
+2025-03-29,20:30:00,22:30:00,Dallas Stars,5,Seattle Kraken,1,Regulation
+2025-03-30,11:00:00,13:00:00,Montreal Canadiens,4,Florida Panthers,2,Regulation
+2025-03-30,13:00:00,15:00:00,Buffalo Sabres,8,Washington Capitals,5,Regulation
+2025-03-30,13:00:00,15:00:00,Vancouver Canucks,1,Winnipeg Jets,3,Regulation
+2025-03-30,14:00:00,16:00:00,Utah Hockey Club,5,Chicago Blackhawks,2,Regulation
+2025-03-30,15:00:00,17:00:00,Ottawa Senators,0,Pittsburgh Penguins,1,OT
+2025-03-30,15:00:00,17:00:00,New York Islanders,4,Carolina Hurricanes,6,Regulation
+2025-03-30,18:00:00,20:00:00,Toronto Maple Leafs,3,Anaheim Ducks,2,Regulation
+2025-03-30,20:00:00,22:00:00,San Jose Sharks,1,Los Angeles Kings,8,Regulation
+2025-03-31,17:00:00,19:00:00,Minnesota Wild,2,New Jersey Devils,3,SO
+2025-03-31,17:00:00,19:00:00,Nashville Predators,1,Philadelphia Flyers,2,Regulation
+2025-03-31,18:30:00,20:30:00,Calgary Flames,3,Colorado Avalanche,2,SO
+2025-03-31,20:00:00,22:00:00,Dallas Stars,3,Seattle Kraken,1,Regulation
+2025-04-01,17:00:00,19:00:00,Washington Capitals,4,Boston Bruins,3,Regulation
+2025-04-01,17:00:00,19:00:00,Florida Panthers,2,Montreal Canadiens,3,OT
+2025-04-01,17:00:00,19:00:00,Buffalo Sabres,5,Ottawa Senators,2,Regulation
+2025-04-01,17:00:00,19:00:00,Nashville Predators,4,Columbus Blue Jackets,8,Regulation
+2025-04-01,17:30:00,19:30:00,Tampa Bay Lightning,4,New York Islanders,1,Regulation
+2025-04-01,18:00:00,20:00:00,Detroit Red Wings,1,St. Louis Blues,2,OT
+2025-04-01,19:00:00,21:00:00,Calgary Flames,1,Utah Hockey Club,3,Regulation
+2025-04-01,20:00:00,22:00:00,Edmonton Oilers,3,Vegas Golden Knights,2,Regulation
+2025-04-01,20:00:00,22:00:00,San Jose Sharks,3,Anaheim Ducks,4,SO
+2025-04-01,20:30:00,22:30:00,Winnipeg Jets,1,Los Angeles Kings,4,Regulation
+2025-04-02,17:00:00,19:00:00,Minnesota Wild,4,New York Rangers,5,OT
+2025-04-02,17:00:00,19:00:00,Washington Capitals,1,Carolina Hurricanes,5,Regulation
+2025-04-02,17:30:00,19:30:00,Florida Panthers,2,Toronto Maple Leafs,3,Regulation
+2025-04-02,19:30:00,21:30:00,Colorado Avalanche,3,Chicago Blackhawks,2,SO
+2025-04-02,20:30:00,22:30:00,Seattle Kraken,5,Vancouver Canucks,0,Regulation
+2025-04-03,17:00:00,19:00:00,Boston Bruins,1,Montreal Canadiens,4,Regulation
+2025-04-03,17:00:00,19:00:00,Tampa Bay Lightning,1,Ottawa Senators,2,Regulation
+2025-04-03,17:30:00,19:30:00,Colorado Avalanche,7,Columbus Blue Jackets,3,Regulation
+2025-04-03,18:00:00,20:00:00,Pittsburgh Penguins,4,St. Louis Blues,5,OT
+2025-04-03,18:00:00,20:00:00,Nashville Predators,1,Dallas Stars,5,Regulation
+2025-04-03,19:00:00,21:00:00,Los Angeles Kings,4,Utah Hockey Club,2,Regulation
+2025-04-03,19:30:00,21:30:00,Anaheim Ducks,1,Calgary Flames,4,Regulation
+2025-04-03,20:00:00,22:00:00,Winnipeg Jets,4,Vegas Golden Knights,0,Regulation
+2025-04-03,20:30:00,22:30:00,Edmonton Oilers,3,San Jose Sharks,2,Regulation
+2025-04-04,17:00:00,19:00:00,Carolina Hurricanes,3,Detroit Red Wings,5,Regulation
+2025-04-04,17:00:00,19:00:00,Chicago Blackhawks,3,Washington Capitals,5,Regulation
+2025-04-04,17:30:00,19:30:00,Minnesota Wild,1,New York Islanders,3,Regulation
+2025-04-05,10:30:00,12:30:00,New York Rangers,0,New Jersey Devils,4,Regulation
+2025-04-05,12:00:00,14:00:00,Florida Panthers,0,Ottawa Senators,3,Regulation
+2025-04-05,13:00:00,15:00:00,Pittsburgh Penguins,5,Dallas Stars,3,Regulation
+2025-04-05,14:00:00,16:00:00,Anaheim Ducks,2,Vancouver Canucks,6,Regulation
+2025-04-05,14:00:00,16:00:00,Edmonton Oilers,0,Los Angeles Kings,3,Regulation
+2025-04-05,17:00:00,19:00:00,Carolina Hurricanes,1,Boston Bruins,5,Regulation
+2025-04-05,17:00:00,19:00:00,Tampa Bay Lightning,2,Buffalo Sabres,3,SO
+2025-04-05,17:00:00,19:00:00,Columbus Blue Jackets,0,Toronto Maple Leafs,5,Regulation
+2025-04-05,17:00:00,19:00:00,Philadelphia Flyers,2,Montreal Canadiens,3,Regulation
+2025-04-05,17:00:00,19:00:00,Colorado Avalanche,4,St. Louis Blues,5,Regulation
+2025-04-05,17:00:00,19:00:00,Winnipeg Jets,1,Utah Hockey Club,4,Regulation
+2025-04-05,20:00:00,22:00:00,Vegas Golden Knights,3,Calgary Flames,2,OT
+2025-04-05,20:00:00,22:00:00,Seattle Kraken,5,San Jose Sharks,1,Regulation
+2025-04-06,10:30:00,12:30:00,Washington Capitals,1,New York Islanders,4,Regulation
+2025-04-06,13:00:00,15:00:00,Dallas Stars,2,Minnesota Wild,3,OT
+2025-04-06,15:00:00,17:00:00,Columbus Blue Jackets,0,Ottawa Senators,4,Regulation
+2025-04-06,15:30:00,17:30:00,Florida Panthers,1,Detroit Red Wings,2,Regulation
+2025-04-06,16:00:00,18:00:00,Boston Bruins,3,Buffalo Sabres,6,Regulation
+2025-04-06,16:00:00,18:00:00,Pittsburgh Penguins,1,Chicago Blackhawks,3,Regulation
+2025-04-06,17:00:00,19:00:00,Montreal Canadiens,2,Nashville Predators,1,Regulation
+2025-04-06,20:00:00,22:00:00,Vegas Golden Knights,3,Vancouver Canucks,2,Regulation
+2025-04-07,17:00:00,19:00:00,Tampa Bay Lightning,5,New York Rangers,1,Regulation
+2025-04-07,17:30:00,19:30:00,St. Louis Blues,1,Winnipeg Jets,3,Regulation
+2025-04-07,20:30:00,22:30:00,Edmonton Oilers,2,Anaheim Ducks,3,Regulation
+2025-04-07,20:30:00,22:30:00,Seattle Kraken,2,Los Angeles Kings,1,Regulation
+2025-04-07,20:30:00,22:30:00,Calgary Flames,3,San Jose Sharks,2,Regulation
+2025-04-08,17:00:00,19:00:00,Carolina Hurricanes,0,Buffalo Sabres,3,Regulation
+2025-04-08,17:00:00,19:00:00,Detroit Red Wings,1,Montreal Canadiens,4,Regulation
+2025-04-08,17:00:00,19:00:00,Toronto Maple Leafs,1,Florida Panthers,3,Regulation
+2025-04-08,17:00:00,19:00:00,Boston Bruins,7,New Jersey Devils,2,Regulation
+2025-04-08,17:00:00,19:00:00,Ottawa Senators,2,Columbus Blue Jackets,5,Regulation
+2025-04-08,17:00:00,19:00:00,Chicago Blackhawks,0,Pittsburgh Penguins,5,Regulation
+2025-04-08,18:00:00,20:00:00,New York Islanders,6,Nashville Predators,7,OT
+2025-04-08,18:00:00,20:00:00,Vancouver Canucks,6,Dallas Stars,5,OT
+2025-04-08,19:00:00,21:00:00,Seattle Kraken,1,Utah Hockey Club,7,Regulation
+2025-04-08,19:30:00,21:30:00,Vegas Golden Knights,2,Colorado Avalanche,3,SO
+2025-04-09,17:00:00,19:00:00,Toronto Maple Leafs,4,Tampa Bay Lightning,3,OT
+2025-04-09,17:30:00,19:30:00,Philadelphia Flyers,8,New York Rangers,5,Regulation
+2025-04-09,18:00:00,20:00:00,San Jose Sharks,7,Minnesota Wild,8,OT
+2025-04-09,20:00:00,22:00:00,St. Louis Blues,3,Edmonton Oilers,4,Regulation
+2025-04-09,20:00:00,22:00:00,Calgary Flames,3,Anaheim Ducks,4,OT
+2025-04-10,17:00:00,19:00:00,Chicago Blackhawks,5,Boston Bruins,2,Regulation
+2025-04-10,17:00:00,19:00:00,Detroit Red Wings,1,Florida Panthers,4,Regulation
+2025-04-10,17:00:00,19:00:00,Buffalo Sabres,2,Columbus Blue Jackets,3,Regulation
+2025-04-10,17:30:00,19:30:00,Carolina Hurricanes,4,Washington Capitals,5,SO
+2025-04-10,17:30:00,19:30:00,New York Rangers,9,New York Islanders,2,Regulation
+2025-04-10,18:00:00,20:00:00,Winnipeg Jets,4,Dallas Stars,0,Regulation
+2025-04-10,19:00:00,21:00:00,Vancouver Canucks,4,Colorado Avalanche,1,Regulation
+2025-04-10,19:00:00,21:00:00,Nashville Predators,4,Utah Hockey Club,3,SO
+2025-04-10,20:00:00,22:00:00,Seattle Kraken,1,Vegas Golden Knights,2,Regulation
+2025-04-10,20:00:00,22:00:00,Anaheim Ducks,1,Los Angeles Kings,6,Regulation
+2025-04-11,17:00:00,19:00:00,Montreal Canadiens,2,Ottawa Senators,5,Regulation
+2025-04-11,17:00:00,19:00:00,Detroit Red Wings,4,Tampa Bay Lightning,3,OT
+2025-04-11,17:00:00,19:00:00,Pittsburgh Penguins,4,New Jersey Devils,2,Regulation
+2025-04-11,19:30:00,21:30:00,San Jose Sharks,2,Edmonton Oilers,4,Regulation
+2025-04-11,20:00:00,22:00:00,Minnesota Wild,2,Calgary Flames,4,Regulation
+2025-04-12,10:30:00,12:30:00,New York Islanders,3,Philadelphia Flyers,4,SO
+2025-04-12,10:30:00,12:30:00,Washington Capitals,0,Columbus Blue Jackets,7,Regulation
+2025-04-12,13:00:00,15:00:00,New York Rangers,3,Carolina Hurricanes,7,Regulation
+2025-04-12,14:00:00,16:00:00,Colorado Avalanche,4,Los Angeles Kings,5,Regulation
+2025-04-12,16:00:00,18:00:00,Buffalo Sabres,2,Florida Panthers,3,SO
+2025-04-12,17:00:00,19:00:00,Montreal Canadiens,0,Toronto Maple Leafs,1,OT
+2025-04-12,17:00:00,19:00:00,Winnipeg Jets,5,Chicago Blackhawks,4,SO
+2025-04-12,18:00:00,20:00:00,Utah Hockey Club,5,Dallas Stars,3,Regulation
+2025-04-12,20:00:00,22:00:00,Minnesota Wild,3,Vancouver Canucks,2,OT
+2025-04-12,20:00:00,22:00:00,Nashville Predators,3,Vegas Golden Knights,5,Regulation
+2025-04-12,20:00:00,22:00:00,St. Louis Blues,3,Seattle Kraken,4,SO
+2025-04-13,11:00:00,13:00:00,Philadelphia Flyers,3,Ottawa Senators,4,OT
+2025-04-13,11:00:00,13:00:00,New York Islanders,1,New Jersey Devils,0,Regulation
+2025-04-13,13:30:00,15:30:00,Boston Bruins,4,Pittsburgh Penguins,1,Regulation
+2025-04-13,15:00:00,17:00:00,Toronto Maple Leafs,4,Carolina Hurricanes,1,Regulation
+2025-04-13,16:00:00,18:00:00,Buffalo Sabres,4,Tampa Bay Lightning,7,Regulation
+2025-04-13,16:00:00,18:00:00,Columbus Blue Jackets,4,Washington Capitals,1,Regulation
+2025-04-13,17:00:00,19:00:00,Edmonton Oilers,4,Winnipeg Jets,1,Regulation
+2025-04-13,18:00:00,20:00:00,San Jose Sharks,2,Calgary Flames,5,Regulation
+2025-04-13,20:00:00,22:00:00,Colorado Avalanche,4,Anaheim Ducks,2,Regulation
+2025-04-14,17:00:00,19:00:00,Chicago Blackhawks,4,Montreal Canadiens,3,SO
+2025-04-14,17:00:00,19:00:00,Dallas Stars,4,Detroit Red Wings,6,Regulation
+2025-04-14,17:00:00,19:00:00,New York Rangers,5,Florida Panthers,3,Regulation
+2025-04-14,18:00:00,20:00:00,Utah Hockey Club,7,Nashville Predators,3,Regulation
+2025-04-14,20:00:00,22:00:00,Los Angeles Kings,5,Edmonton Oilers,0,Regulation
+2025-04-14,20:00:00,22:00:00,San Jose Sharks,1,Vancouver Canucks,2,OT
+2025-04-15,17:00:00,19:00:00,New Jersey Devils,5,Boston Bruins,4,OT
+2025-04-15,17:00:00,19:00:00,Toronto Maple Leafs,4,Buffalo Sabres,0,Regulation
+2025-04-15,17:00:00,19:00:00,Chicago Blackhawks,4,Ottawa Senators,3,OT
+2025-04-15,17:00:00,19:00:00,Columbus Blue Jackets,3,Philadelphia Flyers,0,Regulation
+2025-04-15,17:30:00,19:30:00,Florida Panthers,1,Tampa Bay Lightning,5,Regulation
+2025-04-15,17:30:00,19:30:00,Washington Capitals,3,New York Islanders,1,Regulation
+2025-04-15,18:00:00,20:00:00,Utah Hockey Club,1,St. Louis Blues,6,Regulation
+2025-04-15,18:00:00,20:00:00,Anaheim Ducks,2,Minnesota Wild,3,OT
+2025-04-15,19:00:00,21:00:00,Vegas Golden Knights,4,Calgary Flames,5,SO
+2025-04-15,20:30:00,22:30:00,Los Angeles Kings,6,Seattle Kraken,5,Regulation
+2025-04-16,17:00:00,19:00:00,Carolina Hurricanes,2,Montreal Canadiens,4,Regulation
+2025-04-16,17:00:00,19:00:00,Anaheim Ducks,1,Winnipeg Jets,2,OT
+2025-04-16,17:30:00,19:30:00,Detroit Red Wings,5,New Jersey Devils,2,Regulation
+2025-04-16,18:00:00,20:00:00,Dallas Stars,1,Nashville Predators,5,Regulation
+2025-04-16,20:00:00,22:00:00,Vegas Golden Knights,4,Vancouver Canucks,1,Regulation
+2025-04-16,20:30:00,22:30:00,Edmonton Oilers,3,San Jose Sharks,0,Regulation
+2025-04-17,17:00:00,19:00:00,Philadelphia Flyers,4,Buffalo Sabres,5,Regulation
+2025-04-17,17:00:00,19:00:00,Detroit Red Wings,3,Toronto Maple Leafs,4,OT
+2025-04-17,17:00:00,19:00:00,Carolina Hurricanes,5,Ottawa Senators,7,Regulation
+2025-04-17,17:00:00,19:00:00,Tampa Bay Lightning,0,New York Rangers,4,Regulation
+2025-04-17,17:00:00,19:00:00,Washington Capitals,2,Pittsburgh Penguins,5,Regulation
+2025-04-17,17:00:00,19:00:00,New York Islanders,1,Columbus Blue Jackets,6,Regulation
+2025-04-17,19:30:00,21:30:00,Calgary Flames,5,Los Angeles Kings,1,Regulation

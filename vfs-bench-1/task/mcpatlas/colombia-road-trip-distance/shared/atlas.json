@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "688fb11183792b921381bd66",
+  "enabled_tools": [
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article",
+    "wikipedia_extract_key_facts",
+    "osm-mcp-server_geocode_address",
+    "osm-mcp-server_reverse_geocode",
+    "osm-mcp-server_get_route_directions",
+    "weather_get_current_weather",
+    "weather_get_weather_forecast",
+    "weather_get_hourly_forecast",
+    "context7_resolve-library-id",
+    "context7_get-library-docs",
+    "github_search_repositories",
+    "git_git_diff_unstaged",
+    "e2b-server_run_code"
+  ],
+  "claims": [
+    "The road trip route from Plaza de Bol\u00edvar, Bogot\u00e1, passing through Plaza de la Aduana, Cartagena, and ending at Boyac\u00e1 Bridge, Boyac\u00e1, covers 1,914,229.9 meters.",
+    "The Battle of Boyac\u00e1 occurred on August 7, 1819.",
+    "The Colombian War of Independence began on July 20, 1810."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "688fb11183792b921381bd59",
+  "enabled_tools": [
+    "airtable_get_record",
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-indexes",
+    "mongodb_collection-schema",
+    "mongodb_find",
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article",
+    "wikipedia_get_summary",
+    "wikipedia_summarize_article_for_query",
+    "wikipedia_summarize_article_section",
+    "wikipedia_get_related_topics",
+    "wikipedia_extract_key_facts",
+    "wikipedia_get_sections",
+    "wikipedia_get_links",
+    "google-maps_maps_geocode",
+    "google-maps_maps_reverse_geocode",
+    "google-maps_maps_search_places",
+    "google-maps_maps_place_details",
+    "google-maps_maps_distance_matrix",
+    "google-maps_maps_elevation",
+    "google-maps_maps_directions"
+  ],
+  "claims": [
+    "The Palace of Versailles was the site of Marie Antoinette's ceremonial wedding.",
+    "The walking distance between the Palace of Versailles and the Louvre Museum is approximately 18.9 kilometers.",
+    "The Louvre Museum is open from 9:00 AM to 6:00 PM on Mondays.",
+    "The Louvre Museum is closed on Tuesdays.",
+    "The Louvre Museum is open from 9:00 AM to 9:00 PM on Wednesdays.",
+    "The Louvre Museum is open from 9:00 AM to 6:00 PM on Thursdays.",
+    "The Louvre Museum is open from 9:00 AM to 9:00 PM on Fridays.",
+    "The Louvre Museum is open from 9:00 AM to 6:00 PM on Saturdays.",
+    "The Louvre Museum is open from 9:00 AM to 6:00 PM on Sundays."
+  ]
+}

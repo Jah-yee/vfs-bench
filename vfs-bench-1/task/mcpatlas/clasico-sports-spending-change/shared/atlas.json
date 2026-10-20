@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "6890e7fd2516f66b0a628e40",
+  "enabled_tools": [
+    "airtable_list_records",
+    "airtable_list_tables",
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-indexes",
+    "mongodb_find",
+    "mongodb_collection-schema",
+    "mongodb_collection-storage-size",
+    "mongodb_count",
+    "mongodb_db-stats",
+    "mongodb_aggregate",
+    "mongodb_explain",
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article",
+    "wikipedia_get_summary"
+  ],
+  "claims": [
+    "In February 2023, customers spent $329.47 on sports video games.",
+    "In March 2023, customers spent $171.06 on sports video games.",
+    "The second La Liga Cl\u00e1sico of the 2022/2023 season between Barcelona and Real Madrid was played in March 2023.",
+    "Spending on sports video games decreased by 48.08% in March 2023 compared to February 2023."
+  ]
+}

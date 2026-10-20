@@ -1,0 +1,19 @@
+# Add patterns of files dvc should ignore, which could improve
+# the performance. Learn more at
+# https://dvc.org/doc/user-guide/dvcignore
+**/__pycache__/
+**/*.pyc
+
+# Generated per-run cluster credentials. Source hashes are recorded separately.
+submodule/Toolathlon/tasks/finalpool/k8s-*/k8s_configs/
+
+# The four MCP configs setup/toolathlon/setup_toolathlon.py rewrites in the
+# checkout, which it writes this checkout's own absolute paths into. Their
+# committed text is a dependency in its own right, under
+# setup/toolathlon/upstream/, so a directory hash taken without them is a
+# fact about upstream rather than about where the checkout happens to live.
+submodule/Toolathlon/configs/mcp_servers/google_calendar.yaml
+submodule/Toolathlon/configs/mcp_servers/google_sheet.yaml
+submodule/Toolathlon/configs/mcp_servers/terminal.yaml
+submodule/Toolathlon/configs/mcp_servers/yahoo-finance.yaml
+submodule/Toolathlon/configs/mcp_servers/howtocook.yaml

@@ -1,0 +1,2174 @@
+{
+  "meta": {
+    "workspaceName": "notion-movies",
+    "workspaceId": "27ad10a4-8436-80ea-9af8-d13bc9ebb00e",
+    "botId": "bot-empty",
+    "botName": "empty",
+    "maxUploadSize": 5242880,
+    "urlBase": "https://www.notion.so/",
+    "createdTime": "2025-01-01T00:00:00.000Z",
+    "lastEditedTime": "2025-01-01T00:00:00.000Z",
+    "createdBy": "user-1",
+    "lastEditedBy": "user-1"
+  },
+  "databases": [
+    {
+      "id": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8199-93c4-da5ae8393188",
+      "position": 0,
+      "parentType": "page_id",
+      "titleText": "Movies ",
+      "titleJson": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Movies ",
+            "link": null
+          },
+          "plain_text": "Movies ",
+          "href": null,
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          }
+        }
+      ],
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "name": "Status",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "adb40460-978d-4d4b-bed2-bfc1b4a3f699",
+                "name": "To watch",
+                "color": "yellow"
+              },
+              {
+                "id": "347ff48d-ea8b-4a42-95ca-c5ea01435c19",
+                "name": "Watching",
+                "color": "blue"
+              },
+              {
+                "id": "6da7a67c-444e-4e80-9a50-e11b50e62368",
+                "name": "Watched",
+                "color": "green"
+              }
+            ]
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "name": "Director",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Genre": {
+          "id": "lHHY",
+          "name": "Genre",
+          "type": "multi_select",
+          "multi_select": {
+            "options": [
+              {
+                "id": "a877da8f-a64c-4198-81b5-7a7976a05e48",
+                "name": "Action",
+                "color": "red"
+              },
+              {
+                "id": "8cb32465-5b11-4660-9838-6638b519b395",
+                "name": "Adventure",
+                "color": "blue"
+              },
+              {
+                "id": "6f87ba36-d94a-4f82-a5c5-ccfe838d6891",
+                "name": "Crime",
+                "color": "red"
+              },
+              {
+                "id": "0d3b98ac-db6f-4632-91a5-da2ad7235933",
+                "name": "Mystery",
+                "color": "green"
+              },
+              {
+                "id": "900de444-7fd5-4ab9-bbad-89c2ff3fa166",
+                "name": "Science-Fiction",
+                "color": "pink"
+              },
+              {
+                "id": "90789a03-fa67-4f66-9eae-88e478888f9c",
+                "name": "Drama",
+                "color": "purple"
+              },
+              {
+                "id": "cbecba22-efc9-42e8-ae7a-7a0c3ea04de7",
+                "name": "History",
+                "color": "brown"
+              },
+              {
+                "id": "07399e90-00d6-47c9-85e6-0633051b2cf2",
+                "name": "Comedy",
+                "color": "yellow"
+              },
+              {
+                "id": "70b27751-baa6-43ba-ad75-9c41f39c49ec",
+                "name": "Fantasy",
+                "color": "pink"
+              },
+              {
+                "id": "f4d7355b-3515-4852-9c73-cc50ed326de6",
+                "name": "Horror",
+                "color": "default"
+              },
+              {
+                "id": "bd58f865-6a03-4d65-8f72-bfe72f4ab1cf",
+                "name": "Western",
+                "color": "gray"
+              },
+              {
+                "id": "b66ea241-a623-4eca-85ae-dfa325e31afa",
+                "name": "Family",
+                "color": "orange"
+              }
+            ]
+          }
+        },
+        "Released": {
+          "id": "}~p}",
+          "name": "Released",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "name": "Name",
+          "type": "title",
+          "title": {}
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681fcaf67dedb806fa7e4"
+    },
+    {
+      "id": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81ca-b1c0-f85b646b7cdc",
+      "position": 0,
+      "parentType": "page_id",
+      "titleText": "Platforms ",
+      "titleJson": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Platforms ",
+            "link": null
+          },
+          "plain_text": "Platforms ",
+          "href": null,
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          }
+        }
+      ],
+      "propertiesJson": {
+        "Name": {
+          "id": "title",
+          "name": "Name",
+          "type": "title",
+          "title": {}
+        }
+      },
+      "url": "https://www.notion.so/27ad10a48436810882e7df1b4887c081"
+    }
+  ],
+  "pages": [
+    {
+      "id": "27ad10a4-8436-80ea-9af8-d13bc9ebb00e",
+      "createdTime": "2025-09-26T09:00:48.829000Z",
+      "lastEditedTime": "2025-09-26T09:01:04.358000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": null,
+      "position": 0,
+      "parentType": "workspace",
+      "titleText": "Ultimate Movie Tracker",
+      "propertiesJson": {
+        "title": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Ultimate Movie Tracker",
+                "link": null
+              },
+              "plain_text": "Ultimate Movie Tracker",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843680ea9af8d13bc9ebb00e"
+    },
+    {
+      "id": "27ad10a4-8436-8140-a581-d05b7cb04f5b",
+      "createdTime": "2025-09-26T09:00:48.824000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.824000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "position": 0,
+      "parentType": "database_id",
+      "titleText": "Kill Bill: Vol. 1",
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "type": "select",
+          "select": {
+            "id": "6da7a67c-444e-4e80-9a50-e11b50e62368",
+            "name": "Watched",
+            "color": "green"
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Quentin Tarantino",
+                "link": null
+              },
+              "plain_text": "Quentin Tarantino",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        },
+        "Genre": {
+          "id": "lHHY",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "a877da8f-a64c-4198-81b5-7a7976a05e48",
+              "name": "Action",
+              "color": "red"
+            },
+            {
+              "id": "8cb32465-5b11-4660-9838-6638b519b395",
+              "name": "Adventure",
+              "color": "blue"
+            },
+            {
+              "id": "6f87ba36-d94a-4f82-a5c5-ccfe838d6891",
+              "name": "Crime",
+              "color": "red"
+            },
+            {
+              "id": "0d3b98ac-db6f-4632-91a5-da2ad7235933",
+              "name": "Mystery",
+              "color": "green"
+            }
+          ]
+        },
+        "Released": {
+          "id": "}~p}",
+          "type": "number",
+          "number": 2003.0
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Kill Bill: Vol. 1",
+                "link": null
+              },
+              "plain_text": "Kill Bill: Vol. 1",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a484368140a581d05b7cb04f5b"
+    },
+    {
+      "id": "27ad10a4-8436-814d-8b26-f6f236be9f4a",
+      "createdTime": "2025-09-26T09:00:48.825000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.825000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "position": 1,
+      "parentType": "database_id",
+      "titleText": "John Wick 4",
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "type": "select",
+          "select": {
+            "id": "347ff48d-ea8b-4a42-95ca-c5ea01435c19",
+            "name": "Watching",
+            "color": "blue"
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Chad Stahelski",
+                "link": null
+              },
+              "plain_text": "Chad Stahelski",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        },
+        "Genre": {
+          "id": "lHHY",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "a877da8f-a64c-4198-81b5-7a7976a05e48",
+              "name": "Action",
+              "color": "red"
+            },
+            {
+              "id": "8cb32465-5b11-4660-9838-6638b519b395",
+              "name": "Adventure",
+              "color": "blue"
+            }
+          ]
+        },
+        "Released": {
+          "id": "}~p}",
+          "type": "number",
+          "number": 2023.0
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "John Wick 4",
+                "link": null
+              },
+              "plain_text": "John Wick 4",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a48436814d8b26f6f236be9f4a"
+    },
+    {
+      "id": "27ad10a4-8436-81d1-b67d-da61b9c591e8",
+      "createdTime": "2025-09-26T09:00:48.824000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.824000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "position": 2,
+      "parentType": "database_id",
+      "titleText": "Interstellar ",
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "type": "select",
+          "select": {
+            "id": "adb40460-978d-4d4b-bed2-bfc1b4a3f699",
+            "name": "To watch",
+            "color": "yellow"
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Christopher Nolan",
+                "link": null
+              },
+              "plain_text": "Christopher Nolan",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        },
+        "Genre": {
+          "id": "lHHY",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "a877da8f-a64c-4198-81b5-7a7976a05e48",
+              "name": "Action",
+              "color": "red"
+            },
+            {
+              "id": "8cb32465-5b11-4660-9838-6638b519b395",
+              "name": "Adventure",
+              "color": "blue"
+            },
+            {
+              "id": "900de444-7fd5-4ab9-bbad-89c2ff3fa166",
+              "name": "Science-Fiction",
+              "color": "pink"
+            },
+            {
+              "id": "90789a03-fa67-4f66-9eae-88e478888f9c",
+              "name": "Drama",
+              "color": "purple"
+            }
+          ]
+        },
+        "Released": {
+          "id": "}~p}",
+          "type": "number",
+          "number": 2014.0
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Interstellar ",
+                "link": null
+              },
+              "plain_text": "Interstellar ",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681d1b67dda61b9c591e8"
+    },
+    {
+      "id": "27ad10a4-8436-81da-9aae-ce042c2509cd",
+      "createdTime": "2025-09-26T09:00:48.824000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.824000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "position": 3,
+      "parentType": "database_id",
+      "titleText": "The Dark Knight",
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "type": "select",
+          "select": {
+            "id": "adb40460-978d-4d4b-bed2-bfc1b4a3f699",
+            "name": "To watch",
+            "color": "yellow"
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Christopher Nolan",
+                "link": null
+              },
+              "plain_text": "Christopher Nolan",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        },
+        "Genre": {
+          "id": "lHHY",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "a877da8f-a64c-4198-81b5-7a7976a05e48",
+              "name": "Action",
+              "color": "red"
+            },
+            {
+              "id": "8cb32465-5b11-4660-9838-6638b519b395",
+              "name": "Adventure",
+              "color": "blue"
+            },
+            {
+              "id": "0d3b98ac-db6f-4632-91a5-da2ad7235933",
+              "name": "Mystery",
+              "color": "green"
+            },
+            {
+              "id": "90789a03-fa67-4f66-9eae-88e478888f9c",
+              "name": "Drama",
+              "color": "purple"
+            }
+          ]
+        },
+        "Released": {
+          "id": "}~p}",
+          "type": "number",
+          "number": 2008.0
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The Dark Knight",
+                "link": null
+              },
+              "plain_text": "The Dark Knight",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681da9aaece042c2509cd"
+    },
+    {
+      "id": "27ad10a4-8436-8128-be87-f8f516f20901",
+      "createdTime": "2025-09-26T09:00:48.825000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.825000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "position": 4,
+      "parentType": "database_id",
+      "titleText": "Oppenheimer ",
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "type": "select",
+          "select": {
+            "id": "adb40460-978d-4d4b-bed2-bfc1b4a3f699",
+            "name": "To watch",
+            "color": "yellow"
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Christopher Nolan",
+                "link": null
+              },
+              "plain_text": "Christopher Nolan",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        },
+        "Genre": {
+          "id": "lHHY",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "90789a03-fa67-4f66-9eae-88e478888f9c",
+              "name": "Drama",
+              "color": "purple"
+            },
+            {
+              "id": "cbecba22-efc9-42e8-ae7a-7a0c3ea04de7",
+              "name": "History",
+              "color": "brown"
+            }
+          ]
+        },
+        "Released": {
+          "id": "}~p}",
+          "type": "number",
+          "number": 2023.0
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Oppenheimer ",
+                "link": null
+              },
+              "plain_text": "Oppenheimer ",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a484368128be87f8f516f20901"
+    },
+    {
+      "id": "27ad10a4-8436-81dd-ae71-c6edaee85bc5",
+      "createdTime": "2025-09-26T09:00:48.825000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.825000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "position": 5,
+      "parentType": "database_id",
+      "titleText": "Barbie ",
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "type": "select",
+          "select": {
+            "id": "adb40460-978d-4d4b-bed2-bfc1b4a3f699",
+            "name": "To watch",
+            "color": "yellow"
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Greta Gerwig",
+                "link": null
+              },
+              "plain_text": "Greta Gerwig",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        },
+        "Genre": {
+          "id": "lHHY",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "07399e90-00d6-47c9-85e6-0633051b2cf2",
+              "name": "Comedy",
+              "color": "yellow"
+            },
+            {
+              "id": "70b27751-baa6-43ba-ad75-9c41f39c49ec",
+              "name": "Fantasy",
+              "color": "pink"
+            }
+          ]
+        },
+        "Released": {
+          "id": "}~p}",
+          "type": "number",
+          "number": 2023.0
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Barbie ",
+                "link": null
+              },
+              "plain_text": "Barbie ",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681ddae71c6edaee85bc5"
+    },
+    {
+      "id": "27ad10a4-8436-8188-b6f1-d681a4565920",
+      "createdTime": "2025-09-26T09:00:48.825000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.825000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "position": 6,
+      "parentType": "database_id",
+      "titleText": "Once Upon a Time... in Hollywood",
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "type": "select",
+          "select": {
+            "id": "adb40460-978d-4d4b-bed2-bfc1b4a3f699",
+            "name": "To watch",
+            "color": "yellow"
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Genre": {
+          "id": "lHHY",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "0d3b98ac-db6f-4632-91a5-da2ad7235933",
+              "name": "Mystery",
+              "color": "green"
+            },
+            {
+              "id": "90789a03-fa67-4f66-9eae-88e478888f9c",
+              "name": "Drama",
+              "color": "purple"
+            },
+            {
+              "id": "07399e90-00d6-47c9-85e6-0633051b2cf2",
+              "name": "Comedy",
+              "color": "yellow"
+            }
+          ]
+        },
+        "Released": {
+          "id": "}~p}",
+          "type": "number",
+          "number": 2019.0
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Once Upon a Time... in Hollywood",
+                "link": null
+              },
+              "plain_text": "Once Upon a Time... in Hollywood",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a484368188b6f1d681a4565920"
+    },
+    {
+      "id": "27ad10a4-8436-81a9-b5c5-d525e2b35d6c",
+      "createdTime": "2025-09-26T09:00:48.825000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.825000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "position": 7,
+      "parentType": "database_id",
+      "titleText": "Nobody ",
+      "propertiesJson": {
+        "Status": {
+          "id": "]:Nu",
+          "type": "select",
+          "select": {
+            "id": "347ff48d-ea8b-4a42-95ca-c5ea01435c19",
+            "name": "Watching",
+            "color": "blue"
+          }
+        },
+        "Director": {
+          "id": "^PC=",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Genre": {
+          "id": "lHHY",
+          "type": "multi_select",
+          "multi_select": [
+            {
+              "id": "a877da8f-a64c-4198-81b5-7a7976a05e48",
+              "name": "Action",
+              "color": "red"
+            },
+            {
+              "id": "8cb32465-5b11-4660-9838-6638b519b395",
+              "name": "Adventure",
+              "color": "blue"
+            },
+            {
+              "id": "6f87ba36-d94a-4f82-a5c5-ccfe838d6891",
+              "name": "Crime",
+              "color": "red"
+            }
+          ]
+        },
+        "Released": {
+          "id": "}~p}",
+          "type": "number",
+          "number": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Nobody ",
+                "link": null
+              },
+              "plain_text": "Nobody ",
+              "href": null,
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681a9b5c5d525e2b35d6c"
+    },
+    {
+      "id": "27ad10a4-8436-81da-8aae-eda1ff0f1f4d",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "position": 0,
+      "parentType": "database_id",
+      "titleText": "Disney +",
+      "propertiesJson": {
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Disney +",
+                "link": null
+              },
+              "plain_text": "Disney +",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681da8aaeeda1ff0f1f4d"
+    },
+    {
+      "id": "27ad10a4-8436-8156-99ea-f30b82fd2606",
+      "createdTime": "2025-09-26T09:00:48.825000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.825000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "position": 1,
+      "parentType": "database_id",
+      "titleText": "Netflix",
+      "propertiesJson": {
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Netflix",
+                "link": null
+              },
+              "plain_text": "Netflix",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a48436815699eaf30b82fd2606"
+    },
+    {
+      "id": "27ad10a4-8436-81dc-aefc-fc4810139de6",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "position": 2,
+      "parentType": "database_id",
+      "titleText": "MAX",
+      "propertiesJson": {
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "MAX",
+                "link": null
+              },
+              "plain_text": "MAX",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681dcaefcfc4810139de6"
+    },
+    {
+      "id": "27ad10a4-8436-81ac-8e28-c41a16d104a5",
+      "createdTime": "2025-09-26T09:00:48.825000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.825000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "position": 3,
+      "parentType": "database_id",
+      "titleText": "Prime Video",
+      "propertiesJson": {
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Prime Video",
+                "link": null
+              },
+              "plain_text": "Prime Video",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681ac8e28c41a16d104a5"
+    },
+    {
+      "id": "27ad10a4-8436-8123-949b-ed46db337a46",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "position": 4,
+      "parentType": "database_id",
+      "titleText": "Apple TV",
+      "propertiesJson": {
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Apple TV",
+                "link": null
+              },
+              "plain_text": "Apple TV",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a484368123949bed46db337a46"
+    },
+    {
+      "id": "27ad10a4-8436-81d9-931b-f9e7e6790f00",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "position": 5,
+      "parentType": "database_id",
+      "titleText": "Peacock",
+      "propertiesJson": {
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Peacock",
+                "link": null
+              },
+              "plain_text": "Peacock",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a4843681d9931bf9e7e6790f00"
+    },
+    {
+      "id": "27ad10a4-8436-810c-add4-ebfe71aaa117",
+      "createdTime": "2025-09-26T09:00:48.825000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.825000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "position": 6,
+      "parentType": "database_id",
+      "titleText": "Paramount Plus",
+      "propertiesJson": {
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Paramount Plus",
+                "link": null
+              },
+              "plain_text": "Paramount Plus",
+              "href": null,
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/27ad10a48436810cadd4ebfe71aaa117"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "27ad10a4-8436-81aa-a48f-c454b0a97afe",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-80ea-9af8-d13bc9ebb00e",
+      "position": 0,
+      "type": "column_list",
+      "payloadJson": {},
+      "hasChildren": true
+    },
+    {
+      "id": "27ad10a4-8436-8199-93c4-da5ae8393188",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81aa-a48f-c454b0a97afe",
+      "position": 0,
+      "type": "column",
+      "payloadJson": {},
+      "hasChildren": true
+    },
+    {
+      "id": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8199-93c4-da5ae8393188",
+      "position": 0,
+      "type": "child_database",
+      "payloadJson": {
+        "title": "Movies "
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8163-a492-c6c45bf6cb8b",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8140-a581-d05b7cb04f5b",
+      "position": 0,
+      "type": "image",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "attachment:9f3bfae4-39c0-421a-8865-c3c8093cd027:image.jpg"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81d0-82f5-f594f4fc21c7",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8140-a581-d05b7cb04f5b",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81c4-8825-eaf2837af70a",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-814d-8b26-f6f236be9f4a",
+      "position": 0,
+      "type": "image",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "attachment:5f98dcf6-415e-49a2-b68d-8a39f847dd7f:John-Wick-4.avif"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81b2-97e3-c07af9346c06",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81d1-b67d-da61b9c591e8",
+      "position": 0,
+      "type": "image",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "attachment:62fa0279-964a-4ac3-92a4-f8a650618c40:interstellar-2.webp"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8173-8605-c39ca533de28",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81d1-b67d-da61b9c591e8",
+      "position": 1,
+      "type": "callout",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "gray_background",
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "/icons/book-closed_gray.svg"
+          }
+        }
+      },
+      "hasChildren": true
+    },
+    {
+      "id": "27ad10a4-8436-815b-b24c-ee6a2c9bdc52",
+      "createdTime": "2025-09-26T09:00:48.829000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.829000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8173-8605-c39ca533de28",
+      "position": 0,
+      "type": "quote",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sinopsis\n",
+              "link": null
+            },
+            "plain_text": "Sinopsis\n",
+            "href": null,
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "In a dystopian future where humanity is lacking survival options, a retired astronaut named Cooper leads a mysterious mission that will take them through a wormhole near Saturn. As they search for a new planet to inhabit, Cooper and his crew must also live with the consequences of leaving home.The time-bending sci-fi adventure was directed by Christopher Nolan and stars Matthew McConaughey, Anne Hathaway and Jessica Chastain",
+              "link": null
+            },
+            "plain_text": "In a dystopian future where humanity is lacking survival options, a retired astronaut named Cooper leads a mysterious mission that will take them through a wormhole near Saturn. As they search for a new planet to inhabit, Cooper and his crew must also live with the consequences of leaving home.The time-bending sci-fi adventure was directed by Christopher Nolan and stars Matthew McConaughey, Anne Hathaway and Jessica Chastain",
+            "href": null,
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-810e-9b92-dff1b57acee8",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81d1-b67d-da61b9c591e8",
+      "position": 2,
+      "type": "video",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/zSWdZVtXT7E"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8127-8644-d6808af38821",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81da-9aae-ce042c2509cd",
+      "position": 0,
+      "type": "image",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "attachment:39ba4a99-5295-4bdf-b837-17e45f3fc656:74906de0-d644-4b0d-bf22-e2a321583a93.avif"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81be-8610-ed0d0dc9bacd",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81da-9aae-ce042c2509cd",
+      "position": 1,
+      "type": "video",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/EXeTwQWrcwY"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-813c-a107-f102a726a17d",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81da-9aae-ce042c2509cd",
+      "position": 2,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": true
+    },
+    {
+      "id": "27ad10a4-8436-8138-a207-ebc1f05b17e9",
+      "createdTime": "2025-09-26T09:00:48.828000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.828000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-813c-a107-f102a726a17d",
+      "position": 0,
+      "type": "heading_2",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Synopsis",
+              "link": null
+            },
+            "plain_text": "Synopsis",
+            "href": null,
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81c8-9470-c8363806aaa7",
+      "createdTime": "2025-09-26T09:00:48.828000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.828000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-813c-a107-f102a726a17d",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+              "link": null
+            },
+            "plain_text": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+            "href": null,
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81cf-a8b9-e88655c2ac26",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81da-9aae-ce042c2509cd",
+      "position": 3,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81b3-be66-ce4dfab6e339",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8128-be87-f8f516f20901",
+      "position": 0,
+      "type": "image",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "attachment:a6d22109-8402-4714-8c49-431c79788c6d:wallpapersden.com_oppenheimer-2023-movie-poster_1920x1080.jpg"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-812a-8eb1-e497b99c0213",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8128-be87-f8f516f20901",
+      "position": 1,
+      "type": "video",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/bK6ldnjE3Y0"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81fb-9601-d6559b5f2cb9",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8128-be87-f8f516f20901",
+      "position": 2,
+      "type": "callout",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "gray_background",
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "/icons/book-closed_gray.svg"
+          }
+        }
+      },
+      "hasChildren": true
+    },
+    {
+      "id": "27ad10a4-8436-81de-a3a7-ceca13004433",
+      "createdTime": "2025-09-26T09:00:48.829000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.829000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fb-9601-d6559b5f2cb9",
+      "position": 0,
+      "type": "heading_2",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Synopsis",
+              "link": null
+            },
+            "plain_text": "Synopsis",
+            "href": null,
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8184-a7d0-d0f41632bb72",
+      "createdTime": "2025-09-26T09:00:48.829000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.829000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fb-9601-d6559b5f2cb9",
+      "position": 1,
+      "type": "heading_3",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The epic origin story of the atomic bomb",
+              "link": null
+            },
+            "plain_text": "The epic origin story of the atomic bomb",
+            "href": null,
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-814a-b46d-ccd9918dc8d0",
+      "createdTime": "2025-09-26T09:00:48.829000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.829000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81fb-9601-d6559b5f2cb9",
+      "position": 2,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "J. Robert Oppenheimer was a gifted and driven theoretical physicist. He was a leading figure of the Manhattan Project – a codename for the effort to develop weapons strong enough to lead the Allied Forces to victory and tightly secure the United States' role as a world’s super power. The events of the film take place during the Second World War while Oppenheimer worked for the Los Alamos Laboratory where the bombs were created. Charting his personal relationship to the science behind the atomic bomb all the way to the political fallout of his later life, Oppenheimer's journey is laid bare as he navigates the new world he helped create.",
+              "link": null
+            },
+            "plain_text": "J. Robert Oppenheimer was a gifted and driven theoretical physicist. He was a leading figure of the Manhattan Project – a codename for the effort to develop weapons strong enough to lead the Allied Forces to victory and tightly secure the United States' role as a world’s super power. The events of the film take place during the Second World War while Oppenheimer worked for the Los Alamos Laboratory where the bombs were created. Charting his personal relationship to the science behind the atomic bomb all the way to the political fallout of his later life, Oppenheimer's journey is laid bare as he navigates the new world he helped create.",
+            "href": null,
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81a9-92b2-edce68efada5",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8128-be87-f8f516f20901",
+      "position": 3,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8186-b248-fed7d8e01368",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81dd-ae71-c6edaee85bc5",
+      "position": 0,
+      "type": "image",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "attachment:bd72cad7-ef60-4a46-b15d-0a97f59ba53b:1321265.jpeg"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-818d-ae1f-f916e252ff27",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8188-b6f1-d681a4565920",
+      "position": 0,
+      "type": "image",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "attachment:c8025374-cecf-472b-bed9-82c8603cc922:hollywood-background-yiul3bt5w9xkxwg9.jpg"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81da-9f7e-d181a73ca655",
+      "createdTime": "2025-09-26T09:00:48.828000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.828000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8188-b6f1-d681a4565920",
+      "position": 1,
+      "type": "video",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/ELeMaP8EPAA"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-811d-b902-ce04b10ca8c1",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8188-b6f1-d681a4565920",
+      "position": 2,
+      "type": "callout",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "gray_background",
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "/icons/book-closed_gray.svg"
+          }
+        }
+      },
+      "hasChildren": true
+    },
+    {
+      "id": "27ad10a4-8436-81cd-8ccf-c521ce5c1049",
+      "createdTime": "2025-09-26T09:00:48.828000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.828000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-811d-b902-ce04b10ca8c1",
+      "position": 0,
+      "type": "heading_2",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Synopsis",
+              "link": null
+            },
+            "plain_text": "Synopsis",
+            "href": null,
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-816b-b28f-db4e0fadc433",
+      "createdTime": "2025-09-26T09:00:48.828000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.828000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-811d-b902-ce04b10ca8c1",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
+              "link": null
+            },
+            "plain_text": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
+            "href": null,
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-819b-8959-e1d2e55b523d",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81a9-b5c5-d525e2b35d6c",
+      "position": 0,
+      "type": "image",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "attachment:c7a1fa13-4119-4ff7-b1cf-c881cd95054f:1148857.jpg"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-813a-b396-f634efc752da",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81a9-b5c5-d525e2b35d6c",
+      "position": 1,
+      "type": "video",
+      "payloadJson": {
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/wZti8QKBWPo"
+        },
+        "caption": []
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8163-84b3-f6680e84fb42",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81a9-b5c5-d525e2b35d6c",
+      "position": 2,
+      "type": "callout",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "gray_background",
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "/icons/book-closed_gray.svg"
+          }
+        }
+      },
+      "hasChildren": true
+    },
+    {
+      "id": "27ad10a4-8436-81d4-b39c-e407d941f5ca",
+      "createdTime": "2025-09-26T09:00:48.828000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.828000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8163-84b3-f6680e84fb42",
+      "position": 0,
+      "type": "heading_2",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Synopsis",
+              "link": null
+            },
+            "plain_text": "Synopsis",
+            "href": null,
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8151-a3c4-c46953983036",
+      "createdTime": "2025-09-26T09:00:48.828000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.828000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8163-84b3-f6680e84fb42",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor — a \"nobody.\" When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
+              "link": null
+            },
+            "plain_text": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor — a \"nobody.\" When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
+            "href": null,
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81d8-8bc6-cc5c3f16fab6",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8199-93c4-da5ae8393188",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81ca-b1c0-f85b646b7cdc",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81aa-a48f-c454b0a97afe",
+      "position": 1,
+      "type": "column",
+      "payloadJson": {},
+      "hasChildren": true
+    },
+    {
+      "id": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81ca-b1c0-f85b646b7cdc",
+      "position": 0,
+      "type": "child_database",
+      "payloadJson": {
+        "title": "Platforms "
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81b0-a888-c21109e8791e",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81da-8aae-eda1ff0f1f4d",
+      "position": 0,
+      "type": "unsupported",
+      "payloadJson": {},
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8120-8c44-e0856596ee86",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8156-99ea-f30b82fd2606",
+      "position": 0,
+      "type": "unsupported",
+      "payloadJson": {},
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-811e-8180-fb9aad029d7d",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8156-99ea-f30b82fd2606",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8172-8efb-ebd890c4b083",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81dc-aefc-fc4810139de6",
+      "position": 0,
+      "type": "unsupported",
+      "payloadJson": {},
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8172-8b1a-cdf77840ba0c",
+      "createdTime": "2025-09-26T09:00:48.826000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.826000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81ac-8e28-c41a16d104a5",
+      "position": 0,
+      "type": "unsupported",
+      "payloadJson": {},
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8172-836e-f77816895a50",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-8123-949b-ed46db337a46",
+      "position": 0,
+      "type": "unsupported",
+      "payloadJson": {},
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-817a-ab82-ef28d617b779",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81d9-931b-f9e7e6790f00",
+      "position": 0,
+      "type": "unsupported",
+      "payloadJson": {},
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81b3-9d01-d26a27130d8e",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-810c-add4-ebfe71aaa117",
+      "position": 0,
+      "type": "unsupported",
+      "payloadJson": {},
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8140-a2bc-d1cbde15703e",
+      "createdTime": "2025-09-26T09:00:48.827000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.827000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-810c-add4-ebfe71aaa117",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-81c3-8c7d-df7c0461222e",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-81ca-b1c0-f85b646b7cdc",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": false
+    },
+    {
+      "id": "27ad10a4-8436-8128-92c5-c56319b7c67c",
+      "createdTime": "2025-09-26T09:00:48.823000Z",
+      "lastEditedTime": "2025-09-26T09:00:48.823000Z",
+      "createdBy": "user-1",
+      "lastEditedBy": "user-1",
+      "parentId": "27ad10a4-8436-80ea-9af8-d13bc9ebb00e",
+      "position": 1,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "hasChildren": false
+    }
+  ],
+  "comments": []
+}

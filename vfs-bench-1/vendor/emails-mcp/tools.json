@@ -1,0 +1,950 @@
+{
+  "tools": [
+    {
+      "name": "get_emails",
+      "description": "Get paginated list of emails from specified folder\n\nArgs:\n    folder: Email folder name (default: INBOX)\n    page: Page number starting from 1 (default: 1)\n    page_size: Number of emails per page (default: 20)\n",
+      "inputSchema": {
+        "properties": {
+          "folder": {
+            "default": "INBOX",
+            "title": "Folder",
+            "type": "string"
+          },
+          "page": {
+            "default": 1,
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "title": "Page Size",
+            "type": "integer"
+          }
+        },
+        "title": "get_emailsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_emailsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "read_email",
+      "description": "Read full content of a specific email\n\nArgs:\n    email_id: Email ID to read\n",
+      "inputSchema": {
+        "properties": {
+          "email_id": {
+            "title": "Email Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id"
+        ],
+        "title": "read_emailArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "read_emailOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "search_emails",
+      "description": "Search emails with query string (sorted by date descending)\n\nArgs:\n    query: Search query (subject, from, body content)\n    folder: Folder to search in (default: INBOX)\n    page: Page number starting from 1 (default: 1)\n    page_size: Number of results per page (default: 20)\n",
+      "inputSchema": {
+        "properties": {
+          "query": {
+            "title": "Query",
+            "type": "string"
+          },
+          "folder": {
+            "default": "INBOX",
+            "title": "Folder",
+            "type": "string"
+          },
+          "page": {
+            "default": 1,
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "title": "Page Size",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "title": "search_emailsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "search_emailsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "send_email",
+      "description": "Send an email with optional HTML body, CC, BCC, and attachments\n\nArgs:\n    to: Recipient email address(es), comma-separated\n    subject: Email subject\n    body: Plain text body\n    html_body: HTML body content (optional)\n    cc: CC recipients, comma-separated (optional)\n    bcc: BCC recipients, comma-separated (optional)\n    attachments: List of file paths to attach (optional)\n",
+      "inputSchema": {
+        "properties": {
+          "to": {
+            "title": "To",
+            "type": "string"
+          },
+          "subject": {
+            "title": "Subject",
+            "type": "string"
+          },
+          "body": {
+            "title": "Body",
+            "type": "string"
+          },
+          "html_body": {
+            "default": null,
+            "title": "Html Body",
+            "type": "string"
+          },
+          "cc": {
+            "default": null,
+            "title": "Cc",
+            "type": "string"
+          },
+          "bcc": {
+            "default": null,
+            "title": "Bcc",
+            "type": "string"
+          },
+          "attachments": {
+            "default": null,
+            "items": {
+              "type": "string"
+            },
+            "title": "Attachments",
+            "type": "array"
+          }
+        },
+        "required": [
+          "to",
+          "subject",
+          "body"
+        ],
+        "title": "send_emailArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "send_emailOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "reply_email",
+      "description": "Reply to an email\n\nArgs:\n    email_id: ID of email to reply to\n    body: Reply message body (plain text)\n    html_body: Reply message body (HTML, optional)\n    cc: Additional CC recipients (optional)\n    bcc: BCC recipients (optional)\n    reply_all: Whether to reply to all recipients (default: False)\n",
+      "inputSchema": {
+        "properties": {
+          "email_id": {
+            "title": "Email Id",
+            "type": "string"
+          },
+          "body": {
+            "title": "Body",
+            "type": "string"
+          },
+          "html_body": {
+            "default": null,
+            "title": "Html Body",
+            "type": "string"
+          },
+          "cc": {
+            "default": null,
+            "title": "Cc",
+            "type": "string"
+          },
+          "bcc": {
+            "default": null,
+            "title": "Bcc",
+            "type": "string"
+          },
+          "reply_all": {
+            "default": false,
+            "title": "Reply All",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "email_id",
+          "body"
+        ],
+        "title": "reply_emailArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "reply_emailOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "forward_email",
+      "description": "Forward an email to other recipients\n\nArgs:\n    email_id: ID of email to forward\n    to: Recipients to forward to\n    body: Additional message body (optional)\n    html_body: Additional HTML message body (optional)\n    cc: CC recipients (optional)\n    bcc: BCC recipients (optional)\n",
+      "inputSchema": {
+        "properties": {
+          "email_id": {
+            "title": "Email Id",
+            "type": "string"
+          },
+          "to": {
+            "title": "To",
+            "type": "string"
+          },
+          "body": {
+            "default": null,
+            "title": "Body",
+            "type": "string"
+          },
+          "html_body": {
+            "default": null,
+            "title": "Html Body",
+            "type": "string"
+          },
+          "cc": {
+            "default": null,
+            "title": "Cc",
+            "type": "string"
+          },
+          "bcc": {
+            "default": null,
+            "title": "Bcc",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id",
+          "to"
+        ],
+        "title": "forward_emailArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "forward_emailOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "delete_email",
+      "description": "Delete an email\n\nArgs:\n    email_id: Email ID to delete\n",
+      "inputSchema": {
+        "properties": {
+          "email_id": {
+            "title": "Email Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id"
+        ],
+        "title": "delete_emailArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "delete_emailOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "move_email",
+      "description": "Move email to another folder\n\nArgs:\n    email_id: Email ID to move\n    target_folder: Target folder name\n",
+      "inputSchema": {
+        "properties": {
+          "email_id": {
+            "title": "Email Id",
+            "type": "string"
+          },
+          "target_folder": {
+            "title": "Target Folder",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id",
+          "target_folder"
+        ],
+        "title": "move_emailArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "move_emailOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "mark_emails",
+      "description": "Mark multiple emails with status (read/unread/important/not_important)\n\nArgs:\n    email_ids: List of email IDs to mark\n    status: Status to set (read, unread, important, not_important)\n",
+      "inputSchema": {
+        "properties": {
+          "email_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Email Ids",
+            "type": "array"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_ids",
+          "status"
+        ],
+        "title": "mark_emailsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "mark_emailsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "move_emails",
+      "description": "Move multiple emails to another folder with improved ID synchronization\n\nArgs:\n    email_ids: List of email IDs to move\n    target_folder: Target folder name\n",
+      "inputSchema": {
+        "properties": {
+          "email_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Email Ids",
+            "type": "array"
+          },
+          "target_folder": {
+            "title": "Target Folder",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_ids",
+          "target_folder"
+        ],
+        "title": "move_emailsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "move_emailsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "delete_emails",
+      "description": "Delete multiple emails with improved ID synchronization\n\nArgs:\n    email_ids: List of email IDs to delete\n",
+      "inputSchema": {
+        "properties": {
+          "email_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Email Ids",
+            "type": "array"
+          }
+        },
+        "required": [
+          "email_ids"
+        ],
+        "title": "delete_emailsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "delete_emailsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_folders",
+      "description": "Get list of available email folders",
+      "inputSchema": {
+        "properties": {},
+        "title": "get_foldersArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_foldersOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_folder",
+      "description": "Create new email folder\n\nArgs:\n    folder_name: Name of folder to create\n",
+      "inputSchema": {
+        "properties": {
+          "folder_name": {
+            "title": "Folder Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "folder_name"
+        ],
+        "title": "create_folderArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "create_folderOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "delete_folder",
+      "description": "Delete email folder\n\nArgs:\n    folder_name: Name of folder to delete\n",
+      "inputSchema": {
+        "properties": {
+          "folder_name": {
+            "title": "Folder Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "folder_name"
+        ],
+        "title": "delete_folderArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "delete_folderOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_mailbox_stats",
+      "description": "Get mailbox statistics\n\nArgs:\n    folder_name: Specific folder name (optional, defaults to all folders)\n",
+      "inputSchema": {
+        "properties": {
+          "folder_name": {
+            "default": null,
+            "title": "Folder Name",
+            "type": "string"
+          }
+        },
+        "title": "get_mailbox_statsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_mailbox_statsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_unread_count",
+      "description": "Get unread message count\n\nArgs:\n    folder_name: Specific folder name (optional, defaults to all folders)\n",
+      "inputSchema": {
+        "properties": {
+          "folder_name": {
+            "default": null,
+            "title": "Folder Name",
+            "type": "string"
+          }
+        },
+        "title": "get_unread_countArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_unread_countOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "check_connection",
+      "description": "Check email server connection status",
+      "inputSchema": {
+        "properties": {},
+        "title": "check_connectionArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "check_connectionOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_email_headers",
+      "description": "Get complete email headers for technical analysis\n\nArgs:\n    email_id: Email ID to get headers for\n",
+      "inputSchema": {
+        "properties": {
+          "email_id": {
+            "title": "Email Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id"
+        ],
+        "title": "get_email_headersArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_email_headersOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "save_draft",
+      "description": "Save email draft\n\nArgs:\n    subject: Email subject\n    body: Plain text body\n    html_body: HTML body content (optional)\n    to: Recipient email address(es) (optional)\n    cc: CC recipients (optional)\n    bcc: BCC recipients (optional)\n",
+      "inputSchema": {
+        "properties": {
+          "subject": {
+            "title": "Subject",
+            "type": "string"
+          },
+          "body": {
+            "title": "Body",
+            "type": "string"
+          },
+          "html_body": {
+            "default": null,
+            "title": "Html Body",
+            "type": "string"
+          },
+          "to": {
+            "default": null,
+            "title": "To",
+            "type": "string"
+          },
+          "cc": {
+            "default": null,
+            "title": "Cc",
+            "type": "string"
+          },
+          "bcc": {
+            "default": null,
+            "title": "Bcc",
+            "type": "string"
+          }
+        },
+        "required": [
+          "subject",
+          "body"
+        ],
+        "title": "save_draftArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "save_draftOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_drafts",
+      "description": "Get list of saved drafts\n\nArgs:\n    page: Page number starting from 1 (default: 1)\n    page_size: Number of drafts per page (default: 20)\n",
+      "inputSchema": {
+        "properties": {
+          "page": {
+            "default": 1,
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "title": "Page Size",
+            "type": "integer"
+          }
+        },
+        "title": "get_draftsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_draftsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "update_draft",
+      "description": "Update existing draft\n\nArgs:\n    draft_id: Draft ID to update\n    subject: Email subject (optional)\n    body: Plain text body (optional)\n    html_body: HTML body content (optional)\n    to: Recipient email address(es) (optional)\n    cc: CC recipients (optional)\n    bcc: BCC recipients (optional)\n",
+      "inputSchema": {
+        "properties": {
+          "draft_id": {
+            "title": "Draft Id",
+            "type": "string"
+          },
+          "subject": {
+            "default": null,
+            "title": "Subject",
+            "type": "string"
+          },
+          "body": {
+            "default": null,
+            "title": "Body",
+            "type": "string"
+          },
+          "html_body": {
+            "default": null,
+            "title": "Html Body",
+            "type": "string"
+          },
+          "to": {
+            "default": null,
+            "title": "To",
+            "type": "string"
+          },
+          "cc": {
+            "default": null,
+            "title": "Cc",
+            "type": "string"
+          },
+          "bcc": {
+            "default": null,
+            "title": "Bcc",
+            "type": "string"
+          }
+        },
+        "required": [
+          "draft_id"
+        ],
+        "title": "update_draftArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "update_draftOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "delete_draft",
+      "description": "Delete draft\n\nArgs:\n    draft_id: Draft ID to delete\n",
+      "inputSchema": {
+        "properties": {
+          "draft_id": {
+            "title": "Draft Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "draft_id"
+        ],
+        "title": "delete_draftArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "delete_draftOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "export_emails",
+      "description": "Export emails to file for backup\n\nArgs:\n    folder: Specific folder to export (mutually exclusive with export_all_folders)\n    export_path: Path where to save the export file  \n    max_emails: Maximum number of emails to export (optional, exports all if not specified)\n    export_all_folders: Export from all folders instead of just one (default: False)\n",
+      "inputSchema": {
+        "properties": {
+          "folder": {
+            "default": null,
+            "title": "Folder",
+            "type": "string"
+          },
+          "export_path": {
+            "default": "emails_export.json",
+            "title": "Export Path",
+            "type": "string"
+          },
+          "max_emails": {
+            "default": null,
+            "title": "Max Emails",
+            "type": "integer"
+          },
+          "export_all_folders": {
+            "default": false,
+            "title": "Export All Folders",
+            "type": "boolean"
+          }
+        },
+        "title": "export_emailsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "export_emailsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "import_emails",
+      "description": "Import emails from backup file to IMAP server\n\nArgs:\n    import_path: Path to import file (.json or .eml) or a directory\n    target_folder: Target folder for imported emails (if preserve_folders=False)\n    preserve_folders: Whether to preserve original folder structure (default: True)\n",
+      "inputSchema": {
+        "properties": {
+          "import_path": {
+            "title": "Import Path",
+            "type": "string"
+          },
+          "target_folder": {
+            "default": null,
+            "title": "Target Folder",
+            "type": "string"
+          },
+          "preserve_folders": {
+            "default": true,
+            "title": "Preserve Folders",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "import_path"
+        ],
+        "title": "import_emailsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "import_emailsOutput",
+        "type": "object"
+      }
+    },
+    {
+      "name": "download_attachment",
+      "description": "Download email attachment to configured download path\n\nArgs:\n    email_id: Email ID containing the attachment\n    attachment_filename: Name of attachment to download\n",
+      "inputSchema": {
+        "properties": {
+          "email_id": {
+            "title": "Email Id",
+            "type": "string"
+          },
+          "attachment_filename": {
+            "title": "Attachment Filename",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id",
+          "attachment_filename"
+        ],
+        "title": "download_attachmentArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "download_attachmentOutput",
+        "type": "object"
+      }
+    }
+  ]
+}

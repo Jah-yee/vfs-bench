@@ -1,0 +1,16 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/1Vs0uhbqvUvV9r7jOBoANvD7Vy1AXzkHQMnns2zOL0Ps/export?format=xlsx",
+  "sheet_id": "1Vs0uhbqvUvV9r7jOBoANvD7Vy1AXzkHQMnns2zOL0Ps",
+  "title": "LLM Pre-training Data",
+  "tabs": [
+    "ptdata"
+  ],
+  "captured_at": "2026-09-10T21:00:16.118585+00:00",
+  "source": "tasks/finalpool/llm-training-dataset/preprocess/main.py",
+  "source_sha256": "2f376ed7c4a6041b9db3129ddd8fed5ff0ce474956dfa03ff758c0398594e000",
+  "sha256": "de38a9e70a0bdef35d9d90d67846bad74df5a30f481c2bd9b667ad0c2424fe3a",
+  "title_source": {
+    "url": "https://docs.google.com/spreadsheets/d/1Vs0uhbqvUvV9r7jOBoANvD7Vy1AXzkHQMnns2zOL0Ps/edit",
+    "sha256": "110ce8dd65e341a36741ef0637262382da99578ccbbf26b085492d456c972e1f"
+  }
+}

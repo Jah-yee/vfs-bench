@@ -1,0 +1,20 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/1USjrHiFIUuPQCBflwoTpe5VLEVFc2FCYbKt7JxGKGFw/export?format=xlsx",
+  "sheet_id": "1USjrHiFIUuPQCBflwoTpe5VLEVFc2FCYbKt7JxGKGFw",
+  "title": "Directory of Generative AI",
+  "tabs": [
+    "Pretrained LLMs",
+    "Text and Image",
+    "Audio Models",
+    "Biological Models",
+    "Definitions and Details"
+  ],
+  "captured_at": "2026-09-11T01:32:25.510323+00:00",
+  "source": "tasks/finalpool/vlm-history-completer/preprocess/main.py",
+  "source_sha256": "a100f95cb16e5e10aaabf94ba56d7d9e3ba5c3e0ea58521f669a1095041314ab",
+  "sha256": "8d91db4531018887370dff5ff822b1fe9f1c091df44824af1d893770412262cb",
+  "title_source": {
+    "url": "https://docs.google.com/spreadsheets/d/1USjrHiFIUuPQCBflwoTpe5VLEVFc2FCYbKt7JxGKGFw/edit",
+    "sha256": "e81b1206e28664c372350d132edd7169024029ec9badace0fff622e0283487c6"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "linked_from": {
+    "path": "hub/models/deepseek-ai__DeepSeek-V2.5/README.md",
+    "revision": "c85b5ede86f2a598af339624cac5723861e557ed",
+    "sha256": "ae99f8b7f199138e7a51887e098d0f1218c14bef55cdcfccc2cd7e35f6871fef",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V2/blob/main/LICENSE-MODEL"
+  },
+  "source": {
+    "repository": "https://github.com/deepseek-ai/DeepSeek-V2",
+    "path": "LICENSE-MODEL",
+    "revision": "da42dcd40b41803c68a712ddd210eeb10e71e598",
+    "pinned_url": "https://github.com/deepseek-ai/DeepSeek-V2/blob/da42dcd40b41803c68a712ddd210eeb10e71e598/LICENSE-MODEL",
+    "raw_url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V2/da42dcd40b41803c68a712ddd210eeb10e71e598/LICENSE-MODEL",
+    "raw_sha256": "a3a0e9449cb691a12f4de1d03725fd41326614fdeaf5d80b28c51187da0bed0e",
+    "raw_bytes": 13760
+  },
+  "capture": {
+    "captured_at": "2026-09-14",
+    "toolathlon_revision": "9be8d8fe07a497b18ee61e3f2ae694e9797f39eb",
+    "rendered_html": "GitHub's rendered pages contain volatile per-request metadata. web_fixture.json preserves one exact response for both arms, and dvc.lock tracks that snapshot's integrity; byte-for-byte reproduction is claimed only for the pinned raw source.",
+    "raw_sha256": "a3a0e9449cb691a12f4de1d03725fd41326614fdeaf5d80b28c51187da0bed0e"
+  }
+}

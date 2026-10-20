@@ -1,0 +1,24 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "6890e7fd2516f66b0a628e3a",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_search_records",
+    "airtable_list_records",
+    "airtable_get_record",
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-indexes",
+    "mongodb_collection-schema",
+    "mongodb_find",
+    "mongodb_collection-storage-size",
+    "mongodb_count",
+    "mongodb_aggregate",
+    "e2b-server_run_code"
+  ],
+  "claims": [
+    "In the second quarter of 2017, the Human Resources area had the best performance average with a score of 2.126.",
+    "The lowest individual score from the losing area (Sales) was 1.01."
+  ]
+}

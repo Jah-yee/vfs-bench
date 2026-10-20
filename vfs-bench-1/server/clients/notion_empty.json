@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "workspaceName": "empty",
+    "workspaceId": "workspace-empty",
+    "botId": "bot-empty",
+    "botName": "empty",
+    "maxUploadSize": 5242880,
+    "urlBase": "https://www.notion.so/",
+    "createdTime": "2025-01-01T00:00:00.000Z",
+    "lastEditedTime": "2025-01-01T00:00:00.000Z",
+    "createdBy": "user-1",
+    "lastEditedBy": "user-1"
+  },
+  "databases": [],
+  "pages": [],
+  "blocks": [],
+  "comments": []
+}

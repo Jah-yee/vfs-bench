@@ -1,0 +1,12 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/1cMNmXLps78jD-_5bYZlQRitx7mHXagInEHLWW2cBwEY/export?format=xlsx",
+  "sheet_id": "1cMNmXLps78jD-_5bYZlQRitx7mHXagInEHLWW2cBwEY",
+  "title": "stock_sheet",
+  "tabs": [
+    "stock_sheet"
+  ],
+  "captured_at": "2026-09-09T13:15:21.046334+00:00",
+  "source": "tasks/finalpool/woocommerce-stock-alert/preprocess/main.py",
+  "source_sha256": "9b94db85fc440f5fff5dc9d26965246b39eb30e517d334a46618ec30e42b3903",
+  "sha256": "f8b7645ae18f457a62890a01b18dcd04c361bfd1d71f205150da8911e2204095"
+}

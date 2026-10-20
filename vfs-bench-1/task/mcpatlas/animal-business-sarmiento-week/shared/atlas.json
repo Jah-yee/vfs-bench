@@ -1,0 +1,26 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68993ef3cf3e953b8ab83fca",
+  "enabled_tools": [
+    "ddg-search_search",
+    "ddg-search_fetch_content",
+    "filesystem_list_directory",
+    "filesystem_list_allowed_directories",
+    "filesystem_read_file",
+    "filesystem_read_multiple_files",
+    "git_git_status",
+    "git_git_log",
+    "git_git_show",
+    "github_search_repositories",
+    "github_get_commit",
+    "github_list_commits",
+    "mcp-code-executor_execute_code",
+    "mcp-code-executor_read_code_file"
+  ],
+  "claims": [
+    "The year Tina Turner passed away is 2023.",
+    "The net earnings for the week of February 13 to February 19, 2023, were $6,112.",
+    "The week of February 13 to February 19, 2023, included Domingo Faustino Sarmiento's birthday, February 15.",
+    "According to the business's records, Week 7 spanned February 13 to February 19, 2023."
+  ]
+}

@@ -1,0 +1,82 @@
+[project]
+name = "vfs-bench"
+version = "0.1.0"
+description = "Compare tool surfaces (mirage VFS vs MCP) on Toolathlon tasks"
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents>=0.18",
+    # mcp>=2 moved FastMCP and Server.list_tools, breaking the upstream
+    # servers this repo drives.
+    "mcp>=1.2,<2",
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+    # [monty] is the sandboxed python3 the workspace yaml selects as a runtime;
+    # [email] pulls aiosmtplib for the email resource and himalaya; Mirage
+    # speaks IMAP with a client of its own.
+    "mirage-ai[monty,email,e2b,s3]",
+    "websockets>=15",
+    "pydantic-monty>=0.0.19",
+    "shortuuid>=1.0.13",
+    "wasmtime>=46",
+    "asyncpg>=0.31.0",
+    # The market adapters behind the yfinance redirect build the frames the
+    # upstream Yahoo server filters and serializes.
+    "pandas>=2.2",
+    # Only so that a task's own `token_key_session.py` can be executed the
+    # way Toolathlon executes it (`utils/data_structures/task_config.py`):
+    # three of the google-cloud tasks compute their allowed bucket at import
+    # time rather than writing a literal, and reading the file any other way
+    # is a second parser that can disagree with theirs. See `gcp_allowed`.
+    "addict>=2.4.0",
+    # Upstream's `web_search` local tool imports it, and two tasks here
+    # declare that tool. Toolathlon's own environment carries it.
+    "beautifulsoup4>=4.12",
+    "fastapi>=0.141.1",
+    "uvicorn[standard]>=0.52.1",
+    "claude-agent-sdk>=0.2.139",
+    "mfusepy>=3.1.1",
+    # MCP-Atlas asks a Gemini model through LiteLLM's Gemini adapter, which is
+    # what rewrites its tool schemas for Gemini (`agent/atlas/gateway.py`). The
+    # newest release, 1.102, wants a boto3 that mirage's s3 extra rules out.
+    "litellm>=1.97.0",
+]
+
+[dependency-groups]
+dev = [
+    "dvc>=3.67.1",
+    # The public W&B capture calls GraphQL and downloads original file bytes.
+    "requests>=2.32",
+    # `setup/research_lineage.py` reads upstream's workbooks with it, as a
+    # dvc.yaml stage that has to run on a clean checkout.
+    "openpyxl>=3.1",
+    # Only `seed_gcs.py` needs it. It used to come in through a `uv run
+    # --with` on the grounds that a mirage CLI needed it too; that CLI was
+    # plain urllib, so the reason was not true and the cost was a
+    # resolve-and-install on every seed of a storage fixture.
+    "google-cloud-storage>=2.18",
+    "pre-commit>=4.0",
+    "psycopg2-binary>=2.9.12",
+    "tiktoken>=0.7",
+]
+
+# The task's CLI is loaded by path, not imported, so flake8 sees it as a
+# standalone module; the mirage names it uses resolve at runtime.
+[tool.flake8]
+exclude = [".venv", "submodule", "vendor"]
+# mirage is a submodule, installed editable so checking out a different commit
+# takes effect without reinstalling -- and so `bin/start.sh` runs a pinned
+# copy of integ/server/gws/ rather than whatever a sibling clone
+# happens to be on. It sits under submodule/ with the other two gitlinks, and
+# not at the top level, where a `mirage/` directory would shadow the package:
+# `import mirage` would resolve the repo root as a namespace package. Move
+# the pin with
+#   git -C submodule/mirage fetch origin main
+#   git -C submodule/mirage checkout origin/main
+[tool.uv.sources]
+mirage-ai = { path = "submodule/mirage/python", editable = true }
+
+[tool.setuptools]
+packages = ["agent", "server"]
+
+[tool.uv]
+override-dependencies = ["mcp>=1.2,<2"]

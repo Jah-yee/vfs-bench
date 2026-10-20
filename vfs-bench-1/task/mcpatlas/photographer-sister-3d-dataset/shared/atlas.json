@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689f4d693e212e8ef3390708",
+  "enabled_tools": [
+    "memory_read_graph",
+    "memory_open_nodes",
+    "memory_search_nodes",
+    "whois_whois_domain",
+    "pubmed_search_pubmed_key_words",
+    "context7_resolve-library-id",
+    "context7_get-library-docs",
+    "github_search_repositories",
+    "filesystem_read_file",
+    "filesystem_list_directory",
+    "filesystem_list_allowed_directories",
+    "git_git_log",
+    "git_git_show",
+    "arxiv_search_papers",
+    "git_git_diff_staged"
+  ],
+  "claims": [
+    "A picnic was planned with the Zhang family.",
+    "The user's friend's sister is a nature photographer.",
+    "Li Zhang is the nature photographer.",
+    "The paper co-authored by Li Zhang on a large-scale 3D dataset is titled \"TexVerse: A Universe of 3D Objects with High-Resolution Textures.\""
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "6897a6002b64a8c831efa2e9",
+  "enabled_tools": [
+    "git_git_diff",
+    "git_git_diff_staged",
+    "git_git_log",
+    "git_git_show",
+    "github_search_repositories",
+    "github_search_code",
+    "github_search_users",
+    "github_get_issue",
+    "github_search_issues",
+    "github_list_issues",
+    "ddg-search_search",
+    "ddg-search_fetch_content",
+    "google-maps_maps_directions",
+    "google-maps_maps_elevation",
+    "google-maps_maps_distance_matrix",
+    "google-maps_maps_place_details",
+    "google-maps_maps_search_places",
+    "mcp-code-executor_execute_code"
+  ],
+  "claims": [
+    "The monument in honor of the first Italian settler in New York State is called the Peter Caesar Alberti Marker.",
+    "The Peter Caesar Alberti Marker is described as a \"plaque honoring the name of the first Italian immigrant, Peter Caesar Alberti, a native of Venice\".",
+    "The Peter Caesar Alberti Marker is at a driving distance of 10,654 meters from the George M. Cohan Statue."
+  ]
+}

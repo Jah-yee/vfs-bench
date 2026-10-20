@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/lockon-n/youtube-mcp-server",
+  "commit": "b202e00e9014bf74b9f5188b623cad16f13c01c4",
+  "upstream_dockerfile_sha256": "9b0b460479eed8855c9d9663de9e15d9b59e846513707add68f9dccacecf0552",
+  "files_sha256": {
+    "package.json": "b6df04de866733dad4edf780ae380523e34e1940616ba57415749a6391e62393",
+    "package-lock.json": "f1b514e7d83db239a845325ea3b41aa942ef620ed90459a901133c25c26d6144"
+  }
+}

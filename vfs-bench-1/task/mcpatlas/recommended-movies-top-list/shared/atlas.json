@@ -1,0 +1,31 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689e0b1d9c8e2ac413c1f225",
+  "enabled_tools": [
+    "slack_channels_list",
+    "slack_conversations_history",
+    "slack_conversations_search_messages",
+    "filesystem_read_text_file",
+    "filesystem_list_allowed_directories",
+    "filesystem_list_directory",
+    "e2b-server_run_code",
+    "context7_get-library-docs",
+    "context7_resolve-library-id",
+    "weather_find_weather_stations",
+    "weather-data_weather_history",
+    "cli-mcp-server_run_command",
+    "cli-mcp-server_show_security_rules",
+    "oxylabs_universal_scraper",
+    "oxylabs_google_search_scraper",
+    "pubmed_get_pubmed_article_metadata",
+    "pubmed_search_pubmed_advanced"
+  ],
+  "claims": [
+    "The movie Reservoir Dogs is in the file Top Movies.csv with an IMDb rating of 8.3.",
+    "The movie Reservoir Dogs was suggested in the channel #movie-suggestions.",
+    "The movie The Matrix is in the file Top Movies.csv with an IMDb rating of 8.7.",
+    "The movie The Matrix was suggested in the channel #movie-suggestions.",
+    "The movie Fight Club is in the file Top Movies.csv with an IMDb rating of 8.8.",
+    "The movie Fight Club was suggested in the channel #movie-suggestions."
+  ]
+}

@@ -1,0 +1,56 @@
+# Lint and standard-library setup checks, without the submodules.
+#
+# The four gitlinks under vfs-bench-1/submodule/ stay uncloned here. That is what makes
+# this job work rather than something to fix: `uv sync` cannot build the
+# editable mirage package without submodule/mirage, so nothing needing this
+# project's own virtualenv can run in CI. Every hook in
+# .pre-commit-config.yaml except `fixture-lineage` comes from a `repo:`,
+# which pre-commit installs into its own isolated Python and Node
+# environments -- none of them need this project's dependencies, and all of
+# them pass on a submodule-less checkout. So:
+#
+#   * do NOT add `submodules: recursive` to the checkout below; it would
+#     clone five trees no hook here reads, and submodule/mirage is private,
+#     which a fork's CI cannot clone at all.
+#   * Tests needing project dependencies, `uv sync` and `uv run dvc status`
+#     need the five checkouts, so such a job would fail for every
+#     external contributor and teach everyone to ignore a red tick. They stay
+#     where they are: the `fixture-lineage` hook and the documented manual
+#     commands.
+#
+# `fixture-lineage` is the one `repo: local` hook (`uv run python
+# setup/lineage.py`, `language: system`), so it is the one hook that needs
+# the virtualenv. SKIP below names it for that reason and no other.
+# The setup import regression uses only the standard library and runs here
+# without uv or PYTHONPATH, matching the setup runner's file entry points.
+name: lint
+
+# Quoted so yamllint's truthy rule reads a key rather than a boolean.
+"on":
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          # .pre-commit-config.yaml pins `default_language_version` to
+          # python3.12, because pyupgrade 3.21 uses tokenizer APIs that
+          # changed in 3.14. Honour the pin rather than whatever the runner
+          # ships.
+          python-version: '3.12'
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+      - run: pip install pre-commit
+      - run: python vfs-bench-1/tests/mcp_setup.py
+      # Its copy2 fallback, the path Linux takes; clonefile is macOS's.
+      - run: python vfs-bench-1/tests/workspace_clone.py
+      - run: pre-commit run --all-files --show-diff-on-failure
+        env:
+          SKIP: fixture-lineage

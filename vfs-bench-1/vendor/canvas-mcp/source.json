@@ -1,0 +1,12 @@
+{
+  "upstream_config": "configs/mcp_servers/canvas.yaml",
+  "upstream_config_sha256": "2e8b6ae2c2b57c3bb3d8bbf0397eb35320f540e9852a308221fc541855708e20",
+  "sha256": {
+    "package.json": "65643d49c51b2dbc2afc8567a72a2aeb41422c44ff64886f3cc61c8e80c0e57b",
+    "package-lock.json": "99d2104eaf380e98c564c52c04117478dbd3bf53f12f8c97443c733d53e8de08",
+    "tools.json": "b8c7626adde6bb62fd00dbeb3e5d2efd6166da3b8a417cbb98ad886560177ea3",
+    "node_modules/canvas-mcp-server/build/client.js": "8a78d906016dae57eb2567452a8a2f817c688f4ad607893077845f9d8da08fd8",
+    "node_modules/canvas-mcp-server/build/index.js": "2582fc1379e99ea9cbfbb987e24c58a00a1a1f8ef9d1453267c7f2129e928db4",
+    "node_modules/canvas-mcp-server/build/types.js": "dcdceef9659325cc927353694c0df73e8fbdfd1681850ced9535a6e589191347"
+  }
+}

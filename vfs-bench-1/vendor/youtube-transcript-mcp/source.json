@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/jkawamoto/mcp-youtube-transcript",
+  "commit": "28081729905a48bef533d864efbd867a2bfd14cd",
+  "upstream_dockerfile_sha256": "9b0b460479eed8855c9d9663de9e15d9b59e846513707add68f9dccacecf0552",
+  "files_sha256": {
+    "pyproject.toml": "083c08daa6f8ea4d6b19182e65ccf46a6fb1afd577862e10076c04fc78ae4206",
+    "uv.lock": "712de7d72af5edca2ae23ef1a5f890d87a9ea9d79793c8388c28ed31b388346e"
+  }
+}

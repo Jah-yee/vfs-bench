@@ -1,0 +1,16 @@
+{
+  "verification": "Every non-placeholder Git blob and file path matches the committed fixture. Placeholder bytes follow the existing builder rules.",
+  "repositories": [
+    {
+      "url": "https://github.com/Toolathlon-Archive/LUFFY.git",
+      "revisions": {
+        "main": "266cbc22215201a93c02e37200fe32be98a9e931",
+        "dev": "7463fefd0f55ae2ba0b919e06527588022893495"
+      },
+      "folders": {
+        "main": "main",
+        "dev": "dev"
+      }
+    }
+  ]
+}

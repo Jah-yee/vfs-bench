@@ -1,0 +1,7 @@
+# The benchmark's own ignores live in vfs-bench-1/.gitignore.
+.env
+.env.*
+!.env.example
+.DS_Store
+.venv/
+__pycache__/

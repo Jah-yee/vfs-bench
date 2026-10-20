@@ -1,0 +1,23 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689f4d693e212e8ef3390701",
+  "enabled_tools": [
+    "notion_API-post-search",
+    "notion_API-post-database-query",
+    "whois_whois_domain",
+    "filesystem_read_text_file",
+    "filesystem_read_media_file",
+    "filesystem_read_multiple_files",
+    "filesystem_list_directory",
+    "filesystem_list_directory_with_sizes",
+    "filesystem_directory_tree",
+    "filesystem_search_files",
+    "filesystem_get_file_info",
+    "filesystem_list_allowed_directories",
+    "memory_read_graph"
+  ],
+  "claims": [
+    "The domain \"binance.com\" was created on April 1, 2017.",
+    "According to the Customer Feedback database, 3 services were resolved on April 1, 2017."
+  ]
+}

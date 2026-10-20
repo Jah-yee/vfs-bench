@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689af4e653c3905e7b5b2596",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "filesystem_read_file",
+    "calculator_calculate",
+    "filesystem_read_text_file",
+    "filesystem_read_media_file",
+    "exa_web_search_exa",
+    "notion_API-post-database-query",
+    "notion_API-get-users",
+    "notion_API-retrieve-a-database",
+    "notion_API-post-search",
+    "context7_resolve-library-id",
+    "slack_channels_list",
+    "airtable_search_records"
+  ],
+  "claims": [
+    "The year and quarter of release of \"Super Mario Bros. Wonder\" was 2023-Q4.",
+    "Lowest performance rating in 2023-Q4 was 1.03, according to the car dealership database."
+  ]
+}

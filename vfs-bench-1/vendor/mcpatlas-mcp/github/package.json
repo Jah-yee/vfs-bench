@@ -1,0 +1,8 @@
+{
+  "name": "vfs-bench-mcpatlas-mcp-github",
+  "private": true,
+  "description": "Pinned MCP-Atlas servers, vendored by server/mcp/setup_mcpatlas.py",
+  "dependencies": {
+    "@smithery/mcp-github": "github:geobio/smitheryai-mcp-servers-github#68368436034fb0003a6d8ed91afc9d0a64142b84"
+  }
+}

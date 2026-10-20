@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "688fb11183792b921381bd0d",
+  "enabled_tools": [
+    "airtable_get_record",
+    "airtable_list_tables",
+    "airtable_list_bases",
+    "airtable_list_records",
+    "airtable_search_records",
+    "exa_web_search_exa",
+    "e2b-server_run_code",
+    "cli-mcp-server_show_security_rules",
+    "cli-mcp-server_run_command",
+    "weather-data_weather_history",
+    "weather-data_weather_astronomy",
+    "weather-data_weather_search",
+    "weather_find_weather_stations",
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article"
+  ],
+  "claims": [
+    "Chester Bennington died in 2017.",
+    "Based on the car dealership database, the Sales department had the worst performance in the third quarter of 2017.",
+    "Based on the car dealership database, the average score of the Sales department in the third quarter of 2017 was 2.43.",
+    "Based on the car dealership database, the lowest individual score in the Sales department in the third quarter of 2017 was 1.06."
+  ]
+}

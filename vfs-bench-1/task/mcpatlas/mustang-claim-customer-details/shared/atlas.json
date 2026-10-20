@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68940d8355faa0b720f0b482",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "airtable_get_record",
+    "cli-mcp-server_show_security_rules",
+    "weather_get_weather_alerts",
+    "weather_get_local_time",
+    "met-museum_list-departments",
+    "met-museum_search-museum-objects",
+    "met-museum_get-museum-object",
+    "pubmed_search_pubmed_key_words",
+    "pubmed_search_pubmed_advanced",
+    "pubmed_get_pubmed_article_metadata",
+    "pubmed_download_pubmed_pdf"
+  ],
+  "claims": [
+    "The customer whose car is a mustang and left a claim in august 7 2017 has the ID xIyOR2iB.",
+    "The a mustang from the august 7 2017 complaint vehicle\u2019s  year is 2022.",
+    "The service rating for complaint of august 7 2017 was a 3.",
+    "The department ID is 3 in the met musem is the Ancient Near Eastern Art."
+  ]
+}

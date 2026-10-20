@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "688fb11183792b921381bd38",
+  "enabled_tools": [
+    "airtable_get_record",
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-schema",
+    "mongodb_collection-indexes",
+    "mongodb_find",
+    "mongodb_count",
+    "mongodb_collection-storage-size",
+    "mongodb_db-stats",
+    "mongodb_aggregate",
+    "mongodb_explain",
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article"
+  ],
+  "claims": [
+    "The game with the highest existing stock among those named Game Title 142 has the genre Role-Playing.",
+    "The game with the highest existing stock among those named Game Title 142 has the reference number: GAME2148.",
+    "The game with the lowest existing stock among games with the Game Title 142 name has the genre Puzzle.",
+    "The game with the lowest existing stock among games with the Game Title 142 name has Reference Number: GAME1873."
+  ]
+}

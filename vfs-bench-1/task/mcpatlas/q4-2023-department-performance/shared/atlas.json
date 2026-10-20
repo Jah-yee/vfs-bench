@@ -1,0 +1,31 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfcad",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "airtable_get_record",
+    "mcp-code-executor_execute_code",
+    "mcp-code-executor_read_code_file",
+    "mcp-code-executor_check_installed_packages",
+    "mcp-code-executor_get_environment_config",
+    "national-parks_findParks",
+    "national-parks_getVisitorCenters",
+    "national-parks_getParkDetails",
+    "national-parks_getCampgrounds",
+    "calculator_calculate",
+    "arxiv_search_papers"
+  ],
+  "claims": [
+    "The average scores for the Sales department is 3.55",
+    "The average scores for the Service department 3.47",
+    "The average scores for the Finance department 3.19",
+    "The average scores for the Marketing department 3.07",
+    "The average scores for the Human Resources department 2.68",
+    "The average scores for the Management department 3.08.",
+    "The highest average score is for the sales department.",
+    "The title of the article by Greta Galliani is \"Estimation of Dynamic Origin-Destination Matrices in a Railway Transportation Network integrating Ticket Sales and Passenger Count Data\"."
+  ]
+}

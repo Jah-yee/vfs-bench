@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68824c643e6ff020bc33990b",
+  "enabled_tools": [
+    "notion_API-get-users",
+    "notion_API-get-user",
+    "notion_API-get-self",
+    "notion_API-post-database-query",
+    "notion_API-post-search",
+    "notion_API-get-block-children",
+    "notion_API-retrieve-a-block",
+    "notion_API-retrieve-a-page",
+    "notion_API-retrieve-a-database",
+    "notion_API-retrieve-a-page-property",
+    "notion_API-retrieve-a-comment",
+    "oxylabs_universal_scraper",
+    "oxylabs_google_search_scraper",
+    "oxylabs_amazon_search_scraper",
+    "fetch_fetch",
+    "mcp-server-code-runner_run-code"
+  ],
+  "claims": [
+    "Spain won its first World Cup in 2010.",
+    "PROP295, built in 2010, has a one-bedroom apartment with premium amenities and an \"A\" efficiency rating.",
+    "The monthly rent for the one-bedroom apartment with premium amenities and an \"A\" efficiency rating in PROP295 is $3208."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfca8",
+  "enabled_tools": [
+    "exa_web_search_exa",
+    "calculator_calculate",
+    "arxiv_search_papers",
+    "airtable_list_records",
+    "airtable_list_tables",
+    "github_search_repositories",
+    "github_search_code",
+    "git_git_diff",
+    "pubmed_search_pubmed_advanced",
+    "weather-data_weather_history",
+    "national-parks_getParkDetails",
+    "met-museum_search-museum-objects",
+    "met-museum_list-departments",
+    "airtable_list_bases",
+    "airtable_search_records",
+    "slack_conversations_history",
+    "slack_conversations_add_message"
+  ],
+  "claims": [
+    "The year 2015 was when NASA\u2019s New Horizons spacecraft made its closest approach to Pluto.",
+    "In 2015-Q2, the Finance department\u2019s average customer satisfaction score was 1.79.",
+    "In 2015-Q2, the Human Resources department\u2019s average customer satisfaction score was 4.14.",
+    "In 2015-Q2, the Management department\u2019s average customer satisfaction score was 4.93.",
+    "In 2015-Q2, the Marketing department\u2019s average customer satisfaction score was 1.38.",
+    "In 2015-Q2, the Sales department\u2019s average customer satisfaction score was 1.61.",
+    "In 2015-Q2, the Service department\u2019s average customer satisfaction score was 3.33.",
+    "The overall average customer satisfaction score across all departments in 2015-Q2 was 2.86."
+  ]
+}

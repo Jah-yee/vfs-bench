@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "created_time": "2025-09-01T00:00:00.000Z",
+    "last_edited_time": "2025-09-02T00:00:00.000Z",
+    "created_by": "user-quant",
+    "last_edited_by": "user-quant",
+    "url_base": "https://www.notion.so/"
+  },
+  "databases": [],
+  "pages": [
+    {
+      "id": "27ad10a4-8436-80c8-8a51-f5a6be246e76",
+      "title": "Quant Research",
+      "parent": {
+        "type": "workspace"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "id": "27ad10a4-8436-81ae-9193-da8691384ff8",
+      "parent": "27ad10a4-8436-80c8-8a51-f5a6be246e76",
+      "type": "paragraph",
+      "payload": {
+        "rich_text": []
+      }
+    }
+  ],
+  "comments": []
+}

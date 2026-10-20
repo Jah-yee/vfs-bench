@@ -1,0 +1,17 @@
+[project]
+name = "vfs-bench-mcpatlas-weather-data"
+version = "0"
+requires-python = "==3.13.*"
+dependencies = ["weather-mcp-server"]
+
+# Upstream runs `uvx --from git+https://github.com/geobio/weather-mcp-server`: the
+# default branch, resolved afresh on every start, and not in the image. The
+# branch has held this commit since before the image was built, and the
+# resolution is the one uv made when it was -- ghcr.io/scaleapi/mcp-atlas:1.2.7
+# was created at the `exclude-newer` below. A resolution made today reaches
+# an mcp this server was never run on.
+[tool.uv.sources]
+weather-mcp-server = { git = "https://github.com/geobio/weather-mcp-server", rev = "70b6a7c8183c8a3acc175f786f4b7be9c2ba66e4" }
+
+[tool.uv]
+exclude-newer = "2026-07-17T19:34:33Z"

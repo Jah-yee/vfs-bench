@@ -1,0 +1,7 @@
+{
+  "name": "toolathlon-browser-mcp",
+  "private": true,
+  "dependencies": {
+    "@lockon0927/playwright-mcp-with-chunk": "^0.1.2"
+  }
+}

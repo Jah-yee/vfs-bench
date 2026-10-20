@@ -1,0 +1,13 @@
+import { toolCommand } from './tool.mjs'
+export const MAPS = toolCommand('google-map')
+export const YOUTUBE = toolCommand('youtube')
+export const TRANSCRIPT = toolCommand('youtube-transcript')
+export const RAIL = toolCommand('rail-12306')
+export const MEMORY = toolCommand('memory', '', { write: true })
+export const YAHOO = toolCommand('yahoo-finance')
+export const HOWTOCOOK = toolCommand('howtocook')
+export const NOTION = toolCommand('notion', '', { write: true })
+export const SNOWFLAKE = toolCommand('snowflake', '', { write: true })
+export const GOOGLE_CLOUD = toolCommand('google-cloud', '', { write: true })
+export const WANDB = toolCommand('wandb', '', { write: true })
+export const WEATHER = toolCommand('weather')

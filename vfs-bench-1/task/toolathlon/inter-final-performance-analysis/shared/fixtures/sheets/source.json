@@ -1,0 +1,18 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/1fKZ2b4R5kFgxGFis9UuJV2ANxth0Kdu_ifK8krlui4o/export?format=xlsx",
+  "sheet_id": "1fKZ2b4R5kFgxGFis9UuJV2ANxth0Kdu_ifK8krlui4o",
+  "title": "inter_ucl_finals_23_25",
+  "tabs": [
+    "2023Final",
+    "2025Final",
+    "StatsDifference"
+  ],
+  "captured_at": "2026-09-10T21:00:16.968580+00:00",
+  "source": "tasks/finalpool/inter-final-performance-analysis/preprocess/main.py",
+  "source_sha256": "3b6d30ae9e19790f348af0a63fa595e8dceabcf946abadb5f24932b67004ef47",
+  "sha256": "91f3fe5bbdb1476b9456c3e97d13ebb3243ce6ecbe7ddfa3ade402cf567bdf47",
+  "title_source": {
+    "url": "https://docs.google.com/spreadsheets/d/1fKZ2b4R5kFgxGFis9UuJV2ANxth0Kdu_ifK8krlui4o/edit",
+    "sha256": "7baa742530bfc91d6a6aa365726fdb72e5d994f0841c7f8adcb8ef4e8899b898"
+  }
+}

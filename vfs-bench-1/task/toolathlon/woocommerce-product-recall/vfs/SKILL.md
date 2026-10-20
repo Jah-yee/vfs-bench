@@ -1,0 +1,129 @@
+---
+name: workspace-commands
+description: The shell commands and task tools available in this workspace.
+---
+
+# Available commands
+
+Python (`python` or `python3`), Perl, JavaScript/Node.js, and TypeScript
+runtimes are unavailable. Use the shell commands and task CLIs documented
+below; do not probe for or attempt to install other runtimes.
+
+Standard Unix commands, among them:
+
+    cat  head  tail  ls  find  grep  wc  sort  uniq  cut  tr  sed  awk
+    diff  tee  xargs  jq  unzip
+
+with pipes, `>` redirection, `$(...)` substitution and `$'...'`.
+
+The task CLIs below are registered with this shell rather than installed
+as files; do not inspect them with `which`, `file` or `/usr/bin`.
+
+## woocommerce
+
+Use `woocommerce <command> '<JSON arguments>'`. Run
+`woocommerce <command> --help` to get more information.
+
+| Command | Arguments | Description |
+|---|---|---|
+| `woocommerce products-list` | `{perPage?: int, page?: int, search?: str, status?: "publish" \| "draft" \| "private" \| "pending", category?: str, tag?: str, sku?: str, featured?: bool, onSale?: bool, minPrice?: str, maxPrice?: str, stockStatus?: "instock" \| "outofstock" \| "onbackorder", orderby?: "date" \| "id" \| "include" \| "title" \| "slug" \| "price" \| "popularity" \| "rating", order?: "asc" \| "desc"}` | List products with optional filters. IMPORTANT: Use perPage parameter to control how many results to return (default is 10, max is 100). Use page parameter for pagination. — `perPage`: Number of items to return per page (default: 10, max: 100). Always specify this to control result size.; `page`: Page number for pagination (default: 1). Use with perPage to navigate through results.; `search`: Search term; `status`: Product status; `category`: Category ID; `tag`: Tag ID; `sku`: Product SKU; `featured`: Featured products only; `onSale`: On sale products only; `minPrice`: Minimum price; `maxPrice`: Maximum price; `stockStatus`: Stock status; `orderby`: Order by field; `order`: Order direction |
+| `woocommerce products-get` | `{productId: int}` | Get a specific product by ID — `productId`: Product ID |
+| `woocommerce products-create` | `{productData: {name?: str, type?: "simple" \| "grouped" \| "external" \| "variable", status?: "publish" \| "draft" \| "private" \| "pending", featured?: bool, catalog_visibility?: "visible" \| "catalog" \| "search" \| "hidden", description?: str, short_description?: str, sku?: str, regular_price?: str, sale_price?: str, manage_stock?: bool, stock_quantity?: int, categories?: list[{id?: int}], images?: list[{src?: str, alt?: str}]}}` | Create a new product — `productData`: Product data; `productData.name`: Product name; `productData.type`: Product type; `productData.status`: Product status; `productData.featured`: Featured product; `productData.catalog_visibility`: Catalog visibility; `productData.description`: Product description; `productData.short_description`: Product short description; `productData.sku`: Product SKU; `productData.regular_price`: Regular price; `productData.sale_price`: Sale price; `productData.manage_stock`: Manage stock; `productData.stock_quantity`: Stock quantity; `productData.categories`: Product categories; `productData.categories.id`: Category ID; `productData.images`: Product images; `productData.images.src`: Image URL; `productData.images.alt`: Image alt text |
+| `woocommerce products-update` | `{productId: int, productData: dict}` | Update a product — `productId`: Product ID; `productData`: Product data to update |
+| `woocommerce products-delete` | `{productId: int, force?: bool = false}` | Delete a product — `productId`: Product ID; `force`: Force delete |
+| `woocommerce products-batch-update` | `{create?: list[dict], update?: list[{id?: int}], delete?: list[int]}` | Batch update products — `create`: Products to create; `update`: Products to update; `update.id`: Product ID; `delete`: Product IDs to delete |
+| `woocommerce products-variations-list` | `{productId: int, perPage?: int, page?: int}` | List product variations. Use perPage and page parameters for pagination (default: 10 items per page). — `productId`: Product ID; `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1) |
+| `woocommerce products-categories-list` | `{perPage?: int, page?: int, search?: str, parent?: int, hideEmpty?: bool}` | List product categories. Use perPage and page parameters for pagination (default: 10 items per page). — `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1); `search`: Search term; `parent`: Parent category ID; `hideEmpty`: Hide empty categories |
+| `woocommerce products-categories-create` | `{categoryData: {name: str, slug?: str, parent?: int, description?: str, display?: "default" \| "products" \| "subcategories" \| "both", image?: {src?: str, alt?: str}, menuOrder?: int}}` | Create a new product category — `categoryData.name`: Category name; `categoryData.slug`: Category slug; `categoryData.parent`: Parent category ID; `categoryData.description`: Category description; `categoryData.display`: Display type; `categoryData.image.src`: Image URL; `categoryData.image.alt`: Image alt text; `categoryData.menuOrder`: Menu order |
+| `woocommerce products-tags-list` | `{perPage?: int, page?: int, search?: str, hideEmpty?: bool}` | List product tags. Use perPage and page parameters for pagination (default: 10 items per page). — `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1); `search`: Search term; `hideEmpty`: Hide empty tags |
+| `woocommerce products-reviews-list` | `{productId?: int, perPage?: int, page?: int, status?: "all" \| "hold" \| "approved" \| "spam" \| "trash"}` | List product reviews. Use perPage and page parameters for pagination (default: 10 items per page). — `productId`: Product ID (optional); `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1); `status`: Review status |
+| `woocommerce orders-list` | `{perPage?: int, page?: int, status?: list["pending" \| "processing" \| "on-hold" \| "completed" \| "cancelled" \| "refunded" \| "failed"], customer?: int, product?: int, dateAfter?: str, dateBefore?: str, orderby?: "date" \| "id" \| "include" \| "title" \| "slug", order?: "asc" \| "desc"}` | List orders with optional filters. IMPORTANT: Use perPage parameter to control how many results to return (default is 10, max is 100). Use page parameter for pagination. — `perPage`: Number of items to return per page (default: 10, max: 100). Always specify this to control result size.; `page`: Page number for pagination (default: 1). Use with perPage to navigate through results.; `status`: Order statuses; `customer`: Customer ID; `product`: Product ID; `dateAfter`: Orders after this date (ISO 8601); `dateBefore`: Orders before this date (ISO 8601); `orderby`: Order by field; `order`: Order direction |
+| `woocommerce orders-get` | `{orderId: int}` | Get a specific order by ID — `orderId`: Order ID |
+| `woocommerce orders-create` | `{orderData: {payment_method?: str, payment_method_title?: str, set_paid?: bool, billing?: dict, shipping?: dict, line_items?: list[{product_id?: int, quantity?: int}], shipping_lines?: list[dict]}}` | Create a new order — `orderData`: Order data; `orderData.payment_method`: Payment method ID; `orderData.payment_method_title`: Payment method title; `orderData.set_paid`: Define if the order is paid; `orderData.billing`: Billing address; `orderData.shipping`: Shipping address; `orderData.line_items`: Line items data; `orderData.line_items.product_id`: Product ID; `orderData.line_items.quantity`: Quantity; `orderData.shipping_lines`: Shipping lines data |
+| `woocommerce orders-update` | `{orderId: int, orderData: dict}` | Update an order — `orderId`: Order ID; `orderData`: Order data to update |
+| `woocommerce orders-delete` | `{orderId: int, force?: bool = false}` | Delete an order — `orderId`: Order ID; `force`: Force delete |
+| `woocommerce orders-batch-update` | `{create?: list[dict], update?: list[{id?: int}], delete?: list[int]}` | Batch update orders — `create`: Orders to create; `update`: Orders to update; `update.id`: Order ID; `delete`: Order IDs to delete |
+| `woocommerce orders-notes-create` | `{orderId: int, note: str, customerNote?: bool = false}` | Add a note to an order — `orderId`: Order ID; `note`: Note content; `customerNote`: Is customer note |
+| `woocommerce orders-refunds-create` | `{orderId: int, amount?: str, reason?: str, refundPayment?: bool = false, lineItems?: list[{id?: int, refund_total?: number, refund_tax?: list[dict]}]}` | Create a refund for an order — `orderId`: Order ID; `amount`: Refund amount; `reason`: Refund reason; `refundPayment`: Refund payment; `lineItems`: Line items to refund; `lineItems.id`: Line item ID; `lineItems.refund_total`: Amount to refund; `lineItems.refund_tax`: Tax to refund |
+| `woocommerce customers-list` | `{perPage?: int, page?: int, search?: str, email?: str, role?: "all" \| "customer" \| "administrator" \| "shop_manager", orderby?: "id" \| "include" \| "name" \| "registered_date", order?: "asc" \| "desc"}` | List customers with optional filters. IMPORTANT: Use perPage parameter to control how many results to return (default is 10, max is 100). Use page parameter for pagination. — `perPage`: Number of items to return per page (default: 10, max: 100). Always specify this to control result size.; `page`: Page number for pagination (default: 1). Use with perPage to navigate through results.; `search`: Search term; `email`: Customer email; `role`: Customer role; `orderby`: Order by field; `order`: Order direction |
+| `woocommerce customers-get` | `{customerId: int}` | Get a specific customer by ID — `customerId`: Customer ID |
+| `woocommerce customers-create` | `{customerData: {email?: str, first_name?: str, last_name?: str, username?: str, password?: str, billing?: dict, shipping?: dict, meta_data?: list[{key?: str, value?: str}]}}` | Create a new customer — `customerData`: Customer data; `customerData.email`: Customer email; `customerData.first_name`: First name; `customerData.last_name`: Last name; `customerData.username`: Username; `customerData.password`: Password; `customerData.billing`: Billing address; `customerData.shipping`: Shipping address; `customerData.meta_data`: Meta data |
+| `woocommerce customers-update` | `{customerId: int, customerData: dict}` | Update a customer — `customerId`: Customer ID; `customerData`: Customer data to update |
+| `woocommerce coupons-list` | `{perPage?: int, page?: int, search?: str, code?: str}` | List coupons with optional filters. IMPORTANT: Use perPage parameter to control how many results to return (default is 10, max is 100). Use page parameter for pagination. — `perPage`: Number of items to return per page (default: 10, max: 100). Always specify this to control result size.; `page`: Page number for pagination (default: 1). Use with perPage to navigate through results.; `search`: Search term; `code`: Coupon code |
+| `woocommerce coupons-get` | `{couponId: int}` | Get a specific coupon by ID — `couponId`: Coupon ID |
+| `woocommerce coupons-create` | `{couponData: {code: str, discount_type: "percent" \| "fixed_cart" \| "fixed_product", amount: str, date_expires?: str, individual_use?: bool, product_ids?: list[int], excluded_product_ids?: list[int], usage_limit?: int, usage_limit_per_user?: int, limit_usage_to_x_items?: int, free_shipping?: bool, exclude_sale_items?: bool, minimum_amount?: str, maximum_amount?: str}}` | Create a new coupon — `couponData`: Coupon data; `couponData.code`: Coupon code; `couponData.discount_type`: Discount type; `couponData.amount`: Discount amount; `couponData.date_expires`: Expiry date (ISO 8601); `couponData.individual_use`: Individual use only; `couponData.product_ids`: Product IDs; `couponData.excluded_product_ids`: Excluded product IDs; `couponData.usage_limit`: Usage limit per coupon; `couponData.usage_limit_per_user`: Usage limit per user; `couponData.limit_usage_to_x_items`: Limit usage to X items; `couponData.free_shipping`: Allow free shipping; `couponData.exclude_sale_items`: Exclude sale items; `couponData.minimum_amount`: Minimum spend; `couponData.maximum_amount`: Maximum spend |
+| `woocommerce coupons-update` | `{couponId: int, couponData: dict}` | Update a coupon — `couponId`: Coupon ID; `couponData`: Coupon data to update |
+| `woocommerce coupons-delete` | `{couponId: int, force?: bool = true}` | Delete a coupon — `couponId`: Coupon ID; `force`: Force delete |
+| `woocommerce reports-sales` | `{period?: "week" \| "month" \| "last_month" \| "year", dateMin?: str, dateMax?: str}` | Get sales report — `period`: Report period; `dateMin`: Start date (YYYY-MM-DD); `dateMax`: End date (YYYY-MM-DD) |
+| `woocommerce reports-top-sellers` | `{period?: "week" \| "month" \| "last_month" \| "year", dateMin?: str, dateMax?: str, perPage?: int, page?: int}` | Get top sellers report. Use perPage and page parameters to control pagination. — `period`: Report period; `dateMin`: Start date (YYYY-MM-DD); `dateMax`: End date (YYYY-MM-DD); `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1) |
+| `woocommerce reports-customers` | `{period?: "week" \| "month" \| "last_month" \| "year", dateMin?: str, dateMax?: str}` | Get customers report — `period`: Report period; `dateMin`: Start date (YYYY-MM-DD); `dateMax`: End date (YYYY-MM-DD) |
+| `woocommerce reports-orders` | `{period?: "week" \| "month" \| "last_month" \| "year", dateMin?: str, dateMax?: str}` | Get orders report — `period`: Report period; `dateMin`: Start date (YYYY-MM-DD); `dateMax`: End date (YYYY-MM-DD) |
+| `woocommerce reports-products` | `{period?: "week" \| "month" \| "last_month" \| "year", dateMin?: str, dateMax?: str, perPage?: int, page?: int}` | Get products report. Use perPage and page parameters to control pagination. — `period`: Report period; `dateMin`: Start date (YYYY-MM-DD); `dateMax`: End date (YYYY-MM-DD); `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1) |
+| `woocommerce reports-stock` | `{perPage?: int, page?: int}` | Get stock report. Use perPage and page parameters to control pagination. — `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1) |
+| `woocommerce reports-low-stock` | `{perPage?: int, page?: int}` | Get low stock report. Use perPage and page parameters to control pagination. — `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1) |
+| `woocommerce shipping-zones-list` | `{}` | List shipping zones |
+| `woocommerce shipping-zones-get` | `{zoneId: int}` | Get a shipping zone — `zoneId`: Zone ID |
+| `woocommerce shipping-zones-create` | `{name: str, order?: int}` | Create a shipping zone — `name`: Zone name; `order`: Zone order |
+| `woocommerce shipping-zones-update` | `{zoneId: int, name?: str, order?: int}` | Update a shipping zone — `zoneId`: Zone ID; `name`: Zone name; `order`: Zone order |
+| `woocommerce shipping-zone-methods-list` | `{zoneId: int}` | List methods for a shipping zone — `zoneId`: Zone ID |
+| `woocommerce shipping-zone-methods-create` | `{zoneId: int, methodId: str, enabled?: bool = true, settings?: dict}` | Add a method to a shipping zone — `zoneId`: Zone ID; `methodId`: Method ID; `enabled`: Is enabled; `settings`: Method settings |
+| `woocommerce tax-rates-list` | `{taxClass?: str, perPage?: int, page?: int}` | List tax rates. Use perPage and page parameters to control pagination. — `taxClass`: Tax class; `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1) |
+| `woocommerce tax-rates-get` | `{rateId: int}` | Get a tax rate — `rateId`: Tax rate ID |
+| `woocommerce tax-rates-create` | `{country: str, state?: str, rate: str, name?: str, priority?: int = 1, compound?: bool = false, shipping?: bool = true, class?: str = "standard"}` | Create a tax rate — `country`: Country code; `state`: State code; `rate`: Tax rate; `name`: Tax name; `priority`: Priority; `compound`: Is compound; `shipping`: Apply to shipping; `class`: Tax class |
+| `woocommerce tax-classes-list` | `{}` | List tax classes |
+| `woocommerce system-status` | `{}` | Get system status information |
+| `woocommerce system-tools-list` | `{}` | List system tools |
+| `woocommerce system-tools-run` | `{toolId: "clear_transients" \| "clear_expired_transients" \| "clear_orphaned_variations" \| "add_order_indexes" \| "recount_terms" \| "reset_roles" \| "clear_sessions" \| "clear_template_cache" \| "clear_system_status_theme_info_cache"}` | Run a system tool — `toolId`: Tool ID |
+| `woocommerce settings-list` | `{}` | List settings groups |
+| `woocommerce settings-get` | `{groupId: "general" \| "products" \| "tax" \| "shipping" \| "checkout" \| "account" \| "email" \| "integration" \| "advanced" \| "rest-api"}` | Get settings for a group — `groupId`: Settings group ID |
+| `woocommerce payment-gateways-list` | `{}` | List payment gateways |
+| `woocommerce payment-gateways-get` | `{gatewayId: str}` | Get a payment gateway — `gatewayId`: Gateway ID |
+| `woocommerce payment-gateways-update` | `{gatewayId: str, enabled?: bool, title?: str, description?: str, settings?: dict}` | Update a payment gateway — `gatewayId`: Gateway ID; `enabled`: Is enabled; `title`: Gateway title; `description`: Gateway description; `settings`: Gateway settings |
+| `woocommerce webhooks-list` | `{perPage?: int, page?: int, status?: "active" \| "paused" \| "disabled"}` | List webhooks. Use perPage and page parameters to control pagination. — `perPage`: Number of items per page (default: 10, max: 100); `page`: Page number (default: 1); `status`: Webhook status |
+| `woocommerce webhooks-create` | `{name: str, topic: "coupon.created" \| "coupon.updated" \| "coupon.deleted" \| "customer.created" \| "customer.updated" \| "customer.deleted" \| "order.created" \| "order.updated" \| "order.deleted" \| "product.created" \| "product.updated" \| "product.deleted", delivery_url: str, status?: "active" \| "paused" \| "disabled" = "active", secret?: str}` | Create a webhook — `name`: Webhook name; `topic`: Webhook topic; `delivery_url`: Delivery URL; `status`: Webhook status; `secret`: Secret key |
+
+## emails
+
+Use `emails <command> '<JSON arguments>'`. Run `emails <command> --help` to
+get more information.
+
+| Command | Arguments | Description |
+|---|---|---|
+| `emails get-emails` | `{folder?: str = "INBOX", page?: int = 1, page_size?: int = 20}` | Get paginated list of emails from specified folder Args: folder: Email folder name (default: INBOX) page: Page number starting from 1 (default: 1) page_size: Number of emails per page (default: 20) |
+| `emails read-email` | `{email_id: str}` | Read full content of a specific email Args: email_id: Email ID to read |
+| `emails search-emails` | `{query: str, folder?: str = "INBOX", page?: int = 1, page_size?: int = 20}` | Search emails with query string (sorted by date descending) Args: query: Search query (subject, from, body content) folder: Folder to search in (default: INBOX) page: Page number starting from 1 (default: 1) page_size: Number of results per page (default: 20) |
+| `emails send-email` | `{to: str, subject: str, body: str, html_body?: str = null, cc?: str = null, bcc?: str = null, attachments?: list[str] = null}` | Send an email with optional HTML body, CC, BCC, and attachments Args: to: Recipient email address(es), comma-separated subject: Email subject body: Plain text body html_body: HTML body content (optional) cc: CC recipients, comma-separated (optional) bcc: BCC recipients, comma-separated (optional) attachments: List of file paths to attach (optional) |
+| `emails reply-email` | `{email_id: str, body: str, html_body?: str = null, cc?: str = null, bcc?: str = null, reply_all?: bool = false}` | Reply to an email Args: email_id: ID of email to reply to body: Reply message body (plain text) html_body: Reply message body (HTML, optional) cc: Additional CC recipients (optional) bcc: BCC recipients (optional) reply_all: Whether to reply to all recipients (default: False) |
+| `emails forward-email` | `{email_id: str, to: str, body?: str = null, html_body?: str = null, cc?: str = null, bcc?: str = null}` | Forward an email to other recipients Args: email_id: ID of email to forward to: Recipients to forward to body: Additional message body (optional) html_body: Additional HTML message body (optional) cc: CC recipients (optional) bcc: BCC recipients (optional) |
+| `emails delete-email` | `{email_id: str}` | Delete an email Args: email_id: Email ID to delete |
+| `emails move-email` | `{email_id: str, target_folder: str}` | Move email to another folder Args: email_id: Email ID to move target_folder: Target folder name |
+| `emails mark-emails` | `{email_ids: list[str], status: str}` | Mark multiple emails with status (read/unread/important/not_important) Args: email_ids: List of email IDs to mark status: Status to set (read, unread, important, not_important) |
+| `emails move-emails` | `{email_ids: list[str], target_folder: str}` | Move multiple emails to another folder with improved ID synchronization Args: email_ids: List of email IDs to move target_folder: Target folder name |
+| `emails delete-emails` | `{email_ids: list[str]}` | Delete multiple emails with improved ID synchronization Args: email_ids: List of email IDs to delete |
+| `emails get-folders` | `{}` | Get list of available email folders |
+| `emails create-folder` | `{folder_name: str}` | Create new email folder Args: folder_name: Name of folder to create |
+| `emails delete-folder` | `{folder_name: str}` | Delete email folder Args: folder_name: Name of folder to delete |
+| `emails get-mailbox-stats` | `{folder_name?: str = null}` | Get mailbox statistics Args: folder_name: Specific folder name (optional, defaults to all folders) |
+| `emails get-unread-count` | `{folder_name?: str = null}` | Get unread message count Args: folder_name: Specific folder name (optional, defaults to all folders) |
+| `emails check-connection` | `{}` | Check email server connection status |
+| `emails get-email-headers` | `{email_id: str}` | Get complete email headers for technical analysis Args: email_id: Email ID to get headers for |
+| `emails save-draft` | `{subject: str, body: str, html_body?: str = null, to?: str = null, cc?: str = null, bcc?: str = null}` | Save email draft Args: subject: Email subject body: Plain text body html_body: HTML body content (optional) to: Recipient email address(es) (optional) cc: CC recipients (optional) bcc: BCC recipients (optional) |
+| `emails get-drafts` | `{page?: int = 1, page_size?: int = 20}` | Get list of saved drafts Args: page: Page number starting from 1 (default: 1) page_size: Number of drafts per page (default: 20) |
+| `emails update-draft` | `{draft_id: str, subject?: str = null, body?: str = null, html_body?: str = null, to?: str = null, cc?: str = null, bcc?: str = null}` | Update existing draft Args: draft_id: Draft ID to update subject: Email subject (optional) body: Plain text body (optional) html_body: HTML body content (optional) to: Recipient email address(es) (optional) cc: CC recipients (optional) bcc: BCC recipients (optional) |
+| `emails delete-draft` | `{draft_id: str}` | Delete draft Args: draft_id: Draft ID to delete |
+| `emails export-emails` | `{folder?: str = null, export_path?: str = "emails_export.json", max_emails?: int = null, export_all_folders?: bool = false}` | Export emails to file for backup Args: folder: Specific folder to export (mutually exclusive with export_all_folders) export_path: Path where to save the export file max_emails: Maximum number of emails to export (optional, exports all if not specified) export_all_folders: Export from all folders instead of just one (default: False) |
+| `emails import-emails` | `{import_path: str, target_folder?: str = null, preserve_folders?: bool = true}` | Import emails from backup file to IMAP server Args: import_path: Path to import file (.json or .eml) or a directory target_folder: Target folder for imported emails (if preserve_folders=False) preserve_folders: Whether to preserve original folder structure (default: True) |
+| `emails download-attachment` | `{email_id: str, attachment_filename: str}` | Download email attachment to configured download path Args: email_id: Email ID containing the attachment attachment_filename: Name of attachment to download |
+
+## google-forms
+
+Use `google-forms <command> '<JSON arguments>'`. Run
+`google-forms <command> --help` to get more information.
+
+| Command | Arguments | Description |
+|---|---|---|
+| `google-forms create-form` | `{title: str, description?: str}` | Create a new Google Form — `title`: Form title; `description`: Form description (optional) |
+| `google-forms add-text-question` | `{formId: str, questionTitle: str, required?: bool}` | Add a text question to the form — `formId`: Form ID; `questionTitle`: Question title; `required`: Whether required (optional, default is false) |
+| `google-forms add-multiple-choice-question` | `{formId: str, questionTitle: str, options: list[str], required?: bool}` | Add a multiple choice question to the form — `formId`: Form ID; `questionTitle`: Question title; `options`: Array of choices; `required`: Whether required (optional, default is false) |
+| `google-forms get-form` | `{formId: str}` | Get form details — `formId`: Form ID |
+| `google-forms get-form-responses` | `{formId: str}` | Get form responses — `formId`: Form ID |

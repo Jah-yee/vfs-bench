@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/matteoantoci/google-forms-mcp",
+  "commit": "96f7fa1ff02b8130105ddc6d98796f3b49c1c574",
+  "upstream_dockerfile_sha256": "9b0b460479eed8855c9d9663de9e15d9b59e846513707add68f9dccacecf0552",
+  "files_sha256": {
+    "package.json": "bc3c0c4741cbcd4ceb43a0123d2231add3c6cd860437e6b1672dd949242b1ffe",
+    "package-lock.json": "41b490e0565c7f1999923f61b127c87645874280e6c0ee5875e0df6f4212d9b4"
+  }
+}

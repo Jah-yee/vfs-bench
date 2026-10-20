@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689cd6f8522029b7ad7b1fe3",
+  "enabled_tools": [
+    "notion_API-post-database-query",
+    "notion_API-post-search",
+    "notion_API-get-block-children",
+    "notion_API-retrieve-a-block",
+    "notion_API-retrieve-a-page",
+    "notion_API-retrieve-a-page-property",
+    "notion_API-retrieve-a-database",
+    "notion_API-retrieve-a-comment",
+    "e2b-server_run_code",
+    "filesystem_read_file",
+    "filesystem_list_directory",
+    "filesystem_list_allowed_directories",
+    "arxiv_search_papers",
+    "github_search_repositories",
+    "github_get_repository"
+  ],
+  "claims": [
+    "There was only one arson case during May, 2017, on the 29th.",
+    "The latest customer request in the online customer feedback database was made on the 28th of May, 2017.",
+    "The latest customer request came before the only detected arson case for May, 2017.",
+    "There are no colliding dates between the customer feedback database and the crime records database for the month of May, 2017."
+  ]
+}

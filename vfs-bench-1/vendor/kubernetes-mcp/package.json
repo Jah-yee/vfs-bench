@@ -1,0 +1,7 @@
+{
+  "name": "vfs-bench-kubernetes-mcp",
+  "private": true,
+  "dependencies": {
+    "mcp-server-kubernetes": "github:lockon-n/mcp-server-kubernetes#f6ac1263ef279dd996d13042854cb1a3bf88dd9a"
+  }
+}

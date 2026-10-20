@@ -1,0 +1,28 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68a398aa2f58036e8d45edeb",
+  "enabled_tools": [
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-indexes",
+    "mongodb_collection-schema",
+    "mongodb_find",
+    "mongodb_count",
+    "mongodb_db-stats",
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes",
+    "weather_find_weather_stations",
+    "google-workspace_list_events",
+    "github_search_repositories",
+    "open-library_get_book_by_title",
+    "open-library_get_authors_by_name"
+  ],
+  "claims": [
+    "According to the no sql cloud data, the combined page views of all the records in September was 585336.",
+    "According to the no sql cloud data, the combined page views of all the records in July was 578896.",
+    "According to the no sql cloud data, the combined page views of all the records in August was 541239.",
+    "According to the no sql cloud data, the ranking by total page views in Q3 is (1) September, then (2) July, and then (3) August",
+    "Between August 1, 2025 and August 17, 2025, there were two flights scheduled: one to Los Angeles International Airport (LAX) with id 0c4v2sd36vk1nhe3qo2sc5dgm8 and one to Miami International Airport (MIA) with id 99ugglgld8e15gmujtvh0vjits."
+  ]
+}

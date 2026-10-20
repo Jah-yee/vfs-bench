@@ -1,0 +1,27 @@
+{
+  "source": "https://huggingface.co/mcp",
+  "tool": "hub_repo_details",
+  "server": {
+    "name": "huggingface.co/mcp",
+    "version": "0.4.20",
+    "title": "Hugging Face",
+    "websiteUrl": "https://huggingface.co/mcp",
+    "icons": [
+      {
+        "src": "https://huggingface.co/favicon.ico"
+      }
+    ]
+  },
+  "captured_at": "2026-09-19T13:31:27.440410+00:00",
+  "revisions": {
+    "HuggingFaceTB/smollm-corpus": {
+      "pinned": "3ba9d605774198c5868892d7a8deda78031a781f",
+      "live": "3ba9d605774198c5868892d7a8deda78031a781f",
+      "lastModified": "2024-09-06T07:04:57.000Z"
+    }
+  },
+  "responses": 52,
+  "sha256": {
+    "responses.json.gz": "dcd0e671d37a7bb0e48f651d67ed788f19dbcf366e0a5ee6e33de73bf41b015c"
+  }
+}

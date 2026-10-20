@@ -1,0 +1,29 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfcce",
+  "enabled_tools": [
+    "filesystem_read_file",
+    "filesystem_list_directory",
+    "filesystem_list_allowed_directories",
+    "slack_channels_list",
+    "slack_conversations_add_message",
+    "slack_conversations_history",
+    "mcp-code-executor_execute_code",
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "exa_web_search_exa",
+    "github_search_repositories",
+    "github_search_code",
+    "github_search_users",
+    "filesystem_read_text_file"
+  ],
+  "claims": [
+    "qtwatcher1999 recommended Reservoir Dogs",
+    "Reservoir Dogs is among your 'Top Movies' dataset",
+    "According to the dataset \"Top Movies\", the user hasn't watched the movie.",
+    "According to the dataset \"Top Movies\", Reservoir Dogs has an IMDb score of 8.3",
+    "According to the dataset \"Top Movies\", Reservoir Dogs has an Metascore of 79"
+  ]
+}

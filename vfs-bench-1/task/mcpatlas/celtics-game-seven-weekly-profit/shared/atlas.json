@@ -1,0 +1,24 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68925f01db31fe35560e3e70",
+  "enabled_tools": [
+    "cli-mcp-server_run_command",
+    "cli-mcp-server_show_security_rules",
+    "exa_web_search_exa",
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_find",
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "airtable_get_record",
+    "weather-data_weather_history",
+    "weather-data_weather_airquality",
+    "weather-data_weather_search"
+  ],
+  "claims": [
+    "In game 7 of the NBA Eastern Conference Finals on May 29, 2023, the Boston Celtics played against the Miami Heat.",
+    "The weekly profit from the pet care job that began on May 29, 2023, was $6,942."
+  ]
+}

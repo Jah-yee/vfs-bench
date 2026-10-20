@@ -1,0 +1,51 @@
+mode: EXEC
+
+# pyodide is Emscripten CPython and the only runtime here with zlib, which
+# both deliverables need: pptx and xlsx are zip containers, and so are the
+# wheels that write them. See agent/workspace.py.
+runtimes:
+  - name: pyodide
+    config:
+      # python-pptx's compiled dependencies, from the pyodide distribution
+      # at init. Left to autoLoadFromImports they arrive only when the
+      # agent's own code names them at the top level, which is a trap the
+      # prompt would otherwise have to warn about.
+      packages:
+        - lxml
+        - Pillow
+      # Prepended to sys.path once the mounts are up, so a wheel imports
+      # without the agent writing sys.path.append first.
+      sysPath:
+        - /opt/wheels/*.whl
+  - workspace
+
+# The corpus is a lookup, not a tree, and the MCP arm reads it as one file
+# -- GYM's vendored `HowToCook-mcp/build/data/all_recipes.json`. Giving this
+# arm a converted copy would put a transformation between the two surfaces
+# where the point is that they read the same bytes, so the corpus stays one
+# file and this arm reaches it through a CLI: the same split the MCP arm
+# has, where howtocook is tools and filesystem is files.
+clis:
+  cook:
+    cli: ../../../../cli/shims.mjs:COOK
+    config:
+      corpus: ${HOWTOCOOK_CORPUS}
+
+mounts:
+  # A shell without a scratch directory is not a shell. Agents write a
+  # heredoc to /tmp and read it back a line later, and without this the
+  # write fails, `$(cat /tmp/x)` expands to nothing, and the command that
+  # consumed it succeeds on empty input -- an error that presents as a
+  # result.
+  /tmp:
+    vfs: ram
+
+  /work:
+    vfs: disk
+    config:
+      root: ${AGENT_WORKSPACE}
+
+  /opt/wheels:
+    vfs: disk
+    config:
+      root: ${WHEELS_DIR}

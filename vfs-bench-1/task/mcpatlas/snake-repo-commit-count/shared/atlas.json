@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfcfd",
+  "enabled_tools": [
+    "git_git_log",
+    "filesystem_read_file",
+    "filesystem_read_text_file",
+    "filesystem_read_media_file",
+    "filesystem_read_multiple_files",
+    "filesystem_list_directory",
+    "filesystem_list_directory_with_sizes",
+    "filesystem_directory_tree",
+    "filesystem_search_files",
+    "filesystem_get_file_info",
+    "filesystem_list_allowed_directories",
+    "github_list_commits",
+    "whois_whois_domain",
+    "github_search_repositories",
+    "github_search_code"
+  ],
+  "claims": [
+    "The repo on the user's computer that includes something about snake is titled \"snake-game\".",
+    "From June 2022 to July 15, 2023, 9 commits were made in the \"snake-game\" repo on the user's computer."
+  ]
+}

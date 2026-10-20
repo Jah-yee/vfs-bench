@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68925f01db31fe35560e3e77",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "airtable_get_record",
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-indexes",
+    "mongodb_find",
+    "mongodb_count",
+    "e2b-server_run_code",
+    "exa_web_search_exa",
+    "mongodb_collection-schema",
+    "mongodb_aggregate"
+  ],
+  "claims": [
+    "The 75th anniversary of the international organization dedicated to peace and security occurred in 2020.",
+    "During the first three months of 2020, a total of 30 evaluation scores were recorded across all internal teams and each of the documented outcomes of the Car Dealership database.",
+    "The average of those 30 evaluation scores recorded during the first three months of 2020 was 3.146."
+  ]
+}

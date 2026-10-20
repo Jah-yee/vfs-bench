@@ -1,0 +1,10 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/12k3WVBDyglnqIBnY1782AKLvL04IC_oI-5nxGleh6Gw/export?format=csv",
+  "verified_at": "2026-09-09",
+  "source_sha256": "b8e408ce9b34105f274d64862fb5a6f937a90aa93b5ac52304ceef67c210f643",
+  "fixture_sha256": "051001820b69f6625c11e77ececd0609a8fa86adb3f9e720a4857b476c574080",
+  "rows": 1313,
+  "normalization": "CSV parsed and serialized with csv.writer, LF line endings. Header Score.1 preserves the original duplicate Score column naming from pandas.",
+  "upstream_preprocess_sha256": "1d8d6f9ea9979233d832cb6a407759000164ec437bc45e7d57217dbb02936762",
+  "toolathlon_revision": "9be8d8fe07a497b18ee61e3f2ae694e9797f39eb"
+}

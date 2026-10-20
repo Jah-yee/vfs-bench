@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689cd6f8522029b7ad7b2007",
+  "enabled_tools": [
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes",
+    "slack_channels_list",
+    "slack_conversations_add_message",
+    "oxylabs_universal_scraper",
+    "oxylabs_google_search_scraper",
+    "oxylabs_amazon_search_scraper",
+    "weather-data_weather_history",
+    "weather-data_weather_astronomy",
+    "cli-mcp-server_run_command",
+    "cli-mcp-server_show_security_rules",
+    "notion_API-get-user",
+    "notion_API-get-users"
+  ],
+  "claims": [
+    "According to the local graph, the post-game food at the Reyes family's soccer events is barbecue.",
+    "According to the local data, the comment for the day that the family attend one of these events is \"Family barbecue\".",
+    "According to the local data, the satisfaction rating for that day was 4."
+  ]
+}

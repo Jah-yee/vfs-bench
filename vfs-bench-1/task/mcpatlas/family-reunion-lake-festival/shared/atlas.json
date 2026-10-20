@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfd08",
+  "enabled_tools": [
+    "context7_resolve-library-id",
+    "context7_get-library-docs",
+    "calculator_calculate",
+    "fetch_fetch",
+    "mcp-server-code-runner_run-code",
+    "git_git_status",
+    "git_git_diff_unstaged",
+    "git_git_diff_staged",
+    "git_git_diff",
+    "git_git_log",
+    "git_git_show",
+    "national-parks_findParks",
+    "national-parks_getParkDetails",
+    "national-parks_getVisitorCenters",
+    "national-parks_getCampgrounds",
+    "google-workspace_list_events",
+    "exa_web_search_exa"
+  ],
+  "claims": [
+    "The end date of the 44th Annual Lotus Festival is on July 13, 2025.",
+    "The user's family reunion at Echo Park is on August 2, 2025."
+  ]
+}

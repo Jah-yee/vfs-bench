@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "6866d4d2eea665b355a8f8bc",
+  "enabled_tools": [
+    "oxylabs_universal_scraper",
+    "oxylabs_google_search_scraper",
+    "oxylabs_amazon_search_scraper",
+    "slack_conversations_replies",
+    "slack_conversations_history",
+    "slack_channels_list",
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes",
+    "filesystem_read_file",
+    "filesystem_list_directory",
+    "filesystem_search_files",
+    "filesystem_list_allowed_directories"
+  ],
+  "claims": [
+    "The movie \"Y Tu Mama Tambien\" was directed by Alfonso Cuaron.",
+    "The movie \"A Little Princess\" was directed by Alfonso Cuaron.",
+    "The movie \"Y Tu Mam\u00e1 Tambi\u00e9n\" is about two teenage boys who go on a road trip with a woman.",
+    "The user \"kwfan2022\" left a recommendation for the movie \"Y Tu Mam\u00e1 Tambi\u00e9n\" in the Slack channel \"#movie-suggestions\"."
+  ]
+}

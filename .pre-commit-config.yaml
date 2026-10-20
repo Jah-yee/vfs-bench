@@ -1,0 +1,169 @@
+# Adapted from strukto-ai/mirage. JavaScript hooks cover our CLI shims,
+# redirects and W&B API adapter; task fixtures are excluded below.
+#
+# The benchmark lives under vfs-bench-1/, so every path below carries that
+# prefix. Submodules need no exclude: the outer repo tracks all four
+# checkouts under vfs-bench-1/submodule/ as gitlinks -- Toolathlon, toolathlon_gym, mirage,
+# mcp-atlas -- so pre-commit never sees a file inside
+# them. Each has its own tooling.
+#
+# The exclude below is the one that matters. task/*/*/vfs/*.md are not
+# documentation, they are the shell arm's system prompt, assembled verbatim
+# by build_shell_prompt. task/*/*/shared/task.md is the task statement itself,
+# copied byte-for-byte from upstream and handed to both arms. Formatters
+# leave these inputs alone to preserve their lineage.
+# The patterns name the dataset with a wildcard rather than by name. Every
+# reason on this list is a property of what the file *is* -- a prompt, a task
+# statement, a vendored fixture -- and not of which benchmark it came from, so
+# a second dataset that spells `task/<name>/<task>/vfs/VFS.md` inherits the
+# exclusion instead of discovering the hard way that it did not.
+# setup/toolathlon/upstream/ is the pinned text of the MCP configs
+# `setup_toolathlon.py` rewrites in the checkout, taken out of the submodule
+# at its pinned commit so `dvc.yaml` can depend on upstream's bytes rather
+# than on the rewritten file. A newline appended or a colon realigned there
+# is a hash that no longer matches what upstream committed, which is the one
+# thing those copies exist to say.
+# task/*/*/shared/*.txt too: those are upstream's own fixture files (an email
+# template the agent sends verbatim, an id the seeder writes), copied without
+# a trailing newline, and end-of-file-fixer would silently add one.
+# `shared/importable_emails.json` is likewise the byte-for-byte output of an
+# upstream preprocessing step; DVC checks it against the pinned source.
+# task/*/*/shared/hub/** is the same again: files fetched from a Hugging Face
+# repository at a pinned commit, optionally compressed for storage, so that
+# the expanded bytes still match what the Hub serves. A newline
+# appended to the end would end that, and end-of-file-fixer appended one to
+# all five on the first attempt. This also takes them out of the reach of
+# check-added-large-files, which is a real guard being spent deliberately:
+# `shared/hub/toolace/data.json` is 3.5MB of 500 conversations, it is what
+# the ask asks the agent to read, and there is no smaller version of it.
+# task/*/*/shared/fixtures/** is a third-party tree vendored verbatim -- the
+# repository a task forks. The agent reads it, so reformatting it changes the
+# input the model sees, and the hooks would rewrite 275 files that are not
+# ours: end-of-file-fixer added newlines to 60 of them and yamllint refused
+# `_data/ui-text.yml` for aligned colons on the first attempt.
+# task/toolathlon/shared/fixtures/wandb/ holds the public API capture shared
+# by both W&B tasks. Its complete histories exceed the size guard; DVC pins
+# their bytes, and formatters must leave the capture alone.
+# The shared papers directory likewise preserves raw public HTTP bodies.
+# dvc.lock is written by `dvc repro` and wraps long `cmd:` values across
+# lines, which leaves a trailing space that is part of the folded scalar --
+# stripping it edits the value, and dvc rewrites the file back on the next
+# repro either way, so the two would fight over every commit.
+exclude: |
+  (?x)^vfs-bench-1/(
+      task/[^/]+/.*/vfs/.*\.md|
+      task/[^/]+/.*/shared/task\.md|
+      task/[^/]+/.*/shared/system_prompt\.md|
+      task/[^/]+/.*/shared/.*\.txt|
+      task/[^/]+/.*/shared/importable_emails\.json|
+      task/toolathlon/.*/shared/emails_config\.json|
+      dvc\.lock|
+      task/[^/]+/.*/shared/hub/.*|
+      task/[^/]+/.*/shared/fixtures/.*|
+      task/toolathlon/shared/fixtures/wandb/.*|
+      task/toolathlon/.*/toolathlon/overrides/.*\.py|
+      setup/toolathlon/upstream/.*\.yaml|
+      vendor/arxiv-local-mcp/original_wrapper\.py|
+      vendor/(arxiv-latex-mcp|scholarly-mcp|forms-mcp|youtube-mcp|youtube-transcript-mcp)/(pyproject\.toml|uv\.lock|package.*\.json)
+  )$
+
+# pyupgrade 3.21 uses tokenizer APIs that changed in Python 3.14.
+default_language_version:
+  python: python3.12
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: end-of-file-fixer
+        name: End-of-file fixer
+      - id: mixed-line-ending
+        name: Mixed line endings
+        args: [--fix, lf]
+      - id: trailing-whitespace
+        name: Remove trailing whitespaces
+      - id: check-toml
+        name: Check toml
+      - id: check-yaml
+        name: Check yaml
+      - id: check-added-large-files
+        name: Check for large files
+        args: [--maxkb=2048]
+      - id: check-merge-conflict
+        name: Check for merge conflicts
+
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.37.1
+    hooks:
+      - id: yamllint
+        name: Lint yaml
+        args: [-d, '{extends: default, rules: {line-length: disable, document-start: disable, truthy: {level: error}, braces: {max-spaces-inside: 1}}}']
+
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.21.0
+    hooks:
+      - id: pyupgrade
+        name: Upgrade Python syntax
+        args: [--py312-plus]
+
+  - repo: https://github.com/PyCQA/autoflake
+    rev: v2.3.1
+    hooks:
+      - id: autoflake
+        name: Remove unused imports and variables
+        args: [
+          --remove-all-unused-imports,
+          --remove-unused-variables,
+          --remove-duplicate-keys,
+          --ignore-init-module-imports,
+          --in-place,
+        ]
+
+  - repo: https://github.com/google/yapf
+    rev: v0.43.0
+    hooks:
+      - id: yapf
+        name: Format code
+        additional_dependencies: [toml]
+
+  - repo: https://github.com/pycqa/isort
+    rev: 7.0.0
+    hooks:
+      - id: isort
+        name: Sort imports
+        args: [--settings-path=vfs-bench-1/.isort.cfg]
+
+  - repo: https://github.com/PyCQA/flake8
+    rev: 7.3.0
+    hooks:
+      - id: flake8
+        name: Check PEP8
+        args: [--toml-config=vfs-bench-1/pyproject.toml]
+        additional_dependencies: [Flake8-pyproject]
+
+  # Our own .mjs only. `files` is the allowlist rather than the exclude
+  # doing the work, because a fixture tree that grows a new .js should not
+  # silently become ours to format.
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: v3.9.6
+    hooks:
+      - id: prettier
+        name: Format JavaScript
+        files: ^vfs-bench-1/(cli/.*\.mjs|vfs/.*\.mjs|tests/(kubernetes_mount|service_mounts|fixture_network|cli_workspace_paths)\.mjs|server/clients/(kubernetes|service_api|canvas_files|browser|forms|original_tools|rail_http|workspace_daemon)\.mjs|redirect/.*\.mjs|server/fakes/(wandb_api|wandb_files|notion_api|gws_api|research_gws|forms_api)\.mjs)$
+
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v10.9.1
+    hooks:
+      - id: eslint
+        name: Lint JavaScript
+        files: ^vfs-bench-1/(cli/.*\.mjs|vfs/.*\.mjs|tests/(kubernetes_mount|service_mounts|fixture_network|cli_workspace_paths)\.mjs|server/clients/(kubernetes|service_api|canvas_files|browser|forms|original_tools|rail_http|workspace_daemon)\.mjs|redirect/.*\.mjs|server/fakes/(wandb_api|wandb_files|notion_api|gws_api|research_gws|forms_api)\.mjs)$
+        args: ["--max-warnings=0"]
+
+  - repo: local
+    hooks:
+      - id: fixture-lineage
+        name: Check all DVC lock edges
+        entry: bash -c 'cd vfs-bench-1 && uv run python setup/lineage.py'
+        language: system
+        pass_filenames: false
+        always_run: true

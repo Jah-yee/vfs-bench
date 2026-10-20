@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689bd255c0422b257e7dfcb1",
+  "enabled_tools": [
+    "arxiv_search_papers",
+    "oxylabs_amazon_search_scraper",
+    "oxylabs_google_search_scraper",
+    "oxylabs_universal_scraper",
+    "national-parks_findParks",
+    "national-parks_getParkDetails",
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "airtable_get_record",
+    "memory_open_nodes",
+    "memory_search_nodes",
+    "memory_read_graph",
+    "fetch_fetch"
+  ],
+  "claims": [
+    "Tina Turner passed away in 2023.",
+    "The department in the cloud dealership database that had the fewest leavings in the first quarter of 2023 was Finance, with 3 leavings."
+  ]
+}

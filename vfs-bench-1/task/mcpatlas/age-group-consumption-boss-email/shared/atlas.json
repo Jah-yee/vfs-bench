@@ -1,0 +1,34 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689e0b1d9c8e2ac413c1f257",
+  "enabled_tools": [
+    "notion_API-get-user",
+    "notion_API-get-users",
+    "notion_API-get-self",
+    "mcp-code-executor_execute_code",
+    "filesystem_read_file",
+    "filesystem_list_allowed_directories",
+    "filesystem_list_directory",
+    "notion_API-post-search",
+    "notion_API-retrieve-a-database",
+    "notion_API-retrieve-a-page",
+    "notion_API-retrieve-a-block",
+    "git_git_status",
+    "github_search_repositories",
+    "github_search_users",
+    "notion_API-post-database-query"
+  ],
+  "claims": [
+    "For the age group 18\u201324, the most consumed food type is fast food.",
+    "For the age group 25\u201334, the most consumed food type is Italian.",
+    "For the age group 35\u201344, the most consumed food type is pizza.",
+    "For the age group 45\u201354, the most consumed food type is fast food.",
+    "For the age group 55\u201364, the most consumed food type is seafood.",
+    "For the age group 18\u201324, the most consumed beverage is beer",
+    "For the age group 25\u201334, the most consumed beverage is water",
+    "For the age group 35\u201344, the most consumed beverage is beer",
+    "For the age group 45\u201354, the most consumed beverage is water",
+    "For the age group 55\u201364, the most consumed beverage is water",
+    "Michael Dumle's email account is mcpdumle@gmail.com"
+  ]
+}

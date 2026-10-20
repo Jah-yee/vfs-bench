@@ -1,0 +1,44 @@
+{
+  "url": "https://amazing-wave-b38.notion.site/Notion-Source-Page-27ad10a48436805b9179fdaff2f65be2",
+  "parent_page_id": "27ad10a4-8436-805b-9179-fdaff2f65be2",
+  "page_id": "27ad10a4-8436-80ea-9af8-d13bc9ebb00e",
+  "databases": [
+    {
+      "id": "27ad10a4-8436-81fc-af67-dedb806fa7e4",
+      "collection_id": "27ad10a4-8436-8181-82d4-000b67d8024f",
+      "rows": [
+        "27ad10a4-8436-8140-a581-d05b7cb04f5b",
+        "27ad10a4-8436-814d-8b26-f6f236be9f4a",
+        "27ad10a4-8436-81d1-b67d-da61b9c591e8",
+        "27ad10a4-8436-81da-9aae-ce042c2509cd",
+        "27ad10a4-8436-8128-be87-f8f516f20901",
+        "27ad10a4-8436-81dd-ae71-c6edaee85bc5",
+        "27ad10a4-8436-8188-b6f1-d681a4565920",
+        "27ad10a4-8436-81a9-b5c5-d525e2b35d6c"
+      ]
+    },
+    {
+      "id": "27ad10a4-8436-8108-82e7-df1b4887c081",
+      "collection_id": "27ad10a4-8436-811c-a81f-000ba58b6426",
+      "rows": [
+        "27ad10a4-8436-81da-8aae-eda1ff0f1f4d",
+        "27ad10a4-8436-8156-99ea-f30b82fd2606",
+        "27ad10a4-8436-81dc-aefc-fc4810139de6",
+        "27ad10a4-8436-81ac-8e28-c41a16d104a5",
+        "27ad10a4-8436-8123-949b-ed46db337a46",
+        "27ad10a4-8436-81d9-931b-f9e7e6790f00",
+        "27ad10a4-8436-810c-add4-ebfe71aaa117"
+      ]
+    }
+  ],
+  "guide_sha256": "b0f959379e3ed8114c69b15350673998732c5a359d8bceb86d5e9bea5eae113d",
+  "captured_at": "2026-09-11T01:34:04.529103+00:00",
+  "source_sha256": {
+    "tasks/finalpool/notion-movies/docs/task.md": "24d060f0d02c49cafcd72dc7e54e6f3c610220d969871de52abfe4d1663e85ee",
+    "tasks/finalpool/notion-movies/preprocess/main.py": "9e30e164247da12dbbe7fdb8a6ff49f8545f332ce5e5d6a2439d4e94f24e19fc",
+    "tasks/finalpool/notion-movies/evaluation/main.py": "1477898a6cd5d6edd5c7cc75449253bdcbf8285eb1bedb3679bbcff3eb87ece6"
+  },
+  "sha256": {
+    "public-api.json.gz": "1f3ffb0bad9ca8970781af9bb6884412667e948a220b7733737a7f355ace3983"
+  }
+}

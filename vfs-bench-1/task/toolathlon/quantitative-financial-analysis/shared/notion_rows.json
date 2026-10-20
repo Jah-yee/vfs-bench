@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "workspaceName": "quantitative-financial-analysis",
+    "workspaceId": "workspace-quantitative-financial-analysis",
+    "botId": "bot-quantitative-financial-analysis",
+    "botName": "quantitative-financial-analysis",
+    "maxUploadSize": 5242880,
+    "urlBase": "https://www.notion.so/",
+    "createdTime": "2025-09-01T00:00:00.000Z",
+    "lastEditedTime": "2025-09-02T00:00:00.000Z",
+    "createdBy": "user-quant",
+    "lastEditedBy": "user-quant"
+  },
+  "databases": [],
+  "pages": [
+    {
+      "id": "27ad10a4-8436-80c8-8a51-f5a6be246e76",
+      "parentType": "workspace",
+      "parentId": null,
+      "titleText": "Quant Research",
+      "propertiesJson": {
+        "title": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Quant Research",
+              "text": {
+                "content": "Quant Research"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-quant",
+      "lastEditedBy": "user-quant",
+      "url": "https://www.notion.so/27ad10a4843680c88a51f5a6be246e76",
+      "position": 0
+    }
+  ],
+  "blocks": [
+    {
+      "id": "27ad10a4-8436-81ae-9193-da8691384ff8",
+      "parentId": "27ad10a4-8436-80c8-8a51-f5a6be246e76",
+      "position": 0,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": []
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-quant",
+      "lastEditedBy": "user-quant"
+    }
+  ],
+  "comments": []
+}

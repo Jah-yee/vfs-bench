@@ -1,0 +1,22 @@
+# The build context is the repo root, and the repo root carries 4.2GB of
+# vendored MCP servers plus two virtualenvs. Everything the image needs is
+# named back in, so the default here is to exclude.
+*
+
+!server/api/**
+!server/bq/**
+!docker/package.json
+!docker/service.sh
+!submodule/mirage/integ/server/kit/**
+!submodule/mirage/integ/server/gws/**
+!submodule/mirage/integ/server/notion/**
+!submodule/mirage/integ/server/github/**
+!submodule/mirage/integ/server/hf_hub/**
+!submodule/mirage/integ/prisma/**
+!submodule/mirage/integ/fixtures/notion/**
+!submodule/mirage/integ/fixtures/github/**
+!submodule/mirage/integ/fixtures/hf-hub/**
+!submodule/mirage/integ/fixtures/hf-mcp/**
+
+**/__pycache__
+**/*.pyc

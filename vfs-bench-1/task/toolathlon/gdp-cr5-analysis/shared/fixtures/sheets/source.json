@@ -1,0 +1,13 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/10gld103ZdIZvCUFwn9-vrkgOElzI37JqYBAK5rBQt1Y/export?format=xlsx",
+  "sheet_id": "10gld103ZdIZvCUFwn9-vrkgOElzI37JqYBAK5rBQt1Y",
+  "title": "GDP2022",
+  "tabs": [
+    "Country",
+    "Region"
+  ],
+  "captured_at": "2026-09-10T07:08:12.690222+00:00",
+  "source": "tasks/finalpool/gdp-cr5-analysis/preprocess/main.py",
+  "source_sha256": "55376053decc480bc442f79125da445a87dec5aafaefc095168df7729060883e",
+  "sha256": "13396a3e5a4063c7e9ec5c2accb16b53fb17b9bd772305b7d11a5c8407999f30"
+}

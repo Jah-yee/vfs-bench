@@ -1,0 +1,26 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689a373e148a49f91233dfdc",
+  "enabled_tools": [
+    "desktop-commander_get_config",
+    "desktop-commander_read_file",
+    "git_git_log",
+    "desktop-commander_list_directory",
+    "desktop-commander_search_files",
+    "mcp-code-executor_execute_code",
+    "mcp-code-executor_read_code_file",
+    "github_get_pull_request",
+    "github_list_pull_requests",
+    "github_list_tags",
+    "github_list_branches",
+    "github_list_commits",
+    "github_list_issues",
+    "git_git_status",
+    "github_get_commit"
+  ],
+  "claims": [
+    "The last commit of the storyteller project in 2024 was made by Lars Grammel at 2024-04-03 15:39:04+02:00.",
+    "The commit of the storyteller project made at 2024-04-03 15:39:04+02:00 has the message \"Merge pull request #1 from pH-7/patch-1\\n\\nUpdate incorrect filename link\".",
+    "The last commit of the storyteller project in 2024 only modified the file: README.md"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/1S9BFFHU262CjU87DnGFfP_LMChhAT4lx7uNvwY-7HoI/export?format=xlsx",
+  "sheet_id": "1S9BFFHU262CjU87DnGFfP_LMChhAT4lx7uNvwY-7HoI",
+  "title": "RawMaterialInventoryManagementTest",
+  "tabs": [
+    "BOM",
+    "Material_Inventory"
+  ],
+  "captured_at": "2026-09-09T13:15:22.162898+00:00",
+  "source": "tasks/finalpool/update-material-inventory/preprocess/main.py",
+  "source_sha256": "692d31acfa1fc99cba758a96cc1c6748fc02c5943d647e7efac8df08c0decffa",
+  "sha256": "f374461ce5e34fc9bfb26578c75b883e541c0a596ecb0931f368f9f773491ad6"
+}

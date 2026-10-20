@@ -1,0 +1,150 @@
+{
+  "defaults": {
+    "created_time": "2025-09-01T00:00:00.000Z",
+    "last_edited_time": "2025-09-02T00:00:00.000Z",
+    "created_by": "user-web",
+    "last_edited_by": "user-web",
+    "url_base": "https://www.notion.so/"
+  },
+  "databases": [],
+  "pages": [
+    {
+      "id": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "title": "Colley Whisson",
+      "parent": {
+        "type": "workspace"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "id": "27ad10a4-8436-818a-b2d8-f07601202dd6",
+      "parent": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "type": "heading_1",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "📌 Introduction",
+            "text": {
+              "content": "📌 Introduction"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8167-997b-c3a29a2bcb38",
+      "parent": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "type": "paragraph",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Hi, I'm Colley Whisson, a passionate and creative professional dedicated to painting. Let me take you through my journey and expertise.",
+            "text": {
+              "content": "Hi, I'm Colley Whisson, a passionate and creative professional dedicated to painting. Let me take you through my journey and expertise."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-813d-9151-d681e07f6525",
+      "parent": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "type": "heading_1",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "🏷 About Me",
+            "text": {
+              "content": "🏷 About Me"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81e5-a68a-dca0f93e2473",
+      "parent": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "type": "paragraph",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "🎓 Background: [Birth, Your education, experience, or expertise]",
+            "text": {
+              "content": "🎓 Background: [Birth, Your education, experience, or expertise]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8186-9c81-dac786ec207e",
+      "parent": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "type": "heading_1",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "📁 Paintings",
+            "text": {
+              "content": "📁 Paintings"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-8126-8efe-ddb20e69fee5",
+      "parent": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "type": "heading_1",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "📰 WorkShop",
+            "text": {
+              "content": "📰 WorkShop"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81f3-8f4a-f71f0794b80c",
+      "parent": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "type": "heading_1",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "📜 Prizes",
+            "text": {
+              "content": "📜 Prizes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "27ad10a4-8436-81e2-bee0-d6d4d1430af6",
+      "parent": "27ad10a4-8436-80cb-a4d9-d9e160cb05ea",
+      "type": "heading_1",
+      "payload": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "🎨 Exhibitions",
+            "text": {
+              "content": "🎨 Exhibitions"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "comments": []
+}

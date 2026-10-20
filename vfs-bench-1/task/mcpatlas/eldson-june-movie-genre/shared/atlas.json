@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689cd6f8522029b7ad7b1fe0",
+  "enabled_tools": [
+    "filesystem_list_directory",
+    "filesystem_list_directory_with_sizes",
+    "filesystem_directory_tree",
+    "filesystem_search_files",
+    "filesystem_list_allowed_directories",
+    "slack_channels_list",
+    "slack_conversations_add_message",
+    "slack_conversations_history",
+    "slack_conversations_replies",
+    "slack_conversations_search_messages",
+    "weather_find_weather_stations",
+    "weather-data_weather_history",
+    "weather-data_weather_astronomy",
+    "filesystem_read_file"
+  ],
+  "claims": [
+    "The movie recommended by \u00c9ldson Santos in June 2025 is Fight Club.",
+    "The genre of Fight Club is drama.",
+    "According to the provided dataset, Fight Club has an IMDb score of 8.8."
+  ]
+}

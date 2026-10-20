@@ -1,0 +1,239 @@
+{
+  "task": "canvas-homework-grader-python",
+  "service": {
+    "sandbox_id": "iwdshxdlfz39g2ytflvnv",
+    "task": "canvas-homework-grader-python",
+    "service": "canvas",
+    "template": {
+      "template_id": "96ae86gsizbbqitigxjh",
+      "build_id": "121617f6-4703-4573-81e2-84fab48082c7",
+      "name": "vfs-bench-k8s-probe-20260908",
+      "alias": "vfs-bench-k8s-probe-20260908",
+      "tags": [
+        "default"
+      ],
+      "recipe_sha256": "de0ee493f085a587702933ce1cb17e6805b3ccb08a40ff0714f1aeb598f0f56b",
+      "cpu_count": 2,
+      "memory_mb": 4096
+    },
+    "inputs_sha256": {
+      "deployment/canvas/scripts/create_admin_accounts.py": "e03c4af9bbcb20b9e71ead013951ef27fd1b3ade971b00608713786b37060bf5",
+      "deployment/canvas/scripts/create_canvas_user.py": "d2dc8694f9032e76a33f0340bb361695aec23fa869b4ccee5edba21bbe1ef084",
+      "deployment/canvas/scripts/setup.sh": "f499a5ebea33212507562260ddabe0b4f9f78fb1ca1f40d6224e8114987fa2d4",
+      "deployment/utils/build_proxy.mjs": "aee64c441ec88ae17eff1736f440798eb992c3e2c42d137ff7581482e6228ad7",
+      "tasks/finalpool/canvas-homework-grader-python/docs/agent_system_prompt.md": "dd10d7cac47b0c35a7f43e894c0c014d059970202d54f7c8578e367f76b0ebad",
+      "tasks/finalpool/canvas-homework-grader-python/docs/task.md": "8bc7cb7a98b742cb756b61188557316c092de40170d12274309986566b8478ab",
+      "tasks/finalpool/canvas-homework-grader-python/docs/user_system_prompt.md": "576b3f264027eb2f68ea2d10a266863fc0acc0d5be88871139276af4e5f52d7f",
+      "tasks/finalpool/canvas-homework-grader-python/email_config.json": "74bbc311a473f6ccfd8b4637ee0a44bbe1529d367eeb155b2d90bfcc44a4354a",
+      "tasks/finalpool/canvas-homework-grader-python/evaluation/main.py": "efe62c58e4fd734b20091952d772487f17780490a17ef95ad9f40a34470db4be",
+      "tasks/finalpool/canvas-homework-grader-python/files/fake_emails.json": "05679ba743166218d6d39650822c0092046dc2ab3cb52ca974f2e50947c52f56",
+      "tasks/finalpool/canvas-homework-grader-python/files/generated_inbox.json": "d2ee8af9ed2c4d4645c29b9b151aecd12608a739d446e9e4298044f029c124d3",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/emails.jsonl": "a45e1d964a87637dc8802c0f6e2b0040629f049a2955f7a4661631b4ccd6f824",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/alice_ward_logic_error.py": "12cd75e6a31b4891848bf86fa4219face8926bda66515ffd27489f4e8ea18e71",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/alice_ward_parentheses.py": "3f85f48207b07f89c4b16fb9a8ec6304a18dc91593e988682f1e4128aead62ce",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/donald_richardson_runtime_error.py": "0884e5a28bee780517cf77e9d3839b3c3f18bb38eb74098477e0fb465a83bebb",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/frank_phillips_import_error.py": "b141ba9bd6b4e9aeae63e88210fa9cfb75b6305a4a44a20818f0c63663aa6848",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/martha_watson_syntax_error.py": "15d6e3d5084d7c18a5d113a9559b9e7f03c5abf5d1fa7a1574cd15569985a114",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/shirley_rodriguez_correct.py": "b11fe25848f522d46f61570249dfc6d00c7dee84d112c8dce5d85eca9b59d93c",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/timothy_ruiz_correct.py": "e6b88bb83a4e58d9f70ca3fb5f92748f3d12b0e590a444d27d0028443a27ba1b",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/timothy_ruiz_correct_v2.py": "24fd6cc4007b13a244ae7596a25b50159e32d100785c19d156e4a983157f16d9",
+      "tasks/finalpool/canvas-homework-grader-python/files/origin_from_implementor/student_solutions/timothy_ruiz_parentheses.py": "d6c4f0c092da48e9656a0935d7f7f14e98a071f5b50b506db90adaa3780f343d",
+      "tasks/finalpool/canvas-homework-grader-python/files/target_emails.json": "e3e14b9b9105f32133f0c00b70901c548868c98070a346230722da766711cdca",
+      "tasks/finalpool/canvas-homework-grader-python/initial_workspace/assignments/homework1.md": "ff26c98ddc7bf7c2ea9662baf1fdd94e2f934fc37c7eab25272bcca91a6b091c",
+      "tasks/finalpool/canvas-homework-grader-python/initial_workspace/assignments/homework2.md": "b6ba4848d29cf7ffb428913485c8bb2c35e4a7a05115d81912a4f9c4497f55ae",
+      "tasks/finalpool/canvas-homework-grader-python/preprocess/extract_student_ids.py": "adc18711e7409c9c3a3df26cff94d332efa6fe0fa08879d58d1bfca31e453010",
+      "tasks/finalpool/canvas-homework-grader-python/preprocess/generate_inbox.py": "2713ab4474a51765e207e57a748b13806d19f0cb977742cc9f13a6882e3f84b4",
+      "tasks/finalpool/canvas-homework-grader-python/preprocess/import_emails.py": "477498497090489de95a9a95b6d8619d9004ea8eadeb42349bdd2819ca5f8244",
+      "tasks/finalpool/canvas-homework-grader-python/preprocess/main.py": "dab497d442ac11643fb469303a8c6d2d2f0de56ac7ad9efb3178d3cff3b1dc71",
+      "tasks/finalpool/canvas-homework-grader-python/preprocess/student_list.csv": "b22423d8817d0efe1f5071ff08035c56df492415ca480880935c2cb45ea0aeee",
+      "tasks/finalpool/canvas-homework-grader-python/preprocess/teacher_list.csv": "7ac6c869c5430f4a45d5dc856667e2cac4eeede3e793891a5d9632ff365984db",
+      "tasks/finalpool/canvas-homework-grader-python/task_config.json": "c7aad687f62811f41783043c86713fe4537577348b7385b7b37e7dd3660b7c86",
+      "tasks/finalpool/canvas-homework-grader-python/token_key_session.py": "5100fe643bfcb3ac5e7173375ff986636b8878743ee3dc1ea870a474a3f01cc5",
+      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/api_model/api_utils.py": "bc16f1f5740d532244f287996c18517e1e059d610f978770a04e9af5072cea87",
+      "utils/api_model/concurrency_manager.py": "b3205dcb9dda56c77911868be6121f442de92292963008a15690912596151517",
+      "utils/api_model/model_provider.py": "bc9a054d9a1c70712b8eb3a57d0695ca6cd69470813c4a253560045add5109a3",
+      "utils/api_model/openai_client.py": "e527384217412e6d261a26fa9094ef1504002480a7e105a2751fc0b442c8f9a5",
+      "utils/api_model/semaphore.py": "6b214a86c04acfd1f232f562d445f3223496203a6beb561d24806dee2c67ae88",
+      "utils/api_model/usage_stats.py": "3d70fe31e078f77ac960d5491716b773fc10e84c4a3f5a079208bb2d0ffd60c4",
+      "utils/app_specific/canvas/__init__.py": "076ff9b276443efce387f794f77310dbf40a010b5dc3fb873f8487a06e1434d2",
+      "utils/app_specific/canvas/announcement_manager.py": "9e42e23783cd02b9fd726cbcc1137575775ec717949208cf38736e3455fdd1ad",
+      "utils/app_specific/canvas/api_client.py": "66f69ef5fb900d5d2b6c51f3493608c43a95f977c29a67f20a4e85bda25338a5",
+      "utils/app_specific/canvas/evaluator.py": "710ee6977fd733445225318eea592fd4d75f7dbbca2856c6a2b96781fac9de79",
+      "utils/app_specific/canvas/preprocess_pipeline.py": "6b33ca77cf988d745eb8cfd90051eae350b1e58c462e2ab72b3a5df629b1777a",
+      "utils/app_specific/canvas/quiz_manager.py": "40c6f6ed07907c90513f98ab37c8c2b787615b0327ae0249ebdbe7484a9304b4",
+      "utils/app_specific/canvas/tools/README.md": "63008dcada300917e5206e38763b268fd002b0a8c9c0fbb0f19e584d5ed4c423",
+      "utils/app_specific/canvas/tools/__init__.py": "aa1a495d4f7c4323326a9f7774a27b1d8355f5665859f554bb47643bcd230713",
+      "utils/app_specific/canvas/tools/assignment_manager.py": "ce805c019a73e079ab89cdc5c486ce193505b27f64e5efc26559afbc198936ff",
+      "utils/app_specific/canvas/tools/course_manager.py": "260779ff371e186c0d4b1130eef8b6eb7bebef066c3fc0498a49934bf84d7227",
+      "utils/app_specific/canvas/tools/delete_all_courses_auto.py": "112a3cb73ea91ac28693f1aaa2d3a2d4263f4730d6a2b2308479b3d1e6d86b87",
+      "utils/app_specific/canvas/tools/initialize_course.py": "b59c303f3594b0dab0597f8237e6af59ce40057151497f04cfe068933e5a7b26",
+      "utils/app_specific/github/api.py": "0a2a7526b4d2e087faa64aceeb21d6f9ff4d870aa5632ff9cf1b8a75f1a197ab",
+      "utils/app_specific/github/git_ops.py": "f3fcfceaf027b644bb4e4b279bbb652097ba60eef3830463a4df1204abc6026b",
+      "utils/app_specific/github/github_delete_and_refork.py": "dacc0bfe210091890efb9e87df1bfb8645897d5b8016e716d74406a35bf74558",
+      "utils/app_specific/github/github_fork_to_independent.py": "b88bc1acbb8497ba88e09e735e34c4c5d76c84a7a18534c154af9a5c1db342e1",
+      "utils/app_specific/github/helper_funcs.py": "c710619bfa136ae8d8f82c068372265bc4790f54ffe6044c9ee712da45c26381",
+      "utils/app_specific/github/repo_ops.py": "1a8dce249a820d21d6e7303939d399f56996af4a403dbcca95dd7cdb3598ebbc",
+      "utils/app_specific/google_api_retry.py": "05e0f086aa4439b6547476190cb29f9511bd1bdeaa93edbcbac3fc83b82c409b",
+      "utils/app_specific/google_form/ops.py": "e2f114be9754517b15d960efcfad530e92354aab43e5bb35ae636a643b98086d",
+      "utils/app_specific/google_maps/__init__.py": "bdee77999ff6aff6a763805be7dd850a5e6270b8c59929c9447c8a8549908507",
+      "utils/app_specific/google_maps/google_maps_mcp_client.py": "1de77feaefb6093b2a1d77c411334afe82a156d35617c654be72793a0f3f4b1e",
+      "utils/app_specific/google_oauth/ops.py": "e0edc4269ba59562bd363578ccd1fb121d1a6ccc6e475b3db36fc6f4236d28ed",
+      "utils/app_specific/googlesheet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/app_specific/googlesheet/drive_helper.py": "ee58cd5f0c3c1c274a832c3c26d3c8eb04808216a5080d077cfeca503efda781",
+      "utils/app_specific/huggingface/datasets.py": "546aa05802af3308e9e29f90bd5ae7943b7777e1f01c84020745879f02017b1a",
+      "utils/app_specific/notion/notion_login_helper.py": "3a288114c8e31af6980c5a085cb677518b52154a16a34f1eea422accc9134aa8",
+      "utils/app_specific/notion/notion_page_duplicator.py": "0d239ac297debb2039f03a190367d39026728b1e8bd803e57e3d09f684050c9a",
+      "utils/app_specific/notion/notion_page_protector.py": "961de4351b6ea90714af86780de31264c7b9465a4a47fd747e67cf3fa89be8d8",
+      "utils/app_specific/notion/notion_remove_and_duplicate.py": "51d968595de1f92ca6e3946fd900e56442560b4a54a7ed573d772c9929c9fb96",
+      "utils/app_specific/notion/notion_remove_page.py": "1c5deb17b97b864b7fedbaef7acb549f29b20a8fe82724e8d50be6e6b36e38df",
+      "utils/app_specific/notion/ops.py": "19b43050265b283432d760ac3657aea93e5c8c262a0ef99cddbc25810d66d516",
+      "utils/app_specific/poste/checks.py": "bb5c01e7f126a282bcc65e3d80e6067b720ed72ab0a5075380fba73707fe9ebe",
+      "utils/app_specific/poste/email_import_utils.py": "f467004d7f4572a49f1a92208874074c4a2d85017bf645cbcc5f7f52b456527f",
+      "utils/app_specific/poste/expense_checker.py": "1b844bc3ec2043e5907a228a1a9ca80239dd2d315139ac2925ad42581e4429f2",
+      "utils/app_specific/poste/local_email_manager.py": "a8037b600ff6a498614c710d15fb75a5064054f8af4c8c476427975957a2b55e",
+      "utils/app_specific/poste/ops.py": "4d782d28208a04ec4b8640cfd44550a5e2121c462400ca051d0e16bd94fbdae6",
+      "utils/app_specific/snowflake/__init__.py": "e54d27bf77ea00cc1c6d6769d7a6057d1392fb4a2dbe6487d1675239f3cdef13",
+      "utils/app_specific/snowflake/client.py": "02ab6b0bb056688b137b290ea811a86fd1dfdf10d930ec06a0a1dab54a26b28a",
+      "utils/app_specific/snowflake/helpers.py": "fa4951d715a36afa24e39012152efb4f7471e1609d8000549f757bb7cfe5d142",
+      "utils/app_specific/woocommerce/__init__.py": "1cab3d814364df7bb506047f9091b77f354f7234adc2eb1c81b84d7931dbec1d",
+      "utils/app_specific/woocommerce/client.py": "056008ce9f7c87fa393d9cc317bd7a5c83d4b78a932d6d241cdd224f1c7d6b7d",
+      "utils/app_specific/woocommerce/order_generator.py": "bde2047f9436a7f55781085e36a886f7e004cdd2443e2a2baebcae76a3bf8efe",
+      "utils/app_specific/woocommerce/order_manager.py": "e16c8372d7f657e92de26604a4e22b411eff61335986d4a073f6bde06442f680",
+      "utils/app_specific/woocommerce/usage_example.py": "b631e2d0f49de3c65d2a63f2db483328cf31b1865964f3f721dac69f30794fa7",
+      "utils/aux_tools/ai_webpage_summary.py": "2ce0ea87918abb97971063d29623161ae39b342e2308752bbf5509d22487c50a",
+      "utils/aux_tools/basic.py": "971429c163eb11fe9fdd39a22f3b7a5cc8439fcf7745901f553f5238ddf1671c",
+      "utils/aux_tools/context_management_tools.py": "c8393da34990d9e049db8fe092bc45137259a810d27b9099b9e1fc5aad04c5b9",
+      "utils/aux_tools/history_manager.py": "6a86314e00e8e48e4c221fbf09be00c3ed57fde4bf567204d1013bb8407546fd",
+      "utils/aux_tools/history_tools.py": "491dcea01570f48d24c0e0f1fc52760869bfb4085c4187798fdb48ab6c36a4d7",
+      "utils/aux_tools/overlong_tool_manager.py": "8c39cf8939b67f96787d49b2395097ecc0eda1a5c48e03a0f52e8913aa6c3c4f",
+      "utils/aux_tools/python_interpretor.py": "b05311bf353cb06b7a512e63f07410b80da33107a625234f67c93507782aa2d2",
+      "utils/aux_tools/web_search.py": "15e89c72ff66ec159bf44f3c7cd0397b3acbed8bd83a4100c79ff7223982ae21",
+      "utils/conversation/conversation_manager.py": "5f504b791174d6f98039f23d75fb8cae0b2abb80e857cd9961d8dad58c370a99",
+      "utils/data_processing/process_ops.py": "61fb7a1164ec50af369f856f2a60c1413f7379bd1c471aba55593d193992e200",
+      "utils/data_structures/agent_config.py": "7729f5e5e68492ec28e419dc9acae23bfe60ea3151c9ebf2c111034de6ae9ba6",
+      "utils/data_structures/common.py": "91f67fb3d05140190fad71844ebe697be07b0e2a622a7db34d9f9b14639ed148",
+      "utils/data_structures/mcp_config.py": "da2a7098b1062343583da44365951d393715e0c1a94e7d1b385c2d3078d2eedf",
+      "utils/data_structures/task_config.py": "da9f87c487dedddfb049a4d2b7d4b048f143511f2306beedf535dfebcfac7a2e",
+      "utils/data_structures/user_config.py": "ca99b52844057bb965fe2222879aaed33321c9302d2ae30303b8d2ff8deb0cbc",
+      "utils/evaluation/evaluator.py": "7fd166e18d9ea114ddf9dadfc93acf2d55cb4b4f09c64e7ed01702d6a0e66ee7",
+      "utils/evaluation/retry.py": "db11e66ec241e1c5d00327b0bf7209c20323c4582c827e62b7a261235c17f69e",
+      "utils/general/base_models.py": "9b843ce6c40f1b2893a5ca21aea3d522746c38c931c1c0544124e2b453045365",
+      "utils/general/helper.py": "6a2a34e57c66df1021e95f2a3a4ae6faca394f1d1114cd448afd137d44dde0a7",
+      "utils/general/port_monitor.py": "f87ffd2ec69faa7642baa755a42f6ec97da224799045c4f7d24f18101f65690b",
+      "utils/local_servers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/local_servers/arxiv_local_wrapper.py": "36ee676ded2846fef0656ac12ee47b33516176b9df4c6415c2203c6191d0122e",
+      "utils/local_servers/pdf_tools_local_wrapper.py": "3d86502cda09fa6739460c9ea123de885245c4fd26fa95366da2a157f86c0382",
+      "utils/logging/logging_utils.py": "156918dd4b1b9e55c8f51dd1232632dd47c0fbd8407ca72c50dbe5f4609ff523",
+      "utils/mcp/stdio2sse_server.py": "6936007fd03886c8c15bca1c3a23e29ca15683d414c05c1e2e2becc8b6d98782",
+      "utils/mcp/tool_servers.py": "7a3472ad73d7721b426ad450115a673e5d3af13ca5ff71cdd07b10ad5fde43c2",
+      "utils/misc/tool_manager.py": "585b2e10979487fb2ad5f6132d7625c5ee4d1f8b0f5b25a1f13fb03eb35c6018",
+      "utils/openai_agents_monkey_patch/custom_mcp_util.py": "851174c3a2a7cd8658d58fe38972ec5a4ad87e8fa62f7f81996f61fbd4005a79",
+      "utils/openai_agents_monkey_patch/custom_run_impl.py": "4b47665705916adf680ceb6d4cbb96a46646106e2d216b27b1bc6f0f2ef0f878",
+      "utils/openai_agents_monkey_patch/test_tool_adapters.py": "9f8d6fe59225ed5ef6c98efba0f088909913c9ea8e13f85c4a39d743bc0fc23f",
+      "utils/openai_agents_monkey_patch/tool_name_aliases.py": "73d2652caf764e48e5a8832a6cdbc629e6d6d95ada8e33fe4b52a2ea76c0f517",
+      "utils/roles/context_managed_runner.py": "f8ae98e9b9d2cff4ff0ba307cce1cb220db9116f8625014d68de21f454505abd",
+      "utils/roles/task_agent.py": "990e59987caae118c09241f6f5a3efdb6aa22a756467406b2486ea2ccb4cb52f",
+      "utils/roles/user.py": "73a3c07ce1817b91f01ce0609d357cb547ea1c346c6638f382ff5382280873a4",
+      "utils/status_manager.py": "0d6a608c682488b3ee6c61bad279fa206013e5c7ac35ffc6172dac44960ed9df",
+      "utils/system_prompts/ccexample.txt": "6837d2c851870e873ef1de52a99d2ef9a714f321c60fa75a6ccb8299c729b006",
+      "utils/system_prompts/general_v0.txt": "e23def3bda4b02b95c4ae244bd632446d79706e47c1f3c8799b102454f5e67f1",
+      "utils/task_runner/hooks.py": "4a7d40775111c202a6bfbc3fc4d450b7c78795e89131776ca8e6d9398b3b8d9c",
+      "utils/task_runner/runner.py": "6a24fde32ad0085d0feadc6178b48423b7b0546b7cab38335660ff3fb79a26eb",
+      "utils/task_runner/termination_checkers.py": "247783bacc648a3333259ee3681c043243202f83d9d6a2774a93d97671364cc1",
+      "configs/users_data.json": "4b7cca96fbaea1c9a8c5e94bd784b4b3f191a134b5bd39660c57cb181c322295",
+      "uv.lock": "9896d725eada7cfcab8b4426c47994b46bffb20718bba029aa0bdd34a938f068",
+      "configs/global_configs_example.py": "fd01827515de380177195c69010bf6c03b68e2a8843dcb2dcac68a4dc62dd932",
+      "configs/token_key_session_example.py": "36ba8a9f86e6bc99c0f174c2a935bc3ff28d7348d4b751dbeddecf57fab0194a"
+    },
+    "images": [
+      {
+        "Id": "sha256:f5fca47c13932f010ebfce59994709fad0f66382b93b15d242515194c085a8f1",
+        "RepoTags": [],
+        "RepoDigests": [
+          "greenmail/standalone@sha256:d6db42a4fc258fec0948b1ae7b579fd06947cc92087c162ec0597972a6c36850"
+        ]
+      },
+      {
+        "Id": "sha256:f3b987bcc74a05eec4acf98a7230ea6643b307af514eb08c8896ad4715abf0dd",
+        "RepoTags": [
+          "lbjay/canvas-docker:latest"
+        ],
+        "RepoDigests": [
+          "lbjay/canvas-docker@sha256:8d6b9efe3c2228008aa85d404a6a3e9acaf0ca7d70aea7374482bf7133a875d8"
+        ]
+      }
+    ],
+    "dependency_sources": {
+      "images": {
+        "canvas": [
+          {
+            "source": "lbjay/canvas-docker",
+            "pinned": "lbjay/canvas-docker@sha256:8d6b9efe3c2228008aa85d404a6a3e9acaf0ca7d70aea7374482bf7133a875d8"
+          }
+        ],
+        "woocommerce": [
+          {
+            "source": "mysql:8.0",
+            "pinned": "library/mysql@sha256:7dcddc01f13bab2f15cde676d44d01f61fc9f99fe7785e86196dfc07d358ae2b"
+          },
+          {
+            "source": "wordpress:6.8.2-php8.2-apache",
+            "pinned": "library/wordpress@sha256:9973c15252ea54260c711e1074c96864acabebda379c664e812fa9bfe6fef268"
+          }
+        ]
+      },
+      "setup_sha256": {
+        "canvas": "f499a5ebea33212507562260ddabe0b4f9f78fb1ca1f40d6224e8114987fa2d4",
+        "woocommerce": "dcac75a653a9a55dc4082aab5ef9d217393f28c0c0468d8ffe3f00e1148351b1"
+      },
+      "wp_cli": {
+        "source": "https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar",
+        "url": "https://raw.githubusercontent.com/wp-cli/builds/05989a431e982caf17cd94508ff9b4c5fb12ae44/phar/wp-cli.phar",
+        "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c"
+      },
+      "woocommerce_version": "10.7.0"
+    },
+    "mcp": {
+      "canvas": {
+        "source": "configs/mcp_servers/canvas.yaml",
+        "source_sha256": "2e8b6ae2c2b57c3bb3d8bbf0397eb35320f540e9852a308221fc541855708e20",
+        "lock_sha256": {
+          "package.json": "65643d49c51b2dbc2afc8567a72a2aeb41422c44ff64886f3cc61c8e80c0e57b",
+          "package-lock.json": "99d2104eaf380e98c564c52c04117478dbd3bf53f12f8c97443c733d53e8de08"
+        },
+        "launch_sha256": "0bc5e3ef413efda221ee7cc090a0d516651273cfbafb8a1e0a684052e2ae16cf"
+      },
+      "emails": {
+        "source": "configs/mcp_servers/emails.yaml",
+        "source_sha256": "a115cd3f7322a52fbfa39b6b88715087f54002bba6b6f1ed4d32e4997c47b2e0",
+        "lock_sha256": {
+          "pyproject.toml": "93a652aeb6885fb856bebb0019b48294edc045f8ce3cfafb3fc55bb0c2604b16",
+          "uv.lock": "c53bb87760e032245a7a6e7e2b107a8dc5aa2a215933484ce00ebf90f124bdca"
+        },
+        "launch_sha256": "f54b538df1b78549793602f3255d4b80eb82a05948e36eebbf3db714284b492a"
+      }
+    },
+    "mail": {
+      "config_path": "tasks/finalpool/canvas-homework-grader-python/email_config.json",
+      "config_sha256": "74bbc311a473f6ccfd8b4637ee0a44bbe1529d367eeb155b2d90bfcc44a4354a",
+      "source_sha256": "69f3c382e5c29ad376063dfb80bad88772dc426711edc47feb051cb1963799e4",
+      "image": "greenmail/standalone@sha256:d6db42a4fc258fec0948b1ae7b579fd06947cc92087c162ec0597972a6c36850"
+    }
+  },
+  "api_sha256": {
+    "courses": "916b4736d059672e5c30d1bc7b63030e01bc41b6008fdb22d8848628f03a752a",
+    "conversations": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "courses/1/users": "e66eeea69178d800c181e316fcef4cf51266481483997389e3f502cb0602e26a",
+    "courses/1/enrollments": "2373c991b28db20d13a7ceaa2c01ac860c6917495b5bdb74d9fb43dda4351748",
+    "courses/1/assignments": "7b8afdd58a946eb50415afa88c95133a47b3745a2f19833caed873d56dad8bb2",
+    "courses/1/quizzes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "courses/1/assignments/1/submissions": "f249399c3879737cc58602388610b93d9f2da5e6c018a8deae4d136eecb974e7"
+  },
+  "sha256": {
+    "api.json.gz": "fbcddc0a1de0bb42d06203f4029f41572d2b4639d62ca4d54e69c2bbf5976d35",
+    "database.dump": "a05908dd3644b8042230b36da928d971727126c78084941a21f6324779387fb9",
+    "workspace.tar.gz": "470933aac34a09d53f189f81d42ab26c2657b25a3441efafff6be743c6282fb1",
+    "mail.json.gz": "3b64148a1163e4c8542613dfb5d392c02d916b58504d7b0942d5922b4949361a"
+  }
+}

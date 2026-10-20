@@ -1,0 +1,1745 @@
+{
+  "meta": {
+    "workspaceName": "notion-hr",
+    "workspaceId": "workspace-notion-hr",
+    "botId": "bot-notion-hr",
+    "botName": "notion-hr",
+    "maxUploadSize": 5242880,
+    "urlBase": "https://www.notion.so/",
+    "createdTime": "2025-09-01T00:00:00.000Z",
+    "lastEditedTime": "2025-09-02T00:00:00.000Z",
+    "createdBy": "user-hr",
+    "lastEditedBy": "user-hr"
+  },
+  "databases": [
+    {
+      "id": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "parentType": "page_id",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "titleText": "Job Positions",
+      "titleJson": [
+        {
+          "type": "text",
+          "plain_text": "Job Positions",
+          "text": {
+            "content": "Job Positions"
+          }
+        }
+      ],
+      "descriptionJson": null,
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "name": "Head Counts",
+          "type": "number",
+          "number": {}
+        },
+        "Position": {
+          "id": "title",
+          "name": "Position",
+          "type": "title",
+          "title": {}
+        }
+      },
+      "isInline": true,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436811eb9f1000b78346645",
+      "position": 0
+    },
+    {
+      "id": "27ad10a4-8436-814c-91c4-000bc6c90adb",
+      "parentType": "page_id",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "titleText": "Job Application Timeline",
+      "titleJson": [
+        {
+          "type": "text",
+          "plain_text": "Job Application Timeline",
+          "text": {
+            "content": "Job Application Timeline"
+          }
+        }
+      ],
+      "descriptionJson": null,
+      "propertiesJson": {
+        "Assign": {
+          "id": "Av%3D%5D",
+          "name": "Assign",
+          "type": "person",
+          "person": {}
+        },
+        "Date": {
+          "id": "Btd%60",
+          "name": "Date",
+          "type": "date",
+          "date": {}
+        },
+        "Status": {
+          "id": "Tp%3El",
+          "name": "Status",
+          "type": "status",
+          "status": {
+            "options": [
+              {
+                "id": "ece21684-d782-472a-9071-f9e7a521d8d8",
+                "name": "Not started",
+                "color": "default"
+              },
+              {
+                "id": "4e347b73-69f8-46c0-9a38-3e859b4a051f",
+                "name": "In progress",
+                "color": "blue"
+              },
+              {
+                "id": "41ee4e43-128d-4e0e-bf30-5e396e055942",
+                "name": "Done",
+                "color": "green"
+              }
+            ]
+          }
+        },
+        "Name": {
+          "id": "title",
+          "name": "Name",
+          "type": "title",
+          "title": {}
+        }
+      },
+      "isInline": true,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436814c91c4000bc6c90adb",
+      "position": 1
+    },
+    {
+      "id": "27ad10a4-8436-8103-a98d-000b3fafe863",
+      "parentType": "page_id",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "titleText": "Candidates",
+      "titleJson": [
+        {
+          "type": "text",
+          "plain_text": "Candidates",
+          "text": {
+            "content": "Candidates"
+          }
+        }
+      ],
+      "descriptionJson": null,
+      "propertiesJson": {
+        "School": {
+          "id": "%3Cs_i",
+          "name": "School",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Highest Degree": {
+          "id": "GvWY",
+          "name": "Highest Degree",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "LqP^",
+                "name": "phd",
+                "color": "pink"
+              },
+              {
+                "id": "KevI",
+                "name": "bachelor",
+                "color": "default"
+              },
+              {
+                "id": "2c65c62f-6b2c-4d24-a147-bbb8281f771a",
+                "name": "master",
+                "color": "brown"
+              }
+            ]
+          }
+        },
+        "Applied Position": {
+          "id": "f%3CrJ",
+          "name": "Applied Position",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Email": {
+          "id": "r%60u%3F",
+          "name": "Email",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Name": {
+          "id": "title",
+          "name": "Name",
+          "type": "title",
+          "title": {}
+        }
+      },
+      "isInline": true,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368103a98d000b3fafe863",
+      "position": 2
+    }
+  ],
+  "pages": [
+    {
+      "id": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "parentType": "workspace",
+      "parentId": null,
+      "titleText": "HR Record",
+      "propertiesJson": {
+        "title": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "HR Record",
+              "text": {
+                "content": "HR Record"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368035b3bce9de9db3dd82",
+      "position": 0
+    },
+    {
+      "id": "27ad10a4-8436-8102-a612-f49a21a5b495",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Wealth Management Advisor",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Wealth Management Advisor",
+              "text": {
+                "content": "Wealth Management Advisor"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368102a612f49a21a5b495",
+      "position": 1
+    },
+    {
+      "id": "27ad10a4-8436-8102-b5fb-ce084ebb7b78",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Private Equity Associate",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Private Equity Associate",
+              "text": {
+                "content": "Private Equity Associate"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368102b5fbce084ebb7b78",
+      "position": 2
+    },
+    {
+      "id": "27ad10a4-8436-816c-bd59-cee5a1a656fc",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Derivatives Trader",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Derivatives Trader",
+              "text": {
+                "content": "Derivatives Trader"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436816cbd59cee5a1a656fc",
+      "position": 3
+    },
+    {
+      "id": "27ad10a4-8436-816e-be1f-c1e9aedc7720",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Market Risk Specialist",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 4.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Market Risk Specialist",
+              "text": {
+                "content": "Market Risk Specialist"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436816ebe1fc1e9aedc7720",
+      "position": 4
+    },
+    {
+      "id": "27ad10a4-8436-8193-b87c-debb4b5178f4",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Advanced Investment Banking Analyst ",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 3.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Advanced Investment Banking Analyst ",
+              "text": {
+                "content": "Advanced Investment Banking Analyst "
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368193b87cdebb4b5178f4",
+      "position": 5
+    },
+    {
+      "id": "27ad10a4-8436-81ae-9d14-e693af943100",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Equity Research Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Equity Research Analyst",
+              "text": {
+                "content": "Equity Research Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681ae9d14e693af943100",
+      "position": 6
+    },
+    {
+      "id": "27ad10a4-8436-81b4-bedc-cb1279b75e76",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Foreign Exchange Dealer",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Foreign Exchange Dealer",
+              "text": {
+                "content": "Foreign Exchange Dealer"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681b4bedccb1279b75e76",
+      "position": 7
+    },
+    {
+      "id": "27ad10a4-8436-8105-b85b-cd3a27db38d0",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Trading Operations Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Trading Operations Analyst",
+              "text": {
+                "content": "Trading Operations Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368105b85bcd3a27db38d0",
+      "position": 8
+    },
+    {
+      "id": "27ad10a4-8436-811a-bddb-d4fa27060ef6",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Fund Manager",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Fund Manager",
+              "text": {
+                "content": "Fund Manager"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436811abddbd4fa27060ef6",
+      "position": 9
+    },
+    {
+      "id": "27ad10a4-8436-8131-8d75-e2f078a4d374",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Corporate Finance Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Corporate Finance Analyst",
+              "text": {
+                "content": "Corporate Finance Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681318d75e2f078a4d374",
+      "position": 10
+    },
+    {
+      "id": "27ad10a4-8436-814e-b416-e330728e8017",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Credit Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Credit Analyst",
+              "text": {
+                "content": "Credit Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436814eb416e330728e8017",
+      "position": 11
+    },
+    {
+      "id": "27ad10a4-8436-8158-a53e-cd9d425df87f",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Hedge Fund Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Hedge Fund Analyst",
+              "text": {
+                "content": "Hedge Fund Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368158a53ecd9d425df87f",
+      "position": 12
+    },
+    {
+      "id": "27ad10a4-8436-8160-8233-ec74ffcf7287",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Financial Consultant",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Financial Consultant",
+              "text": {
+                "content": "Financial Consultant"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681608233ec74ffcf7287",
+      "position": 13
+    },
+    {
+      "id": "27ad10a4-8436-8182-8693-e5304459a50c",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Asset Management Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Asset Management Analyst",
+              "text": {
+                "content": "Asset Management Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681828693e5304459a50c",
+      "position": 14
+    },
+    {
+      "id": "27ad10a4-8436-8188-b446-c4d4f69f18fb",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Quantitative Risk Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Quantitative Risk Analyst",
+              "text": {
+                "content": "Quantitative Risk Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368188b446c4d4f69f18fb",
+      "position": 15
+    },
+    {
+      "id": "27ad10a4-8436-81bf-91a7-cbccb35d61fb",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Valuation Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Valuation Analyst",
+              "text": {
+                "content": "Valuation Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681bf91a7cbccb35d61fb",
+      "position": 16
+    },
+    {
+      "id": "27ad10a4-8436-81ca-b4a9-e51d83386163",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Compliance Officer",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Compliance Officer",
+              "text": {
+                "content": "Compliance Officer"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681cab4a9e51d83386163",
+      "position": 17
+    },
+    {
+      "id": "27ad10a4-8436-81f5-bfb7-dd8a32f6a83f",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Fixed Income Trader",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 1.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Fixed Income Trader",
+              "text": {
+                "content": "Fixed Income Trader"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681f5bfb7dd8a32f6a83f",
+      "position": 18
+    },
+    {
+      "id": "27ad10a4-8436-81f7-8747-f3696ae4520f",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Credit Risk Manager",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Credit Risk Manager",
+              "text": {
+                "content": "Credit Risk Manager"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681f78747f3696ae4520f",
+      "position": 19
+    },
+    {
+      "id": "27ad10a4-8436-8122-a1b9-de09b80c834f",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Research Associate",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 3.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Research Associate",
+              "text": {
+                "content": "Research Associate"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368122a1b9de09b80c834f",
+      "position": 20
+    },
+    {
+      "id": "27ad10a4-8436-8134-85ed-e9e7c5438774",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Portfolio Manager",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Portfolio Manager",
+              "text": {
+                "content": "Portfolio Manager"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436813485ede9e7c5438774",
+      "position": 21
+    },
+    {
+      "id": "27ad10a4-8436-815c-91d9-ec0c141eff19",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Securities Trader",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Securities Trader",
+              "text": {
+                "content": "Securities Trader"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436815c91d9ec0c141eff19",
+      "position": 22
+    },
+    {
+      "id": "27ad10a4-8436-816e-be6a-e7d423dc7cce",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Financial Risk Analyst ",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Financial Risk Analyst ",
+              "text": {
+                "content": "Financial Risk Analyst "
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436816ebe6ae7d423dc7cce",
+      "position": 23
+    },
+    {
+      "id": "27ad10a4-8436-81ed-9186-e2915760d51b",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Investment Analyst",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 2.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Investment Analyst",
+              "text": {
+                "content": "Investment Analyst"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681ed9186e2915760d51b",
+      "position": 24
+    },
+    {
+      "id": "27ad10a4-8436-81f0-baf0-cb7695c66cfb",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "titleText": "Mergers & Acquisitions Associate",
+      "propertiesJson": {
+        "Head Counts": {
+          "id": "gOTR",
+          "type": "number",
+          "number": 0.0
+        },
+        "Position": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Mergers & Acquisitions Associate",
+              "text": {
+                "content": "Mergers & Acquisitions Associate"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681f0baf0cb7695c66cfb",
+      "position": 25
+    },
+    {
+      "id": "27ad10a4-8436-8161-a1eb-fc40d9ec8ed7",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-814c-91c4-000bc6c90adb",
+      "titleText": "Stage 2",
+      "propertiesJson": {
+        "Assign": {
+          "id": "Av%3D%5D",
+          "type": "people",
+          "people": []
+        },
+        "Date": {
+          "id": "Btd%60",
+          "type": "date",
+          "date": {
+            "start": "2025-09-05",
+            "end": "2025-09-09",
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "Tp%3El",
+          "type": "status",
+          "status": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Stage 2",
+              "text": {
+                "content": "Stage 2"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368161a1ebfc40d9ec8ed7",
+      "position": 26
+    },
+    {
+      "id": "27ad10a4-8436-8103-b286-ea41f8cf8175",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-814c-91c4-000bc6c90adb",
+      "titleText": "Stage 1",
+      "propertiesJson": {
+        "Assign": {
+          "id": "Av%3D%5D",
+          "type": "people",
+          "people": []
+        },
+        "Date": {
+          "id": "Btd%60",
+          "type": "date",
+          "date": {
+            "start": "2025-09-03",
+            "end": "2025-09-07",
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "Tp%3El",
+          "type": "status",
+          "status": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Stage 1",
+              "text": {
+                "content": "Stage 1"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368103b286ea41f8cf8175",
+      "position": 27
+    },
+    {
+      "id": "27ad10a4-8436-8121-b39c-ef1350769898",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-814c-91c4-000bc6c90adb",
+      "titleText": "Stage 3",
+      "propertiesJson": {
+        "Assign": {
+          "id": "Av%3D%5D",
+          "type": "people",
+          "people": []
+        },
+        "Date": {
+          "id": "Btd%60",
+          "type": "date",
+          "date": {
+            "start": "2025-09-07",
+            "end": "2025-09-11",
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "Tp%3El",
+          "type": "status",
+          "status": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Stage 3",
+              "text": {
+                "content": "Stage 3"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a484368121b39cef1350769898",
+      "position": 28
+    },
+    {
+      "id": "27ad10a4-8436-812c-a37e-f53d161bffa8",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-8103-a98d-000b3fafe863",
+      "titleText": "Example 2",
+      "propertiesJson": {
+        "School": {
+          "id": "%3Cs_i",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Highest Degree": {
+          "id": "GvWY",
+          "type": "select",
+          "select": {
+            "id": "LqP^",
+            "name": "phd",
+            "color": "pink"
+          }
+        },
+        "Applied Position": {
+          "id": "f%3CrJ",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Email": {
+          "id": "r%60u%3F",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Example 2",
+              "text": {
+                "content": "Example 2"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436812ca37ef53d161bffa8",
+      "position": 29
+    },
+    {
+      "id": "27ad10a4-8436-8142-9505-c9d3f482da72",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-8103-a98d-000b3fafe863",
+      "titleText": "Alice Jackson",
+      "propertiesJson": {
+        "School": {
+          "id": "%3Cs_i",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "plain_text": "Columbia Business School",
+              "text": {
+                "content": "Columbia Business School"
+              }
+            }
+          ]
+        },
+        "Highest Degree": {
+          "id": "GvWY",
+          "type": "select",
+          "select": {
+            "id": "KevI",
+            "name": "bachelor",
+            "color": "default"
+          }
+        },
+        "Applied Position": {
+          "id": "f%3CrJ",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "plain_text": "Financial Risk Analyst",
+              "text": {
+                "content": "Financial Risk Analyst"
+              }
+            }
+          ]
+        },
+        "Email": {
+          "id": "r%60u%3F",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "plain_text": "alice_jackson38@mcp.com",
+              "text": {
+                "content": "alice_jackson38@mcp.com"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Alice Jackson",
+              "text": {
+                "content": "Alice Jackson"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a4843681429505c9d3f482da72",
+      "position": 30
+    },
+    {
+      "id": "27ad10a4-8436-818d-ae1b-ce9e50adf670",
+      "parentType": "database_id",
+      "parentId": "27ad10a4-8436-8103-a98d-000b3fafe863",
+      "titleText": "Example 1",
+      "propertiesJson": {
+        "School": {
+          "id": "%3Cs_i",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Highest Degree": {
+          "id": "GvWY",
+          "type": "select",
+          "select": {
+            "id": "LqP^",
+            "name": "phd",
+            "color": "pink"
+          }
+        },
+        "Applied Position": {
+          "id": "f%3CrJ",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Email": {
+          "id": "r%60u%3F",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "plain_text": "xxx@mcp.com",
+              "text": {
+                "content": "xxx@mcp.com"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "plain_text": "Example 1",
+              "text": {
+                "content": "Example 1"
+              }
+            }
+          ]
+        }
+      },
+      "iconJson": null,
+      "coverJson": null,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr",
+      "url": "https://www.notion.so/27ad10a48436818dae1bce9e50adf670",
+      "position": 31
+    }
+  ],
+  "blocks": [
+    {
+      "id": "27ad10a4-8436-816c-857b-fdf33e1663da",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 0,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "This is the page to record the job positions and the candidates for our 2025 Fall Application.",
+            "text": {
+              "content": "This is the page to record the job positions and the candidates for our 2025 Fall Application."
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-811e-b9f1-000b78346645",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 1,
+      "type": "child_database",
+      "payloadJson": {
+        "title": "Job Positions"
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-814c-91c4-000bc6c90adb",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 2,
+      "type": "child_database",
+      "payloadJson": {
+        "title": "Job Application Timeline"
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-8103-a98d-000b3fafe863",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 3,
+      "type": "child_database",
+      "payloadJson": {
+        "title": "Candidates"
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-81c9-bfa4-c65ffd7d46b7",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 4,
+      "type": "heading_3",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "HR Record 2025 Fall Application Summary",
+            "text": {
+              "content": "HR Record 2025 Fall Application Summary"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-8139-9414-e8ef873dd48c",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 5,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "This comprehensive HR record serves as our central repository for managing all aspects of the 2025 Fall Application process. The page has been specifically designed to streamline our hiring workflow and provide transparent access to critical recruitment information for all stakeholders involved.",
+            "text": {
+              "content": "This comprehensive HR record serves as our central repository for managing all aspects of the 2025 Fall Application process. The page has been specifically designed to streamline our hiring workflow and provide transparent access to critical recruitment information for all stakeholders involved."
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-81fc-8051-db025c046e3d",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 6,
+      "type": "heading_3",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Future Outlook",
+            "text": {
+              "content": "Future Outlook"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-81ab-9367-ccae9e10b218",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 7,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "As we continue to refine our recruitment strategies, we anticipate implementing several enhancements to this system:",
+            "text": {
+              "content": "As we continue to refine our recruitment strategies, we anticipate implementing several enhancements to this system:"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-81c2-b9d8-db75190ea66f",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 8,
+      "type": "bulleted_list_item",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Development of a more sophisticated candidate evaluation framework with standardized assessment criteria to reduce hiring bias and improve selection accuracy",
+            "text": {
+              "content": "Development of a more sophisticated candidate evaluation framework with standardized assessment criteria to reduce hiring bias and improve selection accuracy"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-811e-bb7e-d5e1636e01ef",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 9,
+      "type": "bulleted_list_item",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Implementation of an advanced interview feedback system with structured evaluation templates to capture more meaningful insights about candidate suitability",
+            "text": {
+              "content": "Implementation of an advanced interview feedback system with structured evaluation templates to capture more meaningful insights about candidate suitability"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-8108-aa1a-ef7d54934de1",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 10,
+      "type": "bulleted_list_item",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Integration of automated communication workflows to enhance candidate experience and reduce administrative overhead",
+            "text": {
+              "content": "Integration of automated communication workflows to enhance candidate experience and reduce administrative overhead"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-8115-9021-c626fb3d10b8",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 11,
+      "type": "bulleted_list_item",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Exploration of talent development tracking features that will extend beyond initial hiring to support long-term career progression and retention initiatives",
+            "text": {
+              "content": "Exploration of talent development tracking features that will extend beyond initial hiring to support long-term career progression and retention initiatives"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-81e2-bd1c-f1c45a09b055",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 12,
+      "type": "bulleted_list_item",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Analysis of hiring metrics and outcomes to continuously refine our recruitment approach based on data-driven insights",
+            "text": {
+              "content": "Analysis of hiring metrics and outcomes to continuously refine our recruitment approach based on data-driven insights"
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    },
+    {
+      "id": "27ad10a4-8436-81b3-b777-f215a62f4417",
+      "parentId": "27ad10a4-8436-8035-b3bc-e9de9db3dd82",
+      "position": 13,
+      "type": "paragraph",
+      "payloadJson": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "These planned improvements will help us build a more robust talent acquisition system that not only meets our immediate hiring needs but also supports our long-term organizational growth objectives.",
+            "text": {
+              "content": "These planned improvements will help us build a more robust talent acquisition system that not only meets our immediate hiring needs but also supports our long-term organizational growth objectives."
+            }
+          }
+        ]
+      },
+      "hasChildren": false,
+      "inTrash": false,
+      "createdTime": "2025-09-01T00:00:00.000Z",
+      "lastEditedTime": "2025-09-02T00:00:00.000Z",
+      "createdBy": "user-hr",
+      "lastEditedBy": "user-hr"
+    }
+  ],
+  "comments": []
+}

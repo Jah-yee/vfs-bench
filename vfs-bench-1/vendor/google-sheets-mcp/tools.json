@@ -1,0 +1,1050 @@
+{
+  "tools": [
+    {
+      "name": "get_sheet_data",
+      "description": "\nGet data from a specific sheet in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    sheet: The name of the sheet\n    range: Optional cell range in A1 notation (e.g., 'A1:C10'). If not provided, gets all data.\n    include_grid_data: If True, includes cell formatting and other metadata in the response.\n        Note: Setting this to True will significantly increase the response size and token usage\n        when parsing the response, as it includes detailed cell formatting information.\n        Default is False (returns values only, more efficient).\n\nReturns:\n    Grid data structure with either full metadata or just values from Google Sheets API, depending on include_grid_data parameter\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "sheet": {
+            "title": "Sheet",
+            "type": "string"
+          },
+          "range": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Range"
+          },
+          "include_grid_data": {
+            "default": false,
+            "title": "Include Grid Data",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "sheet"
+        ],
+        "title": "get_sheet_dataArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_sheet_dataOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Get Sheet Data",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "get_sheet_formulas",
+      "description": "\nGet formulas from a specific sheet in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    sheet: The name of the sheet\n    range: Optional cell range in A1 notation (e.g., 'A1:C10'). If not provided, gets all formulas from the sheet.\n\nReturns:\n    A 2D array of the sheet formulas.\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "sheet": {
+            "title": "Sheet",
+            "type": "string"
+          },
+          "range": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Range"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "sheet"
+        ],
+        "title": "get_sheet_formulasArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "items": {},
+              "type": "array"
+            },
+            "title": "Result",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_sheet_formulasOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Get Sheet Formulas",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "update_cells",
+      "description": "\nUpdate cells in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    sheet: The name of the sheet\n    range: Cell range in A1 notation (e.g., 'A1:C10')\n    data: 2D array of values to update\n\nReturns:\n    Result of the update operation\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "sheet": {
+            "title": "Sheet",
+            "type": "string"
+          },
+          "range": {
+            "title": "Range",
+            "type": "string"
+          },
+          "data": {
+            "items": {
+              "items": {},
+              "type": "array"
+            },
+            "title": "Data",
+            "type": "array"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "sheet",
+          "range",
+          "data"
+        ],
+        "title": "update_cellsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "update_cellsOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Update Cells",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "batch_update_cells",
+      "description": "\nBatch update multiple ranges in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    sheet: The name of the sheet\n    ranges: Dictionary mapping range strings to 2D arrays of values\n           e.g., {'A1:B2': [[1, 2], [3, 4]], 'D1:E2': [['a', 'b'], ['c', 'd']]}\n\nReturns:\n    Result of the batch update operation\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "sheet": {
+            "title": "Sheet",
+            "type": "string"
+          },
+          "ranges": {
+            "additionalProperties": {
+              "items": {
+                "items": {},
+                "type": "array"
+              },
+              "type": "array"
+            },
+            "title": "Ranges",
+            "type": "object"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "sheet",
+          "ranges"
+        ],
+        "title": "batch_update_cellsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "batch_update_cellsOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Batch Update Cells",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "add_rows",
+      "description": "\nAdd rows to a sheet in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    sheet: The name of the sheet\n    count: Number of rows to add\n    start_row: 0-based row index to start adding. If not provided, adds at the beginning.\n\nReturns:\n    Result of the operation\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "sheet": {
+            "title": "Sheet",
+            "type": "string"
+          },
+          "count": {
+            "title": "Count",
+            "type": "integer"
+          },
+          "start_row": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Start Row"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "sheet",
+          "count"
+        ],
+        "title": "add_rowsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "add_rowsOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Add Rows",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "add_columns",
+      "description": "\nAdd columns to a sheet in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    sheet: The name of the sheet\n    count: Number of columns to add\n    start_column: 0-based column index to start adding. If not provided, adds at the beginning.\n\nReturns:\n    Result of the operation\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "sheet": {
+            "title": "Sheet",
+            "type": "string"
+          },
+          "count": {
+            "title": "Count",
+            "type": "integer"
+          },
+          "start_column": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Start Column"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "sheet",
+          "count"
+        ],
+        "title": "add_columnsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "add_columnsOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Add Columns",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "list_sheets",
+      "description": "\nList all sheets in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n\nReturns:\n    List of sheet names\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "spreadsheet_id"
+        ],
+        "title": "list_sheetsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Result",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "list_sheetsOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "List Sheets",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "copy_sheet",
+      "description": "\nCopy a sheet from one spreadsheet to another.\n\nArgs:\n    src_spreadsheet: Source spreadsheet ID\n    src_sheet: Source sheet name\n    dst_spreadsheet: Destination spreadsheet ID\n    dst_sheet: Destination sheet name\n\nReturns:\n    Result of the operation\n",
+      "inputSchema": {
+        "properties": {
+          "src_spreadsheet": {
+            "title": "Src Spreadsheet",
+            "type": "string"
+          },
+          "src_sheet": {
+            "title": "Src Sheet",
+            "type": "string"
+          },
+          "dst_spreadsheet": {
+            "title": "Dst Spreadsheet",
+            "type": "string"
+          },
+          "dst_sheet": {
+            "title": "Dst Sheet",
+            "type": "string"
+          }
+        },
+        "required": [
+          "src_spreadsheet",
+          "src_sheet",
+          "dst_spreadsheet",
+          "dst_sheet"
+        ],
+        "title": "copy_sheetArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "copy_sheetOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Copy Sheet",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "rename_sheet",
+      "description": "\nRename a sheet in a Google Spreadsheet.\n\nArgs:\n    spreadsheet: Spreadsheet ID\n    sheet: Current sheet name\n    new_name: New sheet name\n\nReturns:\n    Result of the operation\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet": {
+            "title": "Spreadsheet",
+            "type": "string"
+          },
+          "sheet": {
+            "title": "Sheet",
+            "type": "string"
+          },
+          "new_name": {
+            "title": "New Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "spreadsheet",
+          "sheet",
+          "new_name"
+        ],
+        "title": "rename_sheetArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "rename_sheetOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Rename Sheet",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "get_multiple_sheet_data",
+      "description": "\nGet data from multiple specific ranges in Google Spreadsheets.\n\nArgs:\n    queries: A list of dictionaries, each specifying a query. \n             Each dictionary should have 'spreadsheet_id', 'sheet', and 'range' keys.\n             Example: [{'spreadsheet_id': 'abc', 'sheet': 'Sheet1', 'range': 'A1:B5'}, \n                       {'spreadsheet_id': 'xyz', 'sheet': 'Data', 'range': 'C1:C10'}]\n\nReturns:\n    A list of dictionaries, each containing the original query parameters \n    and the fetched 'data' or an 'error'.\n",
+      "inputSchema": {
+        "properties": {
+          "queries": {
+            "items": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "title": "Queries",
+            "type": "array"
+          }
+        },
+        "required": [
+          "queries"
+        ],
+        "title": "get_multiple_sheet_dataArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Result",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_multiple_sheet_dataOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Get Multiple Sheet Data",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "get_multiple_spreadsheet_summary",
+      "description": "\nGet a summary of multiple Google Spreadsheets, including sheet names, \nheaders, and the first few rows of data for each sheet.\n\nArgs:\n    spreadsheet_ids: A list of spreadsheet IDs to summarize.\n    rows_to_fetch: The number of rows (including header) to fetch for the summary (default: 5).\n\nReturns:\n    A list of dictionaries, each representing a spreadsheet summary. \n    Includes spreadsheet title, sheet summaries (title, headers, first rows), or an error.\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Spreadsheet Ids",
+            "type": "array"
+          },
+          "rows_to_fetch": {
+            "default": 5,
+            "title": "Rows To Fetch",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "spreadsheet_ids"
+        ],
+        "title": "get_multiple_spreadsheet_summaryArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Result",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "get_multiple_spreadsheet_summaryOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Get Multiple Spreadsheet Summary",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "create_spreadsheet",
+      "description": "\nCreate a new Google Spreadsheet.\n\nArgs:\n    title: The title of the new spreadsheet\n    folder_id: Optional Google Drive folder ID where the spreadsheet should be created.\n              If not provided, uses the configured default folder or creates in root.\n\nReturns:\n    Information about the newly created spreadsheet including its ID\n",
+      "inputSchema": {
+        "properties": {
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "folder_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Folder Id"
+          }
+        },
+        "required": [
+          "title"
+        ],
+        "title": "create_spreadsheetArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "create_spreadsheetOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Create Spreadsheet",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "create_sheet",
+      "description": "\nCreate a new sheet tab in an existing Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet\n    title: The title for the new sheet\n\nReturns:\n    Information about the newly created sheet\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "title"
+        ],
+        "title": "create_sheetArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "create_sheetOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Create Sheet",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "list_spreadsheets",
+      "description": "\nList all spreadsheets in the specified Google Drive folder.\nIf no folder is specified, uses the configured default folder or lists from 'My Drive'.\n\nArgs:\n    folder_id: Optional Google Drive folder ID to search in.\n              If not provided, uses the configured default folder or searches 'My Drive'.\n\nReturns:\n    List of spreadsheets with their ID and title\n",
+      "inputSchema": {
+        "properties": {
+          "folder_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Folder Id"
+          }
+        },
+        "title": "list_spreadsheetsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "title": "Result",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "list_spreadsheetsOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "List Spreadsheets",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "share_spreadsheet",
+      "description": "\nShare a Google Spreadsheet with multiple users via email, assigning specific roles.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet to share.\n    recipients: A list of dictionaries, each containing 'email_address' and 'role'.\n                The role should be one of: 'reader', 'commenter', 'writer'.\n                Example: [\n                    {'email_address': 'user1@example.com', 'role': 'writer'},\n                    {'email_address': 'user2@example.com', 'role': 'reader'}\n                ]\n    send_notification: Whether to send a notification email to the users. Defaults to True.\n\nReturns:\n    A dictionary containing lists of 'successes' and 'failures'. \n    Each item in the lists includes the email address and the outcome.\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "recipients": {
+            "items": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "title": "Recipients",
+            "type": "array"
+          },
+          "send_notification": {
+            "default": true,
+            "title": "Send Notification",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "recipients"
+        ],
+        "title": "share_spreadsheetArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": {
+              "items": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "share_spreadsheetOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Share Spreadsheet",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "list_folders",
+      "description": "\nList all folders in the specified Google Drive folder.\nIf no parent folder is specified, lists folders from 'My Drive' root.\n\nArgs:\n    parent_folder_id: Optional Google Drive folder ID to search within.\n                     If not provided, searches the root of 'My Drive'.\n\nReturns:\n    List of folders with their ID, name, and parent information\n",
+      "inputSchema": {
+        "properties": {
+          "parent_folder_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Parent Folder Id"
+          }
+        },
+        "title": "list_foldersArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "title": "Result",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "list_foldersOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "List Folders",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "search_spreadsheets",
+      "description": "\nSearch for spreadsheets in Google Drive by name or content.\n\nArgs:\n    query: Search query string. Searches in file name and content.\n           Examples: \"budget 2024\", \"sales report\", \"project tracker\"\n    max_results: Maximum number of results to return (default 20, max 100)\n\nReturns:\n    List of matching spreadsheets with their ID, name, and metadata\n",
+      "inputSchema": {
+        "properties": {
+          "query": {
+            "title": "Query",
+            "type": "string"
+          },
+          "max_results": {
+            "default": 20,
+            "title": "Max Results",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "title": "search_spreadsheetsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Result",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "search_spreadsheetsOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Search Spreadsheets by Name or Content",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "find_in_spreadsheet",
+      "description": "\nFind cells containing a specific value in a Google Spreadsheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    query: The text to search for in cell values\n    sheet: Optional sheet name to search in. If not provided, searches all sheets.\n    case_sensitive: Whether the search should be case-sensitive (default False)\n    max_results: Maximum number of results to return (default 50)\n\nReturns:\n    List of found cells with their location (sheet, cell in A1 notation) and value\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "query": {
+            "title": "Query",
+            "type": "string"
+          },
+          "sheet": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Sheet"
+          },
+          "case_sensitive": {
+            "default": false,
+            "title": "Case Sensitive",
+            "type": "boolean"
+          },
+          "max_results": {
+            "default": 50,
+            "title": "Max Results",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "query"
+        ],
+        "title": "find_in_spreadsheetArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Result",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "find_in_spreadsheetOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Find Cells",
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "batch_update",
+      "description": "\nExecute a batch update on a Google Spreadsheet using the full batchUpdate endpoint.\nThis provides access to all batchUpdate operations including adding sheets, updating properties,\ninserting/deleting dimensions, formatting, and more.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    requests: A list of request objects. Each request object can contain any valid batchUpdate operation.\n             Common operations include:\n             - addSheet: Add a new sheet\n             - updateSheetProperties: Update sheet properties (title, grid properties, etc.)\n             - insertDimension: Insert rows or columns\n             - deleteDimension: Delete rows or columns\n             - updateCells: Update cell values and formatting\n             - updateBorders: Update cell borders\n             - addConditionalFormatRule: Add conditional formatting\n             - deleteConditionalFormatRule: Remove conditional formatting\n             - updateDimensionProperties: Update row/column properties\n             - and many more...\n             \n             Example requests:\n             [\n                 {\n                     \"addSheet\": {\n                         \"properties\": {\n                             \"title\": \"New Sheet\"\n                         }\n                     }\n                 },\n                 {\n                     \"updateSheetProperties\": {\n                         \"properties\": {\n                             \"sheetId\": 0,\n                             \"title\": \"Renamed Sheet\"\n                         },\n                         \"fields\": \"title\"\n                     }\n                 },\n                 {\n                     \"insertDimension\": {\n                         \"range\": {\n                             \"sheetId\": 0,\n                             \"dimension\": \"ROWS\",\n                             \"startIndex\": 1,\n                             \"endIndex\": 3\n                         }\n                     }\n                 }\n             ]\n\nReturns:\n    Result of the batch update operation, including replies for each request\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "requests": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Requests",
+            "type": "array"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "requests"
+        ],
+        "title": "batch_updateArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "batch_updateOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Batch Update",
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "add_chart",
+      "description": "\nAdd a chart to a Google Spreadsheet.\n\nCreates a chart from the specified data range with customizable type, title, and positioning.\nThe chart is added as a floating element on the sheet.\n\nArgs:\n    spreadsheet_id: The ID of the spreadsheet (found in the URL)\n    sheet: The name of the sheet containing the data\n    chart_type: Type of chart to create. Supported types:\n               - COLUMN: Vertical bar chart\n               - BAR: Horizontal bar chart\n               - LINE: Line chart\n               - AREA: Area chart\n               - PIE: Pie chart\n               - SCATTER: Scatter plot\n               - COMBO: Combination chart\n               - HISTOGRAM: Histogram\n    data_range: A1 notation range for chart data (e.g., 'A1:C10'). \n               The first row is typically treated as headers.\n    title: Optional title for the chart\n    x_axis_label: Optional label for the X axis (bottom axis)\n    y_axis_label: Optional label for the Y axis (left axis)\n    position_x: Horizontal position offset in pixels from the top-left corner (default: 0)\n    position_y: Vertical position offset in pixels from the top-left corner (default: 0)\n    width: Width of the chart in pixels (default: 600)\n    height: Height of the chart in pixels (default: 400)\n\nReturns:\n    Result of the chart creation operation\n\nExamples:\n    Create a column chart showing sales data:\n    add_chart(\n        spreadsheet_id=\"abc123\",\n        sheet=\"Sales\",\n        chart_type=\"COLUMN\",\n        data_range=\"A1:B13\",\n        title=\"Monthly Sales\",\n        x_axis_label=\"Month\",\n        y_axis_label=\"Revenue ($)\"\n    )\n    \n    Create a pie chart for market share:\n    add_chart(\n        spreadsheet_id=\"abc123\",\n        sheet=\"Market\",\n        chart_type=\"PIE\",\n        data_range=\"A1:B5\",\n        title=\"Market Share by Product\"\n    )\n",
+      "inputSchema": {
+        "properties": {
+          "spreadsheet_id": {
+            "title": "Spreadsheet Id",
+            "type": "string"
+          },
+          "sheet": {
+            "title": "Sheet",
+            "type": "string"
+          },
+          "chart_type": {
+            "title": "Chart Type",
+            "type": "string"
+          },
+          "data_range": {
+            "title": "Data Range",
+            "type": "string"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Title"
+          },
+          "x_axis_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "X Axis Label"
+          },
+          "y_axis_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Y Axis Label"
+          },
+          "position_x": {
+            "default": 0,
+            "title": "Position X",
+            "type": "integer"
+          },
+          "position_y": {
+            "default": 0,
+            "title": "Position Y",
+            "type": "integer"
+          },
+          "width": {
+            "default": 600,
+            "title": "Width",
+            "type": "integer"
+          },
+          "height": {
+            "default": 400,
+            "title": "Height",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "spreadsheet_id",
+          "sheet",
+          "chart_type",
+          "data_range"
+        ],
+        "title": "add_chartArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "add_chartOutput",
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Add Chart",
+        "destructiveHint": true
+      }
+    }
+  ]
+}

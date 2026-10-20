@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/takashiishida/arxiv-latex-mcp",
+  "commit": "f8bd3b3b6d3d066fe29ba356023a0b3e8215da43",
+  "upstream_dockerfile_sha256": "9b0b460479eed8855c9d9663de9e15d9b59e846513707add68f9dccacecf0552",
+  "files_sha256": {
+    "pyproject.toml": "671073d1de8b681bbf1c2045a1edb9b1777ea7468ac15dbec5b14e661424993b",
+    "uv.lock": "41ad48d66d45cca9fe03169c9fc18c02158f4522e568e68f47e299430cbd4f59"
+  }
+}

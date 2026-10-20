@@ -1,0 +1,26 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68a398aa2f58036e8d45edf6",
+  "enabled_tools": [
+    "mongodb_list-databases",
+    "mongodb_list-collections",
+    "mongodb_find",
+    "mongodb_count",
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article",
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes",
+    "pubmed_search_pubmed_key_words",
+    "pubmed_search_pubmed_advanced",
+    "pubmed_get_pubmed_article_metadata",
+    "weather_find_weather_stations",
+    "github_search_users",
+    "github_search_code",
+    "fetch_fetch"
+  ],
+  "claims": [
+    "Kobe Bryant passed away in 2020.",
+    "According to the \"Social Media\" collection of the cloud NoSQL video game store database, 64 Twitter posts were made in 2020."
+  ]
+}

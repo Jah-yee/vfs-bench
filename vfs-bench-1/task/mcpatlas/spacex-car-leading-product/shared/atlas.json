@@ -1,0 +1,28 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68925f01db31fe35560e3e97",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "airtable_list_records",
+    "airtable_search_records",
+    "exa_web_search_exa",
+    "git_git_status",
+    "github_search_repositories",
+    "google-maps_maps_geocode",
+    "google-maps_maps_search_places",
+    "google-maps_maps_place_details",
+    "context7_resolve-library-id",
+    "weather_get_current_weather",
+    "open-library_get_book_by_title",
+    "open-library_get_authors_by_name",
+    "open-library_get_author_info",
+    "pubmed_search_pubmed_key_words",
+    "pubmed_search_pubmed_advanced"
+  ],
+  "claims": [
+    "According to online sources, SpaceX launched the first car into space in February 2018.",
+    "According to the commercial performance cloud database, the \"Electric\" category had the highest sales in February 2018.",
+    "According to open online sources, the best-selling electric vehicle worldwide in 2018 was the Tesla Model 3."
+  ]
+}

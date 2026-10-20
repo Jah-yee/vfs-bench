@@ -1,0 +1,51 @@
+{
+  "note": "Both arms read one recipe file -- GYM's vendored HowToCook-mcp keeps it at build/data/all_recipes.json, the MCP server imports it and mirage's `cook` CLI is pointed at the same path -- so this compares two clients over one corpus rather than two copies of it. The MCP server answers with a JSON document as text; the CLI prints the same JSON.",
+  "cases": [
+    {
+      "name": "corpus_size",
+      "why": "both arms see the same 322 dishes, which is the pool the menu is chosen from",
+      "mcp": {
+        "server": "howtocook",
+        "tool": "mcp_howtocook_getAllRecipes",
+        "args": {},
+        "pipe": "jq length"
+      },
+      "mirage": {
+        "command": "cook all_recipes",
+        "pipe": "jq length"
+      }
+    },
+    {
+      "name": "category_membership",
+      "why": "the same category holds the same dishes, so a course picked by browsing one is pickable by browsing the other",
+      "mcp": {
+        "server": "howtocook",
+        "tool": "mcp_howtocook_getRecipesByCategory",
+        "args": {
+          "category": "水产"
+        },
+        "pipe": "jq -r '.[].name' | sort"
+      },
+      "mirage": {
+        "command": "cook recipes_by_category --category 水产",
+        "pipe": "jq -r '.[].name' | sort"
+      }
+    },
+    {
+      "name": "recipe_ingredients",
+      "why": "the same dish has the same ingredient list, which is what both deliverables are counted from",
+      "mcp": {
+        "server": "howtocook",
+        "tool": "mcp_howtocook_getRecipeById",
+        "args": {
+          "query": "dishes-aquatic-咖喱炒蟹"
+        },
+        "pipe": "jq -r '.ingredients[].name' | sort"
+      },
+      "mirage": {
+        "command": "cook recipe --query dishes-aquatic-咖喱炒蟹",
+        "pipe": "jq -r '.ingredients[].name' | sort"
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+name: toolathlon
+
+# Every fake both arms talk to, in one place. Two groups:
+#
+#   default  the always-on fakes -- start once, restart per task
+#   gcp      BigQuery and Cloud Storage, opt-in, because their fixtures are
+#            per task and seeding one takes minutes
+#
+# Ports are published on the loopback because the mirage arm, the seeders
+# and the evaluator all run on the host: the container holds the fixtures,
+# not the benchmark. Inside the network services reach each other by name,
+# which is what retires the host.docker.internal hop bin/start.sh gcp needed.
+
+x-fixtures: &fixtures
+  build:
+    context: ..
+    dockerfile: docker/Dockerfile
+  # One tag per stack. A second stack on this host builds from its own
+  # checkout, and `stack.up()` builds before it reconciles the containers, so
+  # a shared tag hands the other stack this checkout's fixtures the next time
+  # its containers are recreated -- mid-campaign, with nothing in its run
+  # provenance to say so.
+  image: ${FIXTURES_IMAGE:-toolathlon-fixtures:latest}
+  restart: unless-stopped
+  volumes:
+    # The repo at its own absolute path: the github fake is launched with
+    # fixture directories named by absolute path, and five tasks each name
+    # a different set. Mounting it anywhere else would mean rewriting those
+    # arguments on the way in, in five places, for no gain. Read-only --
+    # nothing in here writes to the repo.
+    - ${REPO_ROOT:?set REPO_ROOT}:${REPO_ROOT:?set REPO_ROOT}:ro
+    # Per-task launch arguments in, generated service-account key out.
+    - ${STACK_DIR:-../state/stack}:/fixtures
+
+services:
+  api:
+    <<: *fixtures
+    command: ["api"]
+    ports: ["127.0.0.1:${API_PORT:-9110}:9110"]
+    environment:
+      # Per-task directories under one root, the way server/api/app.py
+      # namespaces every route by task. On a volume so a restart of this
+      # service does not discard a log the evaluator is about to read.
+      CLOUD_LOGGING_ROOT: /fixtures/cloud_logging
+      # /stack/healthz probes the emulator by name, and the emulator listens
+      # on the published port inside the network too (see bigquery below).
+      BQ_PORT: ${BQ_PORT:-9050}
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:9110/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  gws:
+    <<: *fixtures
+    command: ["gws"]
+    ports: ["127.0.0.1:${GWS_PORT:-19999}:19999"]
+    healthcheck:
+      # The kit's own health path, not a vendor route. A vendor route has to
+      # be reached the way a client reaches it -- with a token -- and on a
+      # kit fake the token selects a TENANT, so probing one asks an unseeded
+      # tenant a question and gets a fair 500 back. /_kit/health is answered
+      # before routing, needs no auth, and names the runs that are up.
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:19999/_kit/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  notion:
+    <<: *fixtures
+    command: ["notion"]
+    ports: ["127.0.0.1:${NOTION_PORT:-5091}:5091"]
+    # A fixture is still a NAME, resolved under <root>/<service>/ and
+    # re-checked to be inside it. What moved is the ROOT: the kit takes
+    # `--fixture-root` on the command line now, so a fixture this repo owns
+    # no longer has to be bind-mounted one file at a time onto a name inside
+    # the image. `server/fakes/stack.py` assembles the whole root on the
+    # shared volume -- mirage's own fixtures copied in from the pinned
+    # submodule, this repo's rows and repository trees written beside them.
+    #
+    # github needs that root to hold DIRECTORIES, not just files: a repo row
+    # names a `sourceDir` the fake walks. Per-file mounts could not have
+    # expressed it at all.
+    healthcheck:
+      # Same kit health path as gws, and here it is not a preference: with
+      # `tenantFromBearer` the old probe's `Bearer probe` named tenant
+      # `probe`, which no reset seeds, so every probe answered "no meta row
+      # for tenant probe" and the container never became healthy.
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:5091/_kit/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  github:
+    <<: *fixtures
+    command: ["github"]
+    ports: ["127.0.0.1:${GITHUB_PORT:-19801}:19801"]
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "-H", "Authorization: Bearer probe",
+             "http://127.0.0.1:19801/user"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  # The Hugging Face Hub, on two ports. `hfhub` publishes the REST surface a
+  # client reaches through HF_ENDPOINT and, on a second port, an MCP server
+  # whose tool document is a capture of huggingface.co/mcp -- which is what
+  # lets the MCP arm run an HF task at all, since upstream's `huggingface`
+  # server IS the remote endpoint and has no local process to re-point.
+  hfhub:
+    <<: *fixtures
+    command: ["hfhub"]
+    ports:
+      - "127.0.0.1:${HF_HUB_PORT:-5199}:5199"
+      - "127.0.0.1:${HF_MCP_PORT:-5200}:5200"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:5199/_kit/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  postgres:
+    image: postgres:16-bookworm
+    restart: unless-stopped
+    ports: ["127.0.0.1:${PG_PORT:-5433}:5432"]
+    environment:
+      POSTGRES_USER: eigent
+      POSTGRES_PASSWORD: camel
+      POSTGRES_DB: vfs_bench
+    # No volume on purpose. Each task's seeder rebuilds the tables it reads,
+    # so persistence here would only preserve one run's writes into the
+    # next.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U eigent -d vfs_bench"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  mail:
+    image: greenmail/standalone:2.1.3
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${MAIL_SMTP_PORT:-1587}:3025"
+      - "127.0.0.1:${MAIL_IMAP_PORT:-1143}:3143"
+      - "127.0.0.1:${MAIL_API_PORT:-8081}:8080"
+    environment:
+      GREENMAIL_OPTS: >-
+        -Dgreenmail.setup.test.all
+        -Dgreenmail.auth.disabled
+        -Dgreenmail.hostname=0.0.0.0
+        -Dgreenmail.users.login=email
+    # The image's own GreenMail, from its own jar with the options above
+    # (read by the script: compose would take `$` for its own
+    # interpolation), and then two things changed. GreenMail closes a client
+    # connection after 30 seconds without a command
+    # (`AbstractServer.CLIENT_SOCKET_SO_TIMEOUT`), and no option or property
+    # reaches it; upstream's poste.io keeps an IMAP session for the 30
+    # minutes RFC 3501 asks of a server. emails-mcp reconnects a dropped
+    # session without selecting its folder again, so a model's `read_email`
+    # after a pause failed with "FETCH illegal in state AUTH".
+    #
+    # And GreenMail stores a message as it was sent, where poste.io's Haraka
+    # queues every message it is handed over SMTP -- on 25 and on 587 alike
+    # -- through `outbound.send_trans_email`, which adds a missing
+    # `Message-Id` (`<{connection uuid}.{transaction}@{me}>`: each emails-mcp
+    # send is its connection's first transaction, and `me` is
+    # `mail.example.com`, since upstream never runs poste.io's installer)
+    # and then a missing `Date` (RFC 2822, the server's zone). emails-mcp
+    # 0.1.12 sends with neither, so meeting-assign's grader, which parses the
+    # sent mail's `Date`, failed on "None" where upstream's reads the time
+    # Haraka stamped. Mail appended over IMAP, as the seeders and upstream's
+    # `import_emails` do, passes neither Haraka nor this handler.
+    #
+    # Both go in `start()` because `/api/service/reset`, which every mail
+    # seeder calls first, is `stop(); start()`, and those build new servers
+    # and a new user manager; the rest is what the image's
+    # `GreenMailStandaloneRunner.doRun` does.
+    # The script is inline so that every launch of this service -- here, in
+    # an E2B box, in a final task's own container -- starts it the same way.
+    entrypoint:
+      - bash
+      - -c
+      - |
+        cat > /tmp/greenmail.js <<'EOF'
+        var System = java.lang.System;
+        System.getenv('GREENMAIL_OPTS').trim().split(/\s+/).forEach(
+          function (option) {
+            var pair = option.replace(/^-D/, '').split('=');
+            System.setProperty(pair[0], pair.slice(1).join('='));
+          });
+        function type(name) {
+          return Java.type('com.icegreen.greenmail.' + name);
+        }
+        var GreenMail = type('util.GreenMail');
+        java.lang.Thread.currentThread().setContextClassLoader(
+          GreenMail.class.getClassLoader());
+        var properties = System.getProperties();
+        var setups = new (type('util.PropertiesBasedServerSetupBuilder'))()
+          .build(properties);
+        var configuration = new (type(
+          'configuration.PropertiesBasedGreenMailConfigurationBuilder'))()
+          .build(properties);
+        var greenMail = new (Java.extend(GreenMail))(setups, {
+          start: function () {
+            Java.super(greenMail).start();
+            greenMail.getImap().setClientSocketTimeout(30 * 60 * 1000);
+            var users = greenMail.getUserManager();
+            var deliver = users.getMessageDeliveryHandler();
+            users.setMessageDeliveryHandler(function (moving, address) {
+              var message = moving.getMessage();
+              if (message.getHeader('Message-Id') === null) {
+                message.addHeader('Message-Id', '<' + java.util.UUID
+                  .randomUUID().toString().toUpperCase() +
+                  '.1@mail.example.com>');
+              }
+              if (message.getHeader('Date') === null) {
+                message.addHeader('Date', new java.text.SimpleDateFormat(
+                  'EEE, dd MMM yyyy HH:mm:ss Z', java.util.Locale.US)
+                  .format(new java.util.Date()));
+              }
+              return deliver.handle(moving, address);
+            });
+          }
+        });
+        greenMail.withConfiguration(configuration).start();
+        var api = new (type('standalone.GreenMailApiServerBuilder'))()
+          .configure(properties);
+        if (api.isEnabled()) {
+          api.withGreenMail(greenMail, setups, configuration).build().start();
+        }
+        java.lang.Thread.currentThread().join();
+        EOF
+        exec jjs -cp /home/greenmail/greenmail-standalone.jar /tmp/greenmail.js
+    # /dev/tcp rather than curl: the greenmail image ships a JRE and bash
+    # and neither curl nor wget, so an HTTP probe here reports every
+    # healthy container as unhealthy. This checks the IMAP port, which is
+    # the one the arms actually use.
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/3143"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  # Both of these carry a digest as well as a version, where postgres and
+  # greenmail need only a tag. A tag is a name the publisher can move; these
+  # two are fixture surfaces both arms read, so a moved tag would change what
+  # is being measured on the next rebuild, on a machine nobody was watching,
+  # with nothing in the repo to say it had happened. The version is there to
+  # be read; the digest is the pin.
+  bigquery:
+    image: ghcr.io/goccy/bigquery-emulator:0.8.1@sha256:f4e428d265a93dc5ce36c294e1c584c7c9b384117d47ab8ddbb63d8d50b7f393
+    profiles: ["gcp"]
+    restart: unless-stopped
+    # The same port on both sides, for the reason gcs names below: the
+    # emulator has no external URL, and the resumable-upload location it
+    # hands bigquery_load_csv_data is its own listen address, which the
+    # client follows directly. With BQ_PORT moved and 9050 kept inside,
+    # that location points at nothing, or at another stack's emulator.
+    ports: ["127.0.0.1:${BQ_PORT:-9050}:${BQ_PORT:-9050}"]
+    volumes:
+      - ${STACK_DIR:-../state/stack}:/fixtures
+    # The emulator is a Cloud Storage *client* too: bigquery_export_table
+    # runs an extract job it implements by uploading. By service name now,
+    # where bin/start.sh gcp needed host.docker.internal to get out and back.
+    environment:
+      STORAGE_EMULATOR_HOST: http://gcs:4443
+    command: >-
+      --project=${BQ_PROJECT:-toolathlon}
+      --port=${BQ_PORT:-9050}
+      ${BQ_SEED_ARG:-}
+
+  gcs:
+    image: fsouza/fake-gcs-server:1.55.1@sha256:91afded49de804aa61b5f3eb6c7cd65205acf9e5c5e047cf0ba7d9507af806c8
+    profiles: ["gcp"]
+    restart: unless-stopped
+    ports: ["127.0.0.1:${GCS_PORT:-9070}:4443"]
+    # -external-url and -public-host both matter: the client follows the
+    # location the server reports for a created bucket and for a resumable
+    # upload, and a container that names itself 0.0.0.0 sends the caller
+    # nowhere. Host readers resolve the published port, so that is the name.
+    command: >-
+      -scheme http -port 4443
+      -external-url http://127.0.0.1:${GCS_PORT:-9070}
+      -public-host 127.0.0.1:${GCS_PORT:-9070}
+
+  bqproxy:
+    <<: *fixtures
+    command: ["bqproxy"]
+    profiles: ["gcp"]
+    ports: ["127.0.0.1:${BQ_PROXY_PORT:-9051}:9051"]
+    environment:
+      BQ_UPSTREAM: http://bigquery:${BQ_PORT:-9050}
+      GCS_URL: http://gcs:4443
+    depends_on: [bigquery]
+
+  tokenstub:
+    <<: *fixtures
+    command: ["tokenstub"]
+    profiles: ["gcp"]
+    ports: ["127.0.0.1:${GCP_TOKEN_PORT:-9061}:9061"]
+    environment:
+      # The one variable that has to cross into the container: the key this
+      # service writes is read on the host, so its token_uri has to name the
+      # published port rather than the 9061 it listens on.
+      GCP_TOKEN_PORT: ${GCP_TOKEN_PORT:-9061}

@@ -1,0 +1,27 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "68940d8355faa0b720f0b478",
+  "enabled_tools": [
+    "airtable_list_bases",
+    "airtable_search_records",
+    "met-museum_list-departments",
+    "met-museum_search-museum-objects",
+    "met-museum_get-museum-object",
+    "github_search_repositories",
+    "github_search_code",
+    "github_search_users",
+    "github_get_issue",
+    "github_search_issues",
+    "git_git_status",
+    "git_git_diff_unstaged",
+    "git_git_diff_staged",
+    "git_git_diff",
+    "git_git_log",
+    "airtable_list_tables"
+  ],
+  "claims": [
+    "The total units sold in June 2022 at the car dealership was 174.",
+    "The official title of the artwork with object ID 174 at the Metropolitan Museum of Art is 'Spindle-back armchair'.",
+    "The 'Spindle-back armchair' is in The American Wing department."
+  ]
+}

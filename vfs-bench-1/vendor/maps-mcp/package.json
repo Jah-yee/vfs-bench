@@ -1,0 +1,7 @@
+{
+  "name": "vfs-bench-maps-mcp",
+  "private": true,
+  "dependencies": {
+    "@modelcontextprotocol/server-google-maps": "^0.6.2"
+  }
+}

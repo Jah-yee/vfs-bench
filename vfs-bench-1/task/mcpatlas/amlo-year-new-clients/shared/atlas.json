@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "6890e7fd2516f66b0a628e5d",
+  "enabled_tools": [
+    "wikipedia_get_article",
+    "wikipedia_get_summary",
+    "wikipedia_summarize_article_for_query",
+    "wikipedia_summarize_article_section",
+    "mongodb_list-collections",
+    "mongodb_list-databases",
+    "mongodb_collection-schema",
+    "mongodb_count",
+    "mongodb_db-stats",
+    "mongodb_aggregate",
+    "git_git_status",
+    "git_git_diff_unstaged",
+    "git_git_diff_staged",
+    "github_search_repositories",
+    "github_search_code"
+  ],
+  "claims": [
+    "In 2018, the same year Andres Manuel Lopez Obrador was elected president of Mexico.",
+    "There were 56 new clients, and the total sales were 5645.76."
+  ]
+}

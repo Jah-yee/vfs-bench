@@ -1,0 +1,24 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689af4e653c3905e7b5b259c",
+  "enabled_tools": [
+    "pubmed_search_pubmed_key_words",
+    "pubmed_search_pubmed_advanced",
+    "pubmed_get_pubmed_article_metadata",
+    "pubmed_download_pubmed_pdf",
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes",
+    "google-workspace_list_events",
+    "filesystem_read_file",
+    "filesystem_read_media_file",
+    "filesystem_read_text_file",
+    "filesystem_read_multiple_files",
+    "filesystem_list_directory"
+  ],
+  "claims": [
+    "Karen Thompson directed K-12 school programs.",
+    "The article on K-12 education by Christopher D Pfledderer is \"Associations Among K-12 Student Outcomes, National Standards, and Physical Education Curricular Models: A Systematic Review\".",
+    "On July 20, 2025, you are free before calling your parents after 3:00 PM ET until 5:00 PM ET."
+  ]
+}

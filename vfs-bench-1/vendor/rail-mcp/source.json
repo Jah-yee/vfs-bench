@@ -1,0 +1,8 @@
+{
+  "upstream_config": "configs/mcp_servers/12306.yaml",
+  "upstream_config_sha256": "914489e050d273f2388b3bf64c915cdb5780a14cff79f3fd51d19a4fe9a4d9b8",
+  "files_sha256": {
+    "package.json": "9029489840db069f2050d13fa3b93ffb166a1180ef35d0ad1e158d0ea99773c2",
+    "package-lock.json": "e8d8e00c021eac4572224da4650a4eb088c91667fe7db57ea0e4c3ed82403963"
+  }
+}

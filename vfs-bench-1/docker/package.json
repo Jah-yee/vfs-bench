@@ -1,0 +1,30 @@
+{
+  "name": "toolathlon-fixtures",
+  "private": true,
+  "type": "module",
+  "comment": [
+    "The whole npm surface the two TypeScript fakes need, spelled out here",
+    "rather than installed from mirage's own workspace. Between the kit,",
+    "gws, notion and hf-hub the only non-node imports are",
+    "@modelcontextprotocol/sdk and js-yaml -- so the alternative was a",
+    "pnpm install of a 1.7GB monorepo.",
+    "prisma is a runtime dependency, not a dev one: the kit shells out to",
+    "`prisma db push` to build the template database each run file is",
+    "copied from.",
+    "js-yaml is hf-hub's: /api/validate-yaml refuses a card whose captured",
+    "frontmatter does not parse, which needs a real parser. Held at the",
+    "version mirage's own integ/package.json resolves, because a fake that",
+    "parses differently than the one upstream tests answers differently.",
+    "graphql is github's: from mirage bb07269a2 it answers POST /graphql",
+    "for issue comments with graphql's own executor, held at the version",
+    "mirage's integ/package.json pins, for the same reason."
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.20.2",
+    "@prisma/client": "6.19.3",
+    "graphql": "16.11.0",
+    "js-yaml": "5.4.1",
+    "prisma": "6.19.3",
+    "tsx": "4.20.6"
+  }
+}

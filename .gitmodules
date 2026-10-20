@@ -1,0 +1,15 @@
+[submodule "Toolathlon"]
+	path = vfs-bench-1/submodule/Toolathlon
+	url = https://github.com/hkust-nlp/Toolathlon.git
+	ignore = dirty
+[submodule "toolathlon_gym"]
+	path = vfs-bench-1/submodule/toolathlon_gym
+	url = https://github.com/eigent-ai/toolathlon_gym.git
+	ignore = dirty
+[submodule "mirage"]
+	path = vfs-bench-1/submodule/mirage
+	url = https://github.com/strukto-ai/mirage.git
+	ignore = dirty
+[submodule "submodule/mcp-atlas"]
+	path = vfs-bench-1/submodule/mcp-atlas
+	url = https://github.com/scaleapi/mcp-atlas.git

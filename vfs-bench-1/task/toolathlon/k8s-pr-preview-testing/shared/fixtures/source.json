@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/Toolathlon-Archive/SimpleShopping.git",
+  "branch": "feature/pr-123",
+  "revision": "cd891205649740ac4bb64bd3bcd6923953d1c6af",
+  "captured_at": "2026-09-10T07:15:10.853053+00:00",
+  "source_sha256": {
+    "tasks/finalpool/k8s-pr-preview-testing/docs/task.md": "7252dcae0def044d51fe62513bbae11c2f08590adf8ef1edfe54fa644d6af59d",
+    "tasks/finalpool/k8s-pr-preview-testing/preprocess/main.py": "7c60dab8cf7078a078390ec0cdba77c06c51cedd223d922d26fff1bb3c930303",
+    "tasks/finalpool/k8s-pr-preview-testing/evaluation/main.py": "3ae509a8dca13358b09e728941e857060a99f9e5243411423c667b8b6490d8c8"
+  },
+  "sha256": {
+    "repository.bundle": "14727f453ca5ebb0a052906926e54d5c2001b594ebe1fb989f3a5e947dda76d4"
+  }
+}

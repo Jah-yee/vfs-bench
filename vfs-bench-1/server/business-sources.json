@@ -1,0 +1,30 @@
+{
+  "images": {
+    "canvas": [
+      {
+        "source": "lbjay/canvas-docker",
+        "pinned": "lbjay/canvas-docker@sha256:8d6b9efe3c2228008aa85d404a6a3e9acaf0ca7d70aea7374482bf7133a875d8"
+      }
+    ],
+    "woocommerce": [
+      {
+        "source": "mysql:8.0",
+        "pinned": "library/mysql@sha256:7dcddc01f13bab2f15cde676d44d01f61fc9f99fe7785e86196dfc07d358ae2b"
+      },
+      {
+        "source": "wordpress:6.8.2-php8.2-apache",
+        "pinned": "library/wordpress@sha256:9973c15252ea54260c711e1074c96864acabebda379c664e812fa9bfe6fef268"
+      }
+    ]
+  },
+  "setup_sha256": {
+    "canvas": "f499a5ebea33212507562260ddabe0b4f9f78fb1ca1f40d6224e8114987fa2d4",
+    "woocommerce": "dcac75a653a9a55dc4082aab5ef9d217393f28c0c0468d8ffe3f00e1148351b1"
+  },
+  "wp_cli": {
+    "source": "https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar",
+    "url": "https://raw.githubusercontent.com/wp-cli/builds/05989a431e982caf17cd94508ff9b4c5fb12ae44/phar/wp-cli.phar",
+    "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c"
+  },
+  "woocommerce_version": "10.7.0"
+}

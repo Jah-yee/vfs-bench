@@ -1,0 +1,25 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "689cd6f8522029b7ad7b2037",
+  "enabled_tools": [
+    "weather-data_weather_history",
+    "weather-data_weather_astronomy",
+    "weather-data_weather_search",
+    "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+    "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+    "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+    "notion_API-post-database-query",
+    "notion_API-post-search",
+    "notion_API-get-user",
+    "filesystem_read_file",
+    "filesystem_list_directory",
+    "filesystem_list_allowed_directories",
+    "mcp-code-executor_execute_code",
+    "filesystem_read_media_file"
+  ],
+  "claims": [
+    "The cheapest rent for an apartment with two rooms, on the 7th floor or above, and unfurnished, costs $1,531.",
+    "The average profit at the user\u2019s pet store is $6,593.65.",
+    "After applying a 10% discount to the $1,531 rent and paying it from the $6,593.65 profit, the user would have $5,215.75 remaining."
+  ]
+}

@@ -1,0 +1,17 @@
+[project]
+name = "vfs-bench-mcpatlas-pubmed"
+version = "0"
+requires-python = "==3.12.*"
+dependencies = ["mcp-server-pubmed"]
+
+# Upstream runs `uvx --from git+https://github.com/geobio/PubMed-MCP-Server`: the
+# default branch, resolved afresh on every start, and not in the image. The
+# branch has held this commit since before the image was built, and the
+# resolution is the one uv made when it was -- ghcr.io/scaleapi/mcp-atlas:1.2.7
+# was created at the `exclude-newer` below. A resolution made today reaches
+# an mcp this server was never run on.
+[tool.uv.sources]
+mcp-server-pubmed = { git = "https://github.com/geobio/PubMed-MCP-Server", rev = "e452cfc7d23cd4c0248c177d7814df3d9e82ea3b" }
+
+[tool.uv]
+exclude-newer = "2026-07-17T19:34:33Z"

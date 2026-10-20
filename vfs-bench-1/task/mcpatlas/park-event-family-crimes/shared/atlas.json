@@ -1,0 +1,26 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "686d2c79e1db37ea23ddda15",
+  "enabled_tools": [
+    "calculator_calculate",
+    "memory_read_graph",
+    "memory_search_nodes",
+    "memory_open_nodes",
+    "filesystem_list_allowed_directories",
+    "filesystem_list_directory",
+    "filesystem_read_file",
+    "oxylabs_google_search_scraper",
+    "filesystem_read_multiple_files",
+    "filesystem_list_directory_with_sizes",
+    "filesystem_directory_tree",
+    "notion_API-post-database-query",
+    "notion_API-post-search",
+    "notion_API-retrieve-a-page-property",
+    "google-workspace_list_events"
+  ],
+  "claims": [
+    "Riverside Park will host the Gomez Family Reunion.",
+    "Alice Gomez, Maria Gomez, and Jorge Gomez are the attendees to the Gomez Family Reunion",
+    "The Crime_records.csv dataset lists six crimes that occurred in parks."
+  ]
+}

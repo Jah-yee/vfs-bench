@@ -1,0 +1,31 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "6890e7fd2516f66b0a628e7c",
+  "enabled_tools": [
+    "e2b-server_run_code",
+    "exa_web_search_exa",
+    "wikipedia_search_wikipedia",
+    "wikipedia_get_article",
+    "google-maps_maps_geocode",
+    "airtable_list_bases",
+    "airtable_list_tables",
+    "desktop-commander_read_file",
+    "github_search_repositories",
+    "github_search_code",
+    "national-parks_getParkDetails",
+    "national-parks_findParks",
+    "weather-data_weather_forecast",
+    "weather-data_weather_current",
+    "weather-data_weather_history"
+  ],
+  "claims": [
+    "The coach of the team that took the lead with the Hand of God goal was Carlos Bilardo",
+    "Carlos Bilardo managed the Argentina national football team that won the 1986 FIFA World Cup.",
+    "The Argentina national football team lifted the 1986 FIFA World Cup trophy on June 29, 1986.",
+    "Carlos Bilardo's final match in a FIFA World Cup was on July 8, 1990.",
+    "The number of days between June 29, 1986, and July 8, 1990, is 1470.",
+    "The stadium where the Argentina national football team won the 1986 FIFA World Cup final was Estadio Azteca in Mexico City, Mexico.",
+    "The latitude of Estadio Azteca in Mexico City, Mexico is 19.3028607.",
+    "The longitude of Estadio Azteca in Mexico City, Mexico is -99.1505277."
+  ]
+}

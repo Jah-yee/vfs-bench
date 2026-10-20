@@ -1,0 +1,32 @@
+{
+  "source": "docker/compose.yml",
+  "service": {
+    "image": "greenmail/standalone:2.1.3",
+    "restart": "unless-stopped",
+    "ports": [
+      "127.0.0.1:${MAIL_SMTP_PORT:-1587}:3025",
+      "127.0.0.1:${MAIL_IMAP_PORT:-1143}:3143",
+      "127.0.0.1:${MAIL_API_PORT:-8081}:8080"
+    ],
+    "environment": {
+      "GREENMAIL_OPTS": "-Dgreenmail.setup.test.all -Dgreenmail.auth.disabled -Dgreenmail.hostname=0.0.0.0 -Dgreenmail.users.login=email"
+    },
+    "entrypoint": [
+      "bash",
+      "-c",
+      "cat > /tmp/greenmail.js <<'EOF'\nvar System = java.lang.System;\nSystem.getenv('GREENMAIL_OPTS').trim().split(/\\s+/).forEach(\n  function (option) {\n    var pair = option.replace(/^-D/, '').split('=');\n    System.setProperty(pair[0], pair.slice(1).join('='));\n  });\nfunction type(name) {\n  return Java.type('com.icegreen.greenmail.' + name);\n}\nvar GreenMail = type('util.GreenMail');\njava.lang.Thread.currentThread().setContextClassLoader(\n  GreenMail.class.getClassLoader());\nvar properties = System.getProperties();\nvar setups = new (type('util.PropertiesBasedServerSetupBuilder'))()\n  .build(properties);\nvar configuration = new (type(\n  'configuration.PropertiesBasedGreenMailConfigurationBuilder'))()\n  .build(properties);\nvar greenMail = new (Java.extend(GreenMail))(setups, {\n  start: function () {\n    Java.super(greenMail).start();\n    greenMail.getImap().setClientSocketTimeout(30 * 60 * 1000);\n    var users = greenMail.getUserManager();\n    var deliver = users.getMessageDeliveryHandler();\n    users.setMessageDeliveryHandler(function (moving, address) {\n      var message = moving.getMessage();\n      if (message.getHeader('Message-Id') === null) {\n        message.addHeader('Message-Id', '<' + java.util.UUID\n          .randomUUID().toString().toUpperCase() +\n          '.1@mail.example.com>');\n      }\n      if (message.getHeader('Date') === null) {\n        message.addHeader('Date', new java.text.SimpleDateFormat(\n          'EEE, dd MMM yyyy HH:mm:ss Z', java.util.Locale.US)\n          .format(new java.util.Date()));\n      }\n      return deliver.handle(moving, address);\n    });\n  }\n});\ngreenMail.withConfiguration(configuration).start();\nvar api = new (type('standalone.GreenMailApiServerBuilder'))()\n  .configure(properties);\nif (api.isEnabled()) {\n  api.withGreenMail(greenMail, setups, configuration).build().start();\n}\njava.lang.Thread.currentThread().join();\nEOF\nexec jjs -cp /home/greenmail/greenmail-standalone.jar /tmp/greenmail.js\n"
+    ],
+    "healthcheck": {
+      "test": [
+        "CMD",
+        "bash",
+        "-c",
+        "exec 3<>/dev/tcp/127.0.0.1/3143"
+      ],
+      "interval": "5s",
+      "timeout": "3s",
+      "retries": 20
+    }
+  },
+  "pinned": "greenmail/standalone@sha256:d6db42a4fc258fec0948b1ae7b579fd06947cc92087c162ec0597972a6c36850"
+}

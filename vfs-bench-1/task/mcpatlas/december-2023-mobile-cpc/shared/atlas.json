@@ -1,0 +1,22 @@
+{
+  "dataset": "ScaleAI/MCP-Atlas@8c563b55d7c967755f474299848049834d624617",
+  "task": "688a441c1a0d2e5c93853e4f",
+  "enabled_tools": [
+    "notion_API-get-user",
+    "notion_API-get-users",
+    "notion_API-get-self",
+    "notion_API-post-database-query",
+    "notion_API-post-search",
+    "notion_API-get-block-children",
+    "notion_API-retrieve-a-block",
+    "notion_API-retrieve-a-page",
+    "notion_API-retrieve-a-database",
+    "notion_API-retrieve-a-page-property",
+    "notion_API-retrieve-a-comment",
+    "mcp-code-executor_execute_code",
+    "calculator_calculate"
+  ],
+  "claims": [
+    "The average CPC for advertising campaigns in December 2023, where the target is mobile, is 2.034."
+  ]
+}
