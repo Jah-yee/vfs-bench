@@ -1,5 +1,7 @@
 # Running Your Own Model
 
+English | [中文](CUSTOM_MODEL-CN.md)
+
 Any model behind an OpenAI-compatible Chat Completions endpoint runs on both
 datasets and both arms, with no code change.
 
