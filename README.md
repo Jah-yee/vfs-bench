@@ -8,6 +8,8 @@
 </h1>
 
 <p align="center">
+    <a href="https://github.com/agentvfs/vfs-bench/actions/workflows/lint.yml" alt="CI">
+        <img src="https://img.shields.io/github/actions/workflow/status/agentvfs/vfs-bench/lint.yml?label=CI&labelColor=F0ECE2" /></a>
     <a href="https://agentvfs.org" alt="Website">
         <img src="https://img.shields.io/badge/website-agentvfs.org-0C0C0C?labelColor=F0ECE2" /></a>
     <a href="https://agentvfs.org/benchmark/vfs-bench-1/leaderboard" alt="Leaderboard">

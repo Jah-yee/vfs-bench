@@ -1,7 +1,9 @@
-# Lint and standard-library setup checks, without the submodules.
+# Lint without the submodules, and the tests a checkout with them can
+# run -- split by what each needs.
 #
-# The four gitlinks under vfs-bench-1/submodule/ stay uncloned here. That is what makes
-# this job work rather than something to fix: `uv sync` cannot build the
+# The pre-commit job below leaves the four gitlinks under
+# vfs-bench-1/submodule/ uncloned. That is what makes this job work
+# rather than something to fix: `uv sync` cannot build the
 # editable mirage package without submodule/mirage, so nothing needing this
 # project's own virtualenv can run in CI. Every hook in
 # .pre-commit-config.yaml except `fixture-lineage` comes from a `repo:`,
@@ -10,20 +12,21 @@
 # them pass on a submodule-less checkout. So:
 #
 #   * do NOT add `submodules: recursive` to the checkout below; it would
-#     clone five trees no hook here reads, and submodule/mirage is private,
-#     which a fork's CI cannot clone at all.
-#   * Tests needing project dependencies, `uv sync` and `uv run dvc status`
-#     need the five checkouts, so such a job would fail for every
-#     external contributor and teach everyone to ignore a red tick. They stay
-#     where they are: the `fixture-lineage` hook and the documented manual
-#     commands.
+#     clone four trees no hook here reads. All four submodules are public
+#     since the release, so a fork can clone them -- the tests job below
+#     is the checkout that does, for the checks that want them.
+#   * Tests needing this project's own virtualenv -- `uv sync`, docker,
+#     live keys, mirage itself -- stay out of CI: a job that fails for
+#     every external contributor teaches everyone to ignore a red tick.
+#     They stay where they are: the documented manual commands.
 #
 # `fixture-lineage` is the one `repo: local` hook (`uv run python
 # setup/lineage.py`, `language: system`), so it is the one hook that needs
-# the virtualenv. SKIP below names it for that reason and no other.
+# the virtualenv. SKIP below names it for that reason and no other; the
+# tests job runs the same checker with pip's dvc instead of the venv's.
 # The setup import regression uses only the standard library and runs here
 # without uv or PYTHONPATH, matching the setup runner's file entry points.
-name: lint
+name: CI
 
 # Quoted so yamllint's truthy rule reads a key rather than a boolean.
 "on":
@@ -54,3 +57,32 @@ jobs:
       - run: pre-commit run --all-files --show-diff-on-failure
         env:
           SKIP: fixture-lineage
+
+  tests:
+    # What a checkout with submodules can verify without this project's own
+    # virtualenv: the fixture-lineage checker, whose dvc comes from pip,
+    # and the unittest files that import no service, live key or mirage.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # The lock records hashes of files inside the checkouts, and
+          # tests/lineage.py pins each gitlink to the commit it holds.
+          submodules: recursive
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      # setup/lineage.py imports dvc, dvc_data and dvc_objects, and dvc
+      # pulls the latter two; the unittest files below import yaml, httpx
+      # and requests at most.
+      - run: pip install dvc pyyaml httpx requests
+      # Resolves the repository from its own path, as the pre-commit entry
+      # does, so no cd or PYTHONPATH is needed.
+      - run: python vfs-bench-1/setup/lineage.py
+      - run: |
+          cd vfs-bench-1
+          for t in daemon_rate_limit gemini_transport hub_viewer \
+                   kubernetes_lineage lineage redis_charts_capture \
+                   sheet_formats wandb_capture; do
+            python tests/$t.py || exit 1
+          done
