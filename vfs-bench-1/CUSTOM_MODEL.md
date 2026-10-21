@@ -56,9 +56,9 @@ Set them in `.env.development`; `.env.example` says where to get each.
 
 | Tasks | Toolathlon | MCP-Atlas |
 | --- | --: | --: |
-| Fully simulated: local fakes and fixtures only | 42 | 8 |
-| Live public services, no key | 9 | 21 |
-| At least one key | 49 | 71 |
+| Fully simulated: local fakes and fixtures only | 42 | 6 |
+| Live public services, no key | 9 | 19 |
+| At least one key | 49 | 75 |
 
 The simulated services are Google Workspace, Notion, GitHub, Slack, Airtable,
 mail, Snowflake, BigQuery, W&B, MongoDB and the Hugging Face Hub. Live public
@@ -79,6 +79,7 @@ How many tasks need each key (one task can need several):
 | `GOOGLE_MAPS_API_KEY` | 6 | 5 |
 | `BENCH_S3_*` and `AWS_*` (`k8s-mysql`, `k8s-pr-preview-testing`) | 2 | |
 | `YOUTUBE_API_KEY` (`youtube-repo`) | 1 | |
+| `GITHUB_TOKEN` (live GitHub; optional for `git-milestone`'s grader) | 1 | 4 |
 | `GOOGLE_APPLICATION_CREDENTIALS` (`fillout-online-forms`) | 1 | |
 
 ## MCP-Atlas Grading
