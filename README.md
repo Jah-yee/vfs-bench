@@ -219,6 +219,9 @@ servers, and `gym` Toolathlon-GYM's PostgreSQL-backed Sheets fork. There is
 no switch for skipping the seed or the grade, because a run that skipped
 either would be graded on whatever the previous run left behind.
 
+To run your own model, see
+[`vfs-bench-1/CUSTOM_MODEL.md`](vfs-bench-1/CUSTOM_MODEL.md).
+
 `bin/start.sh` drives the fake services without a run:
 
 | command | what it does |
