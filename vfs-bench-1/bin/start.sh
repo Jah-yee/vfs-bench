@@ -10,6 +10,8 @@
 #
 #   bin/start.sh up               build the images, start the fakes, wait
 #   bin/start.sh task <task>      that stack, ready for one task, from cold
+#                                 (<dataset>/<task>, or a bare name one
+#                                 dataset carries)
 #   bin/start.sh reset            empty every fake, seed nothing
 #   bin/start.sh status           health, one line per service
 #   bin/start.sh env              the exports the host side needs
@@ -106,16 +108,46 @@ task)
         echo "usage: $(basename "$0") task <task>" >&2
         exit 2
     }
-    [ -d "$REPO/task/toolathlon/$name" ] || {
-        echo "no task directory at task/toolathlon/$name" >&2
-        exit 2
-    }
 
-    # The seeder brings the stack up and empties it -- this verb is the
-    # same thing with the ports exported into the caller's shell, which is
-    # the one thing a Python process cannot do for it.
+    # The same reading `agent/dataset.py` gives a run's task argument,
+    # spelled here so a bad name dies before uv boots: `<dataset>/<task>`,
+    # or a bare `<task>` that exactly one dataset carries. With two, say
+    # which, for the reason `dataset.split` gives: a default that looks
+    # like a decision is how this repo has been bitten before.
+    case "$name" in
+    */*)
+        [ -d "$REPO/task/$name" ] || {
+            echo "no task directory at task/$name" >&2
+            exit 2
+        }
+        ;;
+    *)
+        carrying=()
+        for d in "$REPO"/task/*/; do
+            [ -f "$d/__init__.py" ] && [ -d "$d$name" ] &&
+                carrying+=("$(basename "$d")")
+        done
+        case ${#carrying[@]} in
+        0)
+            echo "no task directory at task/*/$name" >&2
+            exit 2
+            ;;
+        1) name="${carrying[0]}/$name" ;;
+        *)
+            echo "$name is in ${carrying[*]}; say which -- e.g. ${carrying[0]}/$name" >&2
+            exit 2
+            ;;
+        esac
+        ;;
+    esac
+
+    # The seeder is the dataset's own, through the same call a run makes,
+    # so this prepares a task exactly as a run would: `agent/seed_task.py`
+    # resolves the seam and `grading.seed` selects its seeder and its
+    # environment. What the eval'd `endpoints` exports is the same block
+    # `env` prints, which a seed also loads on its own.
     eval "$(endpoints)"
-    uv run --project "$REPO" python "$REPO/server/seed/seed_task.py" "$name"
+    uv run --project "$REPO" python "$REPO/agent/seed_task.py" "$name"
     echo
     echo "ready: $name"
     endpoints
