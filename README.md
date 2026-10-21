@@ -163,7 +163,7 @@ live account and every run starts from the same seeded state.
 
 ## Installation
 
-- **Python** ≥ 3.12 with [uv](https://docs.astral.sh/uv/)
+- **Python** ≥ 3.12 with [uv](https://docs.astral.sh/uv/) ≥ 0.6 (older releases cannot read `uv.lock`)
 - **Node.js** `^22.20 || ^24.12 || >=25`, with pnpm
 - **Go**, **Rust** (cargo) and **Docker**
 
