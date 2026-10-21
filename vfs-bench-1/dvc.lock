@@ -4162,8 +4162,8 @@ stages:
       size: 3475
     - path: cli/toolathlon/browser.mjs
       hash: md5
-      md5: ed92e5e4d132c3f33deb07120c68f51d
-      size: 1046
+      md5: b074494f8f1ee03a08e051afa8c1fc50
+      size: 1386
     - path: docker/browser.Dockerfile
       hash: md5
       md5: 1274ed7ce72a299a04230b1c9c0f137d
@@ -4198,8 +4198,8 @@ stages:
       size: 18072
     - path: server/shared_workspace.py
       hash: md5
-      md5: 3f8e304f0e8be4163c447008c7d0abce
-      size: 29202
+      md5: b98e7fe4f948558466e7760c850d1a7f
+      size: 31124
     - path: setup/browser_lineage.py
       hash: md5
       md5: 5ffcd6c6c6faa4138fd797bcdcc1141b
@@ -4260,27 +4260,27 @@ stages:
       nfiles: 2
     - path: task/toolathlon/__init__.py
       hash: md5
-      md5: 5856710c27115697a3b9a7dee7fa9c8c
-      size: 50231
+      md5: 81423f5f5a5d4a5034be6f490d0fc60f
+      size: 50584
     - path: task/toolathlon/fillout-online-forms
       hash: md5
-      md5: aa5f48a32106278551c87cee4c896b9f.dir
-      size: 18284
+      md5: 3f2200cc6805de9f1ec6e32e921637ee.dir
+      size: 17115
       nfiles: 7
     - path: task/toolathlon/gdp-cr5-analysis
       hash: md5
-      md5: 4a15a7d1804ad1b091da812b9a6a8de3.dir
-      size: 87685
+      md5: e9aecda7b7e35d6157bed24d1ad16775.dir
+      size: 83167
       nfiles: 10
     - path: task/toolathlon/k8s-pr-preview-testing
       hash: md5
-      md5: fcc13d28da392ba8c56f4d2b432a3600.dir
-      size: 29390
+      md5: 68ee9bb046e971bc199c7ca6976a942d.dir
+      size: 27903
       nfiles: 9
     - path: task/toolathlon/notion-find-job
       hash: md5
-      md5: e67e54d8ccfcda31bdc93eefa8a4928a.dir
-      size: 549671
+      md5: ad0a7e54770cb4a9983c075d81611385.dir
+      size: 547690
       nfiles: 11
     - path: task/toolathlon/script/grade_task.py
       hash: md5
@@ -4288,8 +4288,8 @@ stages:
       size: 29214
     - path: task/toolathlon/shopping-helper
       hash: md5
-      md5: 6e23008ba0f924fcbc25829b08291aeb.dir
-      size: 18789
+      md5: f23492bcb8497a6eaa69629dfdba11d9.dir
+      size: 14138
       nfiles: 7
     - path: vendor/browser-mcp/package-lock.json
       hash: md5
@@ -4891,8 +4891,8 @@ stages:
       size: 31936
     - path: agent/workspace.py
       hash: md5
-      md5: edd9287ccd0ce826a68d8feced0da57b
-      size: 29209
+      md5: cd805bb2550e3b18dbd35ce1c821da76
+      size: 29214
     - path: cli/toolathlon/forms.mjs
       hash: md5
       md5: 0d5741a642708e70414217372008e1e2
@@ -4907,8 +4907,8 @@ stages:
       size: 3741
     - path: cli/toolathlon/tool.mjs
       hash: md5
-      md5: 2a0ecdc956398f1710317af805092d1d
-      size: 1165
+      md5: f1c7d9245ffd697e21f9a892cd34482e
+      size: 1528
     - path: redirect/forms
       hash: md5
       md5: dbfcd9b10a9a958406c786b62875dff2.dir
@@ -4965,8 +4965,8 @@ stages:
       size: 19522
     - path: server/seed/papers.py
       hash: md5
-      md5: 738b598fd375b9c9d1bd2c4edb1ff11f
-      size: 7987
+      md5: efa8f354ab5f782c9d3d25b105be88c5
+      size: 8054
     - path: setup/papers_forms_lineage.py
       hash: md5
       md5: f442e43cbd0ca0787bee7cc973a77b2b
@@ -5031,22 +5031,22 @@ stages:
       size: 27041
     - path: task/toolathlon/__init__.py
       hash: md5
-      md5: 5856710c27115697a3b9a7dee7fa9c8c
-      size: 50231
+      md5: 81423f5f5a5d4a5034be6f490d0fc60f
+      size: 50584
     - path: task/toolathlon/canvas-art-manager
       hash: md5
-      md5: d66f418f169d47eed3929158a7953757.dir
-      size: 1138916
+      md5: 58323946cee50fb4dff1c56fc36cbf5b.dir
+      size: 1137180
       nfiles: 12
     - path: task/toolathlon/find-alita-paper
       hash: md5
-      md5: 8d0536f07111809397d8b9027d78c96b.dir
-      size: 7178
+      md5: 6cc3e46ba1a7e5df24307dc55a501498.dir
+      size: 5861
       nfiles: 7
     - path: task/toolathlon/latex-prompt-box
       hash: md5
-      md5: 7066647da16f4685d915a921e4b4e42d.dir
-      size: 10737
+      md5: b23f44593f7f65df7125b78da3f9cfa2.dir
+      size: 6408
       nfiles: 7
     - path: task/toolathlon/script/grade_task.py
       hash: md5
@@ -5054,13 +5054,13 @@ stages:
       size: 29214
     - path: task/toolathlon/woocommerce-customer-survey
       hash: md5
-      md5: e9776588c390cbfc9d92fe2086ef26c7.dir
-      size: 171074
+      md5: ddc3b39b0891fa0b8c6564d234ce8437.dir
+      size: 169905
       nfiles: 13
     - path: task/toolathlon/woocommerce-product-recall
       hash: md5
-      md5: 30c918250195106a882ebdb55921f1f6.dir
-      size: 176163
+      md5: fabbf3d727d1b975f5133d479a6c6007.dir
+      size: 172048
       nfiles: 13
     - path: vendor/arxiv-latex-mcp/pyproject.toml
       hash: md5
@@ -5213,8 +5213,8 @@ stages:
       size: 3741
     - path: cli/toolathlon/tool.mjs
       hash: md5
-      md5: 2a0ecdc956398f1710317af805092d1d
-      size: 1165
+      md5: f1c7d9245ffd697e21f9a892cd34482e
+      size: 1528
     - path: docker/package-lock.json
       hash: md5
       md5: 0ddbef4422607fdd915baf94cce01d80
@@ -5273,8 +5273,8 @@ stages:
       size: 19522
     - path: server/seed/papers.py
       hash: md5
-      md5: 738b598fd375b9c9d1bd2c4edb1ff11f
-      size: 7987
+      md5: efa8f354ab5f782c9d3d25b105be88c5
+      size: 8054
     - path: server/seed/research.py
       hash: md5
       md5: c40ebccfc78f68ef26f0e621ea73f4a4
@@ -5367,66 +5367,66 @@ stages:
       size: 12894
     - path: submodule/mirage/integ/prisma/gws.prisma
       hash: md5
-      md5: e2c9c75d8ef082736d9ab06c68f415ac
-      size: 15112
+      md5: 4aede94fad2108ea76c77fd7d28ad0ef
+      size: 15422
     - path: submodule/mirage/integ/server/gws
       hash: md5
-      md5: a40b6fa2381e94a98798435186ea2229.dir
-      size: 396920
+      md5: d2daa7892ed44047c5f9f9ca433a6e0a.dir
+      size: 400279
       nfiles: 52
     - path: submodule/mirage/integ/server/kit
       hash: md5
-      md5: 8e3704b2106745079f2b8d2de40715a6.dir
-      size: 175964
-      nfiles: 26
+      md5: 89a118c3463c3df12171d0adb661a8a4.dir
+      size: 177298
+      nfiles: 27
     - path: task/toolathlon/__init__.py
       hash: md5
-      md5: 5856710c27115697a3b9a7dee7fa9c8c
-      size: 50231
+      md5: 81423f5f5a5d4a5034be6f490d0fc60f
+      size: 50584
     - path: task/toolathlon/academic-pdf-report
       hash: md5
-      md5: f55e73653dbf755e66fe176812368e26.dir
-      size: 27933
+      md5: 45c474c6949cc1210dcd0d88c433f0b8.dir
+      size: 26591
       nfiles: 7
     - path: task/toolathlon/add-bibtex
       hash: md5
-      md5: 594dc2a02c906982c1be4717914ad108.dir
-      size: 18499
+      md5: 45d51e2e57ba7edb618d8304e3e72055.dir
+      size: 17098
       nfiles: 7
     - path: task/toolathlon/cvpr-research
       hash: md5
-      md5: de8daf46ae33584c8380b91e0720c1f0.dir
-      size: 17018
+      md5: 55762f8cfffc94a641437dab5673677b.dir
+      size: 15739
       nfiles: 7
     - path: task/toolathlon/gdp-cr5-analysis
       hash: md5
-      md5: 4a15a7d1804ad1b091da812b9a6a8de3.dir
-      size: 87685
+      md5: e9aecda7b7e35d6157bed24d1ad16775.dir
+      size: 83167
       nfiles: 10
     - path: task/toolathlon/hk-top-conf
       hash: md5
-      md5: c233e1df099fa29afa4b7bfa3902115d.dir
-      size: 17960
+      md5: be953c6a33bfddb0c34e4c879ff8d7bf.dir
+      size: 16413
       nfiles: 7
     - path: task/toolathlon/inter-final-performance-analysis
       hash: md5
-      md5: a840771074ca708f7cac8b5a3a87578d.dir
-      size: 293331
+      md5: 07dc412c8522b7c6d517bdc039f6ae8d.dir
+      size: 288725
       nfiles: 10
     - path: task/toolathlon/llm-training-dataset
       hash: md5
-      md5: 69fa96397b4f81aa7ac1f51446722f3d.dir
-      size: 283034
+      md5: 0032c340a7067daa43dcf64b71eef95c.dir
+      size: 278549
       nfiles: 10
     - path: task/toolathlon/logical-datasets-collection
       hash: md5
-      md5: 7531e6be0bed36b7b1ccccfbd3ce09fb.dir
-      size: 18285
+      md5: 31076ae033a0a76e2c628cb4e52cddb1.dir
+      size: 13588
       nfiles: 7
     - path: task/toolathlon/profile-update-online
       hash: md5
-      md5: a9edf574b9015e8ca00d97b994cd7872.dir
-      size: 20245
+      md5: 3317d6c753823721a829be6868ae0d2c.dir
+      size: 18931
       nfiles: 7
     - path: task/toolathlon/script/grade_task.py
       hash: md5
@@ -5971,15 +5971,15 @@ stages:
       nfiles: 5
     - path: task/toolathlon/__init__.py
       hash: md5
-      md5: 5856710c27115697a3b9a7dee7fa9c8c
-      size: 50231
+      md5: 81423f5f5a5d4a5034be6f490d0fc60f
+      size: 50584
     - path: task/toolathlon/ab-testing/vfs/workspace.yaml
       hash: md5
-      md5: e0c0588fa0bbbab1077933fec894cfd2
+      md5: be45cac0619f77a83d7eadf70378e871
       size: 772
     - path: task/toolathlon/gdp-cr5-analysis/vfs/workspace.yaml
       hash: md5
-      md5: d6721eec0e924033e0ef84f3277b1813
+      md5: 9695427b61395177058770c3cfe722a2
       size: 1282
     outs:
     - path: task/toolathlon/fillout-online-forms/task.json
@@ -6076,7 +6076,7 @@ stages:
       size: 449
     - path: task/toolathlon/nvidia-market/vfs/workspace.yaml
       hash: md5
-      md5: 6ee237cabf552fdc0de52e1dfeac0878
+      md5: 2b3e4ccaa17bce3766d57faba3e1e112
       size: 1290
     - path: task/toolathlon/search-ca-school/task.json
       hash: md5
@@ -6124,7 +6124,7 @@ stages:
       size: 449
     - path: task/toolathlon/train-ticket-plan/vfs/workspace.yaml
       hash: md5
-      md5: 260dfbcf9b36be014935433626000399
+      md5: 72ccd613156ef7615a6e452f59becd6a
       size: 1019
     - path: task/toolathlon/trip-adviser/task.json
       hash: md5
@@ -6172,7 +6172,7 @@ stages:
       size: 449
     - path: task/toolathlon/upenn-campus-route/vfs/workspace.yaml
       hash: md5
-      md5: ee4b3141304982d781f546a17deb8b87
+      md5: da49f8c08abfbfeb240a0dee72f5c002
       size: 1019
     - path: task/toolathlon/vlm-history-completer/task.json
       hash: md5
@@ -6404,37 +6404,37 @@ stages:
       size: 28109
     - path: task/toolathlon/__init__.py
       hash: md5
-      md5: 5856710c27115697a3b9a7dee7fa9c8c
-      size: 50231
+      md5: 81423f5f5a5d4a5034be6f490d0fc60f
+      size: 50584
     - path: task/toolathlon/fillout-online-forms
       hash: md5
-      md5: aa5f48a32106278551c87cee4c896b9f.dir
-      size: 18284
+      md5: 3f2200cc6805de9f1ec6e32e921637ee.dir
+      size: 17115
       nfiles: 7
     - path: task/toolathlon/identify-all-songs
       hash: md5
-      md5: 76aaec0472b43f32cf9dcd1deaff6975.dir
-      size: 17410
+      md5: 1871b5c1fedfc3f9fb0913cd20d7a5a1.dir
+      size: 16387
       nfiles: 7
     - path: task/toolathlon/meeting-assign
       hash: md5
-      md5: 6b1838f4523bf06e3c5652735ae60579.dir
-      size: 25039
+      md5: 8453be23966c3e624e8c526e00565b9c.dir
+      size: 23787
       nfiles: 7
     - path: task/toolathlon/notion-find-job
       hash: md5
-      md5: e67e54d8ccfcda31bdc93eefa8a4928a.dir
-      size: 549671
+      md5: ad0a7e54770cb4a9983c075d81611385.dir
+      size: 547690
       nfiles: 11
     - path: task/toolathlon/notion-movies
       hash: md5
-      md5: 7d4c3fecf451972bd91dac6eceecf2c6.dir
-      size: 167871
+      md5: 1879c1861efabf4af34c5ae55f9ea6ec.dir
+      size: 164310
       nfiles: 11
     - path: task/toolathlon/nvidia-market
       hash: md5
-      md5: 75814c53cc2ab3c8a2416d53ae1b48c3.dir
-      size: 29614
+      md5: f0e24da001a64302572021d449bfe7b8.dir
+      size: 28343
       nfiles: 7
     - path: task/toolathlon/script/grade_task.py
       hash: md5
@@ -6442,43 +6442,43 @@ stages:
       size: 29214
     - path: task/toolathlon/search-ca-school
       hash: md5
-      md5: 6272863f5f7518e90007643a9fd39f22.dir
-      size: 24666
+      md5: 594ddf3b17ed7a7f4e72015813808436.dir
+      size: 21628
       nfiles: 7
     - path: task/toolathlon/subway-planning
       hash: md5
-      md5: a0af54a616bb37e6abc64f701fd101e8.dir
-      size: 21659
+      md5: 6714ca73100852d444df72dd45041d53.dir
+      size: 20449
       nfiles: 7
     - path: task/toolathlon/train-ticket-plan
       hash: md5
-      md5: d96107f3ebc6663c110735c1e26be429.dir
-      size: 16896
+      md5: 354c0866c102fa644461ada445c5cc41.dir
+      size: 15818
       nfiles: 7
     - path: task/toolathlon/trip-adviser
       hash: md5
-      md5: 62da344087b9474cd9f90e4259267554.dir
-      size: 22139
+      md5: 3de3e25364e703fb586d282ab1089396.dir
+      size: 19978
       nfiles: 7
     - path: task/toolathlon/trip-itinerary-generator
       hash: md5
-      md5: 16acc24d29a454b769189380ca7a8dde.dir
-      size: 18907
+      md5: fbb68582efc22e6f0edd0ade2bc0fd16.dir
+      size: 17864
       nfiles: 7
     - path: task/toolathlon/upenn-campus-route
       hash: md5
-      md5: f9fb1578fc6413c3ebed213ff4a46dea.dir
-      size: 16608
+      md5: 640441221c39206c6a7833f3203253be.dir
+      size: 12630
       nfiles: 7
     - path: task/toolathlon/vlm-history-completer
       hash: md5
-      md5: 0c0202d0d5cd9b6041f79313933063fb.dir
-      size: 800224
+      md5: 38a8441fce4291bdf04ffc2dba32a944.dir
+      size: 790991
       nfiles: 11
     - path: task/toolathlon/youtube-repo
       hash: md5
-      md5: ca0c73a6a49e7b80176a4dbb811e14b5.dir
-      size: 15361
+      md5: 143b4c4d8aa9905543008a294ab78e64.dir
+      size: 12820
       nfiles: 7
     - path: vendor/filesystem-mcp/package-lock.json
       hash: md5
@@ -7463,12 +7463,12 @@ stages:
       size: 3509
     - path: server/shared_workspace.py
       hash: md5
-      md5: 3f8e304f0e8be4163c447008c7d0abce
-      size: 29202
+      md5: b98e7fe4f948558466e7760c850d1a7f
+      size: 31124
     - path: setup/setup.py
       hash: md5
-      md5: 24a42b2a547c8639c257e51943313ca1
-      size: 7511
+      md5: faaf0019f8e15cbc3ac8d72566c159cc
+      size: 7923
     - path: submodule/Toolathlon/configs/mcp_servers/excel.yaml
       hash: md5
       md5: 6a4a7c33b256e25933a2531e1af07e66
@@ -7505,16 +7505,16 @@ stages:
       nfiles: 5
     - path: submodule/toolathlon_gym/local_servers/filesystem/package-lock.json
       hash: md5
-      md5: 66a83976d932c5be375e1ff6192963fb
-      size: 122515
+      md5: 14538558ef276d6c7c3822fe155beb56
+      size: 122635
     - path: submodule/toolathlon_gym/local_servers/filesystem/package.json
       hash: md5
       md5: acc97dfd314bc6b704a86f40bfee9722
       size: 1203
     - path: task/toolathlon/__init__.py
       hash: md5
-      md5: 5856710c27115697a3b9a7dee7fa9c8c
-      size: 50231
+      md5: 81423f5f5a5d4a5034be6f490d0fc60f
+      size: 50584
     - path: task/toolathlon/nhl-b2b-analysis/shared/verify_mcp_solvable.py
       hash: md5
       md5: f9e65ccb58aa14f511836f7c2f128bcf
@@ -7872,8 +7872,8 @@ stages:
       size: 47498
     - path: task/toolathlon/__init__.py
       hash: md5
-      md5: 5856710c27115697a3b9a7dee7fa9c8c
-      size: 50231
+      md5: 81423f5f5a5d4a5034be6f490d0fc60f
+      size: 50584
     - path: task/toolathlon/dataset-license-issue/shared/build_fixture.py
       hash: md5
       md5: 84c9f46f7ef2e4f5af4b22025dc67b22
@@ -8281,8 +8281,8 @@ stages:
     deps:
     - path: cli/mcpatlas/tool.mjs
       hash: md5
-      md5: 28c27ce0d867786aac2856e66bd9080d
-      size: 3761
+      md5: b4088a20ccfd6de07b1a71c9bbdb05a7
+      size: 4124
     - path: cli/mcpatlas/tools.mjs
       hash: md5
       md5: 5e0bd402803e0c36df7b179152fc0f61
@@ -8293,8 +8293,8 @@ stages:
       size: 2518
     - path: cli/toolathlon/browser.mjs
       hash: md5
-      md5: ed92e5e4d132c3f33deb07120c68f51d
-      size: 1046
+      md5: b074494f8f1ee03a08e051afa8c1fc50
+      size: 1386
     - path: cli/toolathlon/canvas.mjs
       hash: md5
       md5: 4bc7d1696d937aa1fd9270b2c2d57fe4
@@ -8317,8 +8317,8 @@ stages:
       size: 269
     - path: cli/toolathlon/hub.mjs
       hash: md5
-      md5: 40db1d30d8753f32b55c4295c01fe739
-      size: 3194
+      md5: e78584dc7c6764efbc4036098ff6db48
+      size: 3668
     - path: cli/toolathlon/papers.mjs
       hash: md5
       md5: 7ba4cb358a8a548b56bae08519005573
@@ -8333,8 +8333,8 @@ stages:
       size: 3741
     - path: cli/toolathlon/tool.mjs
       hash: md5
-      md5: 2a0ecdc956398f1710317af805092d1d
-      size: 1165
+      md5: f1c7d9245ffd697e21f9a892cd34482e
+      size: 1528
     - path: cli/toolathlon/travel-video.mjs
       hash: md5
       md5: 0176fac6361a7d49cecfa6094019184d
@@ -8406,16 +8406,16 @@ stages:
       size: 6765
     - path: task/mcpatlas/__init__.py
       hash: md5
-      md5: 23d5dfbae6326870e6d9ae24614bd75d
-      size: 64917
+      md5: 92b42a1b69cd63cedbf07f1c17efa49c
+      size: 65079
     - path: task/mcpatlas/age-group-consumption-boss-email/shared/atlas.json
       hash: md5
       md5: c7d3494fc4dd55d20b4d0d9a4391a382
       size: 1450
     - path: task/mcpatlas/age-group-consumption-boss-email/vfs
       hash: md5
-      md5: 729a90a6bf9e0e0900a2b242e55f4d23.dir
-      size: 4825
+      md5: 96aa14e1a687176a3844521e46409378.dir
+      size: 4994
       nfiles: 3
     - path: task/mcpatlas/amlo-year-new-clients/shared/atlas.json
       hash: md5
@@ -8423,8 +8423,8 @@ stages:
       size: 767
     - path: task/mcpatlas/amlo-year-new-clients/vfs
       hash: md5
-      md5: d803acd43a6725f7df0075a58fce04e6.dir
-      size: 7701
+      md5: 55be7340876104684433eabaa36b9450.dir
+      size: 7870
       nfiles: 3
     - path: task/mcpatlas/animal-business-sarmiento-week/shared/atlas.json
       hash: md5
@@ -8432,8 +8432,8 @@ stages:
       size: 926
     - path: task/mcpatlas/animal-business-sarmiento-week/vfs
       hash: md5
-      md5: a79b7315d83c09a67bcc58cc3f589a39.dir
-      size: 4322
+      md5: b0c28f66fddd10ef01f948fbb422d341.dir
+      size: 4491
       nfiles: 3
     - path: task/mcpatlas/apartment-117-paris-temperature/shared/atlas.json
       hash: md5
@@ -8441,8 +8441,8 @@ stages:
       size: 870
     - path: task/mcpatlas/apartment-117-paris-temperature/vfs
       hash: md5
-      md5: 08b88ceaf46dbade6c0527f225928c1a.dir
-      size: 9579
+      md5: 853f3debbfba83eb2cdc4f78a1bad1c5.dir
+      size: 9748
       nfiles: 3
     - path: task/mcpatlas/arson-may-service-requests/shared/atlas.json
       hash: md5
@@ -8450,8 +8450,8 @@ stages:
       size: 1076
     - path: task/mcpatlas/arson-may-service-requests/vfs
       hash: md5
-      md5: db864d86078e5869e01821107c27c6ed.dir
-      size: 7923
+      md5: 45834efacc3fb79588327226d15ddf99.dir
+      size: 8092
       nfiles: 3
     - path: task/mcpatlas/bachman-award-year-crimes/shared/atlas.json
       hash: md5
@@ -8459,8 +8459,8 @@ stages:
       size: 943
     - path: task/mcpatlas/bachman-award-year-crimes/vfs
       hash: md5
-      md5: 835329974dfa716066e5a22edc30c607.dir
-      size: 7151
+      md5: 0603c9b120813cc2048fec6b216103a9.dir
+      size: 7320
       nfiles: 3
     - path: task/mcpatlas/barber-shop-female-clients/shared/atlas.json
       hash: md5
@@ -8468,8 +8468,8 @@ stages:
       size: 844
     - path: task/mcpatlas/barber-shop-female-clients/vfs
       hash: md5
-      md5: 6c99e4f3b04482c1bc85941e9c070599.dir
-      size: 3892
+      md5: 873303bd94bf4a0648a49233f6485bbb.dir
+      size: 4061
       nfiles: 3
     - path: task/mcpatlas/bennington-year-worst-department/shared/atlas.json
       hash: md5
@@ -8477,8 +8477,8 @@ stages:
       size: 1063
     - path: task/mcpatlas/bennington-year-worst-department/vfs
       hash: md5
-      md5: 6a0d3b93fc486c9fc2dadbc1c11853fd.dir
-      size: 8904
+      md5: 69b06f63ed9f1c349eccc82e27e2d9a7.dir
+      size: 9073
       nfiles: 3
     - path: task/mcpatlas/binance-day-resolved-services/shared/atlas.json
       hash: md5
@@ -8486,8 +8486,8 @@ stages:
       size: 758
     - path: task/mcpatlas/binance-day-resolved-services/vfs
       hash: md5
-      md5: 3ae3b8aae5cd19a1498b11425da47761.dir
-      size: 4694
+      md5: a2a865a7f5e23fb3a17ecfe43b43351f.dir
+      size: 4863
       nfiles: 3
     - path: task/mcpatlas/brazil-tokyo-high-severity-month/shared/atlas.json
       hash: md5
@@ -8495,8 +8495,8 @@ stages:
       size: 1024
     - path: task/mcpatlas/brazil-tokyo-high-severity-month/vfs
       hash: md5
-      md5: 0dce3f66e687b0136060f424f6e08b21.dir
-      size: 7608
+      md5: af0d1e3d4dff0bbb517071d8d47d9c52.dir
+      size: 7777
       nfiles: 3
     - path: task/mcpatlas/bronco-turnover-lowest-eth/shared/atlas.json
       hash: md5
@@ -8504,8 +8504,8 @@ stages:
       size: 937
     - path: task/mcpatlas/bronco-turnover-lowest-eth/vfs
       hash: md5
-      md5: 583940f3e8faa7303f8b094264f3507d.dir
-      size: 9321
+      md5: 2c2d6ada4ec2dd4d8908b57900a14548.dir
+      size: 9490
       nfiles: 3
     - path: task/mcpatlas/california-city-shipping-time/shared/atlas.json
       hash: md5
@@ -8513,8 +8513,8 @@ stages:
       size: 1592
     - path: task/mcpatlas/california-city-shipping-time/vfs
       hash: md5
-      md5: 1dc6b8c7fadf8c9adbd429697dec1efa.dir
-      size: 11376
+      md5: c94ad3125c38b9cdff52039558aa53fe.dir
+      size: 11545
       nfiles: 3
     - path: task/mcpatlas/castleman-ad-paper-campaign-date/shared/atlas.json
       hash: md5
@@ -8522,8 +8522,8 @@ stages:
       size: 3285
     - path: task/mcpatlas/castleman-ad-paper-campaign-date/vfs
       hash: md5
-      md5: a0602f682a0fb55fcd7f3fca51828652.dir
-      size: 8914
+      md5: aad7fe4e177e5e4cdac1827863665fe9.dir
+      size: 9083
       nfiles: 3
     - path: task/mcpatlas/celtics-game-seven-weekly-profit/shared/atlas.json
       hash: md5
@@ -8531,8 +8531,8 @@ stages:
       size: 803
     - path: task/mcpatlas/celtics-game-seven-weekly-profit/vfs
       hash: md5
-      md5: 6bd7f49a0e00a7a492036069601a1214.dir
-      size: 8951
+      md5: 090897410c7caaedbfc74b3f1d4f449c.dir
+      size: 9120
       nfiles: 3
     - path: task/mcpatlas/clasico-sports-spending-change/shared/atlas.json
       hash: md5
@@ -8540,8 +8540,8 @@ stages:
       size: 952
     - path: task/mcpatlas/clasico-sports-spending-change/vfs
       hash: md5
-      md5: f3166f250f28805eae491b7cc7a9c7ec.dir
-      size: 7706
+      md5: 111ad5d3f452cfee966ff1a46f4a4434.dir
+      size: 7875
       nfiles: 3
     - path: task/mcpatlas/colombia-road-trip-distance/shared/atlas.json
       hash: md5
@@ -8549,8 +8549,8 @@ stages:
       size: 955
     - path: task/mcpatlas/colombia-road-trip-distance/vfs
       hash: md5
-      md5: bb3e2e19b6f4d6e838f0f1364f370b9a.dir
-      size: 8941
+      md5: 7eab967e2770f5e8ca16db08cb1a6201.dir
+      size: 9110
       nfiles: 3
     - path: task/mcpatlas/cookie-day-genre-article/shared/atlas.json
       hash: md5
@@ -8558,8 +8558,8 @@ stages:
       size: 1466
     - path: task/mcpatlas/cookie-day-genre-article/vfs
       hash: md5
-      md5: 2ad9d854d3bfe059af1421c7d4c9f2a2.dir
-      size: 8499
+      md5: 893e6c34ab5c171119edf096851e099b.dir
+      size: 8668
       nfiles: 3
     - path: task/mcpatlas/courbet-bequest-best-selling-vehicle/shared/atlas.json
       hash: md5
@@ -8567,8 +8567,8 @@ stages:
       size: 909
     - path: task/mcpatlas/courbet-bequest-best-selling-vehicle/vfs
       hash: md5
-      md5: 6c2d20ceb7e7386bb4e9a4c4812b48ea.dir
-      size: 8689
+      md5: 7d32f8927f0b83d11078d43e0ca79473.dir
+      size: 8858
       nfiles: 3
     - path: task/mcpatlas/covid-year-top-spender-age-group/shared/atlas.json
       hash: md5
@@ -8576,8 +8576,8 @@ stages:
       size: 939
     - path: task/mcpatlas/covid-year-top-spender-age-group/vfs
       hash: md5
-      md5: 91b75dd154559292e9728e9761cb512f.dir
-      size: 8056
+      md5: 3a5d715b5c38e17744214cfc9baa87ac.dir
+      size: 8225
       nfiles: 3
     - path: task/mcpatlas/customer-ten-sales-turnover/shared/atlas.json
       hash: md5
@@ -8585,8 +8585,8 @@ stages:
       size: 1070
     - path: task/mcpatlas/customer-ten-sales-turnover/vfs
       hash: md5
-      md5: 8b9fa67522a13b346d5f251a4964ce99.dir
-      size: 11061
+      md5: 4ca75942b74291562c04a253532dd0a2.dir
+      size: 11230
       nfiles: 3
     - path: task/mcpatlas/december-2023-game-stock/shared/atlas.json
       hash: md5
@@ -8594,8 +8594,8 @@ stages:
       size: 1467
     - path: task/mcpatlas/december-2023-game-stock/vfs
       hash: md5
-      md5: 8603cc52854e10ebf985bc095302bcf2.dir
-      size: 10397
+      md5: 4f558b8dbbdc9ebe1ef93a22574b5e3d.dir
+      size: 10566
       nfiles: 3
     - path: task/mcpatlas/december-2023-mobile-cpc/shared/atlas.json
       hash: md5
@@ -8603,8 +8603,8 @@ stages:
       size: 704
     - path: task/mcpatlas/december-2023-mobile-cpc/vfs
       hash: md5
-      md5: f0cc32ca541eb3018df20bd3a490d231.dir
-      size: 7386
+      md5: 168ab5c076f297f4da14956b9d32a2b6.dir
+      size: 7555
       nfiles: 3
     - path: task/mcpatlas/donovan-birthplace-biggest-stadium/shared/atlas.json
       hash: md5
@@ -8612,8 +8612,8 @@ stages:
       size: 1121
     - path: task/mcpatlas/donovan-birthplace-biggest-stadium/vfs
       hash: md5
-      md5: 9dcd3abb6ff15bef63f9aa9956a30efd.dir
-      size: 11011
+      md5: 6fce74406092b1472b348e2e22592645.dir
+      size: 11180
       nfiles: 3
     - path: 
         task/mcpatlas/eight-transactions-anniversary-events/shared/atlas.json
@@ -8622,8 +8622,8 @@ stages:
       size: 840
     - path: task/mcpatlas/eight-transactions-anniversary-events/vfs
       hash: md5
-      md5: 2c8e044767de3f9ce2a74894a2b22d6e.dir
-      size: 6406
+      md5: 32d8e5773dd58d8b25f3e3fbc70681d9.dir
+      size: 6575
       nfiles: 3
     - path: task/mcpatlas/eldson-june-movie-genre/shared/atlas.json
       hash: md5
@@ -8631,8 +8631,8 @@ stages:
       size: 860
     - path: task/mcpatlas/eldson-june-movie-genre/vfs
       hash: md5
-      md5: a863790ba0bcd7f20010466eaf9f0a09.dir
-      size: 7623
+      md5: eeb3b7fe3d902df5c5577638417d126a.dir
+      size: 7792
       nfiles: 3
     - path: task/mcpatlas/employee-expense-crime-suspect/shared/atlas.json
       hash: md5
@@ -8640,8 +8640,8 @@ stages:
       size: 1050
     - path: task/mcpatlas/employee-expense-crime-suspect/vfs
       hash: md5
-      md5: e488e2d2fb34378f82b851de010de21e.dir
-      size: 7012
+      md5: cc0d6f887a8ef8d1b8c0e73d3a2a56d2.dir
+      size: 7181
       nfiles: 3
     - path: task/mcpatlas/employee-fourth-service-meal/shared/atlas.json
       hash: md5
@@ -8649,8 +8649,8 @@ stages:
       size: 719
     - path: task/mcpatlas/employee-fourth-service-meal/vfs
       hash: md5
-      md5: eda8a33aeb29e0439809c0bef56df81c.dir
-      size: 9795
+      md5: 6129c72902ce49686d043416ff766b92.dir
+      size: 9964
       nfiles: 3
     - path: task/mcpatlas/f150-attrition-page-time/shared/atlas.json
       hash: md5
@@ -8658,8 +8658,8 @@ stages:
       size: 855
     - path: task/mcpatlas/f150-attrition-page-time/vfs
       hash: md5
-      md5: 0b6fe69c6317eec24ba113fb06a5bb1b.dir
-      size: 8827
+      md5: 35e2f6b7ba1dba7bc01be45f61dd22a7.dir
+      size: 8996
       nfiles: 3
     - path: task/mcpatlas/family-reunion-lake-festival/shared/atlas.json
       hash: md5
@@ -8667,13 +8667,13 @@ stages:
       size: 801
     - path: task/mcpatlas/family-reunion-lake-festival/vfs
       hash: md5
-      md5: a3a308ac085985db3c3f231432f7de3d.dir
-      size: 9483
+      md5: 5fc4a298a479a08f48726044ba7e29ca.dir
+      size: 9652
       nfiles: 3
     - path: task/mcpatlas/fantasy-sports-average/vfs
       hash: md5
-      md5: 0422160a80410375528074a22b93853f.dir
-      size: 2606
+      md5: 53da5a0b8525ccb956b2776d6d21c635.dir
+      size: 2775
       nfiles: 3
     - path: task/mcpatlas/first-fps-action-purchases/shared/atlas.json
       hash: md5
@@ -8681,8 +8681,8 @@ stages:
       size: 1085
     - path: task/mcpatlas/first-fps-action-purchases/vfs
       hash: md5
-      md5: 2d1883ac10ce9916b02e931fcae7530f.dir
-      size: 10806
+      md5: 6a53d97a95fc04447168aeb6949a5024.dir
+      size: 10975
       nfiles: 3
     - path: task/mcpatlas/florida-keys-meal-spending/shared/atlas.json
       hash: md5
@@ -8690,8 +8690,8 @@ stages:
       size: 868
     - path: task/mcpatlas/florida-keys-meal-spending/vfs
       hash: md5
-      md5: 22606f22f1b60c15e681cd1aa1ac74a3.dir
-      size: 5954
+      md5: a6fa5c8280b1c291378c18415ae5e7f2.dir
+      size: 6123
       nfiles: 3
     - path: task/mcpatlas/friend-movie-recommendation-scores/shared/atlas.json
       hash: md5
@@ -8699,8 +8699,8 @@ stages:
       size: 1025
     - path: task/mcpatlas/friend-movie-recommendation-scores/vfs
       hash: md5
-      md5: 9c585b8b8f6a441399333674e014c1f3.dir
-      size: 8342
+      md5: 35f03dce688c251f5f52db0d269d2539.dir
+      size: 8511
       nfiles: 3
     - path: task/mcpatlas/furnished-four-bedroom-rent/shared/atlas.json
       hash: md5
@@ -8708,8 +8708,8 @@ stages:
       size: 1178
     - path: task/mcpatlas/furnished-four-bedroom-rent/vfs
       hash: md5
-      md5: 48850e8fa1c42d0e41125d6a976ebd3f.dir
-      size: 7518
+      md5: 7308a5a5b9242457011eeea2794e55b6.dir
+      size: 7687
       nfiles: 3
     - path: task/mcpatlas/game-sold-137-newsletter/shared/atlas.json
       hash: md5
@@ -8717,8 +8717,8 @@ stages:
       size: 654
     - path: task/mcpatlas/game-sold-137-newsletter/vfs
       hash: md5
-      md5: 486f9f28a1cc3ff2cbf0845122dd9c68.dir
-      size: 7464
+      md5: 75d17e33f7270c9ce3f786191adbbf17.dir
+      size: 7633
       nfiles: 3
     - path: task/mcpatlas/game-title-142-stock/shared/atlas.json
       hash: md5
@@ -8726,8 +8726,8 @@ stages:
       size: 986
     - path: task/mcpatlas/game-title-142-stock/vfs
       hash: md5
-      md5: 486f9f28a1cc3ff2cbf0845122dd9c68.dir
-      size: 7464
+      md5: 75d17e33f7270c9ce3f786191adbbf17.dir
+      size: 7633
       nfiles: 3
     - path: task/mcpatlas/great-recession-apartments-built/shared/atlas.json
       hash: md5
@@ -8735,8 +8735,8 @@ stages:
       size: 1130
     - path: task/mcpatlas/great-recession-apartments-built/vfs
       hash: md5
-      md5: f9f118272d545a58c6feedf07f04cf8e.dir
-      size: 9737
+      md5: f3662d817f3bbb39a04a58adbfe3f533.dir
+      size: 9906
       nfiles: 3
     - path: task/mcpatlas/hand-of-god-coach-days/shared/atlas.json
       hash: md5
@@ -8744,8 +8744,8 @@ stages:
       size: 1375
     - path: task/mcpatlas/hand-of-god-coach-days/vfs
       hash: md5
-      md5: e47cd1c3c24c831bee5e4446c2d14537.dir
-      size: 8075
+      md5: 684fc1f6bf808965f64e7309c43e621f.dir
+      size: 8244
       nfiles: 3
     - path: task/mcpatlas/innovative-department-sunrise-trip/shared/atlas.json
       hash: md5
@@ -8753,8 +8753,8 @@ stages:
       size: 933
     - path: task/mcpatlas/innovative-department-sunrise-trip/vfs
       hash: md5
-      md5: 94555903e340e1a49b155d980d2787b9.dir
-      size: 9613
+      md5: 75f0352ee07babe855884bfc1e412d17.dir
+      size: 9782
       nfiles: 3
     - path: task/mcpatlas/italian-settler-cohan-distance/shared/atlas.json
       hash: md5
@@ -8762,8 +8762,8 @@ stages:
       size: 1083
     - path: task/mcpatlas/italian-settler-cohan-distance/vfs
       hash: md5
-      md5: 627033390fa705c353ae6f2a82be1291.dir
-      size: 5877
+      md5: cd078503ae9fca89a8225cec39d68a67.dir
+      size: 6046
       nfiles: 3
     - path: task/mcpatlas/joyce-cadmus-customer-interaction/shared/atlas.json
       hash: md5
@@ -8771,8 +8771,8 @@ stages:
       size: 1558
     - path: task/mcpatlas/joyce-cadmus-customer-interaction/vfs
       hash: md5
-      md5: 739d2ddb7e8608b6a86cfe6e2d895f40.dir
-      size: 8291
+      md5: 577ec4a4c01dba40322faaa76634e8b1.dir
+      size: 8460
       nfiles: 3
     - path: task/mcpatlas/july-13-movie-watchlist/shared/atlas.json
       hash: md5
@@ -8780,8 +8780,8 @@ stages:
       size: 938
     - path: task/mcpatlas/july-13-movie-watchlist/vfs
       hash: md5
-      md5: 47dbc64f574fafcba47234ca076d8cfe.dir
-      size: 6945
+      md5: f968d64dd25bf7f9022d7a006005cf82.dir
+      size: 7114
       nfiles: 3
     - path: task/mcpatlas/june-units-met-artwork/shared/atlas.json
       hash: md5
@@ -8789,8 +8789,8 @@ stages:
       size: 877
     - path: task/mcpatlas/june-units-met-artwork/vfs
       hash: md5
-      md5: ce9b9154315d2ad22ff4740e5090a25c.dir
-      size: 7606
+      md5: 41a4e65892d8538138b2d8a95a85c066.dir
+      size: 7775
       nfiles: 3
     - path: task/mcpatlas/k12-education-free-time/shared/atlas.json
       hash: md5
@@ -8798,8 +8798,8 @@ stages:
       size: 940
     - path: task/mcpatlas/k12-education-free-time/vfs
       hash: md5
-      md5: 1c2bfedd86d5b13ab27de5125cf97c6a.dir
-      size: 6126
+      md5: 6997f6709cb94d0a8cab0d1214ef1509.dir
+      size: 6295
       nfiles: 3
     - path: task/mcpatlas/kcpfan46-movie-watched/shared/atlas.json
       hash: md5
@@ -8807,8 +8807,8 @@ stages:
       size: 832
     - path: task/mcpatlas/kcpfan46-movie-watched/vfs
       hash: md5
-      md5: b59080f4f1f9baf97ae32b788db8f8e1.dir
-      size: 8309
+      md5: bb8a2715a010213dc1d4296ef49daee0.dir
+      size: 8478
       nfiles: 3
     - path: task/mcpatlas/king-michael-month-audience/shared/atlas.json
       hash: md5
@@ -8816,8 +8816,8 @@ stages:
       size: 897
     - path: task/mcpatlas/king-michael-month-audience/vfs
       hash: md5
-      md5: 003a04fa437f47a89e95d1da3170dcaf.dir
-      size: 9081
+      md5: fd8edfb91922f7b9eec6a30ae0b08e4e.dir
+      size: 9250
       nfiles: 3
     - path: task/mcpatlas/kobe-year-twitter-posts/shared/atlas.json
       hash: md5
@@ -8825,8 +8825,8 @@ stages:
       size: 802
     - path: task/mcpatlas/kobe-year-twitter-posts/vfs
       hash: md5
-      md5: 9017b2636747fc4d53d0092c97370772.dir
-      size: 8424
+      md5: 74af08c19125a838831cb0fa5e3089cd.dir
+      size: 8593
       nfiles: 3
     - path: task/mcpatlas/leading-product-2020-quantity/shared/atlas.json
       hash: md5
@@ -8834,8 +8834,8 @@ stages:
       size: 1111
     - path: task/mcpatlas/leading-product-2020-quantity/vfs
       hash: md5
-      md5: fefc26ac7df4e5c3dece9383bc086535.dir
-      size: 10052
+      md5: f43476cb401ac8e364878e47c7732015.dir
+      size: 10221
       nfiles: 3
     - path: task/mcpatlas/least-liked-strategy-game/shared/atlas.json
       hash: md5
@@ -8843,8 +8843,8 @@ stages:
       size: 1042
     - path: task/mcpatlas/least-liked-strategy-game/vfs
       hash: md5
-      md5: e72fec1c05dbcfd53a67c72f78b6abfb.dir
-      size: 9613
+      md5: e3e13ce188bb59930b0e5827ad1399ca.dir
+      size: 9782
       nfiles: 3
     - path: task/mcpatlas/least-viewed-month-flights/shared/atlas.json
       hash: md5
@@ -8852,8 +8852,8 @@ stages:
       size: 1322
     - path: task/mcpatlas/least-viewed-month-flights/vfs
       hash: md5
-      md5: ff00a2ce65f0d4d68f351fa5507d8195.dir
-      size: 9195
+      md5: 7c2632d250cc2d099364d252e2bc4f6f.dir
+      size: 9364
       nfiles: 3
     - path: task/mcpatlas/lithuania-centennial-staff-turnover/shared/atlas.json
       hash: md5
@@ -8861,8 +8861,8 @@ stages:
       size: 2938
     - path: task/mcpatlas/lithuania-centennial-staff-turnover/vfs
       hash: md5
-      md5: 358b723cfa8ef42a199c26097613f3f2.dir
-      size: 9791
+      md5: 6b35948f898a50374f82c759915cf07d.dir
+      size: 9960
       nfiles: 3
     - path: task/mcpatlas/maldoff-paper-lowest-salary/shared/atlas.json
       hash: md5
@@ -8870,8 +8870,8 @@ stages:
       size: 859
     - path: task/mcpatlas/maldoff-paper-lowest-salary/vfs
       hash: md5
-      md5: 09ef2c81134204d0d1cc313bec298c45.dir
-      size: 7395
+      md5: e7fe72252e70b8eaaf1bca85374ceb8f.dir
+      size: 7564
       nfiles: 3
     - path: task/mcpatlas/mario-cuomo-sales-workers/shared/atlas.json
       hash: md5
@@ -8879,8 +8879,8 @@ stages:
       size: 718
     - path: task/mcpatlas/mario-cuomo-sales-workers/vfs
       hash: md5
-      md5: 9b224165e1dfac3c44bab6d500bac11d.dir
-      size: 8813
+      md5: 4d28479610ee74e9b9a8547edabe3e30.dir
+      size: 8982
       nfiles: 3
     - path: task/mcpatlas/mario-wonder-lowest-rating/shared/atlas.json
       hash: md5
@@ -8888,8 +8888,8 @@ stages:
       size: 799
     - path: task/mcpatlas/mario-wonder-lowest-rating/vfs
       hash: md5
-      md5: c702edabb4d628f02e79193f6580730c.dir
-      size: 8716
+      md5: 7e9ae7b51ece284c2b8abd6c29fc589c.dir
+      size: 8885
       nfiles: 3
     - path: task/mcpatlas/merida-petcare-best-start-day/shared/atlas.json
       hash: md5
@@ -8897,8 +8897,8 @@ stages:
       size: 1090
     - path: task/mcpatlas/merida-petcare-best-start-day/vfs
       hash: md5
-      md5: 5c719171dda09f2cfd4fb6d811792a4c.dir
-      size: 9646
+      md5: 1a51a8f715339c7541f17931ff410c92.dir
+      size: 9815
       nfiles: 3
     - path: task/mcpatlas/messi-world-cup-sports-sales/shared/atlas.json
       hash: md5
@@ -8906,8 +8906,8 @@ stages:
       size: 709
     - path: task/mcpatlas/messi-world-cup-sports-sales/vfs
       hash: md5
-      md5: 21817e37f0d7d506a9e39e156fd5ada3.dir
-      size: 9422
+      md5: c368ee42caa25228fce5011e141cc3aa.dir
+      size: 9591
       nfiles: 3
     - path: task/mcpatlas/mueller-star-phase-transition-paper/shared/atlas.json
       hash: md5
@@ -8915,8 +8915,8 @@ stages:
       size: 924
     - path: task/mcpatlas/mueller-star-phase-transition-paper/vfs
       hash: md5
-      md5: fc1dab0797a43edfc2146190ff52a044.dir
-      size: 6520
+      md5: f4d77c12a12d4c756cf821092293e6a3.dir
+      size: 6689
       nfiles: 3
     - path: task/mcpatlas/mustang-claim-customer-details/shared/atlas.json
       hash: md5
@@ -8924,8 +8924,8 @@ stages:
       size: 997
     - path: task/mcpatlas/mustang-claim-customer-details/vfs
       hash: md5
-      md5: 7a2246324195ebd4b84dac6c35f44e94.dir
-      size: 8407
+      md5: 8a537e9132e802c0d2bafc3f32f90af1.dir
+      size: 8576
       nfiles: 3
     - path: task/mcpatlas/new-horizons-pluto-satisfaction/shared/atlas.json
       hash: md5
@@ -8933,8 +8933,8 @@ stages:
       size: 1476
     - path: task/mcpatlas/new-horizons-pluto-satisfaction/vfs
       hash: md5
-      md5: 36922ef3b1dcf4a653d781cd046e3b25.dir
-      size: 12921
+      md5: 694c94f93ab5f4feae70544f04d267a9.dir
+      size: 13090
       nfiles: 3
     - path: 
         task/mcpatlas/nightingale-author-vehicles-delivered/shared/atlas.json
@@ -8943,8 +8943,8 @@ stages:
       size: 1020
     - path: task/mcpatlas/nightingale-author-vehicles-delivered/vfs
       hash: md5
-      md5: 341b5007d05024e5f6ce26d6e3260d9b.dir
-      size: 10095
+      md5: 60e72033bba72cbaafedfcfd22be5440.dir
+      size: 10264
       nfiles: 3
     - path: task/mcpatlas/old-faithful-park-headquarters/shared/atlas.json
       hash: md5
@@ -8952,8 +8952,8 @@ stages:
       size: 915
     - path: task/mcpatlas/old-faithful-park-headquarters/vfs
       hash: md5
-      md5: 2bfc261e1cd5f1549e3e8eadd0eb4d85.dir
-      size: 10065
+      md5: 60677390d5c3d595a668b75c4078115f.dir
+      size: 10234
       nfiles: 3
     - path: task/mcpatlas/one-piece-city-sunset-difference/shared/atlas.json
       hash: md5
@@ -8961,8 +8961,8 @@ stages:
       size: 1203
     - path: task/mcpatlas/one-piece-city-sunset-difference/vfs
       hash: md5
-      md5: 30a75e51b727baf5929e851d6e01414f.dir
-      size: 5916
+      md5: 3ec9162f900b1f81624d3d3da4a49198.dir
+      size: 6085
       nfiles: 3
     - path: task/mcpatlas/park-event-family-crimes/shared/atlas.json
       hash: md5
@@ -8970,8 +8970,8 @@ stages:
       size: 898
     - path: task/mcpatlas/park-event-family-crimes/vfs
       hash: md5
-      md5: 098b4b78bf1c163f4bc05645a7448ad0.dir
-      size: 8012
+      md5: 6acb1d463d57d308f03cdaca4a17212a.dir
+      size: 8181
       nfiles: 3
     - path: task/mcpatlas/periodic-table-year-expenses/shared/atlas.json
       hash: md5
@@ -8979,8 +8979,8 @@ stages:
       size: 889
     - path: task/mcpatlas/periodic-table-year-expenses/vfs
       hash: md5
-      md5: 1efc8f0bed9d21436928cf663679c061.dir
-      size: 6603
+      md5: ab220656bd42128bc53bcdaa8436008e.dir
+      size: 6772
       nfiles: 3
     - path: task/mcpatlas/phone-crime-oldest-woman-suspect/shared/atlas.json
       hash: md5
@@ -8988,8 +8988,8 @@ stages:
       size: 951
     - path: task/mcpatlas/phone-crime-oldest-woman-suspect/vfs
       hash: md5
-      md5: c0b000ef64c9a89c8c1f2b4177ff25d0.dir
-      size: 7003
+      md5: 14456b783427d84ac6038c0a2b57173f.dir
+      size: 7172
       nfiles: 3
     - path: task/mcpatlas/photographer-sister-3d-dataset/shared/atlas.json
       hash: md5
@@ -8997,8 +8997,8 @@ stages:
       size: 903
     - path: task/mcpatlas/photographer-sister-3d-dataset/vfs
       hash: md5
-      md5: e33bbf547ccabe2a8cdfee6884b34e16.dir
-      size: 6214
+      md5: 8ced518e71af4549f24527d43d8bb698.dir
+      size: 6383
       nfiles: 3
     - path: task/mcpatlas/political-summit-top-post/shared/atlas.json
       hash: md5
@@ -9006,8 +9006,8 @@ stages:
       size: 996
     - path: task/mcpatlas/political-summit-top-post/vfs
       hash: md5
-      md5: 5cabcdea34e7d100a45db75e52c4763f.dir
-      size: 8209
+      md5: e4d851f8e6059f08ff7cef75c46d4cfb.dir
+      size: 8378
       nfiles: 3
     - path: task/mcpatlas/pre-katrina-premium-apartments/shared/atlas.json
       hash: md5
@@ -9015,8 +9015,8 @@ stages:
       size: 1287
     - path: task/mcpatlas/pre-katrina-premium-apartments/vfs
       hash: md5
-      md5: f2341fbf35f0bafebfe1a2edd60a5867.dir
-      size: 10319
+      md5: 25843e1fe27b090dbb07b4ae2c0250e1.dir
+      size: 10488
       nfiles: 3
     - path: task/mcpatlas/princess-director-movie-recommender/shared/atlas.json
       hash: md5
@@ -9024,8 +9024,8 @@ stages:
       size: 971
     - path: task/mcpatlas/princess-director-movie-recommender/vfs
       hash: md5
-      md5: 3685cd27e33dcddd64e1985bc51f354d.dir
-      size: 7624
+      md5: 8ddd7a54416fb85c34aae934c3715e70.dir
+      size: 7793
       nfiles: 3
     - path: task/mcpatlas/q4-2023-department-performance/shared/atlas.json
       hash: md5
@@ -9033,8 +9033,8 @@ stages:
       size: 1297
     - path: task/mcpatlas/q4-2023-department-performance/vfs
       hash: md5
-      md5: 244dd8de7e5fecf863ed9d3bcfd6e558.dir
-      size: 7697
+      md5: c094862cbe1712d3f299d017eb489eb4.dir
+      size: 7866
       nfiles: 3
     - path: task/mcpatlas/qtwatcher-movie-watched/shared/atlas.json
       hash: md5
@@ -9042,8 +9042,8 @@ stages:
       size: 850
     - path: task/mcpatlas/qtwatcher-movie-watched/vfs
       hash: md5
-      md5: cea841aa7e62b2f5fc8d3b2d03bacd08.dir
-      size: 8047
+      md5: afbded238e536b06c17742a65f520296.dir
+      size: 8216
       nfiles: 3
     - path: task/mcpatlas/real-estate-parking-channel/shared/atlas.json
       hash: md5
@@ -9051,8 +9051,8 @@ stages:
       size: 792
     - path: task/mcpatlas/real-estate-parking-channel/vfs
       hash: md5
-      md5: 9aca937eca49192834e762400f968e8a.dir
-      size: 8898
+      md5: 79e7b240642b02d3a57fd28a45d2d2c3.dir
+      size: 9067
       nfiles: 3
     - path: task/mcpatlas/real-madrid-12th-top-month/shared/atlas.json
       hash: md5
@@ -9060,8 +9060,8 @@ stages:
       size: 769
     - path: task/mcpatlas/real-madrid-12th-top-month/vfs
       hash: md5
-      md5: 6b967014c5fdf7eefe8108d613e2d6ad.dir
-      size: 9425
+      md5: 33de9e32cecfa4ea9e19418a239955f6.dir
+      size: 9594
       nfiles: 3
     - path: task/mcpatlas/recommended-movies-top-list/shared/atlas.json
       hash: md5
@@ -9069,8 +9069,8 @@ stages:
       size: 1263
     - path: task/mcpatlas/recommended-movies-top-list/vfs
       hash: md5
-      md5: aa27e38579b556a376bd24a518a9335e.dir
-      size: 10178
+      md5: 7cba52f15906388e0e4470b112772be9.dir
+      size: 10347
       nfiles: 3
     - path: task/mcpatlas/reyes-family-post-game-menu/shared/atlas.json
       hash: md5
@@ -9078,8 +9078,8 @@ stages:
       size: 926
     - path: task/mcpatlas/reyes-family-post-game-menu/vfs
       hash: md5
-      md5: f1054055a9361fbd4689faa876f23cf9.dir
-      size: 7873
+      md5: d08c6dae0b74135937807d5205c7ce8f.dir
+      size: 8042
       nfiles: 3
     - path: task/mcpatlas/riverside-park-family-apartments/shared/atlas.json
       hash: md5
@@ -9087,8 +9087,8 @@ stages:
       size: 1096
     - path: task/mcpatlas/riverside-park-family-apartments/vfs
       hash: md5
-      md5: a00bb2a19af99c72ea7985fc85803719.dir
-      size: 6668
+      md5: 567f4602a49c7d099fea75474ce9f3db.dir
+      size: 6837
       nfiles: 3
     - path: task/mcpatlas/royal-wedding-louvre-walk/shared/atlas.json
       hash: md5
@@ -9096,8 +9096,8 @@ stages:
       size: 1573
     - path: task/mcpatlas/royal-wedding-louvre-walk/vfs
       hash: md5
-      md5: d79a7b614536798927e12c267da5a57c.dir
-      size: 9432
+      md5: 6eaf6370c9a5fb91d461029de7f1b1b8.dir
+      size: 9601
       nfiles: 3
     - path: task/mcpatlas/sales-hr-2017-performance/shared/atlas.json
       hash: md5
@@ -9105,8 +9105,8 @@ stages:
       size: 755
     - path: task/mcpatlas/sales-hr-2017-performance/vfs
       hash: md5
-      md5: 81cd4dd2273b9228921463491715df99.dir
-      size: 8874
+      md5: 7f9f04ebc95a0fdff1800e8c423890c6.dir
+      size: 9043
       nfiles: 3
     - path: task/mcpatlas/script/capture_cli_tools.py
       hash: md5
@@ -9114,8 +9114,8 @@ stages:
       size: 4080
     - path: task/mcpatlas/serpent-repo-first-pr-branch/vfs
       hash: md5
-      md5: de2f76321cdd5ea57ab877301bb2cf68.dir
-      size: 2700
+      md5: 97e270b555e5eafa13e5c8c961e91497.dir
+      size: 2869
       nfiles: 3
     - path: task/mcpatlas/seventh-floor-studio-rent/shared/atlas.json
       hash: md5
@@ -9123,8 +9123,8 @@ stages:
       size: 1053
     - path: task/mcpatlas/seventh-floor-studio-rent/vfs
       hash: md5
-      md5: af120e6017e2900d4847273fe7b6999c.dir
-      size: 7729
+      md5: 9a17a57438064a57fee4b548fbd18b11.dir
+      size: 7898
       nfiles: 3
     - path: task/mcpatlas/snake-repo-commit-count/shared/atlas.json
       hash: md5
@@ -9132,8 +9132,8 @@ stages:
       size: 852
     - path: task/mcpatlas/snake-repo-commit-count/vfs
       hash: md5
-      md5: 532b83426372cdb57a1486e671b11be3.dir
-      size: 3420
+      md5: bd1962452ad5b294e71d41a32e8a65da.dir
+      size: 3589
       nfiles: 3
     - path: task/mcpatlas/spacex-car-leading-product/shared/atlas.json
       hash: md5
@@ -9141,8 +9141,8 @@ stages:
       size: 1063
     - path: task/mcpatlas/spacex-car-leading-product/vfs
       hash: md5
-      md5: d87c892102d287fd9786616de617eac3.dir
-      size: 10634
+      md5: d296787a87f1a015cf21dfaf100537dc.dir
+      size: 10803
       nfiles: 3
     - path: task/mcpatlas/spain-world-cup-apartment-rent/shared/atlas.json
       hash: md5
@@ -9150,8 +9150,8 @@ stages:
       size: 987
     - path: task/mcpatlas/spain-world-cup-apartment-rent/vfs
       hash: md5
-      md5: cf8fa0d85086adf723756be384c98a5e.dir
-      size: 10424
+      md5: d79a9a21ffadaee044e10f6141762185.dir
+      size: 10593
       nfiles: 3
     - path: task/mcpatlas/sports-drinks-article-site-metric/shared/atlas.json
       hash: md5
@@ -9159,8 +9159,8 @@ stages:
       size: 837
     - path: task/mcpatlas/sports-drinks-article-site-metric/vfs
       hash: md5
-      md5: f505aa5203050ce8904e4d5bd66eae07.dir
-      size: 6859
+      md5: ffa686b6cc6b0888e9beb18ad776a556.dir
+      size: 7028
       nfiles: 3
     - path: task/mcpatlas/sports-repo-farrell-day-commit/shared/atlas.json
       hash: md5
@@ -9168,8 +9168,8 @@ stages:
       size: 893
     - path: task/mcpatlas/sports-repo-farrell-day-commit/vfs
       hash: md5
-      md5: 4e7efd88c1fabc65aff9ea1400dde7a7.dir
-      size: 6031
+      md5: 3c2aecd51a6bb8ff986173ecb0891c8d.dir
+      size: 6200
       nfiles: 3
     - path: task/mcpatlas/steve-game-draft-salary/shared/atlas.json
       hash: md5
@@ -9177,8 +9177,8 @@ stages:
       size: 1046
     - path: task/mcpatlas/steve-game-draft-salary/vfs
       hash: md5
-      md5: daac8effca0a0b2bc0f116333f36de4e.dir
-      size: 7909
+      md5: 83ecd5ece087f17099787d7b8ae45b30.dir
+      size: 8078
       nfiles: 3
     - path: task/mcpatlas/storyteller-creator-first-commit/shared/atlas.json
       hash: md5
@@ -9186,13 +9186,13 @@ stages:
       size: 860
     - path: task/mcpatlas/storyteller-creator-first-commit/vfs
       hash: md5
-      md5: 61b89954578585b53bae00704a785980.dir
-      size: 8183
+      md5: 980d3db66307c9be419c302591da3070.dir
+      size: 8352
       nfiles: 3
     - path: task/mcpatlas/storyteller-last-commit/vfs
       hash: md5
-      md5: 30c4e12ff0419e1923b6e9a4360aa2af.dir
-      size: 2779
+      md5: c4e0bc438e00c494909aceeb3a186248.dir
+      size: 2948
       nfiles: 3
     - path: task/mcpatlas/suggested-genres-top-rated/shared/atlas.json
       hash: md5
@@ -9200,8 +9200,8 @@ stages:
       size: 1657
     - path: task/mcpatlas/suggested-genres-top-rated/vfs
       hash: md5
-      md5: b9572b24b96cc32a1b182beb85e97add.dir
-      size: 6623
+      md5: e487181a5315dbe6ca76ff958e68edba.dir
+      size: 6792
       nfiles: 3
     - path: task/mcpatlas/sultana-study-sports-customers/shared/atlas.json
       hash: md5
@@ -9209,8 +9209,8 @@ stages:
       size: 905
     - path: task/mcpatlas/sultana-study-sports-customers/vfs
       hash: md5
-      md5: 679f8ae5c6eab50491a6bdbf98d2fb5b.dir
-      size: 8074
+      md5: 27b71a9675a9a8eb4fe2e02311fda65f.dir
+      size: 8243
       nfiles: 3
     - path: task/mcpatlas/tina-turner-fewest-leavings/shared/atlas.json
       hash: md5
@@ -9218,8 +9218,8 @@ stages:
       size: 783
     - path: task/mcpatlas/tina-turner-fewest-leavings/vfs
       hash: md5
-      md5: aa3386b365a80384d452105a848d52c4.dir
-      size: 9616
+      md5: 7316e23eb26d10cd794f9b38ec656d4f.dir
+      size: 9785
       nfiles: 3
     - path: task/mcpatlas/tokyo-premiere-temperature-root/shared/atlas.json
       hash: md5
@@ -9227,8 +9227,8 @@ stages:
       size: 820
     - path: task/mcpatlas/tokyo-premiere-temperature-root/vfs
       hash: md5
-      md5: e5a073af3c976735d658c4eba8fee51b.dir
-      size: 11108
+      md5: 0ce86a9c15b276d855d31369e9720868.dir
+      size: 11277
       nfiles: 3
     - path: task/mcpatlas/tomas-villa-game-member/shared/atlas.json
       hash: md5
@@ -9236,8 +9236,8 @@ stages:
       size: 986
     - path: task/mcpatlas/tomas-villa-game-member/vfs
       hash: md5
-      md5: 3988c1e314d6f43b2112712c4873707f.dir
-      size: 7954
+      md5: 9f72b0aa13fc999c7d4b0760adeaf0d8.dir
+      size: 8123
       nfiles: 3
     - path: task/mcpatlas/top-three-genres-wiki-links/shared/atlas.json
       hash: md5
@@ -9245,8 +9245,8 @@ stages:
       size: 1260
     - path: task/mcpatlas/top-three-genres-wiki-links/vfs
       hash: md5
-      md5: bc48804719332fe792f74f05cb2ee66d.dir
-      size: 7757
+      md5: 795ecd256a67d5c494ecb19ee94f3bdf.dir
+      size: 7926
       nfiles: 3
     - path: task/mcpatlas/un-75th-staff-effectiveness/shared/atlas.json
       hash: md5
@@ -9254,8 +9254,8 @@ stages:
       size: 954
     - path: task/mcpatlas/un-75th-staff-effectiveness/vfs
       hash: md5
-      md5: 4eedcf3acba0994a59ecb75d54ef5a1f.dir
-      size: 9171
+      md5: 800241e0ff70b2508f5be07ec9af16e4.dir
+      size: 9340
       nfiles: 3
     - path: task/mcpatlas/under-800-ad-type-reach/shared/atlas.json
       hash: md5
@@ -9263,8 +9263,8 @@ stages:
       size: 1031
     - path: task/mcpatlas/under-800-ad-type-reach/vfs
       hash: md5
-      md5: 17c3a6ecd22c638cd3846985c8d47723.dir
-      size: 6953
+      md5: 126bee41ce123fde68678dc19fae3afd.dir
+      size: 7122
       nfiles: 3
     - path: task/mcpatlas/unwatched-imdb-movie-night/shared/atlas.json
       hash: md5
@@ -9272,8 +9272,8 @@ stages:
       size: 857
     - path: task/mcpatlas/unwatched-imdb-movie-night/vfs
       hash: md5
-      md5: 24a4d9aad067ab0e305e5c732616739b.dir
-      size: 5028
+      md5: f222aea150d93e02a77445e52ebce345.dir
+      size: 5197
       nfiles: 3
     - path: task/mcpatlas/wings-gaming-top-supplier/shared/atlas.json
       hash: md5
@@ -9281,8 +9281,8 @@ stages:
       size: 987
     - path: task/mcpatlas/wings-gaming-top-supplier/vfs
       hash: md5
-      md5: 15b4ff67a1c8e90b71fcaf75baec0045.dir
-      size: 9652
+      md5: 9212c4091d609d4a951fb2efef0f4f68.dir
+      size: 9821
       nfiles: 3
     - path: task/mcpatlas/youtuber-100m-video-ad-reach/shared/atlas.json
       hash: md5
@@ -9290,8 +9290,8 @@ stages:
       size: 933
     - path: task/mcpatlas/youtuber-100m-video-ad-reach/vfs
       hash: md5
-      md5: bc5ccab842725f79f464be5dc36326a9.dir
-      size: 8227
+      md5: 542c00938f7e8e2a01ade26faf792125.dir
+      size: 8396
       nfiles: 3
     - path: task/mcpatlas/zhang-health-speaker-name/shared/atlas.json
       hash: md5
@@ -9299,17 +9299,17 @@ stages:
       size: 819
     - path: task/mcpatlas/zhang-health-speaker-name/vfs
       hash: md5
-      md5: 37d90c083b47556e253b6e9c21495ade.dir
-      size: 6855
+      md5: 4437996dbfa6b894b7f883b027b14c20.dir
+      size: 7024
       nfiles: 3
     - path: task/toolathlon/ab-testing/vfs
       hash: md5
-      md5: b835cfa14aea686cd9b25325cebfe4d6.dir
+      md5: 4cdbd2199853ac6bda23ad336a94c3c0.dir
       size: 12589
       nfiles: 3
     - path: task/toolathlon/academic-pdf-report/vfs
       hash: md5
-      md5: 40b0b5596c9677d3bd55feb049596c86.dir
+      md5: d445f4e20c508687ec7196af5a45eaf7.dir
       size: 21514
       nfiles: 3
     - path: task/toolathlon/academic-warning/vfs
@@ -9319,32 +9319,32 @@ stages:
       nfiles: 3
     - path: task/toolathlon/add-bibtex/vfs
       hash: md5
-      md5: f3866837c49981a64ad354a66a176de4.dir
+      md5: 832449b071b69531c36e1d90c93ace2e.dir
       size: 12829
       nfiles: 3
     - path: task/toolathlon/apply-phd-email/vfs
       hash: md5
-      md5: 78e27d3b5ca531271db46761555fc488.dir
+      md5: 4500f5107263077966d7ef9747b5cec5.dir
       size: 15223
       nfiles: 3
     - path: task/toolathlon/arrange-workspace/vfs
       hash: md5
-      md5: 4c7be98360b5097f7f281860c7538b15.dir
+      md5: 4ac205ceb068f69ed63dcfb2ab2157f7.dir
       size: 10170
       nfiles: 3
     - path: task/toolathlon/canvas-arrange-exam/vfs
       hash: md5
-      md5: 52ec7b3a2f521370d8dfbda4776ef78d.dir
+      md5: db333e7716d2a4c6d1ed39233023f6ec.dir
       size: 33075
       nfiles: 3
     - path: task/toolathlon/canvas-art-manager/vfs
       hash: md5
-      md5: b64b45325755292514d6c727302ed410.dir
+      md5: ca4cc7834f74a3f9ea07c251883295f9.dir
       size: 30411
       nfiles: 3
     - path: task/toolathlon/canvas-art-quiz/vfs
       hash: md5
-      md5: 1cfd11fafc8d5ce2a41b9db9f00fc1a5.dir
+      md5: 42594e308b66cb8efeface9f2a1c2e55.dir
       size: 23747
       nfiles: 3
     - path: task/toolathlon/canvas-do-quiz/vfs
@@ -9354,17 +9354,17 @@ stages:
       nfiles: 3
     - path: task/toolathlon/canvas-homework-grader-python/vfs
       hash: md5
-      md5: 40b238c44929a5f8a650cce2ce7adbf3.dir
+      md5: 04796ce06777d4af4e8905393ac9e26c.dir
       size: 30396
       nfiles: 3
     - path: task/toolathlon/canvas-new-students-notification/vfs
       hash: md5
-      md5: 1cfd11fafc8d5ce2a41b9db9f00fc1a5.dir
+      md5: 42594e308b66cb8efeface9f2a1c2e55.dir
       size: 23747
       nfiles: 3
     - path: task/toolathlon/canvas-submit-late-work/vfs
       hash: md5
-      md5: e33d70cddbf760b052b11a40133c4bd1.dir
+      md5: b3d3f838d989f7942ba6a33b9e1ef243.dir
       size: 32983
       nfiles: 3
     - path: task/toolathlon/cooking-guidance/vfs
@@ -9374,17 +9374,17 @@ stages:
       nfiles: 3
     - path: task/toolathlon/course-assistant/vfs
       hash: md5
-      md5: 827c8ae7d152c1330f9b496674b7f99a.dir
+      md5: 612b1c9dc8d756b26e97bd9290feca1f.dir
       size: 13482
       nfiles: 3
     - path: task/toolathlon/course-schedule/vfs
       hash: md5
-      md5: 6dd08647a2d0449d4d304d28a0bb845a.dir
+      md5: 81a81a8eb57240a52bc0108148264b1c.dir
       size: 14414
       nfiles: 3
     - path: task/toolathlon/courses-ta-hws/vfs
       hash: md5
-      md5: ac28bbdf3f6cfd5c7a126fd3470c15ca.dir
+      md5: 3669650034997da2dcf1acba206eb7eb.dir
       size: 6552
       nfiles: 3
     - path: task/toolathlon/cvpr-research/vfs
@@ -9394,17 +9394,17 @@ stages:
       nfiles: 3
     - path: task/toolathlon/dataset-license-issue/vfs
       hash: md5
-      md5: 129689486f3e43a3ba14024b672b5635.dir
+      md5: 00a0730dcf16df351e7bce9c3fa6c93b.dir
       size: 10848
       nfiles: 3
     - path: task/toolathlon/detect-revised-terms/vfs
       hash: md5
-      md5: d41c0d5846674c2f29431ac0f4e81422.dir
+      md5: d5ae4162c2351849fb5f4caa37e3bc45.dir
       size: 5574
       nfiles: 3
     - path: task/toolathlon/dietary-health/vfs
       hash: md5
-      md5: a0fc6169ca0284f607757c9f82babd30.dir
+      md5: 6d1f6b25559ed42cac5508bc39c8b717.dir
       size: 8151
       nfiles: 3
     - path: task/toolathlon/email-paper-homepage/vfs
@@ -9414,17 +9414,17 @@ stages:
       nfiles: 3
     - path: task/toolathlon/excel-data-transformation/vfs
       hash: md5
-      md5: ac28bbdf3f6cfd5c7a126fd3470c15ca.dir
+      md5: 3669650034997da2dcf1acba206eb7eb.dir
       size: 6552
       nfiles: 3
     - path: task/toolathlon/excel-market-research/vfs
       hash: md5
-      md5: ac28bbdf3f6cfd5c7a126fd3470c15ca.dir
+      md5: 3669650034997da2dcf1acba206eb7eb.dir
       size: 6552
       nfiles: 3
     - path: task/toolathlon/experiments-recordings/vfs
       hash: md5
-      md5: d1b5b54efd889761435644ae46bf72bf.dir
+      md5: 70ca537bf425f51af18fa861d1489c07.dir
       size: 60731
       nfiles: 3
     - path: task/toolathlon/fillout-online-forms/vfs
@@ -9434,7 +9434,7 @@ stages:
       nfiles: 3
     - path: task/toolathlon/filter-low-selling-products/vfs
       hash: md5
-      md5: 26f483fa3f2ba6d5f99414f706aa692d.dir
+      md5: eb2a0469f840ebdb3715bdbf1867555b.dir
       size: 27221
       nfiles: 3
     - path: task/toolathlon/find-alita-paper/vfs
@@ -9444,27 +9444,27 @@ stages:
       nfiles: 3
     - path: task/toolathlon/flagged-transactions/vfs
       hash: md5
-      md5: 51c95f8b2a602e89be9dede147ab77e8.dir
+      md5: 0c40ba8720eb53e5927435fa220ec189.dir
       size: 17216
       nfiles: 3
     - path: task/toolathlon/game-statistics/vfs
       hash: md5
-      md5: 0b82bc474f8a336874f020b93930c77c.dir
+      md5: 499977011eaf29d8223666456a07f937.dir
       size: 12681
       nfiles: 3
     - path: task/toolathlon/gdp-cr5-analysis/vfs
       hash: md5
-      md5: 635ff27f7faa9f6517d22318ef6a7abc.dir
+      md5: 33f8d1bcf4060a0def8a24e4a952e387.dir
       size: 25558
       nfiles: 3
     - path: task/toolathlon/git-bug-hunt/vfs
       hash: md5
-      md5: 375b4cb45d0f39afba9302ede8640544.dir
+      md5: 1d1a36ce602e6e368b8cad127b661f96.dir
       size: 8612
       nfiles: 3
     - path: task/toolathlon/git-milestone/vfs
       hash: md5
-      md5: 00352ae0f402480e00f1953e305f758f.dir
+      md5: fa772b835964f0c4ed840240f97d491b.dir
       size: 3666
       nfiles: 3
     - path: task/toolathlon/git-repo/vfs
@@ -9474,12 +9474,12 @@ stages:
       nfiles: 3
     - path: task/toolathlon/hk-top-conf/vfs
       hash: md5
-      md5: 5ff6db6e3965360c2d117743e41cb228.dir
+      md5: 4f3a7bf4454b3dba05f901d91afcb0ba.dir
       size: 12286
       nfiles: 3
     - path: task/toolathlon/huggingface-upload/vfs
       hash: md5
-      md5: 990f57bd632631d49036eed19938de09.dir
+      md5: 668d22f5d8f559fdfcc0406529e9e76f.dir
       size: 7921
       nfiles: 3
     - path: task/toolathlon/identify-all-songs/vfs
@@ -9494,7 +9494,7 @@ stages:
       nfiles: 3
     - path: task/toolathlon/inter-final-performance-analysis/vfs
       hash: md5
-      md5: c793906e1e3537294eb7af63ef33569e.dir
+      md5: dd6146f6a272c2e6fa87344112ea85bb.dir
       size: 25650
       nfiles: 3
     - path: task/toolathlon/interview-report/vfs
@@ -9504,12 +9504,12 @@ stages:
       nfiles: 3
     - path: task/toolathlon/inventory-sync/vfs
       hash: md5
-      md5: 7d4318974057c5ff834e43366a133d47.dir
+      md5: 569f8f07ee2c597fd6e6e71e38161d39.dir
       size: 20263
       nfiles: 3
     - path: task/toolathlon/investment-decision-analysis/vfs
       hash: md5
-      md5: 5136342d36e44f9ad8edf6eb7b183dd9.dir
+      md5: d793621da1088cfbbad66f21e1136d3e.dir
       size: 25584
       nfiles: 3
     - path: task/toolathlon/invoice-org/vfs
@@ -9524,22 +9524,22 @@ stages:
       nfiles: 3
     - path: task/toolathlon/k8s-mysql/vfs
       hash: md5
-      md5: a557b37702fa3379e224f265d499653e.dir
+      md5: f562fc46a4d626b595052fe70c23f7ee.dir
       size: 2800
       nfiles: 3
     - path: task/toolathlon/k8s-pr-preview-testing/vfs
       hash: md5
-      md5: e702a6075ee67142dcf484bea346e23b.dir
+      md5: d4d6026f5014bb65b2fed493dea5c004.dir
       size: 11199
       nfiles: 3
     - path: task/toolathlon/k8s-redis-helm-upgrade/vfs
       hash: md5
-      md5: ad355c474bb4d32272dbb384c264c63f.dir
+      md5: 479e8eda59cfd2e111f0337e2faa90ab.dir
       size: 3122
       nfiles: 3
     - path: task/toolathlon/k8s-safety-audit/vfs
       hash: md5
-      md5: cfe9aee7ce6fefb79f5d3f231cf6499c.dir
+      md5: 79d0989705d4be1942be361b3ee12014.dir
       size: 14212
       nfiles: 3
     - path: task/toolathlon/landing-task-reminder/vfs
@@ -9549,7 +9549,7 @@ stages:
       nfiles: 3
     - path: task/toolathlon/latex-prompt-box/vfs
       hash: md5
-      md5: e65521d724adf7d8ccf658a05c1418da.dir
+      md5: a4f2beabe2d55325fb597a8097724eae.dir
       size: 2578
       nfiles: 3
     - path: task/toolathlon/live-transactions/vfs
@@ -9559,7 +9559,7 @@ stages:
       nfiles: 3
     - path: task/toolathlon/llm-training-dataset/vfs
       hash: md5
-      md5: 50056171ecd472b4697b1cbeee689ace.dir
+      md5: 202666c6e832c1032cbec0cd88b9d288.dir
       size: 24411
       nfiles: 3
     - path: task/toolathlon/logical-datasets-collection/vfs
@@ -9569,7 +9569,7 @@ stages:
       nfiles: 3
     - path: task/toolathlon/machine-operating/vfs
       hash: md5
-      md5: 0c08f60ba79cec333c8a6f8d5ad7ea74.dir
+      md5: 37f37f2797d004f82ab9cb03c6b630c8.dir
       size: 17124
       nfiles: 3
     - path: task/toolathlon/meeting-assign/vfs
@@ -9579,12 +9579,12 @@ stages:
       nfiles: 3
     - path: task/toolathlon/music-analysis/vfs
       hash: md5
-      md5: c3fd4a20970337052aac64367ec0f534.dir
+      md5: 1009f2cf3170aca048c86d6b21ee21af.dir
       size: 19883
       nfiles: 3
     - path: task/toolathlon/nhl-b2b-analysis/vfs
       hash: md5
-      md5: d9c86d7a75f0bead6076e20ee3994fa6.dir
+      md5: 2656bda58412e7a6852c07985442276b.dir
       size: 15435
       nfiles: 3
     - path: task/toolathlon/notion-find-job/vfs
@@ -9609,22 +9609,22 @@ stages:
       nfiles: 3
     - path: task/toolathlon/nvidia-market/vfs
       hash: md5
-      md5: 719d8c0314922d04c0195dc982a3b437.dir
+      md5: fe9d8903cb19e40742fa91871336ac97.dir
       size: 22638
       nfiles: 3
     - path: task/toolathlon/nvidia-stock-analysis/vfs
       hash: md5
-      md5: 1931941b0fd5eca8881bf5bd370e9a17.dir
+      md5: 94584d648bbb7ba17267b1bfe8ebdf8f.dir
       size: 20967
       nfiles: 3
     - path: task/toolathlon/oil-price/vfs
       hash: md5
-      md5: 09d974c8a3f5f774ef9e7e48061c85bb.dir
+      md5: 8c8eb22753cd85d27acfe660db9e129e.dir
       size: 18425
       nfiles: 3
     - path: task/toolathlon/paper-checker/vfs
       hash: md5
-      md5: f0df13b0b2bfa06c08bac35410bf84c4.dir
+      md5: 2b386b71f4b0d89f95379dc742d2893e.dir
       size: 1995
       nfiles: 3
     - path: task/toolathlon/payable-invoice-checker/vfs
@@ -9644,12 +9644,12 @@ stages:
       nfiles: 3
     - path: task/toolathlon/price-comparison/vfs
       hash: md5
-      md5: 0011820f2f13fb50dfd80ebea54e503c.dir
+      md5: e96a1e4b9b84a196ccec7b857f2fe929.dir
       size: 16330
       nfiles: 3
     - path: task/toolathlon/privacy-desensitization/vfs
       hash: md5
-      md5: f0df13b0b2bfa06c08bac35410bf84c4.dir
+      md5: 2b386b71f4b0d89f95379dc742d2893e.dir
       size: 1995
       nfiles: 3
     - path: task/toolathlon/profile-update-online/vfs
@@ -9659,17 +9659,17 @@ stages:
       nfiles: 3
     - path: task/toolathlon/quantitative-financial-analysis/vfs
       hash: md5
-      md5: 3a1c199ab2975c9a4233c7e2cd3c1a22.dir
+      md5: 143a1aa5040c103e9da0df2b0522ac5d.dir
       size: 32690
       nfiles: 3
     - path: task/toolathlon/reimbursement-form-filler/vfs
       hash: md5
-      md5: afc576b73637439bfdbb639a1a38b1c0.dir
+      md5: 369662ed5f58015abb99b2443531159b.dir
       size: 10201
       nfiles: 3
     - path: task/toolathlon/sales-accounting/vfs
       hash: md5
-      md5: c91864d920e9308e47f1bd608d070213.dir
+      md5: b2b0d90704d97c23b1e62de5194c8dc3.dir
       size: 9094
       nfiles: 3
     - path: task/toolathlon/script/capture_cli_tools.py
@@ -9683,7 +9683,7 @@ stages:
       nfiles: 3
     - path: task/toolathlon/set-conf-cr-ddl/vfs
       hash: md5
-      md5: 0795080f6feb031740797da729352ece.dir
+      md5: 04e7fd8ce89dbfafe30e22c6dbfced30.dir
       size: 10709
       nfiles: 3
     - path: task/toolathlon/shopping-helper/vfs
@@ -9693,12 +9693,12 @@ stages:
       nfiles: 3
     - path: task/toolathlon/sla-timeout-monitor/vfs
       hash: md5
-      md5: 83725c40da232067220cd89e1cadbca5.dir
+      md5: 9066edd89718a1d86814922b285e9ca3.dir
       size: 15206
       nfiles: 3
     - path: task/toolathlon/stock-build-position/vfs
       hash: md5
-      md5: b0884c79c2110ab334ccc054d243632f.dir
+      md5: 5639a714f9d598412c9633103d708da9.dir
       size: 12345
       nfiles: 3
     - path: task/toolathlon/student-interview/vfs
@@ -9713,22 +9713,22 @@ stages:
       nfiles: 3
     - path: task/toolathlon/sync-todo-to-readme/vfs
       hash: md5
-      md5: 4f0d0551aa8cc4c082c7a32ce9e7d016.dir
+      md5: c0b492a942bc6c54739939c005a7ac4b.dir
       size: 2852
       nfiles: 3
     - path: task/toolathlon/train-ticket-plan/vfs
       hash: md5
-      md5: 6d478f5c54aaa6ea3b234043c9ceaebd.dir
+      md5: dbb1b3f027e4399ed4cfa513326f85c1.dir
       size: 9768
       nfiles: 3
     - path: task/toolathlon/travel-exchange/vfs
       hash: md5
-      md5: c685b51e962899859dd2986aab8ecb73.dir
+      md5: 2b090d723d6a2fc9618d54a1dd234e33.dir
       size: 7810
       nfiles: 3
     - path: task/toolathlon/travel-expense-reimbursement/vfs
       hash: md5
-      md5: 04801717406375b75313ec0b56b1f775.dir
+      md5: c2f2a4b6ba7d7a010882a657dfe05f78.dir
       size: 15125
       nfiles: 3
     - path: task/toolathlon/trip-adviser/vfs
@@ -9743,17 +9743,17 @@ stages:
       nfiles: 3
     - path: task/toolathlon/update-material-inventory/vfs
       hash: md5
-      md5: ec0959b8235b5541ceaedfc23ba680ee.dir
+      md5: 4302e7412ca19b1f1a534b326132dcd7.dir
       size: 33629
       nfiles: 3
     - path: task/toolathlon/upenn-campus-route/vfs
       hash: md5
-      md5: a655d76759654e3adc65f459abec52d8.dir
+      md5: 2dc21e367b93d6ad807cd3d274cb0bca.dir
       size: 5639
       nfiles: 3
     - path: task/toolathlon/verl-dataset/vfs
       hash: md5
-      md5: 4d6280a85f8c1de5dc884bf2e2da9e05.dir
+      md5: d8f2a5f7405b1e0d980b81c7be45cfa0.dir
       size: 9488
       nfiles: 3
     - path: task/toolathlon/vlm-history-completer/vfs
@@ -9763,12 +9763,12 @@ stages:
       nfiles: 3
     - path: task/toolathlon/wandb-best-score/vfs
       hash: md5
-      md5: ae2df5c9e39a0a31cc18b3c89ec4146d.dir
+      md5: bc7c42ce3f055039ae42d78a65440db4.dir
       size: 50075
       nfiles: 3
     - path: task/toolathlon/wandb-shortest-length/vfs
       hash: md5
-      md5: d97416b3facdfc26c4da78cb45336de8.dir
+      md5: b3390cdd718bbda6c6cf60084555624e.dir
       size: 54634
       nfiles: 3
     - path: task/toolathlon/woocommerce-customer-survey/vfs
@@ -9778,12 +9778,12 @@ stages:
       nfiles: 3
     - path: task/toolathlon/woocommerce-new-product/vfs
       hash: md5
-      md5: 2d5a5e8e4d6783ca85f6ef40c5742c85.dir
+      md5: 61314c1757cf2d74d30e699435d11629.dir
       size: 27223
       nfiles: 3
     - path: task/toolathlon/woocommerce-new-welcome/vfs
       hash: md5
-      md5: 30c0dbf79816c4170f843174ddeef26e.dir
+      md5: a8c4bda72917dbd1bf450f35cd8c872f.dir
       size: 37991
       nfiles: 3
     - path: task/toolathlon/woocommerce-product-recall/vfs
@@ -9793,12 +9793,12 @@ stages:
       nfiles: 3
     - path: task/toolathlon/woocommerce-stock-alert/vfs
       hash: md5
-      md5: 83abb7b1a05efe09667afdf7bd94f144.dir
+      md5: d82b31f31f2c964f287f24fb7920eb71.dir
       size: 40585
       nfiles: 3
     - path: task/toolathlon/woocommerce-update-cover/vfs
       hash: md5
-      md5: 7d4318974057c5ff834e43366a133d47.dir
+      md5: 569f8f07ee2c597fd6e6e71e38161d39.dir
       size: 20263
       nfiles: 3
     - path: task/toolathlon/youtube-repo/vfs
@@ -9808,8 +9808,8 @@ stages:
       nfiles: 3
     - path: tests/skill_tables.py
       hash: md5
-      md5: a656511e7e0e5624223fce14bc9b82f9
-      size: 12462
+      md5: f1553ac776db95657cc43ddb94c0647d
+      size: 12668
     - path: vendor/arxiv-latex-mcp/uv.lock
       hash: md5
       md5: 6405aed06ebbabd6dea3afcf6265ef66
@@ -9852,8 +9852,8 @@ stages:
       size: 173524
     - path: vendor/howtocook-mcp/package-lock.json
       hash: md5
-      md5: 971c15a2c27a7a185a6e0885b8302085
-      size: 46409
+      md5: 62ef21298e67d4fe563f0bd1773c4d6c
+      size: 46469
     - path: vendor/maps-mcp/package-lock.json
       hash: md5
       md5: b044e5deef522790b6f6d7c61999e4e9
@@ -9920,16 +9920,16 @@ stages:
       size: 4565
     - path: server/clients/snowflake.py
       hash: md5
-      md5: 83b17ecccf7f4257ef8826ffbf39f971
-      size: 58804
+      md5: de314029b28a172bce16b22ee32e7dc1
+      size: 58407
     - path: server/mcp/mcp_servers.py
       hash: md5
       md5: f0fc859e33f6e3078dbf50c9eb1b86f1
       size: 73650
     - path: tests/snowflake_dialect.py
       hash: md5
-      md5: 7cfc49876cae4a07024b5c82b6c61746
-      size: 30933
+      md5: 547a8b9f970a210bf88a6c3bbe8546e4
+      size: 30488
   capture-atlas-cli-tools:
     cmd: uv run python task/mcpatlas/script/capture_cli_tools.py
     deps:
